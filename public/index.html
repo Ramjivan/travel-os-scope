@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel OS — Interactive Scope Planner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .drag-over { background-color: rgba(59, 130, 246, 0.08) !important; border-color: #3b82f6 !important; }
+    .card-dragging { opacity: 0.4; transform: scale(0.98); }
+    @media print {
+      .no-print { display: none !important; }
+      .print-break { page-break-before: always; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen antialiased pb-24">
+
+  <!-- TOP HERO & STICKY STATS BAR -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm backdrop-blur-md bg-white/90">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="bg-blue-600 text-white font-bold px-2 py-0.5 rounded text-xs tracking-wider uppercase">Travel OS</span>
+          <span class="text-xs text-slate-400 font-medium">Scope Planner v2.0</span>
+          <span id="client-badge" class="hidden text-xs bg-indigo-50 text-indigo-700 font-semibold px-2 py-0.5 rounded border border-indigo-200"></span>
+        </div>
+        <h1 class="text-lg sm:text-xl font-extrabold text-slate-900">Project Scope & Feature Customizer</h1>
+      </div>
+
+      <!-- Live Counters -->
+      <div class="flex items-center gap-3 text-xs sm:text-sm font-semibold">
+        <div class="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-200">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>Needed Now: <b id="count-now" class="text-base">0</b></span>
+        </div>
+        <div class="flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 text-amber-700 rounded-lg border border-amber-200">
+          <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+          <span>Later / Phase 2-3: <b id="count-later" class="text-base">0</b></span>
+        </div>
+        <div class="flex items-center gap-1.5 px-3 py-1.5 bg-rose-50 text-rose-700 rounded-lg border border-rose-200">
+          <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+          <span>Exclude: <b id="count-excluded" class="text-base">0</b></span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2 no-print">
+        <button onclick="copySummary()" class="px-3.5 py-1.5 text-xs font-semibold bg-slate-800 hover:bg-slate-900 text-white rounded-lg shadow-sm transition-all flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+          Copy Summary
+        </button>
+        <button onclick="downloadJSON()" class="px-3.5 py-1.5 text-xs font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-sm transition-all flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+          Download JSON
+        </button>
+        <button onclick="window.print()" class="px-3 py-1.5 text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg shadow-sm transition-all flex items-center gap-1">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+          Print / PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INTRO BANNER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+    <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-2xl p-6 sm:p-8 text-white shadow-xl mb-8 relative overflow-hidden">
+      <div class="relative z-10 max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-black tracking-tight mb-2">Customize Your Exact Travel Platform</h2>
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-4">
+          Drag & drop features between the 3 columns, or use the quick buttons. Add missing requirements in the 
+          <b>"Did we miss something?"</b> box under each module. All your selections save automatically in real-time.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-slate-300">
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-emerald-400"></span> <b>Needed for Now</b> (In initial launch scope)</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-amber-400"></span> <b>Deferred</b> (Phase 2 or Phase 3)</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-rose-400"></span> <b>Exclude Completely</b> (Not needed at all)</span>
+        </div>
+      </div>
+      <div class="absolute right-0 bottom-0 opacity-10 transform translate-x-12 translate-y-12">
+        <svg class="w-96 h-96 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+      </div>
+    </div>
+
+    <!-- MODULES CONTAINER -->
+    <div id="modules-container" class="space-y-10"></div>
+
+    <!-- 10 CRITICAL QUESTIONS SECTION -->
+    <section class="mt-14 bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm print-break">
+      <div class="border-b border-slate-200 pb-4 mb-6">
+        <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Final Step</span>
+        <h2 class="text-xl sm:text-2xl font-black text-slate-900">10 Questions That Determine Timeline & Pricing</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">These answers help us calculate exact engineering hours and third-party API dependencies.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="questions-grid"></div>
+    </section>
+
+    <!-- FLOATING BOTTOM SUMMARY BAR -->
+    <div class="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-full max-w-2xl px-4 z-50 no-print">
+      <div class="bg-slate-900/95 backdrop-blur-md text-white rounded-2xl p-3.5 shadow-2xl border border-slate-700 flex items-center justify-between gap-4">
+        <div class="text-xs">
+          <div class="font-bold text-slate-100">Ready with your scope?</div>
+          <span class="text-slate-400 text-[11px]">Download JSON or Copy Summary and share with our team.</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="copySummary()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold transition-all border border-slate-600 flex items-center gap-1.5">
+            📋 Copy
+          </button>
+          <button onclick="downloadJSON()" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold transition-all shadow-lg shadow-blue-500/30 flex items-center gap-1.5">
+            📥 Download Scope
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="/tracker.js"></script>
+  <script>
+    // 13 MODULES AND ALL INITIAL FEATURES
+    const initialData = [
+      {
+        id: "crm",
+        title: "01. CRM & Lead Pipeline",
+        subtitle: "Capture, assign, track and qualify customer inquiries",
+        features: [
+          { id: "f-1", name: "Meta Ads Auto-Capture (Facebook & Instagram Webhook)", status: "now" },
+          { id: "f-2", name: "Google Ads Auto-Capture (Lead Form Extension Webhook)", status: "now" },
+          { id: "f-3", name: "Visual Kanban Pipeline (New → Quoted → Booked → Lost)", status: "now" },
+          { id: "f-4", name: "Duplicate Lead Detection by Phone & Email", status: "now" },
+          { id: "f-5", name: "Lead Activity Timeline (Calls, WhatsApp, Notes, Quotes)", status: "now" },
+          { id: "f-6", name: "Lost Reason Capture & Trend Report", status: "now" },
+          { id: "f-7", name: "Auto Round-Robin Lead Assignment", status: "later" },
+          { id: "f-8", name: "Destination-Based Lead Routing (e.g., Bali Leads to Bali Team)", status: "later" },
+          { id: "f-9", name: "Embeddable Website Inquiry Form", status: "later" },
+          { id: "f-10", name: "UTM Parameter Tracking (Ad Campaign ROI)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "comms",
+        title: "02. Communication Suite (IVR, Calls, WhatsApp)",
+        subtitle: "Centralized calling, recording, transcription and WhatsApp from browser",
+        features: [
+          { id: "f-11", name: "IVR Virtual Number with Menu Routing", status: "now" },
+          { id: "f-12", name: "Click-to-Call from Dashboard (Masks Exec Personal Phone)", status: "now" },
+          { id: "f-13", name: "Call Recording Stored Directly Against Lead File", status: "now" },
+          { id: "f-14", name: "AI Call Transcription (Speech-to-Text via Whisper)", status: "now" },
+          { id: "f-15", name: "AI Call Summary (3-5 Bullet Points of Discussion)", status: "now" },
+          { id: "f-16", name: "AI Extraction of Destination, Dates & Pax to Lead Form", status: "now" },
+          { id: "f-17", name: "Two-Way WhatsApp Inbox Shared in Dashboard", status: "now" },
+          { id: "f-18", name: "Admin View of All Exec Recordings, Transcripts & Chats", status: "now" },
+          { id: "f-19", name: "One-Click Dispatch of Proposal & Payment Links via WhatsApp", status: "now" },
+          { id: "f-20", name: "Route Return Callers Directly to Last Assigned Exec", status: "later" },
+          { id: "f-21", name: "24/7 WhatsApp Auto-Qualification Chatbot", status: "later" },
+          { id: "f-22", name: "Speech Keyword Flagging ('refund', 'cancel', 'competitor')", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "inventory",
+        title: "03. Inventory & Offline Hotel Contracts",
+        subtitle: "Preferred supplier agreements, series air seats, activities and transfers",
+        features: [
+          { id: "f-23", name: "Offline Hotel Contract Manager (Validity Dates, Seasons, Tiers)", status: "now" },
+          { id: "f-24", name: "Occupancy Pricing (WoEB, AWEB, CWEB, CNB, Comp Child)", status: "now" },
+          { id: "f-25", name: "Single-Supplement Auto-Calculation for Solo Pax", status: "now" },
+          { id: "f-26", name: "Supplier-Specific Child Age Rules (e.g. 2-11 vs 3-12)", status: "now" },
+          { id: "f-27", name: "PREFERRED Badge (Offline Rates Displayed Above Live APIs)", status: "now" },
+          { id: "f-28", name: "Series Air Fares (Pre-Purchased Block Seats with Real-Time Counter)", status: "now" },
+          { id: "f-29", name: "Concurrent Seat Locking (Prevents Double-Booking)", status: "now" },
+          { id: "f-30", name: "Activity Catalog with Tiered Pricing & Age Brackets", status: "now" },
+          { id: "f-31", name: "Transfer Zone Matrix with Geographic Mismatch Warning", status: "now" },
+          { id: "f-32", name: "Contracted Room Allotments with Release Date Penalty Safeguards", status: "later" },
+          { id: "f-33", name: "Provisional Hold / Option Date on Rooms for Inquiries", status: "later" },
+          { id: "f-34", name: "Driver / Tour Guide Mobile Assignment", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "quotation",
+        title: "04. Dynamic Quotation & Packaging Engine",
+        subtitle: "FIT wizards, group departures, multi-currency costing and AI PDF parsing",
+        features: [
+          { id: "f-35", name: "FIT Step-by-Step Quotation Wizard (<=9 Rooms)", status: "now" },
+          { id: "f-36", name: "Day-by-Day Morning / Afternoon / Evening Time Blocks", status: "now" },
+          { id: "f-37", name: "AI PDF Quote Parser (Reads Supplier PDF -> Builds Native Itinerary)", status: "now" },
+          { id: "f-38", name: "Dual-Currency Costing (Supplier IDR/USD -> Client Sell INR/USD)", status: "now" },
+          { id: "f-39", name: "4 Markup Strategies (Overall %, Per-Person, Per-Component, Combined)", status: "now" },
+          { id: "f-40", name: "Margin Floor Safeguard (Exec Cannot Underprice Below Margin Floor)", status: "now" },
+          { id: "f-41", name: "Price-Drop Safety Alert on Revisions", status: "now" },
+          { id: "f-42", name: "Multi-Option Quotes (Option A vs Option B under Same Lead)", status: "now" },
+          { id: "f-43", name: "Quote Version History (v1, v2, v3 Stored Forever)", status: "now" },
+          { id: "f-44", name: "MICE Auto-Trigger (>9 Rooms Flags as Group Inquiry)", status: "now" },
+          { id: "f-45", name: "Manager Approval Workflow Before Exec Can Send Quote", status: "later" },
+          { id: "f-46", name: "Reusable Itinerary Package Templates (e.g. Standard 5N Bali)", status: "later" },
+          { id: "f-47", name: "AI Auto-Generated Day Descriptions (GPT Description Generator)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "proposals",
+        title: "05. Proposals & Multi-Channel Distribution",
+        subtitle: "PDF, mobile web links, Word exports, and supplier confirmation dispatch",
+        features: [
+          { id: "f-48", name: "Branded Client PDF Proposal with Cover Page & Photo Gallery", status: "now" },
+          { id: "f-49", name: "Interactive Mobile-Friendly Web Proposal Link", status: "now" },
+          { id: "f-50", name: "Editable MS Word (.docx) Export", status: "now" },
+          { id: "f-51", name: "WhatsApp-Formatted Rich Text Itinerary Summary", status: "now" },
+          { id: "f-52", name: "Vendor 1-Click Confirmation Email (Hotel Clicks Confirm in Email)", status: "now" },
+          { id: "f-53", name: "Bulk Vendor Dispatch (Send All Bookings for a File in 1 Click)", status: "now" },
+          { id: "f-54", name: "Proposal Open / View Tracker (Know When Client Opened Link)", status: "later" },
+          { id: "f-55", name: "Client Online Quote Acceptance Button", status: "later" },
+          { id: "f-56", name: "Multi-Language Proposals (Arabic, Russian, etc.)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "execution",
+        title: "06. Booking Execution & Ground Operations",
+        subtitle: "The missing piece: Quote locking, automated vouchers, and daily movement calendars",
+        features: [
+          { id: "f-57", name: "One-Click 'Convert Quote to Booking' Locking Mechanism", status: "now" },
+          { id: "f-58", name: "Unique Booking Reference Generation (TOS-FY26-00001)", status: "now" },
+          { id: "f-59", name: "Automated Client Travel Voucher (PDF)", status: "now" },
+          { id: "f-60", name: "Automated Hotel Confirmation Voucher (PDF)", status: "now" },
+          { id: "f-61", name: "Automated Driver / Transfer Voucher (PDF)", status: "now" },
+          { id: "f-62", name: "Tour Movement Calendar (Daily Arrivals, Departures & Transfers)", status: "now" },
+          { id: "f-63", name: "Pre-Departure Checklist (Passport, Visa, Insurance, Balance)", status: "now" },
+          { id: "f-64", name: "Passport Validity Check (Alerts if <6 Months to Expiry)", status: "now" },
+          { id: "f-65", name: "Rooming List & Group Pax Manifest for Hotels & Airlines", status: "later" },
+          { id: "f-66", name: "Policy-Based Cancellation & Refund Calculation Engine", status: "later" },
+          { id: "f-67", name: "Automated Pre-Departure Client Reminders (T-30, T-15, T-7 Days)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "finance",
+        title: "07. Payments, GST & Financial Ledger",
+        subtitle: "Razorpay/UPI, per-booking P&L, GST dual-model invoices, and receipt generation",
+        features: [
+          { id: "f-68", name: "Razorpay Payment Links (UPI, Cards, Net Banking)", status: "now" },
+          { id: "f-69", name: "Share Payment Link via WhatsApp & Email in 1 Click", status: "now" },
+          { id: "f-70", name: "Instant Payment Webhook Auto-Reconciliation to Booking", status: "now" },
+          { id: "f-71", name: "Manual Payment Recording (Bank Transfer, Cash + UTR Reference)", status: "now" },
+          { id: "f-72", name: "Per-Booking P&L Sheet (Gross Margin % & Net Profit visible to Admin)", status: "now" },
+          { id: "f-73", name: "GST-Compliant Tax Invoices (GSTIN, SAC Codes, Place of Supply)", status: "now" },
+          { id: "f-74", name: "Dual-GST Model Support (5% Tour Package vs 18% Agent Service)", status: "now" },
+          { id: "f-75", name: "Pro-Forma Invoices for Advance Collection", status: "now" },
+          { id: "f-76", name: "Universal CSV / Excel Financial Exports", status: "now" },
+          { id: "f-77", name: "Stripe Payment Gateway for International USD / AED Cards", status: "later" },
+          { id: "f-78", name: "Bank Statement Auto-Matching to Unreconciled Receipts", status: "later" },
+          { id: "f-79", name: "Tally Prime Export Integration", status: "later" },
+          { id: "f-80", name: "TCS on International Packages >Rs. 7L (India Finance Act)", status: "later" },
+          { id: "f-81", name: "TDS Deduction from Supplier Payments (Sec 194C / 194J)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "admin",
+        title: "08. Admin Supervisory, Roles & Reporting",
+        subtitle: "Audit logs, executive KPI tracking, sales funnels, and data compliance",
+        features: [
+          { id: "f-82", name: "Role-Based Access (Super Admin, Admin, Manager, Exec, Ops, Accounts)", status: "now" },
+          { id: "f-83", name: "Admin Oversight: Listen to Any Call, Read WhatsApp & Audit Activity", status: "now" },
+          { id: "f-84", name: "Tamper-Proof Audit Log (User, Action, Record, Timestamp, IP)", status: "now" },
+          { id: "f-85", name: "Lead Conversion Funnel & Sales Performance by Executive", status: "now" },
+          { id: "f-86", name: "Sales Reports by Destination, Period, and Source", status: "now" },
+          { id: "f-87", name: "Daily Operations Dispatch Report", status: "now" },
+          { id: "f-88", name: "India DPDP Act 2023 & PCI DSS Compliance Architecture", status: "now" },
+          { id: "f-89", name: "Multi-Branch Support with Branch-Isolated P&L", status: "later" },
+          { id: "f-90", name: "Automated Scheduled Email Reports (Every Monday at 9 AM)", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "phase2_api",
+        title: "09. Phase 2: Live API Integration Layer",
+        subtitle: "Connect Geta hotel gateway and flight GDS directly into the quote builder",
+        features: [
+          { id: "f-91", name: "Geta Hotel API Live Rate & Availability Search", status: "later" },
+          { id: "f-92", name: "Room Normalization Engine (Maps Geta Room Names to Canonical Rooms)", status: "later" },
+          { id: "f-93", name: "Hotel Photos & Content Auto-Pulled from Geta API", status: "later" },
+          { id: "f-94", name: "PREFERRED Offline Rates Ranked Above Geta Live Rates", status: "later" },
+          { id: "f-95", name: "Flight GDS (TBO / Amadeus) Live Flight Search & PNR Booking", status: "later" },
+          { id: "f-96", name: "Series Fares Prioritized; GDS Used as Live Fallback", status: "later" },
+          { id: "f-97", name: "GDS Booking Reconciliation with Internal Booking Numbers", status: "later" }
+        ],
+        notes: ""
+      },
+      {
+        id: "client_portal",
+        title: "10. Customer Self-Service Portal (Optional)",
+        subtitle: "Client login to view bookings, make payments, and upload passport copies",
+        features: [
+          { id: "f-98", name: "Passwordless Client Login via Email + OTP", status: "later" },
+          { id: "f-99", name: "View Live Itinerary, Booking Status & Vouchers Online", status: "later" },
+          { id: "f-100", name: "Client Uploads Passport Scans & Visa Copies Directly", status: "later" },
+          { id: "f-101", name: "Pay Advance or Balance Directly from Portal", status: "later" }
+        ],
+        notes: ""
+      }
+    ];
+
+    const questionsData = [
+      { id: "q1", title: "1. Multi-Office Setup", text: "Do you operate from more than one branch/city requiring separated P&L?", options: ["Single Office Only", "Multiple Branches (Need Multi-Branch P&L)", "Not Sure Yet"] },
+      { id: "q2", title: "2. Hotel Allotments", text: "For offline hotel contracts: do you have fixed daily room blocks or is it on-request per booking?", options: ["All On-Request", "Have Fixed Allotments (Need Allotment Engine)", "Mix of Both"] },
+      { id: "q3", title: "3. WhatsApp Business API", text: "Do you already have official WhatsApp Business API approval from Meta?", options: ["Yes, Already Active", "No, Need to Apply Now (4-8 Wks)", "Using Unofficial Web Tools Currently"] },
+      { id: "q4", title: "4. Flight GDS Provider", text: "Which provider will be used for Phase 2 live flight booking?", options: ["TBO Holidays API (India-focused, simpler)", "Amadeus / Galileo (Global GDS)", "Will Decide Later"] },
+      { id: "q5", title: "5. GST Invoicing Model", text: "Do you issue 5% tour package invoices, 18% service invoices, or both?", options: ["Both Models (5% & 18%)", "5% Package Only", "18% Agent Service Only"] },
+      { id: "q6", title: "6. E-Invoicing / IRN", text: "Is your company's annual turnover above Rs. 5 Crore (mandates IRP E-Invoicing)?", options: ["Below Rs. 5 Cr", "Above Rs. 5 Cr (Need IRN E-Invoicing)", "Need to Verify with CA"] },
+      { id: "q7", title: "7. Accounting Software", text: "Which accounting software should financial data export to?", options: ["Tally Prime", "Zoho Books / QuickBooks", "Excel / CSV Export is Sufficient"] },
+      { id: "q8", title: "8. International Payments", text: "Do customers pay in USD/AED online requiring Stripe?", options: ["No, INR Only (Razorpay)", "Yes, Need Stripe for USD/AED Cards", "Clients Pay via Bank Wire (SWIFT)"] },
+      { id: "q9", title: "9. Customer Self-Service Portal", text: "Should end customers have a portal to upload passports and pay without calling?", options: ["Yes, Include in Scope", "No, WhatsApp/Email is fine for now", "Defer to Phase 2"] },
+      { id: "q10", title: "10. Lead Assignment Logic", text: "How should new leads from Meta/Google be distributed to team?", options: ["Auto Round-Robin to Available Reps", "Manager Manually Assigns Every Lead", "Destination-Based (Bali team, Europe team)"] }
+    ];
+
+    // STATE INITIALIZATION FROM LOCALSTORAGE OR DEFAULT
+    window.state = JSON.parse(localStorage.getItem('travel_os_scope_state')) || {
+      modules: initialData,
+      answers: {}
+    };
+
+    function saveState() {
+      localStorage.setItem('travel_os_scope_state', JSON.stringify(window.state));
+      updateCounts();
+    }
+
+    // RENDER FUNCTIONS
+    function renderModules() {
+      const container = document.getElementById('modules-container');
+      container.innerHTML = '';
+
+      window.state.modules.forEach((mod, modIdx) => {
+        const modCard = document.createElement('div');
+        modCard.className = "bg-white border border-slate-200 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md";
+        modCard.innerHTML = `
+          <!-- Module Header -->
+          <div class="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-4 mb-5">
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2">
+                ${mod.title}
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-500 mt-0.5">${mod.subtitle}</p>
+            </div>
+            <button onclick="addCustomFeature('${mod.id}')" class="text-xs font-semibold px-3 py-1.5 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded-lg border border-blue-200 flex items-center gap-1 transition-all no-print">
+              <span class="text-base leading-none font-bold">+</span> Add Custom Feature
+            </button>
+          </div>
+
+          <!-- 3 Columns Kanban -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <!-- Col 1: Needed Now -->
+            <div class="bg-emerald-50/50 rounded-xl p-3.5 border border-emerald-100" 
+                 ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'now')">
+              <div class="flex items-center justify-between mb-3 px-1">
+                <span class="text-xs font-extrabold text-emerald-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Needed for Now
+                </span>
+                <span id="badge-${mod.id}-now" class="text-[11px] font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded-full">0</span>
+              </div>
+              <div id="col-${mod.id}-now" class="space-y-2 min-h-[90px]"></div>
+            </div>
+
+            <!-- Col 2: Later -->
+            <div class="bg-amber-50/50 rounded-xl p-3.5 border border-amber-100" 
+                 ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'later')">
+              <div class="flex items-center justify-between mb-3 px-1">
+                <span class="text-xs font-extrabold text-amber-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-amber-500"></span> Deferred / Phase 2-3
+                </span>
+                <span id="badge-${mod.id}-later" class="text-[11px] font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">0</span>
+              </div>
+              <div id="col-${mod.id}-later" class="space-y-2 min-h-[90px]"></div>
+            </div>
+
+            <!-- Col 3: Excluded -->
+            <div class="bg-rose-50/40 rounded-xl p-3.5 border border-rose-100" 
+                 ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'excluded')">
+              <div class="flex items-center justify-between mb-3 px-1">
+                <span class="text-xs font-extrabold text-rose-800 uppercase tracking-wider flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-rose-500"></span> Exclude Completely
+                </span>
+                <span id="badge-${mod.id}-excluded" class="text-[11px] font-bold bg-rose-200 text-rose-800 px-2 py-0.5 rounded-full">0</span>
+              </div>
+              <div id="col-${mod.id}-excluded" class="space-y-2 min-h-[90px]"></div>
+            </div>
+          </div>
+
+          <!-- "Did we miss something?" Box -->
+          <div class="mt-5 pt-4 border-t border-slate-100">
+            <label class="block text-xs font-bold text-slate-700 mb-1.5 flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+              Did we miss something specific to your workflow in this section?
+            </label>
+            <textarea 
+              onchange="updateNotes('${mod.id}', this.value)"
+              rows="2"
+              placeholder="e.g., We also have a special contract with 5 villas in Bali where child age is under 5 only; or we need integration with a custom telephony tool..."
+              class="w-full text-xs sm:text-sm p-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">${mod.notes || ''}</textarea>
+          </div>
+        `;
+        container.appendChild(modCard);
+
+        renderFeaturesForModule(mod);
+      });
+
+      renderQuestions();
+      updateCounts();
+    }
+
+    function renderFeaturesForModule(mod) {
+      const colNow = document.getElementById(`col-${mod.id}-now`);
+      const colLater = document.getElementById(`col-${mod.id}-later`);
+      const colExcluded = document.getElementById(`col-${mod.id}-excluded`);
+
+      colNow.innerHTML = '';
+      colLater.innerHTML = '';
+      colExcluded.innerHTML = '';
+
+      let cNow = 0, cLater = 0, cExcluded = 0;
+
+      mod.features.forEach(f => {
+        const card = createFeatureCard(mod.id, f);
+        if (f.status === 'now') { colNow.appendChild(card); cNow++; }
+        else if (f.status === 'later') { colLater.appendChild(card); cLater++; }
+        else { colExcluded.appendChild(card); cExcluded++; }
+      });
+
+      document.getElementById(`badge-${mod.id}-now`).innerText = cNow;
+      document.getElementById(`badge-${mod.id}-later`).innerText = cLater;
+      document.getElementById(`badge-${mod.id}-excluded`).innerText = cExcluded;
+    }
+
+    function createFeatureCard(modId, feature) {
+      const card = document.createElement('div');
+      card.id = feature.id;
+      card.draggable = true;
+      card.ondragstart = (e) => drag(e, modId, feature.id);
+      card.className = "bg-white p-2.5 rounded-lg border border-slate-200 shadow-sm cursor-grab active:cursor-grabbing hover:border-slate-300 transition-all text-xs";
+
+      card.innerHTML = `
+        <div class="flex items-start justify-between gap-2">
+          <span class="font-semibold text-slate-800 leading-snug">${feature.name}</span>
+        </div>
+        <!-- Quick Action Buttons (One-Click Move) -->
+        <div class="flex items-center gap-1 mt-2 pt-2 border-t border-slate-100 no-print">
+          <button onclick="moveFeature('${modId}', '${feature.id}', 'now')" title="Move to Needed Now" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'now' ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-emerald-100 hover:text-emerald-700'}">
+            Now
+          </button>
+          <button onclick="moveFeature('${modId}', '${feature.id}', 'later')" title="Move to Later" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'later' ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-600 hover:bg-amber-100 hover:text-amber-700'}">
+            Later
+          </button>
+          <button onclick="moveFeature('${modId}', '${feature.id}', 'excluded')" title="Exclude" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'excluded' ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-rose-100 hover:text-rose-700'}">
+            Exclude
+          </button>
+        </div>
+      `;
+      return card;
+    }
+
+    // DRAG AND DROP HANDLERS
+    function drag(e, modId, featureId) {
+      e.dataTransfer.setData("text/plain", JSON.stringify({ modId, featureId }));
+      e.target.classList.add('card-dragging');
+    }
+
+    function allowDrop(e) {
+      e.preventDefault();
+      const dropZone = e.currentTarget;
+      dropZone.classList.add('drag-over');
+    }
+
+    function dragLeave(e) {
+      e.currentTarget.classList.remove('drag-over');
+    }
+
+    function drop(e, targetModId, targetStatus) {
+      e.preventDefault();
+      e.currentTarget.classList.remove('drag-over');
+      try {
+        const raw = e.dataTransfer.getData("text/plain");
+        if (!raw) return;
+        const data = JSON.parse(raw);
+        if (data.modId !== targetModId) return; // Only allow drag within same module for sanity
+
+        moveFeature(targetModId, data.featureId, targetStatus);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    function moveFeature(modId, featureId, targetStatus) {
+      const mod = window.state.modules.find(m => m.id === modId);
+      if (!mod) return;
+      const feat = mod.features.find(f => f.id === featureId);
+      if (!feat) return;
+
+      const oldStatus = feat.status;
+      feat.status = targetStatus;
+      saveState();
+      if (window.tracker) window.tracker.trackMove(modId, feat.name, oldStatus, targetStatus);
+      renderFeaturesForModule(mod);
+    }
+
+    function addCustomFeature(modId) {
+      const name = prompt("Enter feature name/requirement:");
+      if (!name || !name.trim()) return;
+
+      const mod = window.state.modules.find(m => m.id === modId);
+      if (!mod) return;
+
+      const newId = "custom-" + Date.now();
+      mod.features.push({
+        id: newId,
+        name: name.trim(),
+        status: "now"
+      });
+
+      saveState();
+      renderFeaturesForModule(mod);
+      if (window.tracker) window.tracker.trackAddFeature(modId, name.trim());
+    }
+
+    function updateNotes(modId, text) {
+      const mod = window.state.modules.find(m => m.id === modId);
+      if (!mod) return;
+      mod.notes = text;
+      saveState();
+      if (window.tracker) window.tracker.trackNote(modId, text);
+    }
+
+    // 10 QUESTIONS HANDLERS
+    function renderQuestions() {
+      const grid = document.getElementById('questions-grid');
+      grid.innerHTML = '';
+
+      questionsData.forEach(q => {
+        const selected = window.state.answers[q.id] || "";
+        const box = document.createElement('div');
+        box.className = "p-4 bg-slate-50 border border-slate-200 rounded-xl";
+        box.innerHTML = `
+          <div class="font-bold text-xs sm:text-sm text-slate-900 mb-1">${q.title}</div>
+          <p class="text-xs text-slate-500 mb-3">${q.text}</p>
+          <div class="space-y-1.5">
+            ${q.options.map(opt => `
+              <label class="flex items-center gap-2 text-xs p-2 rounded-lg bg-white border border-slate-200 hover:border-blue-400 cursor-pointer transition-all">
+                <input type="radio" name="${q.id}" value="${opt}" ${selected === opt ? 'checked' : ''} 
+                  onchange="saveAnswer('${q.id}', '${opt}')"
+                  class="text-blue-600 focus:ring-blue-500">
+                <span class="text-slate-800 font-medium">${opt}</span>
+              </label>
+            `).join('')}
+          </div>
+        `;
+        grid.appendChild(box);
+      });
+    }
+
+    function saveAnswer(qId, val) {
+      window.state.answers[qId] = val;
+      saveState();
+      if (window.tracker) { const qObj = questionsData.find(x => x.id === qId); window.tracker.trackAnswer(qId, qObj ? qObj.title : qId, val); }
+    }
+
+    function updateCounts() {
+      let now = 0, later = 0, excluded = 0;
+      window.state.modules.forEach(m => {
+        m.features.forEach(f => {
+          if (f.status === 'now') now++;
+          else if (f.status === 'later') later++;
+          else excluded++;
+        });
+      });
+      document.getElementById('count-now').innerText = now;
+      document.getElementById('count-later').innerText = later;
+      document.getElementById('count-excluded').innerText = excluded;
+    }
+
+    // EXPORT HANDLERS
+    function generateSummaryText() {
+      let text = `# TRAVEL OS — CLIENT SCOPE SELECTIONS\nGenerated: ${new Date().toLocaleString()}\n\n`;
+
+      window.state.modules.forEach(m => {
+        text += `=====================================================\n`;
+        text += `MODULE: ${m.title}\n`;
+        text += `=====================================================\n`;
+        
+        const nowFeats = m.features.filter(f => f.status === 'now');
+        const laterFeats = m.features.filter(f => f.status === 'later');
+        const exclFeats = m.features.filter(f => f.status === 'excluded');
+
+        text += `\n[NEEDED FOR NOW - IN INITIAL LAUNCH]:\n`;
+        if (nowFeats.length === 0) text += `  (None selected)\n`;
+        else nowFeats.forEach(f => text += `  + ${f.name}\n`);
+
+        text += `\n[DEFERRED TO PHASE 2 OR 3]:\n`;
+        if (laterFeats.length === 0) text += `  (None)\n`;
+        else laterFeats.forEach(f => text += `  ~ ${f.name}\n`);
+
+        text += `\n[EXCLUDED COMPLETELY]:\n`;
+        if (exclFeats.length === 0) text += `  (None)\n`;
+        else exclFeats.forEach(f => text += `  - ${f.name}\n`);
+
+        if (m.notes && m.notes.trim()) {
+          text += `\nCLIENT NOTES / MISSED WORKFLOW:\n"${m.notes.trim()}"\n`;
+        }
+        text += `\n\n`;
+      });
+
+      text += `=====================================================\n`;
+      text += `10 CRITICAL SCOPE QUESTIONS - ANSWERS:\n`;
+      text += `=====================================================\n`;
+      questionsData.forEach(q => {
+        text += `${q.title}: ${window.state.answers[q.id] || "Not answered yet"}\n`;
+      });
+
+      return text;
+    }
+
+    function copySummary() {
+      if (window.tracker) window.tracker.trackAction("copy_summary", "Copied summary");
+      const summary = generateSummaryText();
+      navigator.clipboard.writeText(summary).then(() => {
+        alert("Scope Summary copied to clipboard! You can now paste it into WhatsApp or Email.");
+      }).catch(err => {
+        console.error(err);
+        alert("Failed to copy automatically. Please use Download JSON instead.");
+      });
+    }
+
+    function downloadJSON() {
+      if (window.tracker) window.tracker.trackAction("download_json", "Downloaded JSON");
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(window.state, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", `Travel_OS_Scope_${new Date().toISOString().slice(0,10)}.json`);
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    }
+
+    // INITIAL LOAD
+    renderModules();
+    const p = new URLSearchParams(window.location.search);
+    const c = p.get("client") || p.get("c");
+    if (c) { const b = document.getElementById("client-badge"); b.innerText = "Client: " + c; b.classList.remove("hidden"); }
+  </script>
+</body>
+</html>
