@@ -94,6 +94,17 @@
       this.syncState();
     },
 
+    trackFeatureEdit(moduleId, featureName, hasNotes) {
+      postJSON('/api/telemetry/event', {
+        sessionId,
+        eventType: 'edit_feature',
+        moduleId,
+        featureName,
+        content: `Modified '${featureName}' (notes: ${hasNotes ? 'yes' : 'none'})`
+      });
+      this.syncState();
+    },
+
     trackNote(moduleId, noteText) {
       if (noteDebounceTimers[moduleId]) clearTimeout(noteDebounceTimers[moduleId]);
       noteDebounceTimers[moduleId] = setTimeout(() => {

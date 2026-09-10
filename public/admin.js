@@ -193,7 +193,10 @@ function renderActiveTab() {
           let icon = '⚡';
           let badgeColor = 'bg-slate-100 text-slate-700';
 
-          if (e.event_type === 'move_feature') {
+          if (e.event_type === 'edit_feature') {
+            icon = '✏️';
+            badgeColor = 'bg-indigo-100 text-indigo-800';
+          } else if (e.event_type === 'move_feature') {
             icon = '🔀';
             badgeColor = 'bg-blue-100 text-blue-800';
           } else if (e.event_type === 'update_notes') {
@@ -251,19 +254,19 @@ function renderActiveTab() {
                 <div class="bg-emerald-50/50 p-2.5 rounded-lg border border-emerald-100">
                   <div class="font-extrabold text-[10px] text-emerald-800 uppercase mb-2">Needed Now (${nows.length})</div>
                   <ul class="space-y-1">
-                    ${nows.map(f => `<li class="text-[11px] font-medium text-emerald-950 flex items-start gap-1">✓ ${f.name}</li>`).join('') || '<li class="text-slate-400 italic">None</li>'}
+                    ${nows.map(f => `\n                    <li class="text-[11px] font-medium text-emerald-950">\n                      <div class="flex items-start gap-1">✓ <span>${f.name}</span></div>\n                      ${f.notes && f.notes.trim() ? `\n                        <div class="mt-1 ml-3 p-2 bg-emerald-100/80 border border-emerald-200 rounded text-[10px] text-emerald-900 leading-relaxed font-normal">\n                          <span class="font-bold uppercase text-[9px] text-emerald-800 block mb-0.5">Notes:</span>\n                          ${f.notes}\n                        </div>\n                      ` : ''}\n                    </li>\n                  `).join('') || '<li class="text-slate-400 italic">None</li>'}
                   </ul>
                 </div>
                 <div class="bg-amber-50/50 p-2.5 rounded-lg border border-amber-100">
                   <div class="font-extrabold text-[10px] text-amber-800 uppercase mb-2">Later (${laters.length})</div>
                   <ul class="space-y-1">
-                    ${laters.map(f => `<li class="text-[11px] font-medium text-amber-950 flex items-start gap-1">~ ${f.name}</li>`).join('') || '<li class="text-slate-400 italic">None</li>'}
+                    ${laters.map(f => `\n                    <li class="text-[11px] font-medium text-amber-950">\n                      <div class="flex items-start gap-1">~ <span>${f.name}</span></div>\n                      ${f.notes && f.notes.trim() ? `\n                        <div class="mt-1 ml-3 p-2 bg-amber-100/80 border border-amber-200 rounded text-[10px] text-amber-900 leading-relaxed font-normal">\n                          <span class="font-bold uppercase text-[9px] text-amber-800 block mb-0.5">Notes:</span>\n                          ${f.notes}\n                        </div>\n                      ` : ''}\n                    </li>\n                  `).join('') || '<li class="text-slate-400 italic">None</li>'}
                   </ul>
                 </div>
                 <div class="bg-rose-50/50 p-2.5 rounded-lg border border-rose-100">
                   <div class="font-extrabold text-[10px] text-rose-800 uppercase mb-2">Excluded (${excls.length})</div>
                   <ul class="space-y-1">
-                    ${excls.map(f => `<li class="text-[11px] font-medium text-rose-950 flex items-start gap-1">✕ ${f.name}</li>`).join('') || '<li class="text-slate-400 italic">None</li>'}
+                    ${excls.map(f => `\n                    <li class="text-[11px] font-medium text-rose-950">\n                      <div class="flex items-start gap-1">✕ <span>${f.name}</span></div>\n                      ${f.notes && f.notes.trim() ? `\n                        <div class="mt-1 ml-3 p-2 bg-rose-100/80 border border-rose-200 rounded text-[10px] text-rose-900 leading-relaxed font-normal">\n                          <span class="font-bold uppercase text-[9px] text-rose-800 block mb-0.5">Notes:</span>\n                          ${f.notes}\n                        </div>\n                      ` : ''}\n                    </li>\n                  `).join('') || '<li class="text-slate-400 italic">None</li>'}
                   </ul>
                 </div>
               </div>
