@@ -1,5 +1,6 @@
-﻿let currentSessionId = null;
+let currentSessionId = null;
 let currentSessionData = null;
+let allSessionsCache = [];
 let activeTab = 'timeline';
 
 function formatDuration(seconds) {
@@ -34,13 +35,15 @@ async function loadData() {
     const stats = await statsRes.json();
     document.getElementById('stat-sessions').innerText = stats.totalSessions || 0;
     document.getElementById('stat-active').innerText = stats.activeNow || 0;
+    const emailStat = document.getElementById('stat-emails');
+    if (emailStat) emailStat.innerText = stats.totalEmails || 0;
     document.getElementById('stat-events').innerText = stats.totalEvents || 0;
     document.getElementById('stat-notes').innerText = stats.totalNotes || 0;
 
     // 2. Sessions
     const sessRes = await fetch('/api/admin/sessions');
-    const sessions = await sessRes.json();
-    renderSessionsList(sessions);
+    allSessionsCache = await sessRes.json();
+    filterSessions();
 
     // If a session is currently selected, refresh its details
     if (currentSessionId) {
@@ -53,12 +56,27 @@ async function loadData() {
   }
 }
 
+function filterSessions() {
+  const searchInput = document.getElementById('session-search-input');
+  const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+  if (!query) {
+    renderSessionsList(allSessionsCache);
+    return;
+  }
+  const filtered = allSessionsCache.filter(s => 
+    (s.client_tag && s.client_tag.toLowerCase().includes(query)) ||
+    (s.email && s.email.toLowerCase().includes(query)) ||
+    (s.id && s.id.toLowerCase().includes(query))
+  );
+  renderSessionsList(filtered);
+}
+
 function renderSessionsList(sessions) {
   const container = document.getElementById('sessions-list');
   document.getElementById('sessions-count').innerText = `${sessions.length} recorded`;
 
   if (sessions.length === 0) {
-    container.innerHTML = `<div class="p-8 text-center text-slate-400 text-xs">No client sessions recorded yet. Share a link to start tracking!</div>`;
+    container.innerHTML = `<div class="p-8 text-center text-slate-400 text-xs">No client sessions matching your criteria.</div>`;
     return;
   }
 
@@ -79,6 +97,18 @@ function renderSessionsList(sessions) {
             }
           </div>
           <span class="text-[11px] font-bold text-slate-500 font-mono">${formatDuration(s.duration_seconds)}</span>
+        </div>
+
+        <!-- Email Identifier -->
+        <div class="mt-1">
+          ${s.email ? `
+            <span class="inline-flex items-center gap-1 text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200">
+              <svg class="w-3 h-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+              ${s.email}
+            </span>
+          ` : `
+            <span class="text-[11px] text-slate-400 italic">No email linked</span>
+          `}
         </div>
 
         <div class="flex items-center gap-3 text-xs text-slate-500 mt-1.5">
@@ -139,7 +169,8 @@ function renderSessionDetails(data) {
             `<span class="text-[10px] font-medium bg-slate-200 text-slate-700 px-2 py-0.5 rounded-full">IDLE</span>`
           }
         </div>
-        <div class="text-[11px] text-slate-500 mt-0.5 flex flex-wrap gap-x-3">
+        <div class="text-[11px] text-slate-500 mt-0.5 flex flex-wrap gap-x-3 gap-y-1">
+          <span>Email: <b class="${session.email ? 'text-blue-700 font-bold' : 'text-slate-500'}">${session.email || 'Not provided'}</b></span>
           <span>Session ID: <code class="font-mono text-slate-600">${session.id}</code></span>
           <span>Duration: <b>${formatDuration(session.duration_seconds)}</b></span>
           <span>IP: ${session.ip_address || 'Localhost'}</span>
@@ -147,7 +178,7 @@ function renderSessionDetails(data) {
       </div>
     </div>
     <div class="flex items-center gap-2">
-      <button onclick="deleteSession('${session.id}')" class="text-xs text-rose-600 hover:text-rose-800 font-bold px-2 py-1 rounded border border-rose-200 hover:bg-rose-50">
+      <button onclick="deleteSession('${session.id}')" class="text-xs text-rose-600 hover:text-rose-800 font-bold px-2 py-1 rounded border border-rose-200 hover:bg-rose-50 cursor-pointer">
         Delete
       </button>
     </div>
@@ -337,12 +368,16 @@ async function deleteSession(id) {
 
 function generateClientLink() {
   const name = document.getElementById('link-client-name').value.trim();
-  if (!name) {
-    alert('Please enter a client name');
+  const email = (document.getElementById('link-client-email')?.value || '').trim();
+  if (!name && !email) {
+    alert('Please enter a client name or email');
     return;
   }
-  const clean = encodeURIComponent(name.replace(/\s+/g, '_'));
-  const url = `${window.location.origin}/?client=${clean}`;
+  const cleanName = encodeURIComponent((name || 'Client').replace(/\s+/g, '_'));
+  let url = `${window.location.origin}/?client=${cleanName}`;
+  if (email) {
+    url += `&email=${encodeURIComponent(email)}`;
+  }
   document.getElementById('generated-link-text').innerText = url;
   document.getElementById('generated-link-box').classList.remove('hidden');
 }

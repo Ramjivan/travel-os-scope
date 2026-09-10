@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Travel OS Telemetry Tracker
  * Captures visitor sessions, duration, feature moves, notes, answers & actions.
  */
@@ -15,7 +15,13 @@
   let clientTag = urlParams.get('client') || urlParams.get('c') || localStorage.getItem('travel_os_client_tag') || 'Direct Visit';
   localStorage.setItem('travel_os_client_tag', clientTag);
 
-  // 3. Track active duration
+  // 3. Extract email from URL (?email=... or ?e=...) or localStorage
+  let userEmail = urlParams.get('email') || urlParams.get('e') || localStorage.getItem('travel_os_user_email') || '';
+  if (userEmail) {
+    localStorage.setItem('travel_os_user_email', userEmail);
+  }
+
+  // 4. Track active duration
   let activeSeconds = parseInt(localStorage.getItem('travel_os_session_duration') || '0', 10);
   let isTabActive = !document.hidden;
 
@@ -30,7 +36,7 @@
     }
   }, 1000);
 
-  // 4. API Request helper
+  // 5. API Request helper
   async function postJSON(url, data) {
     try {
       const res = await fetch(url, {
@@ -45,14 +51,15 @@
     }
   }
 
-  // 5. Initialize session with server
+  // 6. Initialize session with server
   postJSON('/api/telemetry/session', {
     sessionId,
     clientTag,
+    email: userEmail,
     referrer: document.referrer || ''
   });
 
-  // 6. Heartbeat every 5 seconds
+  // 7. Heartbeat every 5 seconds
   setInterval(() => {
     let counts = { now: 0, later: 0, excluded: 0, notes: 0 };
     if (window.state && window.state.modules) {
@@ -68,18 +75,35 @@
 
     postJSON('/api/telemetry/heartbeat', {
       sessionId,
+      email: userEmail,
       durationSeconds: activeSeconds,
       counts
     });
   }, 5000);
 
-  // 7. Debounce helper for notes typing
+  // 8. Debounce helper for notes typing
   let noteDebounceTimers = {};
 
   // Public Tracker API
   window.tracker = {
     sessionId,
     clientTag,
+    email: userEmail,
+
+    setEmail(newEmail) {
+      userEmail = (newEmail || '').trim();
+      if (userEmail) {
+        localStorage.setItem('travel_os_user_email', userEmail);
+      } else {
+        localStorage.removeItem('travel_os_user_email');
+      }
+      this.email = userEmail;
+      postJSON('/api/telemetry/email', {
+        sessionId,
+        email: userEmail
+      });
+      this.syncState();
+    },
 
     trackMove(moduleId, featureName, fromStatus, toStatus) {
       postJSON('/api/telemetry/event', {
@@ -151,6 +175,7 @@
       if (window.state) {
         postJSON('/api/telemetry/state', {
           sessionId,
+          email: userEmail,
           state: window.state
         });
       }

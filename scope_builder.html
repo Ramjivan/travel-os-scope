@@ -33,7 +33,16 @@
       <div class="flex items-center gap-1.5 sm:gap-2.5 flex-shrink-0">
         <span class="bg-blue-600 text-white font-extrabold px-2 py-0.5 rounded text-[11px] sm:text-xs tracking-wider uppercase">Travel OS</span>
         <h1 class="text-xs sm:text-sm font-bold text-slate-800 hidden md:inline">Scope Planner</h1>
-        <span id="client-badge" class="hidden text-[10px] sm:text-xs bg-indigo-50 text-indigo-700 font-semibold px-1.5 sm:px-2 py-0.5 rounded border border-indigo-200 truncate max-w-[90px] sm:max-w-none"></span>
+        <span id="client-badge" class="hidden text-[10px] sm:text-xs bg-indigo-50 text-indigo-700 font-semibold px-1.5 sm:px-2 py-0.5 rounded border border-indigo-200 truncate max-w-[85px] sm:max-w-none"></span>
+      </div>
+
+      <!-- Email Identifier Chip -->
+      <div class="flex items-center flex-shrink-0 no-print">
+        <button type="button" onclick="openEmailModal()" id="email-btn" title="Click to view or link your email" 
+                class="px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-semibold rounded-lg border flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-200">
+          <svg class="w-3.5 h-3.5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          <span id="top-email-text" class="truncate max-w-[95px] sm:max-w-[170px]">Add Email</span>
+        </button>
       </div>
 
       <!-- Live Counters -->
@@ -176,6 +185,46 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <!-- EMAIL IDENTIFIER MODAL -->
+    <div id="email-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 z-50 hidden no-print">
+      <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 max-w-md w-full overflow-hidden flex flex-col animate-in fade-in zoom-in-95 duration-150">
+        <div class="px-5 py-4 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+          <div class="flex items-center gap-2">
+            <span class="p-1.5 rounded-lg bg-blue-100 text-blue-700">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </span>
+            <h3 class="font-bold text-sm text-slate-900" id="email-modal-title">Link Your Work Email</h3>
+          </div>
+          <button type="button" onclick="closeEmailModal()" class="text-slate-400 hover:text-slate-600 rounded-lg p-1 text-lg font-bold leading-none cursor-pointer">&times;</button>
+        </div>
+
+        <form onsubmit="handleSaveEmail(event)" class="p-5 space-y-3.5">
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Link your customized scope, features, and timeline answers to your email in real time. All choices auto-save to our database for your proposal.
+          </p>
+          <div>
+            <label class="block font-bold text-xs text-slate-700 mb-1">Your Email Address</label>
+            <input type="email" id="email-input-field" required 
+                   placeholder="e.g. founder@nexustravels.com"
+                   class="w-full text-xs sm:text-sm p-2.5 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all font-semibold text-slate-900">
+          </div>
+          <div class="flex items-center justify-between pt-2">
+            <button type="button" onclick="handleClearEmail()" id="btn-clear-email" class="hidden text-xs text-rose-600 hover:text-rose-800 font-semibold cursor-pointer">
+              Remove Email
+            </button>
+            <div class="flex items-center gap-2 ml-auto">
+              <button type="button" onclick="closeEmailModal()" class="px-3.5 py-2 text-xs font-semibold text-slate-600 hover:text-slate-800 bg-white border border-slate-200 rounded-xl transition-all cursor-pointer">
+                Skip / Later
+              </button>
+              <button type="submit" class="px-4 py-2 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-sm transition-all cursor-pointer">
+                Save & Link
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   
@@ -688,7 +737,10 @@
 
     // EXPORT HANDLERS
     function generateSummaryText() {
-      let text = `# TRAVEL OS — CLIENT SCOPE SELECTIONS\nGenerated: ${new Date().toLocaleString()}\n\n`;
+      const userEmail = localStorage.getItem('travel_os_user_email');
+      let text = `# TRAVEL OS — CLIENT SCOPE SELECTIONS\nGenerated: ${new Date().toLocaleString()}\n`;
+      if (userEmail) text += `Client Work Email: ${userEmail}\n`;
+      text += `\n`;
 
       window.state.modules.forEach(m => {
         text += `=====================================================\n`;
@@ -743,13 +795,85 @@
 
     function downloadJSON() {
       if (window.tracker) window.tracker.trackAction("download_json", "Downloaded JSON");
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(window.state, null, 2));
+      const userEmail = localStorage.getItem('travel_os_user_email') || null;
+      const exportData = {
+        ...window.state,
+        clientEmail: userEmail,
+        exportedAt: new Date().toISOString()
+      };
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
       const downloadAnchor = document.createElement('a');
       downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", `Travel_OS_Scope_${new Date().toISOString().slice(0,10)}.json`);
+      downloadAnchor.setAttribute("download", `Travel_OS_Scope_${userEmail ? userEmail.replace(/[^a-zA-Z0-9]/g, '_') + '_' : ''}${new Date().toISOString().slice(0,10)}.json`);
       document.body.appendChild(downloadAnchor);
       downloadAnchor.click();
       downloadAnchor.remove();
+    }
+
+    // EMAIL IDENTIFIER MODAL HANDLERS
+    function updateTopBarEmail() {
+      const email = localStorage.getItem('travel_os_user_email');
+      const btn = document.getElementById('email-btn');
+      const txt = document.getElementById('top-email-text');
+      if (!btn || !txt) return;
+
+      if (email) {
+        txt.innerText = email;
+        btn.className = "px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-semibold rounded-lg border flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer bg-blue-50 hover:bg-blue-100 text-blue-800 border-blue-200";
+        btn.title = `Linked to: ${email} (click to change or remove)`;
+      } else {
+        txt.innerText = "Add Email";
+        btn.className = "px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-semibold rounded-lg border flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-200";
+        btn.title = "Click to link your work email";
+      }
+    }
+
+    function openEmailModal() {
+      const email = localStorage.getItem('travel_os_user_email') || '';
+      const input = document.getElementById('email-input-field');
+      const clearBtn = document.getElementById('btn-clear-email');
+      const title = document.getElementById('email-modal-title');
+      if (input) input.value = email;
+      if (clearBtn) {
+        if (email) clearBtn.classList.remove('hidden');
+        else clearBtn.classList.add('hidden');
+      }
+      if (title) {
+        title.innerText = email ? "Update Linked Email" : "Link Your Work Email";
+      }
+      document.getElementById('email-modal').classList.remove('hidden');
+      if (input) input.focus();
+    }
+
+    function closeEmailModal() {
+      document.getElementById('email-modal').classList.add('hidden');
+    }
+
+    function handleSaveEmail(e) {
+      if (e) e.preventDefault();
+      const input = document.getElementById('email-input-field');
+      const email = (input ? input.value : '').trim();
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid work email address.');
+        if (input) input.focus();
+        return;
+      }
+      localStorage.setItem('travel_os_user_email', email);
+      if (window.tracker && window.tracker.setEmail) {
+        window.tracker.setEmail(email);
+      }
+      updateTopBarEmail();
+      closeEmailModal();
+    }
+
+    function handleClearEmail() {
+      if (!confirm('Unlink this email from this device?')) return;
+      localStorage.removeItem('travel_os_user_email');
+      if (window.tracker && window.tracker.setEmail) {
+        window.tracker.setEmail('');
+      }
+      updateTopBarEmail();
+      closeEmailModal();
     }
 
     
@@ -883,7 +1007,29 @@
     renderModules();
     const p = new URLSearchParams(window.location.search);
     const c = p.get("client") || p.get("c");
-    if (c) { const b = document.getElementById("client-badge"); b.innerText = "Client: " + c; b.classList.remove("hidden"); }
+    if (c) { 
+      const b = document.getElementById("client-badge"); 
+      b.innerText = "Client: " + c; 
+      b.classList.remove("hidden"); 
+    }
+
+    // Check if email was provided in URL query string (?email=... or ?e=...)
+    const urlEmail = p.get("email") || p.get("e");
+    if (urlEmail) {
+      localStorage.setItem('travel_os_user_email', urlEmail);
+      if (window.tracker && window.tracker.setEmail) window.tracker.setEmail(urlEmail);
+    }
+    updateTopBarEmail();
+
+    // If user has no email saved and hasn't dismissed the prompt in this session, gently prompt after 1.5s
+    if (!localStorage.getItem('travel_os_user_email') && !sessionStorage.getItem('email_prompt_dismissed')) {
+      setTimeout(() => {
+        if (!localStorage.getItem('travel_os_user_email')) {
+          openEmailModal();
+          sessionStorage.setItem('email_prompt_dismissed', 'true');
+        }
+      }, 1500);
+    }
   </script>
 </body>
 </html>

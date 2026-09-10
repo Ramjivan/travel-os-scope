@@ -1,4 +1,4 @@
-﻿const express = require('express');
+const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const db = require('./database');
@@ -22,15 +22,15 @@ function getClientIp(req) {
 // 1. Session Init / Resume
 app.post('/api/telemetry/session', (req, res) => {
   try {
-    const { sessionId, clientTag } = req.body;
+    const { sessionId, clientTag, email } = req.body;
     if (!sessionId) return res.status(400).json({ error: 'sessionId is required' });
 
     const ip = getClientIp(req);
     const ua = req.headers['user-agent'] || '';
-    const session = db.getOrCreateSession(sessionId, clientTag, ip, ua);
+    const session = db.getOrCreateSession(sessionId, clientTag, ip, ua, email);
 
     // Record open event
-    db.recordEvent(sessionId, 'page_open', null, null, null, null, `Opened by: ${clientTag || 'Direct Visit'}`);
+    db.recordEvent(sessionId, 'page_open', null, null, null, null, `Opened by: ${clientTag || 'Direct Visit'}${email ? ` (${email})` : ''}`);
 
     res.json({ success: true, session });
   } catch (err) {
@@ -39,20 +39,37 @@ app.post('/api/telemetry/session', (req, res) => {
   }
 });
 
-// 2. Heartbeat (Duration + Live Counts)
-app.post('/api/telemetry/heartbeat', (req, res) => {
+// 2. Email Identifier Update
+app.post('/api/telemetry/email', (req, res) => {
   try {
-    const { sessionId, durationSeconds, counts } = req.body;
+    const { sessionId, email } = req.body;
     if (!sessionId) return res.status(400).json({ error: 'sessionId required' });
 
-    db.updateHeartbeat(sessionId, durationSeconds || 0, counts || null);
+    db.updateSessionEmail(sessionId, email || null);
+    if (email) {
+      db.recordEvent(sessionId, 'identify_email', null, null, null, null, `Linked email: ${email}`);
+    }
+    res.json({ success: true });
+  } catch (err) {
+    console.error('Email error:', err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// 3. Heartbeat (Duration + Live Counts + Email)
+app.post('/api/telemetry/heartbeat', (req, res) => {
+  try {
+    const { sessionId, durationSeconds, counts, email } = req.body;
+    if (!sessionId) return res.status(400).json({ error: 'sessionId required' });
+
+    db.updateHeartbeat(sessionId, durationSeconds || 0, counts || null, email || null);
     res.json({ success: true });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// 3. User Event (Clicks, Drags, Notes, Additions, Questions)
+// 4. User Event (Clicks, Drags, Notes, Additions, Questions)
 app.post('/api/telemetry/event', (req, res) => {
   try {
     const { sessionId, eventType, moduleId, featureName, fromStatus, toStatus, content } = req.body;
@@ -68,14 +85,17 @@ app.post('/api/telemetry/event', (req, res) => {
   }
 });
 
-// 4. Board State Snapshot
+// 5. Board State Snapshot
 app.post('/api/telemetry/state', (req, res) => {
   try {
-    const { sessionId, state } = req.body;
+    const { sessionId, state, email } = req.body;
     if (!sessionId || !state) {
       return res.status(400).json({ error: 'sessionId and state required' });
     }
 
+    if (email) {
+      db.updateSessionEmail(sessionId, email);
+    }
     db.saveBoardState(sessionId, state);
     res.json({ success: true });
   } catch (err) {

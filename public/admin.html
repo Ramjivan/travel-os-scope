@@ -46,13 +46,13 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
 
     <!-- KPI STATS -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Client Sessions</div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Client Sessions</div>
         <div class="text-3xl font-black text-slate-900 mt-1" id="stat-sessions">0</div>
-        <div class="text-xs text-slate-500 mt-1 flex items-center gap-1">All link opens recorded</div>
+        <div class="text-xs text-slate-500 mt-1">All link opens recorded</div>
       </div>
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Active Right Now</div>
         <div class="text-3xl font-black text-emerald-600 mt-1 flex items-center gap-2">
           <span id="stat-active">0</span>
@@ -60,32 +60,39 @@
         </div>
         <div class="text-xs text-slate-500 mt-1">Heartbeat within last 45s</div>
       </div>
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Identified Emails</div>
+        <div class="text-3xl font-black text-indigo-600 mt-1" id="stat-emails">0</div>
+        <div class="text-xs text-slate-500 mt-1">Unique client emails</div>
+      </div>
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm">
         <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Interactions</div>
         <div class="text-3xl font-black text-blue-600 mt-1" id="stat-events">0</div>
-        <div class="text-xs text-slate-500 mt-1">Clicks, drags, moves & questions</div>
+        <div class="text-xs text-slate-500 mt-1">Clicks, drags & questions</div>
       </div>
-      <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
-        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Custom Notes Captured</div>
+      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Custom Notes</div>
         <div class="text-3xl font-black text-purple-600 mt-1" id="stat-notes">0</div>
-        <div class="text-xs text-slate-500 mt-1">"Did we miss something?" inputs</div>
+        <div class="text-xs text-slate-500 mt-1">"Did we miss something?"</div>
       </div>
     </div>
 
     <!-- LINK GENERATOR CARD -->
     <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white p-6 rounded-2xl shadow-md">
-      <div class="max-w-3xl">
+      <div class="max-w-4xl">
         <h2 class="text-lg font-bold">Generate Personalized Client Tracking Link</h2>
-        <p class="text-xs text-slate-300 mt-0.5">Send a branded link to a client (e.g., Nexus Travels). Their name will appear on the board, and all their actions will be isolated under their tag.</p>
+        <p class="text-xs text-slate-300 mt-0.5">Send a branded link to a client (e.g., Nexus Travels) with optional pre-filled email. All selections and rich text notes will be linked to that email in real time.</p>
         <div class="flex flex-wrap items-center gap-2 mt-3">
-          <input type="text" id="link-client-name" placeholder="Enter Agency / Client Name (e.g. NexusTravels)" 
-                 class="px-3.5 py-2 rounded-xl text-xs sm:text-sm bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400 min-w-[280px]">
-          <button onclick="generateClientLink()" class="px-4 py-2 bg-blue-500 hover:bg-blue-400 text-white rounded-xl text-xs font-bold transition-all shadow-sm">
+          <input type="text" id="link-client-name" placeholder="Client / Agency Name (e.g. NexusTravels)" 
+                 class="px-3.5 py-2 rounded-xl text-xs sm:text-sm bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400 min-w-[200px] flex-1">
+          <input type="email" id="link-client-email" placeholder="Client Email (optional, e.g. john@nexus.com)" 
+                 class="px-3.5 py-2 rounded-xl text-xs sm:text-sm bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400 min-w-[240px] flex-1">
+          <button onclick="generateClientLink()" class="px-4 py-2 bg-blue-500 hover:bg-blue-400 text-white rounded-xl text-xs font-bold transition-all shadow-sm cursor-pointer">
             Generate Link
           </button>
-          <div id="generated-link-box" class="hidden flex items-center gap-2 bg-white/15 px-3 py-1.5 rounded-xl border border-white/30 text-xs">
-            <span id="generated-link-text" class="font-mono text-emerald-300"></span>
-            <button onclick="copyGeneratedLink()" class="px-2 py-1 bg-white text-slate-900 rounded font-bold hover:bg-slate-200">Copy</button>
+          <div id="generated-link-box" class="hidden flex items-center gap-2 bg-white/15 px-3 py-1.5 rounded-xl border border-white/30 text-xs w-full sm:w-auto">
+            <span id="generated-link-text" class="font-mono text-emerald-300 truncate max-w-[340px]"></span>
+            <button onclick="copyGeneratedLink()" class="px-2 py-1 bg-white text-slate-900 rounded font-bold hover:bg-slate-200 cursor-pointer">Copy</button>
           </div>
         </div>
       </div>
@@ -96,9 +103,13 @@
 
       <!-- LEFT: SESSIONS LIST -->
       <div class="lg:col-span-5 bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden flex flex-col h-[750px]">
-        <div class="p-4 border-b border-slate-200 bg-slate-50 flex items-center justify-between">
-          <h2 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider">Client Sessions</h2>
-          <span class="text-xs text-slate-500" id="sessions-count">0 found</span>
+        <div class="p-3.5 border-b border-slate-200 bg-slate-50 space-y-2">
+          <div class="flex items-center justify-between">
+            <h2 class="text-sm font-extrabold text-slate-800 uppercase tracking-wider">Client Sessions</h2>
+            <span class="text-xs text-slate-500" id="sessions-count">0 found</span>
+          </div>
+          <input type="text" id="session-search-input" oninput="filterSessions()" placeholder="Filter by email or client name..." 
+                 class="w-full text-xs p-2 rounded-lg border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
         <div class="divide-y divide-slate-100 overflow-y-auto custom-scrollbar flex-1" id="sessions-list">
           <div class="p-6 text-center text-slate-400 text-xs">Loading sessions...</div>

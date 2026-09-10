@@ -1,4 +1,4 @@
-﻿const { DatabaseSync } = require('node:sqlite');
+const { DatabaseSync } = require('node:sqlite');
 const path = require('path');
 
 const fs = require('fs');
@@ -51,28 +51,49 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS idx_events_created ON events(created_at);
 `);
 
+// Migration: add email column to sessions if not present
+try {
+  db.exec("ALTER TABLE sessions ADD COLUMN email TEXT;");
+} catch (e) {
+  // Column already exists
+}
+db.exec("CREATE INDEX IF NOT EXISTS idx_sessions_email ON sessions(email);");
+
 module.exports = {
   db,
-  getOrCreateSession(id, clientTag, ip, ua) {
+  getOrCreateSession(id, clientTag, ip, ua, email) {
     const existing = db.prepare('SELECT * FROM sessions WHERE id = ?').get(id);
     if (existing) {
-      db.prepare("UPDATE sessions SET last_active_at = datetime('now', 'localtime') WHERE id = ?").run(id);
-      return existing;
+      if (email && email !== existing.email) {
+        db.prepare("UPDATE sessions SET email = ?, last_active_at = datetime('now', 'localtime') WHERE id = ?").run(email, id);
+      } else {
+        db.prepare("UPDATE sessions SET last_active_at = datetime('now', 'localtime') WHERE id = ?").run(id);
+      }
+      return db.prepare('SELECT * FROM sessions WHERE id = ?').get(id);
     }
     db.prepare(`
-      INSERT INTO sessions (id, client_tag, ip_address, user_agent, created_at, last_active_at)
-      VALUES (?, ?, ?, ?, datetime('now', 'localtime'), datetime('now', 'localtime'))
-    `).run(id, clientTag || 'Direct Visit', ip || '', ua || '');
+      INSERT INTO sessions (id, client_tag, email, ip_address, user_agent, created_at, last_active_at)
+      VALUES (?, ?, ?, ?, ?, datetime('now', 'localtime'), datetime('now', 'localtime'))
+    `).run(id, clientTag || 'Direct Visit', email || null, ip || '', ua || '');
     return db.prepare('SELECT * FROM sessions WHERE id = ?').get(id);
   },
 
-  updateHeartbeat(id, durationSeconds, counts) {
+  updateSessionEmail(id, email) {
+    db.prepare("UPDATE sessions SET email = ?, last_active_at = datetime('now', 'localtime') WHERE id = ?").run(email || null, id);
+  },
+
+  updateHeartbeat(id, durationSeconds, counts, email) {
     let query = `
       UPDATE sessions 
       SET last_active_at = datetime('now', 'localtime'),
           duration_seconds = ?
     `;
     const params = [durationSeconds];
+
+    if (email) {
+      query += ', email = COALESCE(?, email)';
+      params.push(email);
+    }
 
     if (counts) {
       query += ', features_now = ?, features_later = ?, features_excluded = ?, notes_count = ?';
@@ -142,6 +163,9 @@ module.exports = {
     const totalNotes = db.prepare(`
       SELECT COUNT(*) as count FROM events WHERE event_type = 'update_notes' AND length(content) > 3
     `).get().count;
-    return { totalSessions, activeNow, totalEvents, totalNotes };
+    const totalEmails = db.prepare(`
+      SELECT COUNT(DISTINCT email) as count FROM sessions WHERE email IS NOT NULL AND email != ''
+    `).get().count;
+    return { totalSessions, activeNow, totalEvents, totalNotes, totalEmails };
   }
 };
