@@ -9,7 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { 
+      font-family: 'Plus Jakarta Sans', sans-serif; 
+      overflow-x: hidden;
+      max-width: 100vw;
+    }
     .drag-over { background-color: rgba(59, 130, 246, 0.08) !important; border-color: #3b82f6 !important; }
     .card-dragging { opacity: 0.4; transform: scale(0.98); }
     @media print {
@@ -22,44 +27,44 @@
 
   <!-- COMPACT TOP BAR -->
   <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40 shadow-xs">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-3">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2 sm:py-2.5 flex items-center justify-between gap-2 sm:gap-3">
       
       <!-- Brand & Title -->
-      <div class="flex items-center gap-2.5">
-        <span class="bg-blue-600 text-white font-extrabold px-2 py-0.5 rounded text-xs tracking-wider uppercase">Travel OS</span>
-        <h1 class="text-sm font-bold text-slate-800 hidden sm:inline">Scope Planner</h1>
-        <span id="client-badge" class="hidden text-xs bg-indigo-50 text-indigo-700 font-semibold px-2 py-0.5 rounded border border-indigo-200"></span>
+      <div class="flex items-center gap-1.5 sm:gap-2.5 flex-shrink-0">
+        <span class="bg-blue-600 text-white font-extrabold px-2 py-0.5 rounded text-[11px] sm:text-xs tracking-wider uppercase">Travel OS</span>
+        <h1 class="text-xs sm:text-sm font-bold text-slate-800 hidden md:inline">Scope Planner</h1>
+        <span id="client-badge" class="hidden text-[10px] sm:text-xs bg-indigo-50 text-indigo-700 font-semibold px-1.5 sm:px-2 py-0.5 rounded border border-indigo-200 truncate max-w-[90px] sm:max-w-none"></span>
       </div>
 
       <!-- Live Counters -->
-      <div class="flex items-center gap-2 text-xs font-semibold">
-        <div class="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-50 text-emerald-700 rounded-lg border border-emerald-200">
+      <div class="flex items-center gap-1 sm:gap-2 text-[10px] sm:text-xs font-semibold flex-shrink-0">
+        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-emerald-50 text-emerald-700 rounded-md sm:rounded-lg border border-emerald-200">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <span>Now: <b id="count-now" class="font-bold">0</b></span>
         </div>
-        <div class="flex items-center gap-1.5 px-2.5 py-1 bg-amber-50 text-amber-700 rounded-lg border border-amber-200">
+        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-amber-50 text-amber-700 rounded-md sm:rounded-lg border border-amber-200">
           <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
           <span>Later: <b id="count-later" class="font-bold">0</b></span>
         </div>
-        <div class="flex items-center gap-1.5 px-2.5 py-1 bg-rose-50 text-rose-700 rounded-lg border border-rose-200">
+        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-rose-50 text-rose-700 rounded-lg border border-rose-200">
           <span class="w-1.5 h-1.5 rounded-full bg-rose-500"></span>
-          <span>Exclude: <b id="count-excluded" class="font-bold">0</b></span>
+          <span><span class="hidden sm:inline">Exclude</span><span class="sm:hidden">Excl</span>: <b id="count-excluded" class="font-bold">0</b></span>
         </div>
       </div>
 
       <!-- Action Buttons -->
-      <div class="flex items-center gap-1.5 no-print">
-        <button onclick="copySummary()" class="px-3 py-1.5 text-xs font-semibold bg-slate-800 hover:bg-slate-900 text-white rounded-lg shadow-sm transition-all flex items-center gap-1">
+      <div class="flex items-center gap-1 sm:gap-1.5 no-print flex-shrink-0">
+        <button onclick="copySummary()" title="Copy Scope Summary" class="px-2 sm:px-3 py-1.5 text-[11px] sm:text-xs font-semibold bg-slate-800 hover:bg-slate-900 text-white rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-          <span class="hidden md:inline">Copy</span> Summary
+          <span class="hidden lg:inline">Copy</span> <span class="hidden sm:inline">Summary</span>
         </button>
-        <button onclick="downloadJSON()" class="px-3 py-1.5 text-xs font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-sm transition-all flex items-center gap-1">
+        <button onclick="downloadJSON()" title="Download State JSON" class="px-2 sm:px-3 py-1.5 text-[11px] sm:text-xs font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-          <span class="hidden md:inline">Download</span> JSON
+          <span class="hidden lg:inline">Download</span> <span>JSON</span>
         </button>
-        <button onclick="window.print()" class="px-2.5 py-1.5 text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg shadow-sm transition-all flex items-center gap-1">
+        <button onclick="window.print()" title="Print / Save PDF" class="px-2 sm:px-2.5 py-1.5 text-[11px] sm:text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
-          PDF
+          <span>PDF</span>
         </button>
       </div>
 
@@ -68,7 +73,7 @@
 
   <!-- INTRO BANNER -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5">
-    <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-xl p-4 sm:p-5 text-white shadow-md mb-6 flex flex-wrap items-center justify-between gap-4">
+    <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-xl p-4 sm:p-5 text-white shadow-md mb-6 flex flex-wrap items-center justify-between gap-4 overflow-hidden">
       <div class="max-w-2xl">
         <h2 class="text-base sm:text-lg font-extrabold tracking-tight">Customize Your Platform Scope</h2>
         <p class="text-slate-300 text-xs sm:text-sm mt-0.5">
@@ -81,47 +86,52 @@
         <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-rose-400"></span> <b>Excluded</b></span>
       </div>
     </div>
-      <div class="absolute right-0 bottom-0 opacity-10 transform translate-x-12 translate-y-12">
-        <svg class="w-96 h-96 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
-      </div>
-    </div>
 
     <!-- MODULES CONTAINER -->
-    <div id="modules-container" class="space-y-10"></div>
+    <div id="modules-container" class="space-y-8 sm:space-y-10"></div>
 
     <!-- 10 CRITICAL QUESTIONS SECTION -->
-    <section class="mt-14 bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm print-break">
+    <section class="mt-12 sm:mt-14 bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 shadow-sm print-break">
       <div class="border-b border-slate-200 pb-4 mb-6">
         <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Final Step</span>
         <h2 class="text-xl sm:text-2xl font-black text-slate-900">10 Questions That Determine Timeline & Pricing</h2>
         <p class="text-xs sm:text-sm text-slate-500 mt-1">These answers help us calculate exact engineering hours and third-party API dependencies.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="questions-grid"></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6" id="questions-grid"></div>
     </section>
 
-    
-
-  
     <!-- FEATURE EDIT & RICH TEXT NOTES MODAL -->
-    <div id="feature-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4 z-50 hidden no-print">
-      <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 max-w-lg w-full overflow-hidden flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-150">
+    <div id="feature-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 z-50 hidden no-print">
+      <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 max-w-lg w-full overflow-hidden flex flex-col max-h-[92vh] animate-in fade-in zoom-in-95 duration-150">
         
         <!-- Modal Header -->
-        <div class="px-5 py-3.5 border-b border-slate-100 flex items-center justify-between bg-slate-50">
-          <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2" id="modal-title-text">
+        <div class="px-4 sm:px-5 py-3 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+          <h3 class="font-bold text-xs sm:text-sm text-slate-900 flex items-center gap-1.5 truncate" id="modal-title-text">
             <span>✏️</span> Edit Feature & Notes
           </h3>
-          <button onclick="closeFeatureEditor()" class="text-slate-400 hover:text-slate-600 rounded-lg p-1 text-base font-bold leading-none">&times;</button>
+          <button type="button" onclick="closeFeatureEditor()" class="text-slate-400 hover:text-slate-600 rounded-lg p-1 text-lg font-bold leading-none cursor-pointer">&times;</button>
         </div>
 
         <!-- Modal Body -->
-        <div class="p-5 space-y-4 overflow-y-auto flex-1 text-xs">
+        <div class="p-4 sm:p-5 space-y-3.5 overflow-y-auto flex-1 text-xs">
           <!-- Feature Name -->
           <div>
             <label class="block font-bold text-slate-700 mb-1">Feature Name / Requirement</label>
             <input type="text" id="modal-feature-name" 
+                   placeholder="e.g., Driver cash allowance tracking on mobile"
                    class="w-full text-xs sm:text-sm p-2.5 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all font-semibold text-slate-900">
+          </div>
+
+          <!-- Target Column / Category -->
+          <div>
+            <label class="block font-bold text-slate-700 mb-1">Target Category / Column</label>
+            <select id="modal-feature-status" 
+                    class="w-full text-xs sm:text-sm p-2.5 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all font-semibold text-slate-800">
+              <option value="now">🟢 Needed for Now</option>
+              <option value="later">🟡 Deferred / Phase 2-3</option>
+              <option value="excluded">🔴 Exclude Completely</option>
+            </select>
           </div>
 
           <!-- Rich Text Notes -->
@@ -133,34 +143,34 @@
 
             <!-- Toolbar -->
             <div class="flex items-center flex-wrap gap-1 p-1 bg-slate-100 border border-slate-200 border-b-0 rounded-t-xl">
-              <button type="button" onclick="formatDoc('formatBlock', 'h3')" title="Heading" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 font-bold text-[11px] shadow-xs">H</button>
-              <button type="button" onclick="formatDoc('bold')" title="Bold" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 font-bold text-[11px] shadow-xs">B</button>
-              <button type="button" onclick="formatDoc('italic')" title="Italic" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 italic text-[11px] shadow-xs">I</button>
+              <button type="button" onclick="formatDoc('formatBlock', 'h3')" title="Heading" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 font-bold text-[11px] shadow-xs cursor-pointer">H</button>
+              <button type="button" onclick="formatDoc('bold')" title="Bold" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 font-bold text-[11px] shadow-xs cursor-pointer">B</button>
+              <button type="button" onclick="formatDoc('italic')" title="Italic" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 italic text-[11px] shadow-xs cursor-pointer">I</button>
               <span class="w-px h-4 bg-slate-300 mx-0.5"></span>
-              <button type="button" onclick="formatDoc('insertUnorderedList')" title="Bullet List" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[11px] shadow-xs flex items-center gap-0.5">• List</button>
-              <button type="button" onclick="formatDoc('insertOrderedList')" title="Numbered List" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[11px] shadow-xs flex items-center gap-0.5">1. List</button>
+              <button type="button" onclick="formatDoc('insertUnorderedList')" title="Bullet List" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[11px] shadow-xs flex items-center gap-0.5 cursor-pointer">• List</button>
+              <button type="button" onclick="formatDoc('insertOrderedList')" title="Numbered List" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[11px] shadow-xs flex items-center gap-0.5 cursor-pointer">1. List</button>
               <span class="w-px h-4 bg-slate-300 mx-0.5"></span>
-              <button type="button" onclick="formatDoc('removeFormat')" title="Clear formatting" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[10px] shadow-xs">Clear</button>
+              <button type="button" onclick="formatDoc('removeFormat')" title="Clear formatting" class="px-2 py-1 bg-white hover:bg-slate-200 rounded text-slate-700 text-[10px] shadow-xs cursor-pointer">Clear</button>
             </div>
 
             <!-- ContentEditable Area -->
             <div id="modal-feature-notes" 
                  contenteditable="true" 
-                 class="min-h-[140px] max-h-[220px] overflow-y-auto p-3 bg-slate-50 focus:bg-white border border-slate-200 rounded-b-xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all text-slate-800 leading-relaxed text-xs">
+                 class="min-h-[130px] max-h-[200px] overflow-y-auto p-3 bg-slate-50 focus:bg-white border border-slate-200 rounded-b-xl focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all text-slate-800 leading-relaxed text-xs">
             </div>
           </div>
         </div>
 
         <!-- Modal Footer -->
-        <div class="px-5 py-3 border-t border-slate-100 bg-slate-50 flex items-center justify-between">
-          <button type="button" id="modal-btn-delete" onclick="deleteFeatureFromModal()" class="text-xs text-rose-600 hover:text-rose-800 font-bold px-2 py-1 rounded hover:bg-rose-50 transition-colors">
+        <div class="px-4 sm:px-5 py-3 border-t border-slate-100 bg-slate-50 flex items-center justify-between">
+          <button type="button" id="modal-btn-delete" onclick="deleteFeatureFromModal()" class="text-xs text-rose-600 hover:text-rose-800 font-bold px-2 py-1 rounded hover:bg-rose-50 transition-colors cursor-pointer">
             Delete Feature
           </button>
           <div class="flex items-center gap-2">
-            <button type="button" onclick="closeFeatureEditor()" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-800 bg-white border border-slate-200 rounded-xl transition-all">
+            <button type="button" onclick="closeFeatureEditor()" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-800 bg-white border border-slate-200 rounded-xl transition-all cursor-pointer">
               Cancel
             </button>
-            <button type="button" id="modal-btn-save" onclick="saveFeatureFromModal()" class="px-4 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-sm transition-all">
+            <button type="button" id="modal-btn-save" onclick="saveFeatureFromModal()" class="px-4 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-sm transition-all cursor-pointer">
               Save Changes
             </button>
           </div>
@@ -171,6 +181,7 @@
   
   </main>
 
+  <script src="/tracker.js"></script>
   <script>
     // 13 MODULES AND ALL INITIAL FEATURES
     const initialData = [
@@ -371,13 +382,13 @@
     ];
 
     // STATE INITIALIZATION FROM LOCALSTORAGE OR DEFAULT
-    let state = JSON.parse(localStorage.getItem('travel_os_scope_state')) || {
+    window.state = JSON.parse(localStorage.getItem('travel_os_scope_state')) || {
       modules: initialData,
       answers: {}
     };
 
     function saveState() {
-      localStorage.setItem('travel_os_scope_state', JSON.stringify(state));
+      localStorage.setItem('travel_os_scope_state', JSON.stringify(window.state));
       updateCounts();
     }
 
@@ -386,7 +397,7 @@
       const container = document.getElementById('modules-container');
       container.innerHTML = '';
 
-      state.modules.forEach((mod, modIdx) => {
+      window.state.modules.forEach((mod, modIdx) => {
         const modCard = document.createElement('div');
         modCard.className = "bg-white border border-slate-200 rounded-2xl p-5 sm:p-7 shadow-sm transition-all hover:shadow-md";
         modCard.innerHTML = `
@@ -398,7 +409,7 @@
               </h3>
               <p class="text-xs sm:text-sm text-slate-500 mt-0.5">${mod.subtitle}</p>
             </div>
-            <button onclick="addCustomFeature('${mod.id}')" class="text-xs font-semibold px-3 py-1.5 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded-lg border border-blue-200 flex items-center gap-1 transition-all no-print">
+            <button onclick="openFeatureEditor('${mod.id}', null, 'now')" class="text-xs font-semibold px-3 py-1.5 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded-lg border border-blue-200 flex items-center gap-1 transition-all no-print cursor-pointer">
               <span class="text-base leading-none font-bold">+</span> Add Custom Feature
             </button>
           </div>
@@ -406,39 +417,71 @@
           <!-- 3 Columns Kanban -->
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <!-- Col 1: Needed Now -->
-            <div class="bg-emerald-50/50 rounded-xl p-3.5 border border-emerald-100" 
+            <div class="bg-emerald-50/50 rounded-xl p-3 sm:p-3.5 border border-emerald-100 flex flex-col justify-between" 
                  ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'now')">
-              <div class="flex items-center justify-between mb-3 px-1">
-                <span class="text-xs font-extrabold text-emerald-800 uppercase tracking-wider flex items-center gap-1.5">
-                  <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Needed for Now
-                </span>
-                <span id="badge-${mod.id}-now" class="text-[11px] font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded-full">0</span>
+              <div>
+                <div class="flex items-center justify-between mb-2.5 px-1">
+                  <span class="text-xs font-extrabold text-emerald-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Needed for Now
+                  </span>
+                  <span id="badge-${mod.id}-now" class="text-[11px] font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded-full">0</span>
+                </div>
+
+                <!-- Top Add Feature Button -->
+                <button type="button" onclick="openFeatureEditor('${mod.id}', null, 'now')" 
+                        class="w-full mb-2.5 py-1.5 px-2.5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 bg-white/90 hover:bg-emerald-100/80 border border-dashed border-emerald-300 hover:border-emerald-400 rounded-lg flex items-center justify-center gap-1.5 shadow-2xs transition-all no-print cursor-pointer">
+                  <span class="text-sm font-bold leading-none">+</span> Add Feature
+                </button>
+
+                <div id="col-${mod.id}-now" class="space-y-2 min-h-[40px]"></div>
               </div>
-              <div id="col-${mod.id}-now" class="space-y-2 min-h-[90px]"></div>
+
+              <!-- Bottom Add Feature Button -->
+              <button type="button" onclick="openFeatureEditor('${mod.id}', null, 'now')" 
+                      class="w-full mt-2.5 py-1.5 px-2.5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 bg-white/90 hover:bg-emerald-100/80 border border-dashed border-emerald-300 hover:border-emerald-400 rounded-lg flex items-center justify-center gap-1.5 shadow-2xs transition-all no-print cursor-pointer">
+                <span class="text-sm font-bold leading-none">+</span> Add Feature
+              </button>
             </div>
 
             <!-- Col 2: Later -->
-            <div class="bg-amber-50/50 rounded-xl p-3.5 border border-amber-100" 
+            <div class="bg-amber-50/50 rounded-xl p-3 sm:p-3.5 border border-amber-100 flex flex-col justify-between" 
                  ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'later')">
-              <div class="flex items-center justify-between mb-3 px-1">
-                <span class="text-xs font-extrabold text-amber-800 uppercase tracking-wider flex items-center gap-1.5">
-                  <span class="w-2 h-2 rounded-full bg-amber-500"></span> Deferred / Phase 2-3
-                </span>
-                <span id="badge-${mod.id}-later" class="text-[11px] font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">0</span>
+              <div>
+                <div class="flex items-center justify-between mb-2.5 px-1">
+                  <span class="text-xs font-extrabold text-amber-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-amber-500"></span> Deferred / Phase 2-3
+                  </span>
+                  <span id="badge-${mod.id}-later" class="text-[11px] font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">0</span>
+                </div>
+
+                <!-- Top Add Feature Button -->
+                <button type="button" onclick="openFeatureEditor('${mod.id}', null, 'later')" 
+                        class="w-full mb-2.5 py-1.5 px-2.5 text-xs font-semibold text-amber-800 hover:text-amber-950 bg-white/90 hover:bg-amber-100/80 border border-dashed border-amber-300 hover:border-amber-400 rounded-lg flex items-center justify-center gap-1.5 shadow-2xs transition-all no-print cursor-pointer">
+                  <span class="text-sm font-bold leading-none">+</span> Add Feature
+                </button>
+
+                <div id="col-${mod.id}-later" class="space-y-2 min-h-[40px]"></div>
               </div>
-              <div id="col-${mod.id}-later" class="space-y-2 min-h-[90px]"></div>
+
+              <!-- Bottom Add Feature Button -->
+              <button type="button" onclick="openFeatureEditor('${mod.id}', null, 'later')" 
+                      class="w-full mt-2.5 py-1.5 px-2.5 text-xs font-semibold text-amber-800 hover:text-amber-950 bg-white/90 hover:bg-amber-100/80 border border-dashed border-amber-300 hover:border-amber-400 rounded-lg flex items-center justify-center gap-1.5 shadow-2xs transition-all no-print cursor-pointer">
+                <span class="text-sm font-bold leading-none">+</span> Add Feature
+              </button>
             </div>
 
             <!-- Col 3: Excluded -->
-            <div class="bg-rose-50/40 rounded-xl p-3.5 border border-rose-100" 
+            <div class="bg-rose-50/40 rounded-xl p-3 sm:p-3.5 border border-rose-100 flex flex-col justify-between" 
                  ondragover="allowDrop(event)" ondragleave="dragLeave(event)" ondrop="drop(event, '${mod.id}', 'excluded')">
-              <div class="flex items-center justify-between mb-3 px-1">
-                <span class="text-xs font-extrabold text-rose-800 uppercase tracking-wider flex items-center gap-1.5">
-                  <span class="w-2 h-2 rounded-full bg-rose-500"></span> Exclude Completely
-                </span>
-                <span id="badge-${mod.id}-excluded" class="text-[11px] font-bold bg-rose-200 text-rose-800 px-2 py-0.5 rounded-full">0</span>
+              <div>
+                <div class="flex items-center justify-between mb-2.5 px-1">
+                  <span class="text-xs font-extrabold text-rose-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-rose-500"></span> Exclude Completely
+                  </span>
+                  <span id="badge-${mod.id}-excluded" class="text-[11px] font-bold bg-rose-200 text-rose-800 px-2 py-0.5 rounded-full">0</span>
+                </div>
+                <div id="col-${mod.id}-excluded" class="space-y-2 min-h-[60px]"></div>
               </div>
-              <div id="col-${mod.id}-excluded" class="space-y-2 min-h-[90px]"></div>
             </div>
           </div>
 
@@ -492,15 +535,15 @@
       card.id = feature.id;
       card.draggable = true;
       card.ondragstart = (e) => drag(e, modId, feature.id);
-      card.className = "bg-white p-2.5 rounded-lg border border-slate-200 shadow-sm cursor-grab active:cursor-grabbing hover:border-slate-300 transition-all text-xs";
+      card.className = "bg-white p-2.5 rounded-lg border border-slate-200 shadow-sm cursor-grab active:cursor-grabbing hover:border-slate-300 transition-all text-xs break-words overflow-hidden";
 
       const hasNotes = feature.notes && feature.notes.trim();
 
       card.innerHTML = `
         <div class="flex items-start justify-between gap-1.5">
-          <span class="font-semibold text-slate-800 leading-snug flex-1">${feature.name}</span>
+          <span class="font-semibold text-slate-800 leading-snug flex-1 break-words">${feature.name}</span>
           <button onclick="openFeatureEditor('${modId}', '${feature.id}')" title="Edit feature & notes" 
-                  class="text-slate-400 hover:text-blue-600 p-0.5 rounded hover:bg-slate-100 no-print flex-shrink-0 transition-colors">
+                  class="text-slate-400 hover:text-blue-600 p-0.5 rounded hover:bg-slate-100 no-print flex-shrink-0 transition-colors cursor-pointer">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
           </button>
         </div>
@@ -509,26 +552,26 @@
           <div onclick="openFeatureEditor('${modId}', '${feature.id}')" 
                class="mt-1.5 p-1.5 bg-blue-50/80 hover:bg-blue-100/80 border border-blue-200/70 rounded text-[11px] text-blue-900 cursor-pointer transition-colors flex items-start gap-1">
             <span class="text-blue-600 font-bold">📝</span>
-            <div class="line-clamp-2 overflow-hidden flex-1">${feature.notes.replace(/<[^>]*>?/gm, ' ')}</div>
+            <div class="line-clamp-2 overflow-hidden flex-1 break-words">${feature.notes.replace(/<[^>]*>?/gm, ' ')}</div>
           </div>
         ` : ''}
 
         <!-- Quick Action Buttons -->
-        <div class="flex items-center gap-1 mt-2 pt-2 border-t border-slate-100 no-print">
-          <button onclick="handleMove('${modId}', '${feature.id}', 'now')" title="Move to Needed Now" 
-            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'now' ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-emerald-100 hover:text-emerald-700'}">
+        <div class="flex items-center flex-wrap gap-1 mt-2 pt-2 border-t border-slate-100 no-print">
+          <button type="button" onclick="handleMove('${modId}', '${feature.id}', 'now')" title="Move to Needed Now" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold cursor-pointer transition-colors ${feature.status === 'now' ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-emerald-100 hover:text-emerald-700'}">
             Now
           </button>
-          <button onclick="handleMove('${modId}', '${feature.id}', 'later')" title="Move to Later" 
-            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'later' ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-600 hover:bg-amber-100 hover:text-amber-700'}">
+          <button type="button" onclick="handleMove('${modId}', '${feature.id}', 'later')" title="Move to Later" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold cursor-pointer transition-colors ${feature.status === 'later' ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-600 hover:bg-amber-100 hover:text-amber-700'}">
             Later
           </button>
-          <button onclick="handleMove('${modId}', '${feature.id}', 'excluded')" title="Exclude" 
-            class="px-1.5 py-0.5 rounded text-[10px] font-bold ${feature.status === 'excluded' ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-rose-100 hover:text-rose-700'}">
+          <button type="button" onclick="handleMove('${modId}', '${feature.id}', 'excluded')" title="Exclude" 
+            class="px-1.5 py-0.5 rounded text-[10px] font-bold cursor-pointer transition-colors ${feature.status === 'excluded' ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-rose-100 hover:text-rose-700'}">
             Exclude
           </button>
-          <button onclick="openFeatureEditor('${modId}', '${feature.id}')" 
-                  class="ml-auto text-[10px] font-bold text-blue-600 hover:text-blue-800 px-1 py-0.5 rounded hover:bg-blue-50 transition-colors">
+          <button type="button" onclick="openFeatureEditor('${modId}', '${feature.id}')" 
+                  class="ml-auto text-[10px] font-bold text-blue-600 hover:text-blue-800 px-1 py-0.5 rounded hover:bg-blue-50 transition-colors cursor-pointer">
             ${hasNotes ? 'Edit Notes' : '+ Note'}
           </button>
         </div>
@@ -567,26 +610,33 @@
       }
     }
 
+    function handleMove(modId, featureId, targetStatus) {
+      moveFeature(modId, featureId, targetStatus);
+    }
+
     function moveFeature(modId, featureId, targetStatus) {
-      const mod = state.modules.find(m => m.id === modId);
+      const mod = window.state.modules.find(m => m.id === modId);
       if (!mod) return;
       const feat = mod.features.find(f => f.id === featureId);
       if (!feat) return;
 
+      const oldStatus = feat.status;
       feat.status = targetStatus;
       saveState();
+      if (window.tracker) window.tracker.trackMove(modId, feat.name, oldStatus, targetStatus);
       renderFeaturesForModule(mod);
     }
 
-    function addCustomFeature(modId) {
-      openFeatureEditor(modId, null);
+    function addCustomFeature(modId, targetStatus = 'now') {
+      openFeatureEditor(modId, null, targetStatus);
     }
 
     function updateNotes(modId, text) {
-      const mod = state.modules.find(m => m.id === modId);
+      const mod = window.state.modules.find(m => m.id === modId);
       if (!mod) return;
       mod.notes = text;
       saveState();
+      if (window.tracker) window.tracker.trackNote(modId, text);
     }
 
     // 10 QUESTIONS HANDLERS
@@ -595,7 +645,7 @@
       grid.innerHTML = '';
 
       questionsData.forEach(q => {
-        const selected = state.answers[q.id] || "";
+        const selected = window.state.answers[q.id] || "";
         const box = document.createElement('div');
         box.className = "p-4 bg-slate-50 border border-slate-200 rounded-xl";
         box.innerHTML = `
@@ -617,13 +667,14 @@
     }
 
     function saveAnswer(qId, val) {
-      state.answers[qId] = val;
+      window.state.answers[qId] = val;
       saveState();
+      if (window.tracker) { const qObj = questionsData.find(x => x.id === qId); window.tracker.trackAnswer(qId, qObj ? qObj.title : qId, val); }
     }
 
     function updateCounts() {
       let now = 0, later = 0, excluded = 0;
-      state.modules.forEach(m => {
+      window.state.modules.forEach(m => {
         m.features.forEach(f => {
           if (f.status === 'now') now++;
           else if (f.status === 'later') later++;
@@ -639,7 +690,7 @@
     function generateSummaryText() {
       let text = `# TRAVEL OS — CLIENT SCOPE SELECTIONS\nGenerated: ${new Date().toLocaleString()}\n\n`;
 
-      state.modules.forEach(m => {
+      window.state.modules.forEach(m => {
         text += `=====================================================\n`;
         text += `MODULE: ${m.title}\n`;
         text += `=====================================================\n`;
@@ -673,13 +724,14 @@
       text += `10 CRITICAL SCOPE QUESTIONS - ANSWERS:\n`;
       text += `=====================================================\n`;
       questionsData.forEach(q => {
-        text += `${q.title}: ${state.answers[q.id] || "Not answered yet"}\n`;
+        text += `${q.title}: ${window.state.answers[q.id] || "Not answered yet"}\n`;
       });
 
       return text;
     }
 
     function copySummary() {
+      if (window.tracker) window.tracker.trackAction("copy_summary", "Copied summary");
       const summary = generateSummaryText();
       navigator.clipboard.writeText(summary).then(() => {
         alert("Scope Summary copied to clipboard! You can now paste it into WhatsApp or Email.");
@@ -690,7 +742,8 @@
     }
 
     function downloadJSON() {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(state, null, 2));
+      if (window.tracker) window.tracker.trackAction("download_json", "Downloaded JSON");
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(window.state, null, 2));
       const downloadAnchor = document.createElement('a');
       downloadAnchor.setAttribute("href", dataStr);
       downloadAnchor.setAttribute("download", `Travel_OS_Scope_${new Date().toISOString().slice(0,10)}.json`);
@@ -703,22 +756,27 @@
     // MODAL & RICH TEXT EDITING
     let editingModId = null;
     let editingFeatureId = null;
+    let editingTargetStatus = 'now';
 
-    function openFeatureEditor(modId, featId = null) {
+    function openFeatureEditor(modId, featId = null, targetStatus = 'now') {
       editingModId = modId;
       editingFeatureId = featId;
+      editingTargetStatus = targetStatus;
 
       const modalTitle = document.getElementById('modal-title-text');
       const deleteBtn = document.getElementById('modal-btn-delete');
       const saveBtn = document.getElementById('modal-btn-save');
       const nameInput = document.getElementById('modal-feature-name');
       const notesDiv = document.getElementById('modal-feature-notes');
+      const statusSelect = document.getElementById('modal-feature-status');
 
       if (!featId) {
         // CREATE NEW FEATURE MODE
-        if (modalTitle) modalTitle.innerText = "✨ Add Custom Feature & Notes";
+        const statusLabel = targetStatus === 'later' ? 'Deferred (Phase 2-3)' : 'Needed for Now';
+        if (modalTitle) modalTitle.innerHTML = `<span>✨</span> Add Feature &bull; <span class="font-medium text-slate-600">${statusLabel}</span>`;
         if (deleteBtn) deleteBtn.classList.add('hidden');
         if (saveBtn) saveBtn.innerText = "Add Feature";
+        if (statusSelect) statusSelect.value = targetStatus;
         nameInput.value = '';
         notesDiv.innerHTML = '';
       } else {
@@ -728,9 +786,10 @@
         const feat = mod.features.find(f => f.id === featId);
         if (!feat) return;
 
-        if (modalTitle) modalTitle.innerText = "✏️ Edit Feature & Notes";
+        if (modalTitle) modalTitle.innerHTML = `<span>✏️</span> Edit Feature & Notes`;
         if (deleteBtn) deleteBtn.classList.remove('hidden');
         if (saveBtn) saveBtn.innerText = "Save Changes";
+        if (statusSelect) statusSelect.value = feat.status || 'now';
         nameInput.value = feat.name || '';
         notesDiv.innerHTML = feat.notes || '';
       }
@@ -758,6 +817,8 @@
 
       const newName = document.getElementById('modal-feature-name').value.trim();
       const newNotes = document.getElementById('modal-feature-notes').innerHTML.trim();
+      const statusSelect = document.getElementById('modal-feature-status');
+      const selectedStatus = statusSelect ? statusSelect.value : (editingTargetStatus || 'now');
 
       if (!newName) {
         alert("Please enter a feature name / title.");
@@ -772,7 +833,7 @@
           id: newId,
           name: newName,
           notes: newNotes,
-          status: "now"
+          status: selectedStatus
         });
 
         saveState();
@@ -789,6 +850,11 @@
 
         feat.name = newName;
         feat.notes = newNotes;
+        if (selectedStatus && feat.status !== selectedStatus) {
+          const oldStatus = feat.status;
+          feat.status = selectedStatus;
+          if (window.tracker) window.tracker.trackMove(editingModId, feat.name, oldStatus, selectedStatus);
+        }
 
         saveState();
         renderFeaturesForModule(mod);
@@ -815,6 +881,9 @@
   
     // INITIAL LOAD
     renderModules();
+    const p = new URLSearchParams(window.location.search);
+    const c = p.get("client") || p.get("c");
+    if (c) { const b = document.getElementById("client-badge"); b.innerText = "Client: " + c; b.classList.remove("hidden"); }
   </script>
 </body>
 </html>
