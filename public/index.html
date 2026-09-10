@@ -109,7 +109,7 @@
         
         <!-- Modal Header -->
         <div class="px-5 py-3.5 border-b border-slate-100 flex items-center justify-between bg-slate-50">
-          <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2">
+          <h3 class="font-bold text-sm text-slate-900 flex items-center gap-2" id="modal-title-text">
             <span>✏️</span> Edit Feature & Notes
           </h3>
           <button onclick="closeFeatureEditor()" class="text-slate-400 hover:text-slate-600 rounded-lg p-1 text-base font-bold leading-none">&times;</button>
@@ -160,7 +160,7 @@
             <button type="button" onclick="closeFeatureEditor()" class="px-3.5 py-1.5 text-xs font-semibold text-slate-600 hover:text-slate-800 bg-white border border-slate-200 rounded-xl transition-all">
               Cancel
             </button>
-            <button type="button" onclick="saveFeatureFromModal()" class="px-4 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-sm transition-all">
+            <button type="button" id="modal-btn-save" onclick="saveFeatureFromModal()" class="px-4 py-1.5 text-xs font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-sm transition-all">
               Save Changes
             </button>
           </div>
@@ -582,22 +582,7 @@
     }
 
     function addCustomFeature(modId) {
-      const name = prompt("Enter feature name/requirement:");
-      if (!name || !name.trim()) return;
-
-      const mod = window.state.modules.find(m => m.id === modId);
-      if (!mod) return;
-
-      const newId = "custom-" + Date.now();
-      mod.features.push({
-        id: newId,
-        name: name.trim(),
-        status: "now"
-      });
-
-      saveState();
-      renderFeaturesForModule(mod);
-      if (window.tracker) window.tracker.trackAddFeature(modId, name.trim());
+      openFeatureEditor(modId, null);
     }
 
     function updateNotes(modId, text) {
@@ -726,20 +711,39 @@
     let editingModId = null;
     let editingFeatureId = null;
 
-    function openFeatureEditor(modId, featId) {
+    function openFeatureEditor(modId, featId = null) {
       editingModId = modId;
       editingFeatureId = featId;
 
-      const mod = window.state.modules.find(m => m.id === modId);
-      if (!mod) return;
-      const feat = mod.features.find(f => f.id === featId);
-      if (!feat) return;
+      const modalTitle = document.getElementById('modal-title-text');
+      const deleteBtn = document.getElementById('modal-btn-delete');
+      const saveBtn = document.getElementById('modal-btn-save');
+      const nameInput = document.getElementById('modal-feature-name');
+      const notesDiv = document.getElementById('modal-feature-notes');
 
-      document.getElementById('modal-feature-name').value = feat.name || '';
-      document.getElementById('modal-feature-notes').innerHTML = feat.notes || '';
+      if (!featId) {
+        // CREATE NEW FEATURE MODE
+        if (modalTitle) modalTitle.innerText = "✨ Add Custom Feature & Notes";
+        if (deleteBtn) deleteBtn.classList.add('hidden');
+        if (saveBtn) saveBtn.innerText = "Add Feature";
+        nameInput.value = '';
+        notesDiv.innerHTML = '';
+      } else {
+        // EDIT EXISTING FEATURE MODE
+        const mod = window.state.modules.find(m => m.id === modId);
+        if (!mod) return;
+        const feat = mod.features.find(f => f.id === featId);
+        if (!feat) return;
+
+        if (modalTitle) modalTitle.innerText = "✏️ Edit Feature & Notes";
+        if (deleteBtn) deleteBtn.classList.remove('hidden');
+        if (saveBtn) saveBtn.innerText = "Save Changes";
+        nameInput.value = feat.name || '';
+        notesDiv.innerHTML = feat.notes || '';
+      }
 
       document.getElementById('feature-modal').classList.remove('hidden');
-      document.getElementById('modal-feature-name').focus();
+      nameInput.focus();
     }
 
     function closeFeatureEditor() {
@@ -754,25 +758,52 @@
     }
 
     function saveFeatureFromModal() {
-      if (!editingModId || !editingFeatureId) return;
+      if (!editingModId) return;
 
       const mod = window.state.modules.find(m => m.id === editingModId);
       if (!mod) return;
-      const feat = mod.features.find(f => f.id === editingFeatureId);
-      if (!feat) return;
 
       const newName = document.getElementById('modal-feature-name').value.trim();
       const newNotes = document.getElementById('modal-feature-notes').innerHTML.trim();
 
-      if (newName) feat.name = newName;
-      feat.notes = newNotes;
+      if (!newName) {
+        alert("Please enter a feature name / title.");
+        document.getElementById('modal-feature-name').focus();
+        return;
+      }
 
-      saveState();
-      renderFeaturesForModule(mod);
-      closeFeatureEditor();
+      if (!editingFeatureId) {
+        // ADD NEW CUSTOM FEATURE
+        const newId = "custom-" + Date.now();
+        mod.features.push({
+          id: newId,
+          name: newName,
+          notes: newNotes,
+          status: "now"
+        });
 
-      if (window.tracker) {
-        window.tracker.trackFeatureEdit(editingModId, feat.name, !!newNotes);
+        saveState();
+        renderFeaturesForModule(mod);
+        closeFeatureEditor();
+
+        if (window.tracker) {
+          window.tracker.trackAddFeature(editingModId, newName, !!newNotes);
+        }
+      } else {
+        // UPDATE EXISTING FEATURE
+        const feat = mod.features.find(f => f.id === editingFeatureId);
+        if (!feat) return;
+
+        feat.name = newName;
+        feat.notes = newNotes;
+
+        saveState();
+        renderFeaturesForModule(mod);
+        closeFeatureEditor();
+
+        if (window.tracker) {
+          window.tracker.trackFeatureEdit(editingModId, feat.name, !!newNotes);
+        }
       }
     }
 
