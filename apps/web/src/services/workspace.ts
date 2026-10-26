@@ -29,7 +29,7 @@ export function createWorkspaceService(storage: StoragePort, now = () => Date.no
       const email = credentials.email.trim().toLowerCase()
       const user = DEMO_USERS.find(item =>
         item.email === email ||
-        (item.id === 'demo-admin' && (email === 'admin@travelos.com' || email === 'admin@travelos.org' || email === 'admin@travelos.example' || email === 'admin@meerasansthan.org')) ||
+        (item.id === 'demo-admin' && (email === 'luxury' || email === 'luxury@travelos.com' || email === 'luxury@travelos.org' || email === 'luxury@travelos.example' || email === 'admin' || email === 'admin@travelos.com' || email === 'admin@travelos.org' || email === 'admin@travelos.example' || email === 'admin@meerasansthan.org')) ||
         (item.id === 'demo-sales-riley' && email === 'riley@travelos.example') ||
         (item.id === 'demo-sales-nisha' && email === 'nisha@travelos.example')
       )

@@ -5,7 +5,7 @@ const db = require('./database');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const AUTH_USER = 'admin';
+const AUTH_USER = 'luxury';
 const AUTH_PASS = 'TravelOS@2026';
 
 app.use(cors());

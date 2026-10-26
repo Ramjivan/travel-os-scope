@@ -3,7 +3,7 @@ import type { DashboardData, DemoUser, Period, RoleId } from '../domain/workspac
 // These accounts are intentionally public synthetic demo identities, not real credentials.
 export const DEMO_PASSWORD = 'TravelDemo!2026'
 export const DEMO_USERS: DemoUser[] = [
-  { id: 'demo-admin', role: 'admin', name: 'Nishant', email: 'admin@travelos.example', roleLabel: 'Administrator', initials: 'N', scope: 'Organization overview', description: 'A view across the workspace' },
+  { id: 'demo-admin', role: 'admin', name: 'Nishant', email: 'luxury@travelos.com', roleLabel: 'Administrator', initials: 'N', scope: 'Organization overview', description: 'A view across the workspace' },
   { id: 'demo-manager', role: 'manager', name: 'Aishwarya', email: 'manager@travelos.example', roleLabel: 'Sales manager', initials: 'A', scope: 'Sales team overview', description: 'Team pipeline and performance' },
   { id: 'demo-sales', role: 'sales', name: 'Rikit', email: 'sales@travelos.example', roleLabel: 'Sales executive', initials: 'R', scope: 'Your sales overview', description: 'Your inquiries and follow-ups' },
   { id: 'demo-operations', role: 'ops-manager', name: 'Babita', email: 'operations@travelos.example', roleLabel: 'Operations manager', initials: 'B', scope: 'Operations team overview', description: 'Assign trips and monitor delivery' },
