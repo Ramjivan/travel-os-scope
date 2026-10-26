@@ -1,0 +1,193 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Lead pipeline, Value: 1
+					23 text Lead pipeline
+				24 text 2  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				25 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				26 button Refresh leads
+					85 image
+				28 button New lead
+					29 image
+					30 text New lead
+			31 container
+				32 checkbox New queries 0, Value: 0
+				33 checkbox In progress 1, Value: 0
+				34 checkbox On hold 0, Value: 0
+				35 checkbox Confirmed 1, Value: 0
+				36 checkbox Ongoing 0, Value: 0
+				37 checkbox Completed 0, Value: 0
+				38 checkbox Cancelled 0, Value: 0
+				39 checkbox All leads 2, Value: 1
+			40 container Lead filters
+				41 container
+					42 image
+					43 text field (settable)
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_33, Secondary Actions: Expand
+					46 text All owners
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_34, Secondary Actions: Expand
+					49 text All portal states
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_35, Secondary Actions: Expand
+					52 text All created dates
+				53 button Filters
+					54 image
+					55 text Filters
+				56 button Columns
+					57 image
+					58 text Columns
+				59 button Export leads
+					60 image
+			86 container
+				87 text 1  leads selected
+			88 button Bulk Edit (1)
+				89 image
+				90 text Bulk Edit (1)
+			61 container
+				62 table
+					63 row
+						91 cell
+							92 container
+								93 checkbox (settable, integer) Description: Select all, Value: 2
+						67 cell
+							68 text ID
+						69 cell Guest name
+							94 text GUEST NAME
+						71 cell
+							72 text MOBILE
+						73 cell
+							74 text EMAIL
+						75 cell Travel date
+							95 text TRAVEL DATE
+						77 cell
+							78 text DESTINATION
+						79 cell
+							80 text ASSIGNED TO
+						81 cell
+							82 text STATUS
+						83 cell
+							84 text PREVIEW
+					96 row
+						97 cell
+							98 container
+								99 checkbox (settable, integer) Description: Select lead 2, Value: 1
+						100 cell
+							101 link Description: #2, Value: tripboxcrm.com/leads/2
+						102 cell
+							103 text TOS-AUDIT Fictional Traveller B
+							104 text Social Media · 2N / 3D · 2 travellers
+						105 cell
+							106 image
+							107 text Not provided
+						108 cell
+							109 image
+							110 text traveller-b@example.invalid
+						111 cell
+							112 image
+							113 text 20 Nov 2026
+						114 cell
+							115 image
+							116 text Indonesia (Bali)
+						117 cell
+							118 image
+							119 text Nishar Arora
+						120 cell
+							121 text In Progress
+						122 cell
+							123 button Preview lead 2
+								124 image
+					125 row
+						126 cell
+							127 container
+								128 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						129 cell
+							130 link Description: #1, Value: tripboxcrm.com/leads/1
+						131 cell
+							132 text TOS-AUDIT Fictional Traveller A
+							133 text Social Media · 4N / 5D · 2 travellers
+						134 cell
+							135 image
+							136 text Not provided
+						137 cell
+							138 image
+							139 text traveller-a@example.invalid
+						140 cell
+							141 image
+							142 text 20 Nov 2026
+						143 cell
+							144 image
+							145 text Indonesia (Bali)
+						146 cell
+							147 image
+							148 text Nishar Arora
+						149 cell
+							150 text Confirmed
+						151 cell
+							152 button Preview lead 1
+								153 image
+				154 container leads pagination
+					155 container
+						156 text 1 – 2  of  2 leads
+					157 content list
+						158 container Previous Page
+							159 button (disabled) left
+								160 image left
+						161 text 1
+						162 container Next Page
+							163 button (disabled) right
+								164 image right
+						165 container Page Size
+							166 container
+								167 combo box (collapsed, settable) Description: Page Size, ID: rc_select_37, Secondary Actions: Expand
+								168 text 20 / page
+		169 container
+			170 container Bulk Edit Leads (1 selected)
+				171 container
+					172 button Close
+						173 container Close
+							174 image close
+					175 image
+					176 text Bulk Edit Leads ( 1  selected)
+					177 text Note:
+					178 text  Only fields with values will be updated. Empty fields will be ignored. This action will update  1  lead(s).
+					179 text Assign To
+					180 container
+						181 combo box (collapsed, settable) Assign To, ID: assignedTo, Secondary Actions: Expand
+						182 text Select user to assign leads to
+					183 text Status
+					184 container
+						185 combo box (collapsed, settable) Status, ID: status, Secondary Actions: Expand
+						186 text Change status
+					187 heading Custom Fields, Value: 4
+						188 text Custom Fields
+					189 text TOS-AUDIT Service preference B
+					190 container
+						191 combo box (collapsed, settable) TOS-AUDIT Service preference B, ID: queryField_tos_audit_service_preference_b, Secondary Actions: Expand
+						192 text TOS-AUDIT Private
+					193 button Cancel
+					194 button loading Update Leads
+						195 image loading
+						196 text Update Leads
+
+The focused UI element is 194 button loading Update Leads

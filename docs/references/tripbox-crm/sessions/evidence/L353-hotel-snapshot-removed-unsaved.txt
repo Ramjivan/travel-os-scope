@@ -1,0 +1,221 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2d_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 link Description: #2, Value: tripboxcrm.com/leads/2
+					26 image
+					27 text Edit itinerary
+				28 heading Itinerary workspace, Value: 1
+					29 text Itinerary workspace
+				30 text Proposed for  TOS-AUDIT Fictional Traveller B
+				31 button Quote with AI
+					32 image
+					33 text Quote with AI
+				34 button Approve & start booking
+			35 container
+				36 image
+				37 text Route
+				38 text Indonesia (Bali)
+				39 text Country-level route
+				40 text Travel dates
+				41 container
+					42 text 20 Nov – 22 Nov 2026 ·  2  nights
+				43 image
+				44 text Guests
+				45 container
+					46 text 2  adults
+				47 text Currency
+				48 text INR
+				49 button Trip details
+					50 image
+					51 text Trip details
+				52 button Add stops
+					53 image
+					54 text Add stops
+				55 container
+					56 link Description: Hotels, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#hotels
+					57 link Description: Daily plan, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#activities
+					58 link Description: Travel, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#travel
+					59 link Description: Custom services, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#custom-services
+					60 link Description: Details, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#extras
+					61 link Description: Pricing, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#markup
+					62 link Description: Cost, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#cost
+				63 container hotels
+					64 image
+					65 heading Hotels, Value: 3
+						66 text Hotels
+					67 container
+						68 text 0  accommodation stays
+					69 button Add hotel
+						70 image
+						71 text Add hotel
+					72 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					232 text No hotels added yet
+					233 text Add accommodation from the filtered inventory.
+					88 container
+						89 image
+						90 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					91 button Browse
+						92 image
+						93 text Browse
+				94 container activities
+					95 image
+					96 heading Daily plan, Value: 3
+						97 text Daily plan
+					98 text Activities and ground transport in one timeline
+					99 container
+						100 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						101 container
+							102 container
+								103 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							104 button Activities
+								105 image
+								106 text Activities
+							107 button Transport
+								108 image
+								109 text Transport
+						110 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						111 container
+							112 container
+								113 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							114 button Activities
+								115 image
+								116 text Activities
+							117 button Transport
+								118 image
+								119 text Transport
+						120 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						121 container
+							122 container
+								123 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							124 button Activities
+								125 image
+								126 text Activities
+							127 button Transport
+								128 image
+								129 text Transport
+				130 container daily-transports
+					131 image
+					132 heading Full day transport, Value: 2
+						133 text Full day transport
+					134 text Cab services charged per day across your selected dates
+					135 container
+						136 image
+						137 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_8, Secondary Actions: Expand
+					138 button Browse inventory
+						139 image
+						140 text Browse inventory
+					141 image
+					142 button TOS-AUDIT Fictional Full Day Transport B Full Day Ubud · 20 Nov–22 Nov · Draft
+						143 text TOS-AUDIT Fictional Full Day Transport B
+						144 text Full Day
+						145 text Ubud · 20 Nov–22 Nov · Draft
+					146 button INR 4,500
+					147 button (disabled) Move Full Day transport up
+						148 image
+					149 button (disabled) Move Full Day transport down
+						150 image
+					151 button Edit Full Day transport
+						152 image
+					153 button Remove Full Day transport
+						154 image
+				155 container travel
+					156 image
+					157 heading Flights, Value: 3
+						158 text Flights
+					159 container
+						160 text 1  flight segments
+					161 text 1
+					162 button Fictional departure airport → Fictional arrival airport Draft TOS-AUDIT Fictional Airline B TOS-AUDIT-001 · Timing not set · Direct
+						163 text Fictional departure airport → Fictional arrival airport
+						164 text Draft
+						165 text TOS-AUDIT Fictional Airline B TOS-AUDIT-001 · Timing not set · Direct
+					166 button INR 500
+					167 button Edit flight 1
+						168 image
+					169 button Remove flight 1
+						170 image
+					171 button Add flight
+						172 image
+						173 text Add flight
+				174 container Description: Custom services, ID: custom-services
+					175 image
+					176 heading Custom services, Value: 3
+						177 text Custom services
+					178 text Visas, insurance, and other trip arrangements
+					179 button Add service
+						180 image
+						181 text Add service
+					182 text No custom services yet
+					183 text Use Add service to include an arrangement with its own details and pricing.
+				184 container
+					185 button Inclusions & policies 1 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						186 image
+						187 text Inclusions & policies
+						188 text 1 inclusions · 0 exclusions · 0 policy sections
+						189 image
+					190 button Markup & taxes 0% markup · No taxes, ID: markup
+						191 image
+						192 text Markup & taxes
+						193 text 0% markup · No taxes
+						194 image
+					195 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						196 image
+						197 text Cost breakdown
+						198 text Hotels, activities, transport, flights and custom services
+						199 image
+				200 container
+					201 text LIVE QUOTE Live calculation
+					202 heading Indonesia (Bali), Value: 2
+						203 text Indonesia (Bali)
+					204 image
+					205 text 20 Nov  to  22 Nov 2  night s
+					206 container mobile-quote-details
+						207 image
+						208 text TOS-AUDIT Fictional Traveller B
+						209 container
+							210 text 2  Adults
+						211 heading Quote composition, Value: 3
+							212 text Quote composition
+						213 text Base, margin, taxes
+						214 container Quote cost composition
+						215 text Base cost ₹5,000 Markup ₹0  ( 0 %) Selling price ₹5,000 Per adult ₹2,500
+				216 container
+					217 heading Actions, Value: 3
+						218 text Actions
+					219 text Payment plan set ₹0 Unaccounted amount ₹5,000
+					220 button Save Itinerary
+						221 image
+						222 text Save Itinerary
+					223 button Payment Management
+						224 image
+						225 text Payment Management
+					226 button (disabled) Download Itinerary
+						227 image
+						228 text Download Itinerary
+					229 button (disabled) Quick Share
+						230 image
+						231 text Quick Share
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a

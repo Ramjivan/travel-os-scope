@@ -1,0 +1,147 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/transports-repository/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Transports Repository
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Create transport, Value: 1
+				60 text Create transport
+			61 text Manage service details, vehicles, pricing, and seasonal rates.
+			62 button Back to transports
+			63 container
+				64 heading Transport overview, Value: 2
+					65 text Transport overview
+				66 text Transport Image
+				67 button Upload image
+					68 image
+					69 text Upload image
+				70 container
+					71 text * Transport Name
+				72 text field (settable) * Transport Name, ID: name
+				73 container
+					74 text * Service Type
+				75 container
+					76 combo box (collapsed, settable) * Service Type, ID: serviceType, Secondary Actions: Expand
+					77 text Cab
+				78 container
+					79 text * Rate Basis
+				80 container
+					81 combo box (collapsed, settable) * Rate Basis, ID: rateBasis, Secondary Actions: Expand
+					82 text Fixed
+				83 container
+					84 text Status
+					85 image question-circle
+				86 switch Description: Status question-circle, Value: 1, ID: isActive
+					87 text Active
+					88 text Inactive
+				89 container
+					90 text Visible to agencies
+					91 image question-circle
+				92 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+					93 text Visible
+					94 text Internal only
+				95 text Description (Optional)
+				96 container
+					97 text entry area (settable) Description (Optional), ID: description
+					98 text 0 / 3000
+				99 heading Linked activities, Value: 2
+					100 text Linked activities
+				101 text Itinerary builders can optionally add these activities together with this transport.
+				102 container
+					103 combo box (collapsed, settable) ID: rc_select_3, Secondary Actions: Expand
+					104 text Search active activities to link
+				105 container
+					106 text 0  of  20  linked activities selected.
+				107 text No linked activities configured.
+				108 heading Location and supplier, Value: 2
+					109 text Location and supplier
+				110 container
+					111 text * Country
+				112 container Country
+					113 container
+						114 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+						115 text Vietnam, Thailand, etc.
+				116 container
+					117 text * City
+				118 container City
+					119 container
+						120 combo box (disabled, collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+						121 text Bangkok, Hanoi, etc.
+				122 text Preferred Supplier
+				123 container
+					124 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+					125 text Select a supplier
+				126 heading Inclusions and exclusions, Value: 2
+					127 text Inclusions and exclusions
+				128 heading Inclusions, Value: 3
+					129 text Inclusions
+				130 button Add Inclusion
+					131 image
+					132 text Add Inclusion
+				133 heading Exclusions, Value: 3
+					134 text Exclusions
+				135 button Add Exclusion
+					136 image
+					137 text Add Exclusion
+				138 heading Vehicles and rates, Value: 2
+					139 text Vehicles and rates
+				140 button Add Vehicle
+					141 image
+					142 text Add Vehicle
+				143 button Cancel
+				144 button Save Changes
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository/new

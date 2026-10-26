@@ -1,0 +1,58 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 heading Reports, Value: 1
+				22 text Reports
+			23 text Organisation view Review leads, conversions, team performance, payments, and saved analyses.
+			24 button Create report
+				25 image
+				26 text Create report
+		27 container Available reports
+			28 container
+				29 image
+				30 heading Available reports, Value: 2, ID: available-reports
+					31 text Available reports
+				32 text Prepared views with consistent metric definitions
+			33 text Leads
+			34 link Description: Lead overview Volume, conversion, cancellations, untouched leads, and current status., Value: tripboxcrm.com/reports/preset/lead-overview
+			35 link Description: Lead status and aging Current pipeline status, age bands, and open leads needing attention., Value: tripboxcrm.com/reports/preset/status-aging
+			36 text Conversion
+			37 link Description: Conversion trend Created-lead cohorts and their current conversion performance over time., Value: tripboxcrm.com/reports/preset/conversion-trend
+			38 link Description: Source and campaign effectiveness Compare acquisition sources, forms, ad sets, and origins., Value: tripboxcrm.com/reports/preset/source-effectiveness
+			39 link Value: tripboxcrm.com/reports/preset/market-performance, Description: Destination and market performance See which destinations and departure cities produce qualified business.
+			40 text Team
+			41 link Description: User performance and workload Assigned workload, conversions, response time, proposals, and revenue., Value: tripboxcrm.com/reports/preset/user-performance
+			42 link Description: Follow-up and response First-response speed, follow-up coverage, and idle-lead rate., Value: tripboxcrm.com/reports/preset/followup-performance
+			43 text Payments
+			44 link Description: PNL report Itinerary pricing and verified payments for confirmed, ongoing, and completed files., Value: tripboxcrm.com/reports/preset/pnl-report
+			45 link Value: tripboxcrm.com/reports/preset/verified-payment-schedules-summary, Description: Verified Payment Schedules Summary Verified collections, supplier payments, and balance for confirmed, ongoing, and completed files.
+			46 link Value: tripboxcrm.com/reports/preset/supplier-payments-summary, Description: Suppliers Payments Report Scheduled, paid, and pending supplier payouts for confirmed, ongoing, and completed files.
+			47 text Insights
+			48 link Description: Best and least performing factors Find high-performing values and factors that need attention., Value: tripboxcrm.com/reports/preset/factor-performance
+		49 container Saved reports
+			50 container
+				51 heading Saved reports, Value: 2, ID: saved-reports
+					52 text Saved reports
+				53 text Personal and shared definitions
+				54 image
+			55 link Description: TOS-AUDIT Personal report A Personal report Created by Nishar Arora, Value: tripboxcrm.com/reports/saved/50b9aba7-632c-47b7-bf6e-8a27c761315c
+
+The focused UI element is 24 button Create report

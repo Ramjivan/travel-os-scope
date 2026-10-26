@@ -1,0 +1,109 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5/confirm".
+0 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5/confirm
+	1 container
+		2 container Primary navigation
+			3 container
+				4 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				5 image
+				6 text Luxury Indo Tours
+				7 button Quotes
+					8 text Quotes
+					9 image
+				10 button Leads
+					11 text Leads
+					12 image
+				13 link Description: Payments, Value: tripboxcrm.com/payments
+				14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				16 link Description: Reports, Value: tripboxcrm.com/reports
+				17 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+					18 text Open account menu
+					19 text NA
+					20 text Nishar Arora
+					21 image
+		22 container
+			23 container Breadcrumb
+				24 link Description: Leads, Value: tripboxcrm.com/leads
+				25 image
+				26 link Description: #1, Value: tripboxcrm.com/leads/1
+				27 image
+				28 link Description: Itinerary a031689e42f5, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				29 image
+				30 text Confirm
+			31 heading Confirm itinerary, Value: 1
+				32 text Confirm itinerary
+			33 text Payment schedule pending
+			34 link Description: Back to itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+			35 button (disabled) Confirm itinerary
+				36 image
+				37 text Confirm itinerary
+		38 container
+			39 text Lead and itinerary
+			40 heading TOS-AUDIT Fictional Traveller A, Value: 2
+				41 text TOS-AUDIT Fictional Traveller A
+			42 text Review the client collection schedule before this proposal becomes the active operational itinerary. ₹31,240
+			43 image
+			44 text Destination Indonesia (Bali)
+			45 image
+			46 text Duration 4  nights
+			47 image
+			48 text Travellers 2  total
+			49 image
+			50 text Status Proposal ready
+			51 text Collection target
+			52 text ₹31,240
+			53 text Scheduled 49 %
+		54 container
+			55 heading Payment schedule, Value: 2
+				56 text Payment schedule
+			57 text 1  milestone Build the client collection plan that will be attached to this confirmed itinerary.
+			58 button Add remaining
+				59 image
+				60 text Add remaining
+			61 button Add schedule
+				62 image
+				63 text Add schedule
+			64 image
+			65 text Collection is not fully allocated
+			66 container
+				67 text ₹15,840  is still outside the schedule.
+			68 button Add remaining
+			69 text 01
+			70 text TOS-AUDIT Fictional collection plan
+			71 text Existing lead payment schedule
+			72 button Remove
+				73 image
+				74 text Remove
+			75 text Description
+			76 text field (disabled) TOS-AUDIT Fictional collection plan
+			77 text Amount
+			78 container
+				79 text INR
+				80 stepper (disabled, settable, integer) Value: 15400, Details: 15,400
+			81 text Due date
+			82 container
+				83 text field (disabled) 2026-11-10
+				84 image calendar
+		85 container
+			86 heading Confirmation check, Value: 2
+				87 text Confirmation check
+			88 text The itinerary can be confirmed once the collection schedule balances.
+			89 text Selling price ₹31,240 Scheduled ₹15,400 Remaining ₹15,840
+			90 image
+			91 text Add the remaining amount to continue
+			92 button (disabled) Confirm itinerary
+				93 image
+				94 text Confirm itinerary
+			95 heading What happens next, Value: 2
+				96 text What happens next
+			97 image
+			98 text Payment schedules created
+			99 text Client receipts are tracked against the milestones above.
+			100 image
+			101 text Operations workspace opens
+			102 text Hotels, activities, transfers, and travel items become available for supplier booking.
+			103 image
+			104 text Lead becomes confirmed
+			105 text The team sees this as the active trip plan for execution.
+
+The focused UI element is 0 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5/confirm

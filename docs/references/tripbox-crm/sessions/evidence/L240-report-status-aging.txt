@@ -1,0 +1,97 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/preset/status-aging".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/status-aging
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Reports, Value: tripboxcrm.com/reports
+				23 image
+				24 text Lead status and aging
+			25 heading Lead status and aging, Value: 1
+				26 text Lead status and aging
+			27 text Organisation data Pipeline volume and lead age since the enquiry was created.
+			28 container Report date range
+				29 container
+					30 combo box (collapsed, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Expand
+					31 text Last 30 days
+			32 button Refresh report
+				33 image
+			34 button Export XLSX
+				35 image
+				36 text Export XLSX
+		37 container Current pipeline
+			38 container
+				39 heading Current pipeline, Value: 2, ID: report-section-status
+					40 text Current pipeline
+				41 text Current lead status, not historical stage movement.
+			42 container Current pipeline chart with 1 data points: Leads, Open leads, Converted leads, Conversion rate.
+			43 table Current pipeline data table
+				44 row
+					45 cell
+						46 text Lead status
+					47 cell
+						48 text Leads
+					49 cell
+						50 text Open leads
+					51 cell
+						52 text Converted leads
+					53 cell
+						54 text Conversion rate
+				55 row
+					56 cell
+						57 text confirmed
+					58 cell
+						59 text 1
+					60 cell
+						61 text 0
+					62 cell
+						63 text 1
+					64 cell
+						65 text 100%
+		66 container Lead age
+			67 container
+				68 heading Lead age, Value: 2, ID: report-section-aging
+					69 text Lead age
+				70 text Age is measured from lead creation. Idle means open and unchanged for five days.
+			71 container Lead age chart with 1 data points: Leads, Open leads, Idle leads, Untouched leads.
+			72 table Lead age data table
+				73 row
+					74 cell
+						75 text Lead age
+					76 cell
+						77 text Leads
+					78 cell
+						79 text Open leads
+					80 cell
+						81 text Idle leads
+					82 cell
+						83 text Untouched leads
+				84 row
+					85 cell
+						86 text 0–2 days
+					87 cell
+						88 text 1
+					89 cell
+						90 text 0
+					91 cell
+						92 text 0
+					93 cell
+						94 text 0
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/status-aging

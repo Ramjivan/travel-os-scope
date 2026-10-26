@@ -1,0 +1,34 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/calendar".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1o_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 heading Trip calendar, Value: 1
+				25 text Trip calendar
+			26 text 0  trips in the visible week Track active travel windows and inspect day-by-day itinerary activity across the lead pipeline.
+			27 link Description: Lead pipeline, Value: tripboxcrm.com/leads
+			28 checkbox Weekly, Value: 1
+			29 checkbox Monthly, Value: 0
+			30 button Refresh calendar
+				31 image loading
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar

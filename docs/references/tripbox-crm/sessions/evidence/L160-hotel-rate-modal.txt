@@ -1,0 +1,206 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository/89a6af2b-1773-41aa-b2a5-7d2fa4548d3e".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository/89a6af2b-1773-41aa-b2a5-7d2fa4548d3e
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1l_, Secondary Actions: Expand
+					7 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					8 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1q_, Secondary Actions: Expand
+			9 container Breadcrumb
+				10 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				11 image
+				12 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				13 image
+				14 text TOS-AUDIT Fictional Hotel B
+			15 container Organisation settings section
+				16 container
+					17 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+					18 text Hotels Repository
+			19 container
+				20 heading Edit Hotel, Value: 1
+					21 text Edit Hotel
+				22 text Update property details, meal plans, and seasonal pricing
+				23 button Back to hotels
+				24 container
+					25 heading Hotel overview, Value: 2
+						26 text Hotel overview
+					27 text Hero Image
+					28 button Upload image
+						29 image
+						30 text Upload image
+					31 container
+						32 text * Hotel Name
+					33 text field (settable) * Hotel Name, Value: TOS-AUDIT Fictional Hotel B, ID: name
+					34 container
+						35 text * Category
+					36 container
+						37 combo box (collapsed, settable) * Category, ID: category, Secondary Actions: Expand
+						38 text 4 Star
+					39 container
+						40 text Hotel Details Link
+						41 image question-circle
+					42 text field (settable) Hotel Details Link question-circle, ID: link
+					43 container
+						44 text Status
+						45 image question-circle
+					46 switch Description: Status question-circle, Value: 1, ID: isActive
+						47 text Active
+						48 text Inactive
+					49 container
+						50 text Visible to agencies
+						51 image question-circle
+					52 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						53 text Visible
+						54 text Internal only
+					55 heading Location and partnerships, Value: 2
+						56 text Location and partnerships
+					57 container
+						58 text * Country
+					59 container Country
+						60 container
+							61 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+							62 text Indonesia (Bali)
+					63 container
+						64 text * City
+					65 container City
+						66 container
+							67 combo box (collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+							68 text Ubud
+					69 text Preferred Supplier
+					70 container
+						71 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						72 text Select a supplier
+					73 heading Voucher information, Value: 2
+						74 text Voucher information
+					75 text Hotel address
+					76 text entry area (settable) Hotel address, ID: address
+					77 text Hotel phone
+					78 text field (settable) Hotel phone
+					79 text Hotel email
+					80 text field (settable) Hotel email
+					81 text Important information
+					82 container
+						83 checkbox Description: Bold, Value: 0
+							84 text B
+						85 checkbox Description: Bullet list, Value: 0
+							86 image
+						87 container Important information
+							88 text Add guest-facing information.
+					89 heading Meal plans, Value: 2
+						90 text Meal plans
+					91 container mealPlans
+						92 container
+							93 checkbox (settable, integer) Description: Bed & Breakfast (BB)  , Value: 1
+							94 text Bed & Breakfast (BB)
+						95 container
+							96 checkbox (settable, integer) Description: Half Board (HB)  , Value: 0
+							97 text Half Board (HB)
+						98 container
+							99 checkbox (settable, integer) Description: Full Board (FB)  , Value: 0
+							100 text Full Board (FB)
+						101 container
+							102 checkbox (settable, integer) Description: Half Board (MAP)  , Value: 0
+							103 text Half Board (MAP)
+						104 container
+							105 checkbox (settable, integer) Description: All Meals (AP)  , Value: 0
+							106 text All Meals (AP)
+					107 text Meal plans determine the rate slabs available in the rates modal. Select at least one to manage pricing.
+					108 heading Rooms and rates, Value: 2
+						109 text Rooms and rates
+					110 text Configure room types and launch the rates modal to enter base and seasonal tariffs.
+					111 container
+						112 container
+							113 text * Room Type
+						114 container
+							115 combo box (collapsed, settable) * Room Type, Value: TOS-AUDIT Standard Room, ID: rooms_0_roomType, Secondary Actions: Expand
+						116 text Pax per Room
+						117 stepper (settable, integer) Pax per Room, Value: 2, ID: rooms_0_paxPerRoom
+						118 button Manage Rates
+							119 image
+							120 text Manage Rates
+						121 button Remove
+							122 image
+							123 text Remove
+					124 button Add Room
+						125 image
+						126 text Add Room
+					127 heading Inclusions and exclusions, Value: 2
+						128 text Inclusions and exclusions
+					129 heading Inclusions, Value: 3
+						130 text Inclusions
+					131 button Add Inclusion
+						132 image
+						133 text Add Inclusion
+					134 heading Exclusions, Value: 3
+						135 text Exclusions
+					136 button Add Exclusion
+						137 image
+						138 text Add Exclusion
+					139 button Cancel
+					140 button Save Changes
+		141 container
+			142 container Configure Rates Set regular and seasonal rates per meal plan
+				143 container Close Configure Rates Set regular and seasonal rates per meal plan BB Discard Done
+					144 container
+						145 button Close
+							146 container Close
+								147 image close
+						148 text Configure Rates
+						149 text Set regular and seasonal rates per meal plan
+						150 tab group
+							151 container
+								152 tab (selected, settable, boolean) BB, Value: 1, ID: rc-tabs-0-tab-BB
+						153 container Description: BB, ID: rc-tabs-0-panel-BB
+							154 heading Standard Rates, Value: 6
+								155 text Standard Rates
+							156 text INR
+							157 text Per Room
+							158 container
+								159 text INR
+								160 button Increase Value
+									161 image up
+								162 button (disabled) Decrease Value
+									163 image down
+								164 stepper (settable, integer) Value: 0, ID: rooms_0_BB_tariff_INR_costForAdult
+							165 text Extra Bed
+							166 container
+								167 text INR
+								168 button Increase Value
+									169 image up
+								170 button (disabled) Decrease Value
+									171 image down
+								172 stepper (settable, integer) Value: 0, ID: rooms_0_BB_tariff_INR_costForCWB
+							173 text Extra Bed Child
+							174 container
+								175 text INR
+								176 button Increase Value
+									177 image up
+								178 button (disabled) Decrease Value
+									179 image down
+								180 stepper (settable, integer) Value: 0, ID: rooms_0_BB_tariff_INR_costForCWEB
+							181 text No Bed
+							182 container
+								183 text INR
+								184 button Increase Value
+									185 image up
+								186 button (disabled) Decrease Value
+									187 image down
+								188 stepper (settable, integer) Value: 0, ID: rooms_0_BB_tariff_INR_costForCNB
+							189 text Infant Rate
+							190 container
+								191 text INR
+								192 button Increase Value
+									193 image up
+								194 button (disabled) Decrease Value
+									195 image down
+								196 stepper (settable, integer) Value: 0, ID: rooms_0_BB_tariff_INR_costForInfant
+							197 heading Seasonal Date-specific Rates, Value: 6
+								198 text Seasonal Date-specific Rates
+							199 button Add Seasonal Rate
+								200 image
+								201 text Add Seasonal Rate
+						202 button Discard
+						203 button Done
+
+The focused UI element is 143 container Close Configure Rates Set regular and seasonal rates per meal plan BB Discard Done

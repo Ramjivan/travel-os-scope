@@ -1,0 +1,125 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1?tab=itineraries".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1?tab=itineraries
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1l_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Leads, Value: tripboxcrm.com/leads
+				23 image
+				24 text # 1
+			25 heading TOS-AUDIT Fictional Traveller A, Value: 1
+				26 text TOS-AUDIT Fictional Traveller A
+			27 text Confirmed via  Social Media
+			28 button View audit history
+				29 image
+			30 link Description: View itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+			31 button Edit lead
+				32 image
+				33 text Edit lead
+		34 container
+			35 text Lead # 1 Created  a day ago  · Updated an hour ago
+			36 button Confirmed
+				37 image
+				38 text Confirmed
+			39 heading CONTACT, Value: 2
+				40 text CONTACT
+			41 text Linked customer:
+			42 button TOS-AUDIT Fictional Traveller A
+			43 image
+			44 text Not provided
+			45 image
+			46 button Email traveller-a@example.invalid
+			47 heading JOURNEY, Value: 2
+				48 text JOURNEY
+			49 image
+			50 text Indonesia (Bali)
+			51 image
+			52 text 20 Nov 2026
+			53 image
+			54 container
+				55 text From  Fictional Departure City
+			56 heading TRIP SCOPE, Value: 2
+				57 text TRIP SCOPE
+			58 image
+			59 container
+				60 text 4  nights ·  5  days
+			61 image
+			62 container
+				63 text 2  traveller s  ( 2  adult s )
+			64 heading OWNERSHIP, Value: 2
+				65 text OWNERSHIP
+			66 text Direct customer
+			67 text Assigned to
+			68 container
+				69 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_0, Secondary Actions: Expand
+				70 text Nishar Arora
+			71 text Tags
+			72 container
+				73 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_1, Secondary Actions: Expand
+				74 text Add tags
+		75 container
+			76 tab group
+				77 container
+					78 tab (selectable, settable, boolean) Overview, Value: 0, ID: rc-tabs-0-tab-overview
+					79 tab (selected, settable, boolean) Itineraries 1, Value: 1, ID: rc-tabs-0-tab-itineraries
+					80 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-0-tab-bookings
+					81 tab (selectable, settable, boolean) Payments, Value: 0, ID: rc-tabs-0-tab-payments
+					82 tab (selectable, settable, boolean) Documents, Value: 0, ID: rc-tabs-0-tab-documents
+					83 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-0-tab-comments
+			84 container Description: Itineraries 1, ID: rc-tabs-0-panel-itineraries
+				85 heading Itinerary workspace, Value: 2
+					86 text Itinerary workspace
+				87 text Compare versions, confirm the final plan, and share documents.
+				88 segmented control
+					89 container
+						90 radio button (settable, integer) Description: Confirmed 1, Value: 1
+						91 text Confirmed 1
+						92 radio button (settable, integer) Description: Cancelled 0, Value: 0
+						93 text Cancelled 0
+						94 radio button (settable, integer) Description: All 1, Value: 0
+						95 text All 1
+				96 link Open itinerary 1
+					97 image
+					98 text Itinerary 
+					99 text 1
+					100 text Confirmed
+					101 text Indonesia (Bali)
+					102 image
+					103 text 4
+					104 text N / 
+					105 text 5
+					106 text D
+					107 text  · 20 Nov 2026
+					108 image
+					109 text Updated an hour ago
+					110 image
+					111 text Nishar Arora
+					112 text ₹31,240
+					113 container
+						114 link tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+						115 button
+							116 image
+						117 button
+							118 image
+						119 button
+							120 image
+						121 button
+							122 image
+
+The focused UI element is 79 tab (selected, settable, boolean) Itineraries 1, Value: 1, ID: rc-tabs-0-tab-itineraries

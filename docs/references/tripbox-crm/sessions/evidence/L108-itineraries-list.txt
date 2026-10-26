@@ -1,0 +1,125 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itineraries".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itineraries
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_15_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 heading Itineraries, Value: 1
+				25 text Itineraries
+			26 text 1  in this view Review proposals, confirmed trips, traveller details, and commercial values in one workspace.
+			27 button Refresh itineraries
+				28 image
+			29 button Columns
+				30 image
+				31 text Columns
+			32 button Export
+				33 image
+				34 text Export
+		35 container
+			36 checkbox All itineraries 1, Value: 1
+			37 checkbox Proposed, Value: 0
+			38 checkbox Confirmed, Value: 0
+		39 container Itinerary filters
+			40 container
+				41 image
+				42 text field (settable)
+			43 container
+				44 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				45 text All lead statuses
+			46 container
+				47 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				48 text Recently created
+		49 container
+			50 table
+				51 row
+					52 cell Lead ID
+						53 text LEAD ID
+					54 cell Guest Details
+						55 text GUEST DETAILS
+					56 cell Destination
+						57 text DESTINATION
+						58 button filter
+							59 image filter
+					60 cell Pax Details
+						61 text PAX DETAILS
+					62 cell Nights
+						63 text NIGHTS
+					64 cell Total Cost (incl. Markup & Tax)
+						65 text TOTAL COST (INCL. MARKUP & TAX)
+					66 cell Itinerary Status
+						67 text ITINERARY STATUS
+						68 button filter
+							69 image filter
+					70 cell Confirmed At
+						71 text CONFIRMED AT
+					72 cell Created
+						73 text CREATED
+					74 cell
+						75 text ACTIONS
+				76 row
+					77 cell
+						78 link Description: #1, Value: tripboxcrm.com/leads/1
+					79 cell
+						80 text TOS-AUDIT Fictional Traveller A
+						81 text traveller-a@example.invalid
+						82 text Confirmed
+					83 cell
+						84 image
+						85 text Indonesia (Bali)
+						86 container
+							87 text Start:  20 Nov 2026
+					88 cell
+						89 image
+						90 text 2  guests
+						91 text 2A
+					92 cell
+						93 container
+							94 text 4 N /  5 D
+					95 cell
+						96 text ₹18,040
+						97 text INR
+					98 cell
+						99 text Proposed
+					100 cell
+						101 text Not Confirmed
+					102 cell
+						103 text 09 Oct 2026
+						104 text 44 minutes ago
+					105 cell
+						106 button
+							107 image
+			108 container itineraries pagination
+				109 container
+					110 text 1 – 1  of  1 itineraries
+				111 content list
+					112 container Previous Page
+						113 button (disabled) left
+							114 image left
+					115 text 1
+					116 container Next Page
+						117 button (disabled) right
+							118 image right
+					119 container Page Size
+						120 container
+							121 combo box (collapsed, settable) Description: Page Size, ID: rc_select_2, Secondary Actions: Expand
+							122 text 20 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itineraries

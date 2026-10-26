@@ -1,0 +1,88 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Reports, Value: tripboxcrm.com/reports
+				23 image
+				24 text Create report
+			25 heading Create custom report, Value: 1
+				26 text Create custom report
+			27 text Guided analysis
+			28 button Run preview
+				29 image
+				30 text Run preview
+			31 button Save report
+				32 image
+				33 text Save report
+		34 container
+			35 heading Report definition, Value: 2
+				36 text Report definition
+			37 text Choose one grouping and up to four measures.
+			38 text Name
+			39 text field (settable) Name, ID: report-name
+			40 text Description
+			41 text entry area (settable) Description, ID: report-description
+			42 text Share with organisation Owners and admins can manage shared reports.
+			43 switch 0
+			44 text Date range
+			45 container
+				46 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				47 text Rolling period
+			48 container
+				49 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				50 text Last 30 days
+			51 text Group by
+			52 container
+				53 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				54 text No grouping, show totals
+			55 text Measures
+			56 container
+				57 text Leads
+				58 text Conversion rate
+				59 combo box (collapsed, settable) ID: rc_select_3, Secondary Actions: Expand
+			60 text 2 /4 selected
+			61 text Presentation
+			62 container
+				63 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+				64 text Table chart
+			65 text Maximum rows
+			66 container
+				67 button Increase Value
+					68 image up
+				69 button Decrease Value
+					70 image down
+				71 stepper (settable, integer) 25
+		72 container
+			73 container
+				74 heading Filters, Value: 2
+					75 text Filters
+				76 text All filters are combined and applied within the selected date range.
+				77 button Add filter
+					78 image
+					79 text Add filter
+			80 text No filters. The report includes every accessible lead in the date range.
+			81 image
+			82 heading Preview the report, Value: 2
+				83 text Preview the report
+			84 text Run a preview after choosing the grouping, measures, and filters. Saving preserves the definition, not a snapshot of the results.
+			85 button Run preview
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/new

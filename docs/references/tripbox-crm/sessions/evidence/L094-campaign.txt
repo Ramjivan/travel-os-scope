@@ -1,0 +1,86 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1n_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 container Breadcrumb
+				25 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				26 image
+				27 text TOS-AUDIT Fictional outreach A
+			28 heading TOS-AUDIT Fictional outreach A, Value: 1
+				29 text TOS-AUDIT Fictional outreach A
+			30 text pending 0  contacts
+			31 button Refresh campaign
+				32 image
+			33 button Manage team
+				34 image
+				35 text Manage team
+			36 button Add contacts
+				37 image
+				38 text Add contacts
+		39 container
+			40 text CONTACTS 0 TEAM MEMBERS 0 SELECTED 0 CREATED 09/10/2026
+		41 container Contact filters
+			42 container
+				43 image
+				44 text field (settable)
+			45 container
+				46 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				47 text All statuses
+			48 container
+				49 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				50 text All outcomes
+			51 container
+				52 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				53 text All assignees
+		54 table
+			55 row
+				56 cell
+					57 container
+						58 checkbox (disabled, settable, integer) Description: Select all, Value: 0
+				59 cell
+					60 text CONTACT NAME
+				61 cell
+					62 text EMAIL
+				63 cell
+					64 text PHONE
+				65 cell
+					66 text TAGS
+				67 cell
+					68 text STATUS
+					69 button filter
+						70 image filter
+				71 cell
+					72 text OUTCOME
+					73 button filter
+						74 image filter
+				75 cell
+					76 text ASSIGNED TO
+					77 button filter
+						78 image filter
+				79 cell
+					80 text ACTION
+			81 row
+				82 cell
+					83 text No contacts in this campaign
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438

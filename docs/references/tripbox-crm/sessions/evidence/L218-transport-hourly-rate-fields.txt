@@ -1,0 +1,185 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/transports-repository/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Transports Repository
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Create transport, Value: 1
+					61 text Create transport
+				62 text Manage service details, vehicles, pricing, and seasonal rates.
+				63 button Back to transports
+				64 container
+					65 heading Transport overview, Value: 2
+						66 text Transport overview
+					67 text Transport Image
+					68 button Upload image
+						69 image
+						70 text Upload image
+					71 container
+						72 text * Transport Name
+					73 text field (settable) * Transport Name, ID: name
+					74 container
+						75 text * Service Type
+					76 container
+						77 combo box (collapsed, settable) * Service Type, ID: serviceType, Secondary Actions: Expand
+						78 text Cab
+					79 container
+						80 text * Rate Basis
+					81 container
+						82 combo box (collapsed, settable) * Rate Basis, ID: rateBasis, Secondary Actions: Expand
+						83 text Hourly
+					84 container
+						85 text Status
+						86 image question-circle
+					87 switch Description: Status question-circle, Value: 1, ID: isActive
+						88 text Active
+						89 text Inactive
+					90 container
+						91 text Visible to agencies
+						92 image question-circle
+					93 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						94 text Visible
+						95 text Internal only
+					96 text Description (Optional)
+					97 container
+						98 text entry area (settable) Description (Optional), ID: description
+						99 text 0 / 3000
+					100 heading Linked activities, Value: 2
+						101 text Linked activities
+					102 text Itinerary builders can optionally add these activities together with this transport.
+					103 container
+						104 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+						105 text Search active activities to link
+					106 container
+						107 text 0  of  20  linked activities selected.
+					108 text No linked activities configured.
+					109 heading Location and supplier, Value: 2
+						110 text Location and supplier
+					111 container
+						112 text * Country
+					113 container Country
+						114 container
+							115 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+							116 text Vietnam, Thailand, etc.
+					117 container
+						118 text * City
+					119 container City
+						120 container
+							121 combo box (disabled, collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+							122 text Bangkok, Hanoi, etc.
+					123 text Preferred Supplier
+					124 container
+						125 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						126 text Select a supplier
+					127 heading Inclusions and exclusions, Value: 2
+						128 text Inclusions and exclusions
+					129 heading Inclusions, Value: 3
+						130 text Inclusions
+					131 button Add Inclusion
+						132 image
+						133 text Add Inclusion
+					134 heading Exclusions, Value: 3
+						135 text Exclusions
+					136 button Add Exclusion
+						137 image
+						138 text Add Exclusion
+					139 heading Vehicles and rates, Value: 2
+						140 text Vehicles and rates
+					141 container
+						142 text Vehicle Type
+						143 container
+							144 combo box (collapsed, settable) Vehicle Type, ID: vehicles_0_vehicleType, Secondary Actions: Expand
+							145 text Sedan...
+						146 text Max Pax
+						147 container
+							148 button Increase Value
+								149 image up
+							150 button Decrease Value
+								151 image down
+							152 stepper (settable, integer) Max Pax, Value: 4, ID: vehicles_0_pax
+						153 button Manage Rates
+							154 image
+							155 text Manage Rates
+						156 button Remove
+							157 image
+							158 text Remove
+					159 button Add Vehicle
+						160 image
+						161 text Add Vehicle
+					162 button Cancel
+					163 button Save Changes
+		164 container
+			165 container Configure Vehicle Rates Set base standard for this vehicle type
+				166 container Close Configure Vehicle Rates Set base standard for this vehicle type INR Rate INR Increase Value Decrease Value 0 Discard Done
+					167 container
+						168 button Close
+							169 container Close
+								170 image close
+						171 text Configure Vehicle Rates
+						172 text Set base standard for this vehicle type
+						173 text INR  Rate
+						174 container
+							175 text INR
+							176 button Increase Value
+								177 image up
+							178 button Decrease Value
+								179 image down
+							180 stepper (settable, integer) Value: 0, ID: vehicles_0_rate_INR
+						181 button Discard
+						182 button Done
+
+The focused UI element is 166 container Close Configure Vehicle Rates Set base standard for this vehicle type INR Rate INR Increase Value Decrease Value 0 Discard Done

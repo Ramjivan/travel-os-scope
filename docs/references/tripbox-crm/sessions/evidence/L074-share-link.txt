@@ -1,0 +1,323 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_20_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 link Description: #1, Value: tripboxcrm.com/leads/1
+					29 image
+					30 text Edit itinerary
+				31 heading Itinerary workspace, Value: 1
+					32 text Itinerary workspace
+				33 text Proposed for  TOS-AUDIT Fictional Traveller A
+				34 button Quote with AI
+					35 image
+					36 text Quote with AI
+				37 button Approve & start booking
+					293 text Approve & start booking
+			38 container
+				39 image
+				40 text Route
+				41 text Indonesia (Bali)
+				42 text Country-level route
+				43 text Travel dates
+				44 container
+					45 text 20 Nov – 24 Nov 2026 ·  4  nights
+				46 image
+				47 text Guests
+				48 container
+					49 text 2  adults
+				50 text Currency
+				51 text INR
+				52 button Trip details
+					53 image
+					54 text Trip details
+				55 button Add stops
+					56 image
+					57 text Add stops
+				58 container
+					59 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					60 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					61 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					62 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					63 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					64 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					65 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				66 container hotels
+					67 image
+					68 heading Hotels, Value: 3
+						69 text Hotels
+					70 container
+						71 text 1  accommodation stays
+					72 button Add hotel
+						73 image
+						74 text Add hotel
+					75 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					76 text Ubud
+					77 image
+					78 text 20 Nov  – 24 Nov  · 4N
+					79 button View details for Alam Puisi Ubud
+						80 text Alam Puisi Ubud
+						81 text Draft
+					82 text Standard Double
+					83 text BB
+					84 button View rates for Alam Puisi Ubud
+						85 text INR
+						86 text 4,000
+					87 button Edit Alam Puisi Ubud
+						88 image
+					89 button Remove Alam Puisi Ubud
+						90 image
+					91 container
+						92 image
+						93 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					94 button Browse
+						95 image
+						96 text Browse
+				97 container activities
+					98 image
+					99 heading Daily plan, Value: 3
+						100 text Daily plan
+					101 text Activities and ground transport in one timeline
+					102 container
+						103 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						104 container
+							245 image
+							246 button Benoa Water Sports ACTIVITY Kuta · Draft
+								247 text Benoa Water Sports
+								248 text ACTIVITY
+								249 text Kuta · Draft
+							250 button INR 2,400
+							251 button
+								252 image
+							253 button Edit Benoa Water Sports
+								254 image
+							255 button Remove Benoa Water Sports
+								256 image
+							105 container
+								106 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							107 button Activities
+								108 image
+								109 text Activities
+							110 button Transport
+								111 image
+								112 text Transport
+						113 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						114 container
+							115 container
+								116 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							117 button Activities
+								118 image
+								119 text Activities
+							120 button Transport
+								121 image
+								122 text Transport
+						123 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						124 container
+							125 container
+								126 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							127 button Activities
+								128 image
+								129 text Activities
+							130 button Transport
+								131 image
+								132 text Transport
+						133 text DAY  4 23 Nov INDONESIA (BALI) Monday
+						134 container
+							135 container
+								136 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+							137 button Activities
+								138 image
+								139 text Activities
+							140 button Transport
+								141 image
+								142 text Transport
+						143 text DAY  5 24 Nov INDONESIA (BALI) Tuesday
+						144 container
+							145 container
+								146 combo box (collapsed, settable) ID: rc_select_9, Secondary Actions: Expand
+							147 button Activities
+								148 image
+								149 text Activities
+							150 button Transport
+								151 image
+								152 text Transport
+				153 container daily-transports
+					154 image
+					155 heading Full day transport, Value: 2
+						156 text Full day transport
+					157 text Cab services charged per day across your selected dates
+					158 container
+						159 image
+						160 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_10, Secondary Actions: Expand
+					161 button Browse inventory
+						162 image
+						163 text Browse inventory
+					164 image No data
+					165 text No Full Day transports added
+				166 container travel
+					167 image
+					168 heading Flights, Value: 3
+						169 text Flights
+					170 container
+						171 text 0  flight segments
+					172 text No flights added
+					173 button Add flight
+						174 image
+						175 text Add flight
+				176 container Description: Custom services, ID: custom-services
+					177 image
+					178 heading Custom services(1), Value: 3
+						179 text Custom services ( 1 )
+					180 text Visas, insurance, and other trip arrangements
+					181 button Add service
+						182 image
+						183 text Add service
+					184 image
+					185 text TOS-AUDIT Internal trip planning
+					186 text Trip-wide · Handled internally
+					187 text ₹10,000
+					188 button Edit TOS-AUDIT Internal trip planning
+						189 image
+						190 text Edit
+					191 button (disabled) Move service up
+						192 image
+					193 button (disabled) Move service down
+						194 image
+					195 button Remove service
+						196 image
+				197 container
+					198 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						199 image
+						200 text Inclusions & policies
+						201 text 0 inclusions · 0 exclusions · 0 policy sections
+						202 image
+					203 button Markup & taxes 10% markup · No taxes, ID: markup
+						204 image
+						205 text Markup & taxes
+						206 text 10% markup · No taxes
+						207 image
+					208 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						209 image
+						210 text Cost breakdown
+						211 text Hotels, activities, transport, flights and custom services
+						212 image
+				294 container
+					295 text LIVE QUOTE
+					296 text Live calculation
+					297 heading Indonesia (Bali), Value: 2
+						298 text Indonesia (Bali)
+					299 image
+					300 text 20 Nov  to  24 Nov 4  night s
+					301 container mobile-quote-details
+						302 image
+						303 text TOS-AUDIT Fictional Traveller A
+						304 container
+							305 text 2  Adults
+						306 heading Quote composition, Value: 3
+							307 text Quote composition
+						308 text Base, margin, taxes
+						309 container Quote cost composition
+						310 text Base cost ₹16,400 Markup ₹1,640  ( 10 %) Selling price ₹18,040 Per adult ₹9,020
+					311 heading Actions, Value: 3
+						312 text Actions
+					313 text Payment plan set ₹15,400 Unaccounted amount ₹2,640
+					314 button Save Itinerary
+						315 image
+						316 text Save Itinerary
+					317 button Payment Management
+						318 image
+						319 text Payment Management
+					320 button Download Itinerary
+						321 image
+						322 text Download Itinerary
+					323 button Quick Share
+						324 image
+						325 text Quick Share
+		326 container
+			327 container Quick share Review the proposal before sharing it with your traveller
+				328 container
+					329 button Close
+						330 container Close
+							331 image close
+					332 image
+					333 heading Quick share, Value: 2
+						334 text Quick share
+					335 text Review the proposal before sharing it with your traveller
+					336 text Indonesia (Bali)
+					337 image
+					338 text TOS-AUDIT Fictional Traveller A
+					339 image
+					340 text 20 Nov 2026
+					341 image
+					342 text 4 Nights / 5 Days
+					343 image
+					344 text Share settings
+					345 text Price breakdown
+					346 text Show traveller-level pricing
+					347 switch 1
+					348 text Show total price
+					349 text Display the final trip total
+					350 switch 1
+					351 text Day-by-day plan
+					352 text Include itinerary activities
+					353 switch 1
+					354 text Images
+					355 text Use hotel and activity imagery. Hero carousel images stay visible.
+					356 switch 1
+					357 text Terms and notes
+					358 text Append your organisation terms
+					359 switch 1
+					360 tab group
+						361 container
+							362 tab (selectable, settable, boolean) WhatsApp, ID: rc-tabs-0-tab-whatsapp, Value: 0
+WhatsApp
+							363 tab (selectable, settable, boolean) Email, ID: rc-tabs-0-tab-email, Value: 0
+Email
+							366 tab (selected, settable, boolean) Share link, Value: 1, ID: rc-tabs-0-tab-link
+								368 image
+								369 text Share link
+							367 tab (selectable, settable, boolean) Email Supplier, ID: rc-tabs-0-tab-supplier, Value: 0
+Email Supplier
+					370 container Description: Share link, ID: rc-tabs-0-panel-link
+						371 container
+							372 image
+							373 heading Customer itinerary page, Value: 3
+								374 text Customer itinerary page
+							375 text Link will open a web page that works without a Tripbox login.
+							376 button Create link
+							377 text No share link yet Choose the settings on the left, then create a customer-safe snapshot.
+						378 container
+							379 image
+							380 text Require a PIN Optional extra protection. Share the PIN separately from the link.
+							381 switch Description: Require a PIN, Value: 0, ID: itinerary-share-pin-toggle
+							382 text Share settings and PIN changes remain drafts until you create or publish the page.
+						383 container
+							384 image
+							385 text Get notified Email a recipient when the customer opens this itinerary for the first time.
+							386 switch Description: Get notified, Value: 0, ID: itinerary-share-notification-toggle
+							387 text The private Preview button never counts as a customer view or sends this email.
+
+The focused UI element is 366 tab (selected, settable, boolean) Share link, Value: 1, ID: rc-tabs-0-tab-link

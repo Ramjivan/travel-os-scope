@@ -1,0 +1,622 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/activities-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Activities Repository
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Activities repository, Value: 1
+				60 text Activities repository
+			61 text Maintain tours, experiences, and activity inventory used across itinerary builds.
+			62 link Description: Add activity, Value: tripboxcrm.com/org/activities-repository/new
+			63 text Activities
+			64 text 677
+			65 text Total experience records
+			66 text Visible
+			67 text 677
+			68 text Matching current filters
+			69 text Categories
+			70 text 3
+			71 text Available activity classes
+			72 container List controls
+				73 container
+					74 image
+					75 search text field (settable)
+					76 button search
+						77 image search
+				78 container
+					79 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					80 text Filter by category
+				81 container
+					82 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					83 text Agency portal
+				84 container
+					85 combo box (collapsed, settable) ID: rc_select_3, Secondary Actions: Expand
+					86 text Inventory source
+				87 button
+					88 image
+				89 button (disabled) Bulk edit
+					90 image
+					91 text Bulk edit
+				92 button Import / export
+					93 image
+					94 text Import / export
+			95 table
+				96 row
+					97 cell
+						98 container
+							99 checkbox (settable, integer) Description: Select all, Value: 0
+					100 cell Activity
+						101 text Activity
+					102 cell Location
+						103 text Location
+					104 cell Category
+						105 text Category
+					106 cell Preferred supplier
+						107 text Preferred supplier
+					108 cell Status
+						109 text Status
+					110 cell
+						111 text Agent portal
+					112 cell
+						113 text Actions
+				114 row
+					115 cell
+						116 container
+							117 checkbox (settable, integer) Description:  , Value: 0
+					118 cell
+						119 image activity
+					120 cell
+						121 text 3 Islands by Boat – Hon Thom Cable Car on Sharing basis Shared Updated  11 days ago
+					122 cell
+						123 text Phu Quoc
+						124 text Vietnam
+					125 cell
+						126 text Tours
+					127 cell
+						128 text -
+					129 cell
+						130 text Active
+					131 cell
+						132 text Visible
+					133 cell
+						134 link tripboxcrm.com/org/activities-repository/68404333-b122-4fc3-9d03-844710c58945
+						135 link tripboxcrm.com/org/activities-repository/new
+						136 button
+							137 image
+				138 row
+					139 cell
+						140 container
+							141 checkbox (settable, integer) Description:  , Value: 0
+					142 cell
+						143 image activity
+					144 cell
+						145 text 4 Islands tour by Boat – Hon Thom Cable Car on sharing basis. Shared Updated  11 days ago
+					146 cell
+						147 text Phu Quoc
+						148 text Vietnam
+					149 cell
+						150 text Tours
+					151 cell
+						152 text -
+					153 cell
+						154 text Active
+					155 cell
+						156 text Visible
+					157 cell
+						158 link tripboxcrm.com/org/activities-repository/f3100ac1-dc14-49c1-a4bf-49ec75926d31
+						159 link tripboxcrm.com/org/activities-repository/new
+						160 button
+							161 image
+				162 row
+					163 cell
+						164 container
+							165 checkbox (settable, integer) Description:  , Value: 0
+					166 cell
+						167 image activity
+					168 cell
+						169 text Abu Dhabi City Tour on sharing basis Shared Updated  11 days ago
+					170 cell
+						171 text Abu Dhabi
+						172 text United Arab Emirates (UAE)
+					173 cell
+						174 text Tours
+					175 cell
+						176 text -
+					177 cell
+						178 text Active
+					179 cell
+						180 text Visible
+					181 cell
+						182 link tripboxcrm.com/org/activities-repository/9fd279b3-4664-4929-b490-ca8fb85888ae
+						183 link tripboxcrm.com/org/activities-repository/new
+						184 button
+							185 image
+				186 row
+					187 cell
+						188 container
+							189 checkbox (settable, integer) Description:  , Value: 0
+					190 cell
+						191 image activity
+					192 cell
+						193 text Airport Drop-off by 16-seat car Shared Updated  a year ago
+					194 cell
+						195 text Ho Chi Minh City
+						196 text Vietnam
+					197 cell
+						198 text Transfers
+					199 cell
+						200 text -
+					201 cell
+						202 text Active
+					203 cell
+						204 text Visible
+					205 cell
+						206 link tripboxcrm.com/org/activities-repository/efd5fdfc-caf8-40fc-a881-2faab70908e2
+						207 link tripboxcrm.com/org/activities-repository/new
+						208 button
+							209 image
+				210 row
+					211 cell
+						212 container
+							213 checkbox (settable, integer) Description:  , Value: 0
+					214 cell
+						215 image activity
+					216 cell
+						217 text Airport Drop-off by 16-seat car Shared Updated  a year ago
+					218 cell
+						219 text Hanoi
+						220 text Vietnam
+					221 cell
+						222 text Transfers
+					223 cell
+						224 text -
+					225 cell
+						226 text Active
+					227 cell
+						228 text Visible
+					229 cell
+						230 link tripboxcrm.com/org/activities-repository/6faa09ac-26f4-4395-9a62-5b6dec9b0be0
+						231 link tripboxcrm.com/org/activities-repository/new
+						232 button
+							233 image
+				234 row
+					235 cell
+						236 container
+							237 checkbox (settable, integer) Description:  , Value: 0
+					238 cell
+						239 image activity
+					240 cell
+						241 text Airport Drop-off by 16-seat car Shared Updated  a year ago
+					242 cell
+						243 text Da Nang
+						244 text Vietnam
+					245 cell
+						246 text Transfers
+					247 cell
+						248 text -
+					249 cell
+						250 text Active
+					251 cell
+						252 text Visible
+					253 cell
+						254 link tripboxcrm.com/org/activities-repository/69527705-d1a6-4a00-96c4-77ae56104fe8
+						255 link tripboxcrm.com/org/activities-repository/new
+						256 button
+							257 image
+				258 row
+					259 cell
+						260 container
+							261 checkbox (settable, integer) Description:  , Value: 0
+					262 cell
+						263 image activity
+					264 cell
+						265 text Airport Drop-off by 29-seat coach Shared Updated  a year ago
+					266 cell
+						267 text Da Nang
+						268 text Vietnam
+					269 cell
+						270 text Transfers
+					271 cell
+						272 text -
+					273 cell
+						274 text Active
+					275 cell
+						276 text Visible
+					277 cell
+						278 link tripboxcrm.com/org/activities-repository/cb30adf6-8511-4730-b3a4-6f6e3bfc833b
+						279 link tripboxcrm.com/org/activities-repository/new
+						280 button
+							281 image
+				282 row
+					283 cell
+						284 container
+							285 checkbox (settable, integer) Description:  , Value: 0
+					286 cell
+						287 image activity
+					288 cell
+						289 text Airport Drop-off by 4-seat car Shared Updated  a year ago
+					290 cell
+						291 text Da Nang
+						292 text Vietnam
+					293 cell
+						294 text Transfers
+					295 cell
+						296 text -
+					297 cell
+						298 text Active
+					299 cell
+						300 text Visible
+					301 cell
+						302 link tripboxcrm.com/org/activities-repository/0d82938c-451b-4fd6-b10a-30bedaa39ecc
+						303 link tripboxcrm.com/org/activities-repository/new
+						304 button
+							305 image
+				306 row
+					307 cell
+						308 container
+							309 checkbox (settable, integer) Description:  , Value: 0
+					310 cell
+						311 image activity
+					312 cell
+						313 text Airport drop-off by 4 seat car Shared Updated  a year ago
+					314 cell
+						315 text Hanoi
+						316 text Vietnam
+					317 cell
+						318 text Transfers
+					319 cell
+						320 text -
+					321 cell
+						322 text Active
+					323 cell
+						324 text Visible
+					325 cell
+						326 link tripboxcrm.com/org/activities-repository/168fdc9f-98e2-42c3-9455-34284943174e
+						327 link tripboxcrm.com/org/activities-repository/new
+						328 button
+							329 image
+				330 row
+					331 cell
+						332 container
+							333 checkbox (settable, integer) Description:  , Value: 0
+					334 cell
+						335 image activity
+					336 cell
+						337 text Airport drop-off by 7-seat car Shared Updated  a year ago
+					338 cell
+						339 text Hanoi
+						340 text Vietnam
+					341 cell
+						342 text Transfers
+					343 cell
+						344 text -
+					345 cell
+						346 text Active
+					347 cell
+						348 text Visible
+					349 cell
+						350 link tripboxcrm.com/org/activities-repository/c16be3db-22e5-493f-9b6a-052f289ae7bd
+						351 link tripboxcrm.com/org/activities-repository/new
+						352 button
+							353 image
+				354 row
+					355 cell
+						356 container
+							357 checkbox (settable, integer) Description:  , Value: 0
+					358 cell
+						359 image activity
+					360 cell
+						361 text Airport drop-off by 7-seat car Shared Updated  a year ago
+					362 cell
+						363 text Ho Chi Minh City
+						364 text Vietnam
+					365 cell
+						366 text Transfers
+					367 cell
+						368 text -
+					369 cell
+						370 text Active
+					371 cell
+						372 text Visible
+					373 cell
+						374 link tripboxcrm.com/org/activities-repository/4497ea35-c4a2-41af-9b26-d0a677c818ea
+						375 link tripboxcrm.com/org/activities-repository/new
+						376 button
+							377 image
+				378 row
+					379 cell
+						380 container
+							381 checkbox (settable, integer) Description:  , Value: 0
+					382 cell
+						383 image activity
+					384 cell
+						385 text Airport Drop-off by 7-seat car Shared Updated  a year ago
+					386 cell
+						387 text Da Nang
+						388 text Vietnam
+					389 cell
+						390 text Transfers
+					391 cell
+						392 text -
+					393 cell
+						394 text Active
+					395 cell
+						396 text Visible
+					397 cell
+						398 link tripboxcrm.com/org/activities-repository/b5309f17-213f-4793-82b4-b5b4b857c67e
+						399 link tripboxcrm.com/org/activities-repository/new
+						400 button
+							401 image
+				402 row
+					403 cell
+						404 container
+							405 checkbox (settable, integer) Description:  , Value: 0
+					406 cell
+						407 image activity
+					408 cell
+						409 text Airport pick-up by 16-seat car Shared Updated  a year ago
+					410 cell
+						411 text Ho Chi Minh City
+						412 text Vietnam
+					413 cell
+						414 text Transfers
+					415 cell
+						416 text -
+					417 cell
+						418 text Active
+					419 cell
+						420 text Visible
+					421 cell
+						422 link tripboxcrm.com/org/activities-repository/60f8cf6d-04df-4b36-8f46-d35f3fffde06
+						423 link tripboxcrm.com/org/activities-repository/new
+						424 button
+							425 image
+				426 row
+					427 cell
+						428 container
+							429 checkbox (settable, integer) Description:  , Value: 0
+					430 cell
+						431 image activity
+					432 cell
+						433 text Airport Pick-up by 16-seat car Shared Updated  a year ago
+					434 cell
+						435 text Da Nang
+						436 text Vietnam
+					437 cell
+						438 text Transfers
+					439 cell
+						440 text -
+					441 cell
+						442 text Active
+					443 cell
+						444 text Visible
+					445 cell
+						446 link …
+						447 link …
+						448 button
+							449 image
+				450 row
+					451 cell
+						452 container
+							453 checkbox (settable, integer) Description:  , Value: 0
+					454 cell
+						455 image activity
+					456 cell
+						457 text Airport Pick-up by 16-seat car Shared Updated  a year ago
+					458 cell
+						459 text Hanoi
+						460 text Vietnam
+					461 cell
+						462 text Transfers
+					463 cell
+						464 text -
+					465 cell
+						466 text Active
+					467 cell
+						468 text Visible
+					469 cell
+						470 link …
+						471 link …
+						472 button
+							473 image
+				474 row
+					475 cell
+						476 container
+							477 checkbox (settable, integer) Description:  , Value: 0
+					478 cell
+						479 image activity
+					480 cell
+						481 text Airport Pick-up by 29-seat Coach Shared Updated  a year ago
+					482 cell
+						483 text Da Nang
+						484 text Vietnam
+					485 cell
+						486 text Transfers
+					487 cell
+						488 text -
+					489 cell
+						490 text Active
+					491 cell
+						492 text Visible
+					493 cell
+						494 link …
+						495 link …
+						496 button
+							497 image
+				498 row
+					499 cell
+						500 container
+							501 checkbox (settable, integer) Description:  , Value: 0
+					502 cell
+						503 image activity
+					504 cell
+						505 text Airport Pick-up by 4-seat Car Shared Updated  a year ago
+					506 cell
+						507 text Da Nang
+						508 text Vietnam
+					509 cell
+						510 text Transfers
+					511 cell
+						512 text -
+					513 cell
+						514 text Active
+					515 cell
+						516 text Visible
+					517 cell
+						518 link …
+						519 link …
+						520 button
+							521 image
+				522 row
+					523 cell
+						524 container
+							525 checkbox (settable, integer) Description:  , Value: 0
+					526 cell
+						527 image activity
+					528 cell
+						529 text Airport pick-up by 7-seat car Shared Updated  a year ago
+					530 cell
+						531 text Ho Chi Minh City
+						532 text Vietnam
+					533 cell
+						534 text Transfers
+					535 cell
+						536 text -
+					537 cell
+						538 text Active
+					539 cell
+						540 text Visible
+					541 cell
+						542 link …
+						543 link …
+						544 button
+							545 image
+				546 row
+					547 cell
+						548 container
+							549 checkbox (settable, integer) Description:  , Value: 0
+					550 cell
+						551 image activity
+					552 cell
+						553 text Airport pick-up by 7-seat car Shared Updated  a year ago
+					554 cell
+						555 text Hanoi
+						556 text Vietnam
+					557 cell
+						558 text Transfers
+					559 cell
+						560 text -
+					561 cell
+						562 text Active
+					563 cell
+						564 text Visible
+					565 cell
+						566 link …
+						567 link …
+						568 button
+							569 image
+				570 row
+					571 cell
+						572 container
+							573 checkbox (settable, integer) Description:  , Value: 0
+					574 cell
+						575 image activity
+					576 cell
+						577 text Airport Pick-up by 7-seat Car Shared Updated  a year ago
+					578 cell
+						579 text Da Nang
+						580 text Vietnam
+					581 cell
+						582 text Transfers
+					583 cell
+						584 text -
+					585 cell
+						586 text Active
+					587 cell
+						588 text Visible
+					589 cell
+						590 link …
+						591 link …
+						592 button
+							593 image
+			594 container activities pagination
+				595 container
+					596 text 1 – 20  of  677 activities
+				597 content list
+					598 container Previous Page
+						599 button (disabled) left
+							600 image left
+					601 text 1
+					602 text 2
+					603 text 3
+					604 container Next 3 Pages
+						605 container
+							606 image double-right
+							607 text •••
+					608 text 34
+					609 container Next Page
+						610 button right
+							611 image right
+					612 container
+						613 container Page Size
+							614 container
+								615 combo box (collapsed, settable) Description: Page Size, ID: rc_select_4, Secondary Actions: Expand
+								616 text 20 / page
+						617 text Go to
+						618 text field (settable) Page
+						619 text Page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository

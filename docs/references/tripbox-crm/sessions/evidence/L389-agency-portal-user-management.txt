@@ -1,0 +1,68 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/agencies/f2ba4653-6796-4a27-8c62-d1d11b5db133/users".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies/f2ba4653-6796-4a27-8c62-d1d11b5db133/users
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container Breadcrumb
+			21 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			22 image
+			23 text Agencies
+		24 text Organisation control center
+		25 container Organisation settings navigation
+			26 text Settings
+			27 text Workspace controls and operational data.
+			28 container
+				29 text WORKSPACE
+				30 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				31 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				32 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				33 link Description: Users, Value: tripboxcrm.com/org/users
+				34 link Description: Teams, Value: tripboxcrm.com/org/teams
+			35 container
+				36 text OPERATIONS
+				37 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				38 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				39 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				40 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				41 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				42 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			43 container
+				44 text REPOSITORIES
+				45 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				46 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				47 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			48 container
+				49 text CONFIGURATION
+				50 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				51 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				52 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				53 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				54 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		55 container
+			56 heading 1
+			57 link tripboxcrm.com/org/agencies
+			58 button
+				59 image
+			60 container
+				61 table
+					62 row
+						63 cell
+							64 image
+							65 button
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies/f2ba4653-6796-4a27-8c62-d1d11b5db133/users

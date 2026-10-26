@@ -1,0 +1,249 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/edit/2".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/edit/2
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 link Description: #2, Value: tripboxcrm.com/leads/2
+					26 image
+					27 text Edit
+				28 heading Edit lead, Value: 1
+					29 text Edit lead
+				30 text 5 required details
+				31 button Cancel
+				32 button Save changes
+					33 image
+					34 text Save changes
+			35 container
+				36 container trip-brief
+					37 image
+					38 text 01 · REQUIRED FIRST
+					39 heading Trip brief, Value: 2
+						40 text Trip brief
+					41 text The minimum information your team needs to qualify and route this enquiry.
+					42 text 5 required fields
+					43 text Lead source
+					44 container
+						45 combo box (collapsed, settable) Lead source, ID: source, Secondary Actions: Expand
+						46 text Social Media
+					47 container Reference ID
+						48 text Reference ID (optional)
+					49 text field (settable) Reference ID (optional), ID: referenceId
+					50 container Departure city
+						51 text Departure city (optional)
+					52 container
+						53 image
+						54 text field (settable) Departure city (optional), ID: departureCity
+					55 text Travel destinations
+					56 container
+						57 text Indonesia (Bali)
+						58 combo box (collapsed, settable) Travel destinations, ID: destinations, Secondary Actions: Expand
+					59 text Planned travel date
+					60 container
+						61 text field (settable) Planned travel date, Value: 2026-11-20, ID: plannedTravelDate
+						62 image calendar
+						63 button close-circle
+							64 image close-circle
+					65 text Trip duration
+					66 container
+						67 container
+							68 button Increase Value
+								69 image up
+							70 button Decrease Value
+								71 image down
+						72 stepper (settable, integer) Trip duration, Value: 2, ID: nights
+						73 text nights
+					74 container Inclusions
+						75 text Inclusions (optional)
+					76 container
+						77 checkbox (settable, integer) Description: Hotels  , Value: 1, ID: includeHotels
+						78 text Hotels
+						79 checkbox (settable, integer) Description: Tour  , Value: 1, ID: includeTour
+						80 text Tour
+						81 checkbox (settable, integer) Description: Flights  , Value: 1, ID: includeFlights
+						82 text Flights
+				83 container traveller-details
+					84 image
+					85 text 02 · TRAVELLER
+					86 heading Guest and travelling party, Value: 2
+						87 text Guest and travelling party
+					88 text Add the primary traveller’s contact details and a quick passenger breakdown.
+					89 container Guest name
+						90 text Guest name (optional)
+					91 text field (settable) Guest name (optional), Value: TOS-AUDIT Fictional Traveller B, ID: guestName
+					92 container Mobile number
+						93 text Mobile number (optional)
+					94 container
+						95 container
+							96 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+						97 text field (settable) Mobile number (optional), Value: <redacted>
+					98 container Email address
+						99 text Email address (optional)
+					100 text field (settable) Email address (optional), Value: <redacted>
+					101 container Current location
+						102 text Current location (optional)
+					103 container
+						104 image
+						105 text field (settable) Current location (optional), ID: guestLocation
+					106 container Linked customer
+						107 text Linked customer (optional)
+					108 container
+						109 container
+							110 combo box (collapsed, settable) Linked customer (optional), ID: primaryContactId, Secondary Actions: Expand
+							111 text Resolve customer link
+						112 text Choose a customer to resolve an existing or ambiguous contact match.
+					113 heading Travelling party, Value: 3
+						114 text Travelling party
+					115 text Adult count is required; add children only when relevant.
+					116 image
+					117 text Adults
+					118 container
+						119 button Increase Value
+							120 image up
+						121 button Decrease Value
+							122 image down
+						123 stepper (settable, integer) Adults, Value: 2, ID: adults
+					124 container Child with bed
+						125 text Child with bed (optional)
+					126 container
+						127 button Increase Value
+							128 image up
+						129 button (disabled) Decrease Value
+							130 image down
+						131 stepper (settable, integer) Child with bed (optional), Value: 0, ID: cwb
+					132 container Child without bed
+						133 text Child without bed (optional)
+					134 container
+						135 button Increase Value
+							136 image up
+						137 button (disabled) Decrease Value
+							138 image down
+						139 stepper (settable, integer) Child without bed (optional), Value: 0, ID: cnb
+					140 container Infants
+						141 text Infants (optional)
+					142 container
+						143 button Increase Value
+							144 image up
+						145 button (disabled) Decrease Value
+							146 image down
+						147 stepper (settable, integer) Infants (optional), Value: 0, ID: infant
+				148 container ownership
+					149 image
+					150 text 03 · OWNERSHIP
+					151 heading Assignment and agency, Value: 2
+						152 text Assignment and agency
+					153 text Route the lead to an agent or team, and connect the agency relationship when applicable.
+					154 container Assign to
+						155 text Assign to (optional)
+					156 container
+						157 combo box (collapsed, settable) Assign to (optional), ID: assignedTo, Secondary Actions: Expand
+						158 text Nishar Arora
+					159 container
+						160 text Agency
+						161 button New agency
+							162 image
+							163 text New agency
+						164 text (optional)
+					165 container
+						166 text TOS-AUDIT Fictional Agency A
+						167 combo box (collapsed, settable) Agency New agency (optional), ID: agencyId, Secondary Actions: Expand
+						168 text TOS-AUDIT Fictional Agency A
+					169 container
+						170 text Agency contact
+						171 button Agency contact (optional)
+							172 image
+							173 text New
+						174 text (optional)
+					175 container
+						176 container
+							177 combo box (collapsed, settable) ID: agencyContactId, Secondary Actions: Expand
+							178 text TOS-AUDIT Fictional Agency Contact (agency-a@example.invalid)
+						179 image
+				180 container notes
+					181 image
+					182 text 04 · CONTEXT
+					183 heading Notes and tags, Value: 2
+						184 text Notes and tags
+					185 text Record preferences, constraints, and the details that will help the next conversation.
+					186 container Lead notes
+						187 text Lead notes (optional)
+					188 container
+						189 text entry area (settable) Lead notes (optional), Value: TOS-AUDIT fictional template application only. No actual travel, supplier reservation or payment., ID: comments
+						190 text 97 / 256
+					191 container Tags
+						192 text Tags (optional)
+					193 container
+						194 combo box (collapsed, settable) Tags (optional), ID: tags, Secondary Actions: Expand
+						195 text Add a tag and press Enter
+				196 image
+				197 text 05 · CUSTOM DETAILS
+				198 heading TOS-AUDIT Qualification B, Value: 2
+					199 text TOS-AUDIT Qualification B
+				200 text Fields configured by your organisation for this lead workflow.
+				201 container TOS-AUDIT Service preference B
+					202 text TOS-AUDIT Service preference B (optional)
+				203 container
+					204 combo box (collapsed, settable) TOS-AUDIT Service preference B (optional), ID: queryFields_tos_audit_service_preference_b, Secondary Actions: Expand
+					205 text TOS-AUDIT Private
+				206 container
+					207 text REQUIRED DETAILS 5 / 5 100 %
+					208 progress indicator 100
+					209 image
+					210 text Lead source
+					211 image
+					212 text Destination
+					213 image
+					214 text Travel date
+					215 image
+					216 text Trip duration
+					217 image
+					218 text Adult travellers
+					219 link Description: Review trip brief, Value: tripboxcrm.com/leads/edit/2#trip-brief
+				220 container
+					221 image
+					222 text Quick capture Save once the required checklist is complete. Traveller, agency and notes can be enriched later.
+					223 image
+					224 text Indonesia (Bali)
+					225 image
+					226 text 20 Nov 2026
+					227 image
+					228 text 2  nights
+				229 container
+					230 heading Internal comments, Value: 2
+						231 text Internal comments
+					232 text 0 Record decisions, customer context, and handover notes for this lead.
+				233 container
+					234 text entry area (settable)
+					235 text 0 / 1000
+				236 text Visible to team members with access to this lead.
+				237 button (disabled) Post comment
+					238 image
+					239 text Post comment
+				240 image No data
+				241 text No team comments yet. Add the first note above.
+				242 text Required details are complete. This lead is ready to save.
+				243 button Cancel
+				244 button Save changes
+					245 image
+					246 text Save changes
+
+The focused UI element is 167 combo box (collapsed, settable) Agency New agency (optional), ID: agencyId, Secondary Actions: Expand

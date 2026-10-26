@@ -1,0 +1,210 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/itinerary-customization".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/itinerary-customization
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Itinerary Customization
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Itinerary Customization, Value: 1
+					61 text Itinerary Customization
+				62 text Customize templates and output for itinerary documents and links.
+				63 tab group
+					64 container
+						65 tab (selectable, settable, boolean) Document (PDF / Word), ID: rc-tabs-0-tab-document, Value: 0
+Document (PDF / Word)
+						66 tab (selected, settable, boolean) Link, ID: rc-tabs-0-tab-link, Value: 1
+Link
+				67 container Description: Link, ID: rc-tabs-0-panel-link
+					68 container
+						69 container Link preference sections
+							70 link Description: Appearance, Value: tripboxcrm.com/org/itinerary-customization#link-appearance
+							71 link Description: Hero images, Value: tripboxcrm.com/org/itinerary-customization#link-hero
+							72 link Description: Content, Value: tripboxcrm.com/org/itinerary-customization#link-content
+							73 link Description: Expert, Value: tripboxcrm.com/org/itinerary-customization#link-expert
+							74 link Description: Why choose us, Value: tripboxcrm.com/org/itinerary-customization#link-benefits
+							75 link Description: Testimonials, Value: tripboxcrm.com/org/itinerary-customization#link-testimonials
+							76 link Description: Footer, Value: tripboxcrm.com/org/itinerary-customization#link-footer
+						77 image info-circle
+						78 text These preferences apply when a link is published or refreshed.
+						79 container
+							80 heading Template and appearance, Value: 2
+								81 text Template and appearance
+							82 text Choose how your customer links look. Document settings are independent.
+							83 text Default link template
+							84 container
+								85 combo box (expanded, settable) Default link template, ID: preferences_template, Secondary Actions: Collapse
+								86 text Classic — simple and spacious
+							87 text Accent colour
+							88 text Leave the accent colour empty to use your organisation colour.
+							89 text Hero tagline
+							90 text field (settable) Hero tagline, ID: preferences_tagline
+							91 text Welcome message
+							92 container
+								93 text entry area (settable) Welcome message, ID: preferences_welcomeText
+								94 text 0 / 1000
+						95 container
+							96 heading Destination hero images, Value: 2
+								97 text Destination hero images
+							98 text Destination rule → optional activity/transport images → styled hero without photography.
+							99 text Exact city sets take priority over country-only rules.
+							100 button Add destination rule
+								101 image
+								102 text Add destination rule
+							103 table
+								104 row
+									105 cell
+										106 text Countries
+									107 cell
+										108 text Cities
+									109 cell
+										110 text Images
+									111 cell
+										112 text Actions
+								113 row
+									114 cell
+										115 text No destination rules. The optional service-image fallback will be used.
+							116 text Use activity and transport images when no configured carousel is available
+							117 switch Description: Use activity and transport images when no configured carousel is available, Value: 1, ID: preferences_useServiceImagesAsHeroFallback
+						118 container
+							119 heading Content and privacy, Value: 2
+								120 text Content and privacy
+							121 text Trip destinations, route, dates, duration and travellers always appear.
+							122 text Show customer name
+							123 switch Description: Show customer name, Value: 1, ID: preferences_showCustomerName
+							124 text Show accommodation
+							125 switch Description: Show accommodation, Value: 1, ID: preferences_showHotels
+							126 text Show flights and full-day transport
+							127 switch Description: Show flights and full-day transport, Value: 1, ID: preferences_showTravel
+							128 text Show additional services
+							129 switch Description: Show additional services, Value: 1, ID: preferences_showAdditionalServices
+						130 container
+							131 heading Destination expert, Value: 2
+								132 text Destination expert
+							133 text Use the lead assignee's existing contact details, or an organisation contact. Organisation details also provide the fallback when an assignee is unavailable.
+							134 text Show destination expert
+							135 switch Description: Show destination expert, Value: 0, ID: preferences_showDestinationExpert
+							136 text Expert source
+							137 container
+								138 combo box (collapsed, settable) Expert source, ID: preferences_expertSource, Secondary Actions: Expand
+								139 text Lead assignee
+							140 text Show call button
+							141 switch Description: Show call button, Value: 1, ID: preferences_showExpertPhone
+							142 text Show WhatsApp button
+							143 switch Description: Show WhatsApp button, Value: 1, ID: preferences_showExpertWhatsApp
+							144 text Show email button
+							145 switch Description: Show email button, Value: 1, ID: preferences_showExpertEmail
+							146 text Organisation contact name
+							147 text field (settable) Organisation contact name, ID: preferences_contact_name
+							148 text Contact phone (with country code)
+							149 text field (settable) Contact phone (with country code)
+							150 text Contact WhatsApp (with country code)
+							151 text field (settable) Contact WhatsApp (with country code), ID: preferences_contact_whatsapp
+							152 text Contact email
+							153 text field (settable) Contact email
+						154 container
+							155 heading Why choose us, Value: 2
+								156 text Why choose us
+							157 text Add up to four reasons customers should travel with you.
+							158 text Show Why choose us
+							159 switch Description: Show Why choose us, Value: 0, ID: preferences_showWhyChooseUs
+							160 text Section heading
+							161 text field (settable) Section heading, Value: Why choose us, ID: preferences_whyChooseUsHeading
+							162 text No  benefit  added.
+							163 button Add benefit
+								164 image
+								165 text Add benefit
+						166 container
+							167 heading Testimonials, Value: 2
+								168 text Testimonials
+							169 text Add customer reviews and photos in the order you want them displayed.
+							170 text Show testimonials
+							171 switch Description: Show testimonials, Value: 0, ID: preferences_showTestimonials
+							172 text Section heading
+							173 text field (settable) Section heading, Value: Traveller stories, ID: preferences_testimonialsHeading
+							174 text No  testimonial  added.
+							175 button Add testimonial
+								176 image
+								177 text Add testimonial
+						178 container
+							179 heading Footer and social links, Value: 2
+								180 text Footer and social links
+							181 text Organisation name, logo, address and email are reused automatically.
+							182 text Company description
+							183 container
+								184 text entry area (settable) Company description, ID: preferences_footer_description
+								185 text 0 / 1000
+							186 text Public phone (with country code)
+							187 text field (settable) Public phone (with country code)
+							188 text Public WhatsApp (with country code)
+							189 text field (settable) Public WhatsApp (with country code), ID: preferences_footer_whatsapp
+							190 text Website (HTTPS URL)
+							191 text field (settable) Website (HTTPS URL), ID: preferences_footer_website
+							192 text No  social or footer link  added.
+							193 button Add social or footer link
+								194 image
+								195 text Add social or footer link
+						196 button Preview template
+							197 image
+							198 text Preview template
+						199 button Save preferences
+		200 container
+			201 list preferences_template_list
+				202 (selected) Value: Classic — simple and spacious, ID: preferences_template_list_0
+				203 Value: Showcase — compact and interactive, ID: preferences_template_list_1
+			204 text Classic — simple and spacious
+			205 text Showcase — compact and interactive
+
+The focused UI element is 85 combo box (expanded, settable) Default link template, ID: preferences_template, Secondary Actions: Collapse

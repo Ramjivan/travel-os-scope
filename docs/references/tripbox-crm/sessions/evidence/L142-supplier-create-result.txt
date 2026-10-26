@@ -1,0 +1,84 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/suppliers".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/suppliers
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			10 image
+			11 text Suppliers
+		12 container Organisation settings section
+			13 container
+				14 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				15 text Suppliers
+		16 container
+			17 heading Suppliers, Value: 1
+				18 text Suppliers
+			19 text Manage supplier contacts, destination coverage, and operational availability.
+			20 link Description: Add supplier, Value: tripboxcrm.com/org/supplier/new
+			21 text Suppliers
+			22 text 1
+			23 text Total supplier records
+			24 text Visible
+			25 text 1
+			26 text After current filters
+			27 text Countries
+			28 text 1
+			29 text Supplier operating markets
+			30 container List controls
+				31 container
+					32 image
+					33 search text field (settable)
+					34 button search
+						35 image search
+				36 container
+					37 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+					38 text Filter by country
+				39 button
+					40 image
+			41 table
+				42 row
+					43 cell Name
+						44 text Name
+					45 cell
+						46 text Default contact
+					47 cell Country
+						48 text Country
+					49 cell
+						50 text Destinations
+					51 cell Status
+						52 text Status
+					53 cell
+						54 text Actions
+				55 row
+					56 cell
+						57 text TOS-AUDIT Fictional Supplier B
+					58 cell
+						59 text No contact
+					60 cell
+						61 text Indonesia (Bali)
+					62 cell
+						63 text Active
+					64 cell
+						65 link tripboxcrm.com/org/supplier/5b4e2d6e-c845-476c-ab75-a56fcc459c1c
+						66 button View contacts for TOS-AUDIT Fictional Supplier B
+							67 image
+						68 button Add a contact to TOS-AUDIT Fictional Supplier B
+							69 image
+						70 button Deactivate
+			71 container suppliers pagination
+				72 container
+					73 text 1 – 1  of  1 suppliers
+				74 content list
+					75 container Previous Page
+						76 button (disabled) left
+							77 image left
+					78 text 1
+					79 container Next Page
+						80 button (disabled) right
+							81 image right
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/suppliers

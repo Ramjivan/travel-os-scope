@@ -1,0 +1,108 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/profile".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/profile
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1a_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 text PERSONAL WORKSPACE
+			25 heading Profile & security, Value: 1
+				26 text Profile & security
+			27 text Manage your identity, account password, and sign-in protection from one secure workspace. Standard protection
+		28 container
+			29 image
+			30 text IDENTITY
+			31 heading Personal information, Value: 2
+				32 text Personal information
+			33 text Keep the name associated with your TripboxCRM workspace up to date.
+			34 text Full name
+			35 container
+				36 image
+				37 text field (settable) Full name, Value: Nishar Arora, ID: fullname
+			38 text Email address
+			39 container
+				40 image
+				41 text field (disabled) Email address, Value: <redacted>
+			42 text Phone number
+			43 container
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				46 text field (settable) Phone number, Value: <redacted>
+			47 text Your email is managed by your workspace administrator.
+			48 button Save profile
+		49 container
+			50 image
+			51 text ACCESS
+			52 heading Update password, Value: 2
+				53 text Update password
+			54 text Use a unique password that you do not use for another service.
+			55 text Current password
+			56 container
+				57 text field (settable) Current password
+				58 image eye-invisible
+			59 text New password
+			60 container
+				61 text field (settable) New password
+				62 image eye-invisible
+			63 image
+			64 text 6-20 characters
+			65 image
+			66 text One number
+			67 image
+			68 text One special character
+			69 button Update password
+		70 container
+			71 image
+			72 text SIGN-IN PROTECTION
+			73 heading Multi-factor authentication, Value: 2
+				74 text Multi-factor authentication
+			75 text Require a time-based verification code in addition to your password. Not configured 0 1
+			76 image
+			77 text Connect app
+			78 text Scan a secure QR code
+			79 text 0 2
+			80 image
+			81 text Verify code
+			82 text Confirm the six digits
+			83 text 0 3
+			84 image
+			85 text Save recovery
+			86 text Store one-time codes
+			87 text Add a stronger sign-in layer Compatible with Google Authenticator, Microsoft Authenticator, Authy, and other TOTP apps.
+			88 button Set up MFA
+		89 container
+			90 text ACCOUNT OVERVIEW
+			91 text NA
+			92 heading Nishar Arora, Value: 2
+				93 text Nishar Arora
+			94 text [demo account email omitted]
+			95 text Workspace identity
+			96 image
+			97 text Verified Password access Active Second factor Available
+			98 text Protection layers
+			99 text 1 of 2
+			100 image
+			101 text Connect an authenticator app to complete your account protection.
+			102 image
+			103 heading Security by design, Value: 2
+				104 text Security by design
+			105 text Profile changes and sign-in protection are applied only to your authenticated account.
+
+The focused UI element is 18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1a_, Secondary Actions: Expand

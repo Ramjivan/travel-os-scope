@@ -1,0 +1,134 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Lead pipeline, Value: 1
+					23 text Lead pipeline
+				24 text 0  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				25 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				26 button Refresh leads
+					417 image loading
+				28 button New lead
+					29 image
+					30 text New lead
+			31 container
+				32 checkbox New queries, Value: 0
+				33 checkbox In progress, Value: 0
+				34 checkbox On hold, Value: 0
+				35 checkbox Confirmed, Value: 0
+				36 checkbox Ongoing, Value: 0
+				37 checkbox Completed, Value: 0
+				38 checkbox Cancelled, Value: 0
+				39 checkbox All leads, Value: 1
+			40 container Lead filters
+				41 container
+					42 image
+					43 text field (settable)
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					46 text All owners
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_15, Secondary Actions: Expand
+					49 text All portal states
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_16, Secondary Actions: Expand
+					52 text All created dates
+				53 button Filters 1
+					54 image
+					55 text Filters
+					418 text 1
+				56 button Columns
+					57 image
+					58 text Columns
+				59 button Export leads
+					60 image
+			419 table
+				420 row
+					421 cell
+						422 text ID
+					423 cell
+						424 text GUEST NAME
+					425 cell
+						426 text MOBILE
+					427 cell
+						428 text EMAIL
+					429 cell
+						430 text TRAVEL DATE
+					431 cell
+						432 text DESTINATION
+					433 cell
+						434 text ASSIGNED TO
+					435 cell
+						436 text STATUS
+					437 cell
+						438 text PREVIEW
+		415 container
+			416 container Advanced Filters
+				439 container
+					440 button Close
+						441 container Close
+							442 image close
+					443 image
+					444 text Advanced Filters
+					445 container Saved filters
+						446 image
+						447 heading Saved filters, Value: 2
+							448 text Saved filters
+						449 heading MY SAVED FILTERS, Value: 3
+							450 text MY SAVED FILTERS
+						451 text TOS-AUDIT Shared preference B
+						452 text TOS-AUDIT Service preference B Equals TOS-AUDIT Shared
+						453 button Apply
+						454 button Delete TOS-AUDIT Shared preference B
+							455 image
+						456 heading SHARED FILTERS, Value: 3
+							457 text SHARED FILTERS
+						458 text No shared filters yet.
+					459 container
+						460 text Field
+						461 container
+							462 combo box (collapsed, settable) ID: rc_select_24, Secondary Actions: Expand
+							463 text TOS-AUDIT Service preference B
+					464 container
+						465 text Operator
+						466 container
+							467 combo box (collapsed, settable) ID: rc_select_25, Secondary Actions: Expand
+							468 text Equals
+					469 container
+						470 text Value
+						471 container
+							472 combo box (collapsed, settable) ID: rc_select_26, Secondary Actions: Expand
+							473 text TOS-AUDIT Shared
+					474 container
+						475 button
+							476 image
+					477 button Add Filter
+						478 image
+						479 text Add Filter
+					480 button Clear All
+					481 button Cancel
+					482 button Save filter
+						483 image
+						484 text Save filter
+					485 button Apply Filters
+						486 text Apply Filters
+
+The focused UI element is 485 button Apply Filters

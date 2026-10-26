@@ -1,0 +1,729 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_20_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 link Description: #1, Value: tripboxcrm.com/leads/1
+					29 image
+					30 text Edit itinerary
+				31 heading Itinerary workspace, Value: 1
+					32 text Itinerary workspace
+				33 text Proposed for  TOS-AUDIT Fictional Traveller A
+				34 button Quote with AI
+					35 image
+					36 text Quote with AI
+				37 button Approve & start booking
+			38 container
+				39 image
+				40 text Route
+				41 text Indonesia (Bali)
+				42 text Country-level route
+				43 text Travel dates
+				44 container
+					45 text 20 Nov – 24 Nov 2026 ·  4  nights
+				46 image
+				47 text Guests
+				48 container
+					49 text 2  adults
+				50 text Currency
+				51 text INR
+				52 button Trip details
+					53 image
+					54 text Trip details
+				55 button Add stops
+					56 image
+					57 text Add stops
+				58 container
+					59 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					60 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					61 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					62 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					63 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					64 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					65 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				66 container hotels
+					67 image
+					68 heading Hotels, Value: 3
+						69 text Hotels
+					70 container
+						71 text 2  accommodation stays
+					72 button Add hotel
+						73 image
+						74 text Add hotel
+					75 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					76 text Ubud
+					77 image
+					78 text 20 Nov  – 24 Nov  · 4N
+					79 button View details for Alam Puisi Ubud
+						80 text Alam Puisi Ubud
+						81 text Draft
+					82 text Standard Double
+					83 text BB
+					84 button View rates for Alam Puisi Ubud
+						85 text INR
+						86 text 4,000
+					87 button Edit Alam Puisi Ubud
+						88 image
+					89 button Remove Alam Puisi Ubud
+						90 image
+					257 text Ubud
+					258 image
+					259 text 20 Nov  – 24 Nov  · 4N
+					260 button View details for TOS-AUDIT Fictional Hotel B
+						261 text TOS-AUDIT Fictional Hotel B
+						262 text Draft
+					263 text TOS-AUDIT Standard Room
+					264 text BB
+					265 button View rates for TOS-AUDIT Fictional Hotel B
+						266 text INR
+						267 text 11,000
+					268 button Edit TOS-AUDIT Fictional Hotel B
+						269 image
+					270 button Remove TOS-AUDIT Fictional Hotel B
+						271 image
+					91 container
+						92 image
+						93 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					94 button Browse
+						95 image
+						96 text Browse
+				97 container activities
+					98 image
+					99 heading Daily plan, Value: 3
+						100 text Daily plan
+					101 text Activities and ground transport in one timeline
+					102 container
+						103 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						104 container
+							105 image
+							106 button Benoa Water Sports ACTIVITY Kuta · Draft
+								107 text Benoa Water Sports
+								108 text ACTIVITY
+								109 text Kuta · Draft
+							110 button INR 2,400
+							111 button
+								112 image
+							113 button Edit Benoa Water Sports
+								114 image
+							115 button Remove Benoa Water Sports
+								116 image
+							117 container
+								118 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							119 button Activities
+								120 image
+								121 text Activities
+							122 button Transport
+								123 image
+								124 text Transport
+						125 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						126 container
+							127 container
+								128 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							129 button Activities
+								130 image
+								131 text Activities
+							132 button Transport
+								133 image
+								134 text Transport
+						135 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						136 container
+							137 container
+								138 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							139 button Activities
+								140 image
+								141 text Activities
+							142 button Transport
+								143 image
+								144 text Transport
+						145 text DAY  4 23 Nov INDONESIA (BALI) Monday
+						146 container
+							147 container
+								148 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+							149 button Activities
+								150 image
+								151 text Activities
+							152 button Transport
+								153 image
+								154 text Transport
+						155 text DAY  5 24 Nov INDONESIA (BALI) Tuesday
+						156 container
+							157 container
+								158 combo box (collapsed, settable) ID: rc_select_9, Secondary Actions: Expand
+							159 button Activities
+								160 image
+								161 text Activities
+							162 button Transport
+								163 image
+								164 text Transport
+				165 container daily-transports
+					166 image
+					167 heading Full day transport, Value: 2
+						168 text Full day transport
+					169 text Cab services charged per day across your selected dates
+					170 container
+						171 image
+						172 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_10, Secondary Actions: Expand
+					173 button Browse inventory
+						174 image
+						175 text Browse inventory
+					176 image No data
+					177 text No Full Day transports added
+				178 container travel
+					179 image
+					180 heading Flights, Value: 3
+						181 text Flights
+					182 container
+						183 text 0  flight segments
+					184 text No flights added
+					185 button Add flight
+						186 image
+						187 text Add flight
+				188 container Description: Custom services, ID: custom-services
+					189 image
+					190 heading Custom services(1), Value: 3
+						191 text Custom services ( 1 )
+					192 text Visas, insurance, and other trip arrangements
+					193 button Add service
+						194 image
+						195 text Add service
+					196 image
+					197 text TOS-AUDIT Internal trip planning
+					198 text Trip-wide · Handled internally
+					199 text ₹10,000
+					200 button Edit TOS-AUDIT Internal trip planning
+						201 image
+						202 text Edit
+					203 button (disabled) Move service up
+						204 image
+					205 button (disabled) Move service down
+						206 image
+					207 button Remove service
+						208 image
+				209 container
+					210 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						211 image
+						212 text Inclusions & policies
+						213 text 0 inclusions · 0 exclusions · 0 policy sections
+						214 image
+					215 button Markup & taxes 10% markup · No taxes, ID: markup
+						216 image
+						217 text Markup & taxes
+						218 text 10% markup · No taxes
+						219 image
+					220 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						221 image
+						222 text Cost breakdown
+						223 text Hotels, activities, transport, flights and custom services
+						224 image
+				272 container
+					273 text LIVE QUOTE
+					274 text Live calculation
+					275 heading Indonesia (Bali), Value: 2
+						276 text Indonesia (Bali)
+					277 image
+					278 text 20 Nov  to  24 Nov 4  night s
+					279 container mobile-quote-details
+						280 image
+						281 text TOS-AUDIT Fictional Traveller A
+						282 container
+							283 text 2  Adults
+						284 heading Quote composition, Value: 3
+							285 text Quote composition
+						286 text Base, margin, taxes
+						287 container Quote cost composition
+						288 text Base cost ₹27,400 Markup ₹2,740  ( 10 %) Selling price ₹30,140 Per adult ₹15,070
+					289 heading Actions, Value: 3
+						290 text Actions
+					291 text Payment plan set ₹15,400 Unaccounted amount ₹14,740
+					292 button Save Itinerary
+						293 image
+						294 text Save Itinerary
+					295 button Payment Management
+						296 image
+						297 text Payment Management
+					298 button (disabled) Download Itinerary
+						299 image
+						300 text Download Itinerary
+					301 button (disabled) Quick Share
+						302 image
+						303 text Quick Share
+		304 container
+			305 container Add activities Day 2 inventory · rates applied in INR Create New DESTINATION Indonesia (Bali)   CITY   SEARCH INVENTORY TOS-AUDIT close-circle
+				306 container
+					307 button Close
+						308 container Close
+							309 image close
+					310 image
+					311 heading Add activities, Value: 2
+						312 text Add activities
+					313 container
+						314 text Day  2  inventory  · rates applied in INR
+					315 button Create New
+					316 container
+						317 text DESTINATION
+						318 container
+							319 combo box (collapsed, settable) ID: rc_select_20, Secondary Actions: Expand
+							320 text Indonesia (Bali)
+					321 container
+						322 text CITY
+						323 container
+							324 combo box (collapsed, settable) ID: rc_select_21, Secondary Actions: Expand
+					325 container
+						326 text SEARCH INVENTORY
+						327 image
+						328 text field (settable) TOS-AUDIT
+						329 button close-circle
+							330 image close-circle
+					331 image
+					332 text SUPPLIER
+					333 container
+						334 combo box (collapsed, settable) ID: rc_select_22, Secondary Actions: Expand
+						335 text Filter by supplier
+					336 image
+					337 text VEHICLE
+					338 text TYPE
+					339 container
+						340 text Any vehicle
+					341 text PAX
+					342 stepper (disabled, settable, integer) 0
+					343 image
+					344 text CATEGORIES
+					345 button All Categories
+					346 button Attractions
+					347 button Transfers
+					348 button Tours
+					349 text Available activities
+					350 container Activity result view
+						351 checkbox Description: List View, Value: 1
+							352 image
+						353 checkbox Description: Grid View, Value: 0
+							354 image
+					355 text 67 results
+					356 button Aloha Swing Ubud Attractions From Rate unavailable
+						357 heading Aloha Swing, Value: 3
+							358 text Aloha Swing
+						359 image
+						360 text Ubud
+						361 text Attractions
+						362 text From
+						363 text Rate unavailable
+					364 button ATV 1 Ubud Attractions From Rate unavailable
+						365 heading ATV 1, Value: 3
+							366 text ATV 1
+						367 image
+						368 text Ubud
+						369 text Attractions
+						370 text From
+						371 text Rate unavailable
+					372 button ATV ride Ubud Tours From INR 3,000
+						373 heading ATV ride, Value: 3
+							374 text ATV ride
+						375 image
+						376 text Ubud
+						377 text Tours
+						378 text From
+						379 text INR 3,000
+					380 button atv tarantula Kuta Attractions From Rate unavailable
+						381 heading atv tarantula, Value: 3
+							382 text atv tarantula
+						383 image
+						384 text Kuta
+						385 text Attractions
+						386 text From
+						387 text Rate unavailable
+					388 button Bali Farm House Kuta Tours From Rate unavailable
+						389 heading Bali Farm House, Value: 3
+							390 text Bali Farm House
+						391 image
+						392 text Kuta
+						393 text Tours
+						394 text From
+						395 text Rate unavailable
+					396 button Bali Jungle swing Ubud Attractions From Rate unavailable
+						397 heading Bali Jungle swing, Value: 3
+							398 text Bali Jungle swing
+						399 image
+						400 text Ubud
+						401 text Attractions
+						402 text From
+						403 text Rate unavailable
+					404 button BALI LAND PACKAGE Across Indonesia (Bali) Tours From Rate unavailable
+						405 heading BALI LAND PACKAGE, Value: 3
+							406 text BALI LAND PACKAGE
+						407 image
+						408 text Across Indonesia (Bali)
+						409 text Tours
+						410 text From
+						411 text Rate unavailable
+					412 button Bali Swing Ubud Attractions From INR 3,000
+						413 heading Bali Swing, Value: 3
+							414 text Bali Swing
+						415 image
+						416 text Ubud
+						417 text Attractions
+						418 text From
+						419 text INR 3,000
+					420 button beach activity Across Indonesia (Bali) Attractions From Rate unavailable
+						421 heading beach activity, Value: 3
+							422 text beach activity
+						423 image
+						424 text Across Indonesia (Bali)
+						425 text Attractions
+						426 text From
+						427 text Rate unavailable
+					428 button Benoa Water Sports Kuta Attractions From INR 1,200
+						429 heading Benoa Water Sports, Value: 3
+							430 text Benoa Water Sports
+						431 image
+						432 text Kuta
+						433 text Attractions
+						434 text From
+						435 text INR 1,200
+					436 button BUngy Jumping Ubud Attractions From Rate unavailable
+						437 heading BUngy Jumping, Value: 3
+							438 text BUngy Jumping
+						439 image
+						440 text Ubud
+						441 text Attractions
+						442 text From
+						443 text Rate unavailable
+					444 button Bunji jumping Bali Attractions From Rate unavailable
+						445 heading Bunji jumping, Value: 3
+							446 text Bunji jumping
+						447 image
+						448 text Bali
+						449 text Attractions
+						450 text From
+						451 text Rate unavailable
+					452 button Candle light dinner at Nusa dua beach Kuta Tours From Rate unavailable
+						453 heading Candle light dinner at Nusa dua beach, Value: 3
+							454 text Candle light dinner at Nusa dua beach
+						455 image
+						456 text Kuta
+						457 text Tours
+						458 text From
+						459 text Rate unavailable
+					460 button Coffee Plantation Ubud Tours From Rate unavailable
+						461 heading Coffee Plantation, Value: 3
+							462 text Coffee Plantation
+						463 image
+						464 text Ubud
+						465 text Tours
+						466 text From
+						467 text Rate unavailable
+					468 button couple Parasailing Kuta Tours From Rate unavailable
+						469 heading couple Parasailing, Value: 3
+							470 text couple Parasailing
+						471 image
+						472 text Kuta
+						473 text Tours
+						474 text From
+						475 text Rate unavailable
+					476 button Dolphin watching + Sekhumpul waterfall Lovina Tours From Rate unavailable
+						477 heading Dolphin watching + Sekhumpul waterfall, Value: 3
+							478 text Dolphin watching + Sekhumpul waterfall
+						479 image
+						480 text Lovina
+						481 text Tours
+						482 text From
+						483 text Rate unavailable
+					484 button Drop of transfers to Finns Club (return on own) Kuta Transfers From Rate unavailable
+						485 heading Drop of transfers to Finns Club (return on own), Value: 3
+							486 text Drop of transfers to Finns Club (return on own)
+						487 image
+						488 text Kuta
+						489 text Transfers
+						490 text From
+						491 text Rate unavailable
+					492 button Floating Breakfast Ubud Attractions From Rate unavailable
+						493 heading Floating Breakfast, Value: 3
+							494 text Floating Breakfast
+						495 image
+						496 text Ubud
+						497 text Attractions
+						498 text From
+						499 text Rate unavailable
+					500 button Floating Breakfast in villa. Ubud Attractions From Rate unavailable
+						501 heading Floating Breakfast in villa., Value: 3
+							502 text Floating Breakfast in villa.
+						503 image
+						504 text Ubud
+						505 text Attractions
+						506 text From
+						507 text Rate unavailable
+					508 button Garuda Wisnu Kencana Cultural Park Kuta Attractions From INR 1,000
+						509 heading Garuda Wisnu Kencana Cultural Park, Value: 3
+							510 text Garuda Wisnu Kencana Cultural Park
+						511 image
+						512 text Kuta
+						513 text Attractions
+						514 text From
+						515 text INR 1,000
+					516 button Garuda Wisnu Kencana Cultural Park Kuta Attractions From Rate unavailable
+						517 heading Garuda Wisnu Kencana Cultural Park, Value: 3
+							518 text Garuda Wisnu Kencana Cultural Park
+						519 image
+						520 text Kuta
+						521 text Attractions
+						522 text From
+						523 text Rate unavailable
+					524 button Git Git Waterfall Kuta Attractions From Rate unavailable
+						525 heading Git Git Waterfall, Value: 3
+							526 text Git Git Waterfall
+						527 image
+						528 text Kuta
+						529 text Attractions
+						530 text From
+						531 text Rate unavailable
+					532 button Handara Gate Kuta Tours From Rate unavailable
+						533 heading Handara Gate, Value: 3
+							534 text Handara Gate
+						535 image
+						536 text Kuta
+						537 text Tours
+						538 text From
+						539 text Rate unavailable
+					540 button Heaven Swing Ubud Tours From Rate unavailable
+						541 heading Heaven Swing, Value: 3
+							542 text Heaven Swing
+						543 image
+						544 text Ubud
+						545 text Tours
+						546 text From
+						547 text Rate unavailable
+					548 button Inter Hotel Transfer to Kuta Kuta Transfers From Rate unavailable
+						549 heading Inter Hotel Transfer to Kuta, Value: 3
+							550 text Inter Hotel Transfer to Kuta
+						551 image
+						552 text Kuta
+						553 text Transfers
+						554 text From
+						555 text Rate unavailable
+					556 button Inter Hotel Transfer to Mara River Safari Lodge Kuta Transfers From Rate unavailable
+						557 heading Inter Hotel Transfer to Mara River Safari Lodge, Value: 3
+							558 text Inter Hotel Transfer to Mara River Safari Lodge
+						559 image
+						560 text Kuta
+						561 text Transfers
+						562 text From
+						563 text Rate unavailable
+					564 button Inter Hotel Transfer to Nusa Dua Nusa Dua Transfers From Rate unavailable
+						565 heading Inter Hotel Transfer to Nusa Dua, Value: 3
+							566 text Inter Hotel Transfer to Nusa Dua
+						567 image
+						568 text Nusa Dua
+						569 text Transfers
+						570 text From
+						571 text Rate unavailable
+					572 button Inter Hotel Transfer to Nusa Penida Nusa Penida Transfers From Rate unavailable
+						573 heading Inter Hotel Transfer to Nusa Penida, Value: 3
+							574 text Inter Hotel Transfer to Nusa Penida
+						575 image
+						576 text Nusa Penida
+						577 text Transfers
+						578 text From
+						579 text Rate unavailable
+					580 button Interhotel Transfer to Seminyak Seminyak Transfers From Rate unavailable
+						581 heading Interhotel Transfer to Seminyak, Value: 3
+							582 text Interhotel Transfer to Seminyak
+						583 image
+						584 text Seminyak
+						585 text Transfers
+						586 text From
+						587 text Rate unavailable
+					588 button Jet ski Bali Attractions From Rate unavailable
+						589 heading Jet ski, Value: 3
+							590 text Jet ski
+						591 image
+						592 text Bali
+						593 text Attractions
+						594 text From
+						595 text Rate unavailable
+					596 button Jungle Hopper By Bali Safari Ubud Attractions From Rate unavailable
+						597 heading Jungle Hopper By Bali Safari, Value: 3
+							598 text Jungle Hopper By Bali Safari
+						599 image
+						600 text Ubud
+						601 text Attractions
+						602 text From
+						603 text Rate unavailable
+					604 button Kecak Dance Kuta Attractions From Rate unavailable
+						605 heading Kecak Dance, Value: 3
+							606 text Kecak Dance
+						607 image
+						608 text Kuta
+						609 text Attractions
+						610 text From
+						611 text Rate unavailable
+					612 button Kintamani (Mt. Batur Viewing Point) Ubud Attractions From INR 1,500
+						613 heading Kintamani (Mt. Batur Viewing Point), Value: 3
+							614 text Kintamani (Mt. Batur Viewing Point)
+						615 image
+						616 text Ubud
+						617 text Attractions
+						618 text From
+						619 text INR 1,500
+					620 button Kuta to Nusa pendia Nusa Penida Transfers From Rate unavailable
+						621 heading Kuta to Nusa pendia, Value: 3
+							622 text Kuta to Nusa pendia
+						623 image
+						624 text Nusa Penida
+						625 text Transfers
+						626 text From
+						627 text Rate unavailable
+					628 button Leisure Day - Gili Gili Islands Attractions From Rate unavailable
+						629 heading Leisure Day - Gili, Value: 3
+							630 text Leisure Day - Gili
+						631 image
+						632 text Gili Islands
+						633 text Attractions
+						634 text From
+						635 text Rate unavailable
+					636 button Leisure in Bali Ubud Tours From Rate unavailable
+						637 heading Leisure in Bali, Value: 3
+							638 text Leisure in Bali
+						639 image
+						640 text Ubud
+						641 text Tours
+						642 text From
+						643 text Rate unavailable
+					644 button Lempuyang Temple Ubud Attractions From Rate unavailable
+						645 heading Lempuyang Temple, Value: 3
+							646 text Lempuyang Temple
+						647 image
+						648 text Ubud
+						649 text Attractions
+						650 text From
+						651 text Rate unavailable
+					652 button Luwak Coffee Testing Ubud Tours From Rate unavailable
+						653 heading Luwak Coffee Testing, Value: 3
+							654 text Luwak Coffee Testing
+						655 image
+						656 text Ubud
+						657 text Tours
+						658 text From
+						659 text Rate unavailable
+					660 button Melasti Beach (Pantai Melasti) Kuta Transfers From Rate unavailable
+						661 heading Melasti Beach (Pantai Melasti), Value: 3
+							662 text Melasti Beach (Pantai Melasti)
+						663 image
+						664 text Kuta
+						665 text Transfers
+						666 text From
+						667 text Rate unavailable
+					668 button Night Safari Bali Kuta Tours From Rate unavailable
+						669 heading Night Safari Bali, Value: 3
+							670 text Night Safari Bali
+						671 image
+						672 text Kuta
+						673 text Tours
+						674 text From
+						675 text Rate unavailable
+					676 button Padang Bai Kuta Attractions From Rate unavailable
+						677 heading Padang Bai, Value: 3
+							678 text Padang Bai
+						679 image
+						680 text Kuta
+						681 text Attractions
+						682 text From
+						683 text Rate unavailable
+					684 button Paris City Tour France Tours From INR 1,000
+						685 heading Paris City Tour, Value: 3
+							686 text Paris City Tour
+						687 image
+						688 text France
+						689 text Tours
+						690 text From
+						691 text INR 1,000
+					692 button Pioneer Swing Ubud Attractions From Rate unavailable
+						693 heading Pioneer Swing, Value: 3
+							694 text Pioneer Swing
+						695 image
+						696 text Ubud
+						697 text Attractions
+						698 text From
+						699 text Rate unavailable
+					700 button private vehicle on disposal in kuta Kuta Tours From Rate unavailable
+						701 heading private vehicle on disposal in kuta, Value: 3
+							702 text private vehicle on disposal in kuta
+						703 image
+						704 text Kuta
+						705 text Tours
+						706 text From
+						707 text Rate unavailable
+					708 button River Rafting Ubud Attractions From Rate unavailable
+						709 heading River Rafting, Value: 3
+							710 text River Rafting
+						711 image
+						712 text Ubud
+						713 text Attractions
+						714 text From
+						715 text Rate unavailable
+					716 button Scuba Diving at Tanjung Benoa Kuta Tours From Rate unavailable
+						717 heading Scuba Diving at Tanjung Benoa, Value: 3
+							718 text Scuba Diving at Tanjung Benoa
+						719 image
+						720 text Kuta
+						721 text Tours
+						722 text From
+						723 text Rate unavailable
+					724 button Suluban Beach Kuta Attractions From Rate unavailable
+						725 heading Suluban Beach, Value: 3
+							726 text Suluban Beach
+						727 image
+						728 text Kuta
+						729 text Attractions
+						730 text From
+						731 text Rate unavailable
+					732 button Tanah Lot Temple Kuta Attractions From Rate unavailable
+						733 heading Tanah Lot Temple, Value: 3
+							734 text Tanah Lot Temple
+						735 image
+						736 text Kuta
+						737 text Attractions
+						738 text From
+						739 text Rate unavailable
+					740 button Tegalalang Rice Terrace Ubud Attractions From INR 2,000
+						741 heading Tegalalang Rice Terrace, Value: 3
+							742 text Tegalalang Rice Terrace
+						743 image
+						744 text Ubud
+						745 text Attractions
+						746 text From
+						747 text INR 2,000
+					748 button temple visit Kuta Attractions From Rate unavailable
+						749 heading temple visit, Value: 3
+							750 text temple visit
+						751 image
+						752 text Kuta
+						753 text Attractions
+						754 text From
+						755 text Rate unavailable
+					756 text 0  selected
+					757 button Close
+					758 button (disabled) Add Activities
+
+The focused UI element is 334 combo box (collapsed, settable) ID: rc_select_22, Secondary Actions: Expand

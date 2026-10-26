@@ -1,0 +1,103 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/agencies/f2ba4653-6796-4a27-8c62-d1d11b5db133/users".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies/f2ba4653-6796-4a27-8c62-d1d11b5db133/users
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container Breadcrumb
+				22 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				23 image
+				24 text Agencies
+			25 text Organisation control center
+			26 container Organisation settings navigation
+				27 text Settings
+				28 text Workspace controls and operational data.
+				29 container
+					30 text WORKSPACE
+					31 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					32 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					33 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					34 link Description: Users, Value: tripboxcrm.com/org/users
+					35 link Description: Teams, Value: tripboxcrm.com/org/teams
+				36 container
+					37 text OPERATIONS
+					38 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					39 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					40 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					41 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					42 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					43 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				44 container
+					45 text REPOSITORIES
+					46 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					47 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					48 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				49 container
+					50 text CONFIGURATION
+					51 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					52 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					53 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					54 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					55 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			56 container
+				57 heading TOS-AUDIT Fictional Agency A users, Value: 1
+					58 text TOS-AUDIT Fictional Agency A users
+				59 text 0  portal users
+				60 text Manage the external agency users who can create itineraries in the agent portal.
+				61 link Description: Back to agencies, Value: tripboxcrm.com/org/agencies
+				62 button Add user
+					63 image
+					64 text Add user
+				65 table
+					66 row
+						67 cell
+							68 text USER
+						69 cell
+							70 text LINKED CONTACT
+						71 cell
+							72 text ROLE
+						73 cell
+							74 text STATUS
+						75 cell
+							76 text ACTIONS
+					77 row
+						78 cell
+							79 container
+								80 image No data
+								81 text No portal users have been added yet
+								82 button Add first user
+		83 container
+			84 container
+				85 container
+					86 button
+					87 text field (settable)
+					88 text field (settable)
+					89 container
+						90 combo box (collapsed) Secondary Actions: Expand
+					91 container
+						92 container
+							93 text field (settable)
+							94 image
+					95 container
+						96 container
+							97 combo box (collapsed) Secondary Actions: Expand
+					98 button
+					99 button
+						100 image
+
+The focused UI element is 62 button Add user

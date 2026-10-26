@@ -1,0 +1,118 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/agencies".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1i_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Agencies
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Agencies, Value: 1
+				60 text Agencies
+			61 text 1  agencies in this view
+			62 text Manage partner agencies and the contacts connected to agency-led enquiries.
+			63 button Refresh agencies
+				64 image
+			65 button New agency
+				66 image
+				67 text New agency
+			68 container
+				69 image
+				70 text field (settable)
+			71 container
+				72 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				73 text Any status
+			74 container
+				75 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				76 text Newest first
+			77 table
+				78 row
+					79 cell Agency name
+						80 text AGENCY NAME
+					81 cell Status
+						82 text STATUS
+					83 cell
+						84 text ACTIONS
+				85 row
+					86 cell
+						87 text TOS-AUDIT Fictional Agency A Fictional audit address; not a real business.
+					88 cell
+						89 text Active
+					90 cell
+						91 button View contacts for TOS-AUDIT Fictional Agency A
+							92 image
+						93 button Add a contact to TOS-AUDIT Fictional Agency A
+							94 image
+						95 button Manage portal users for TOS-AUDIT Fictional Agency A
+							96 image
+						97 button Update TOS-AUDIT Fictional Agency A
+							98 image
+						99 button Delete TOS-AUDIT Fictional Agency A
+							100 image
+			101 container agencies pagination
+				102 container
+					103 text 1 – 1  of  1 agencies
+				104 content list
+					105 container Previous Page
+						106 button (disabled) left
+							107 image left
+					108 text 1
+					109 container Next Page
+						110 button (disabled) right
+							111 image right
+					112 container Page Size
+						113 container
+							114 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+							115 text 10 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies

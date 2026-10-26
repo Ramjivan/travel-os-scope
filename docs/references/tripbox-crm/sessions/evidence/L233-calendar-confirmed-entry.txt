@@ -1,0 +1,54 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/calendar".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 heading Trip calendar, Value: 1
+				22 text Trip calendar
+			23 text 0  trips in the visible week Track active travel windows and inspect day-by-day itinerary activity across the lead pipeline.
+			24 link Description: Lead pipeline, Value: tripboxcrm.com/leads
+			25 checkbox Weekly, Value: 1
+			26 checkbox Monthly, Value: 0
+			27 button Refresh calendar
+				28 image
+		29 container
+			30 text VISIBLE WEEK 04 Oct 2026  -  10 Oct 2026
+			31 button
+				32 image
+			33 button Today
+			34 button
+				35 image
+			36 text Sun
+			37 text 04 Oct
+			38 text Mon
+			39 text 05 Oct
+			40 text Tue
+			41 text 06 Oct
+			42 text Wed
+			43 text 07 Oct
+			44 text Thu
+			45 text 08 Oct
+			46 text Fri
+			47 text 09 Oct
+			48 text Sat
+			49 text 10 Oct
+			50 image No data
+			51 text No leads found for this week
+
+The focused UI element is 13 link Description: Trip Calendar, URL: tripboxcrm.com/leads/calendar

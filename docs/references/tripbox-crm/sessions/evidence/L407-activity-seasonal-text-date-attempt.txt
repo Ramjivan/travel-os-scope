@@ -1,0 +1,219 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/activities-repository/b1d01a9c-675f-4502-897f-7eff391067a1".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository/b1d01a9c-675f-4502-897f-7eff391067a1
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1c_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container Breadcrumb
+				22 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				23 image
+				24 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				25 image
+				26 text TOS-AUDIT Fictional Activity B
+			27 text Organisation control center
+			28 container Organisation settings navigation
+				29 text Settings
+				30 text Workspace controls and operational data.
+				31 container
+					32 text WORKSPACE
+					33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					36 link Description: Users, Value: tripboxcrm.com/org/users
+					37 link Description: Teams, Value: tripboxcrm.com/org/teams
+				38 container
+					39 text OPERATIONS
+					40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				46 container
+					47 text REPOSITORIES
+					48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				51 container
+					52 text CONFIGURATION
+					53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			58 container
+				59 heading Edit Activity, Value: 1
+					60 text Edit Activity
+				61 text Update activity details, pricing, and seasonal rates
+				62 button Back to activities
+				63 container
+					64 heading Activity overview, Value: 2
+						65 text Activity overview
+					66 text Activity Image
+					67 button Upload image
+						68 image
+						69 text Upload image
+					70 container
+						71 text * Activity Name
+					72 text field (settable) * Activity Name, Value: TOS-AUDIT Fictional Activity B, ID: name
+					73 container
+						74 text * Category
+					75 container
+						76 combo box (collapsed, settable) * Category, ID: category, Secondary Actions: Expand
+						77 text Attractions
+					78 text Duration
+					79 container
+						80 container
+							81 button Increase Value
+								82 image up
+							83 button Decrease Value
+								84 image down
+						85 stepper (settable, integer) Duration, Value: 2, ID: duration
+						86 text hours
+					87 container
+						88 text Status
+						89 image question-circle
+					90 switch Description: Status question-circle, Value: 1, ID: isActive
+						91 text Active
+						92 text Inactive
+					93 container
+						94 text Visible to agencies
+						95 image question-circle
+					96 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						97 text Visible
+						98 text Internal only
+					99 container
+						100 text * Description
+					101 container
+						102 text entry area (settable) * Description, Value: Fictional audit activity only; no real admission, availability or reservation., ID: description
+						103 text 78 / 3000
+					104 heading Location and partnerships, Value: 2
+						105 text Location and partnerships
+					106 container
+						107 text * Country
+					108 container Country
+						109 container
+							110 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+							111 text Indonesia (Bali)
+					112 text City (optional)
+					113 container
+						114 container City
+							115 container
+								116 combo box (collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+						117 text Leave blank to offer this activity throughout the country.
+					118 text Preferred Supplier
+					119 container
+						120 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						121 text Select a supplier
+					122 heading Inclusions and exclusions, Value: 2
+						123 text Inclusions and exclusions
+					124 heading Inclusions, Value: 3
+						125 text Inclusions
+					126 button Add Inclusion
+						127 image
+						128 text Add Inclusion
+					129 heading Exclusions, Value: 3
+						130 text Exclusions
+					131 button Add Exclusion
+						132 image
+						133 text Add Exclusion
+					134 heading Pricing and tariffs, Value: 2
+						135 text Pricing and tariffs
+					136 heading Regular tariff, Value: 3
+						137 text Regular tariff
+					138 container
+						139 heading INR, Value: 4
+							140 text INR
+						141 container
+							142 text INR
+							143 container
+								144 button Increase Value
+									145 image up
+								146 button Decrease Value
+									147 image down
+							148 stepper (settable, integer) Value: 500, ID: tariff_0_costForAdult
+						149 container
+							150 text INR
+							151 container
+								152 button Increase Value
+									153 image up
+								154 button Decrease Value
+									155 image down
+							156 stepper (settable, integer) Value: 300, ID: tariff_0_costForCWB
+						157 container
+							158 text INR
+							159 container
+								160 button Increase Value
+									161 image up
+								162 button Decrease Value
+									163 image down
+							164 stepper (settable, integer) Value: 0, ID: tariff_0_costForInfant
+					165 heading Seasonal tariff, Value: 3
+						166 text Seasonal tariff
+					167 container
+						168 container
+							169 text * Date Range
+						170 container
+							171 container
+								172 text field (settable) * Date Range, ID: seasonal_0_daterange
+								173 container to
+									174 image swap-right
+								175 text field (settable)
+								176 image calendar
+							177 text Select date range
+						178 text Reason
+						179 text field (settable) Reason, Value: TOS-AUDIT seasonal activity example only, ID: seasonal_0_reason
+						180 button
+							181 image
+						182 heading Seasonal rates, Value: 4
+							183 text Seasonal rates
+						184 container
+							185 heading INR, Value: 5
+								186 text INR
+							187 container
+								188 text INR
+								189 container
+									190 button Increase Value
+										191 image up
+									192 button Decrease Value
+										193 image down
+								194 stepper (settable, integer) Value: 700, ID: seasonal_0_tariff_0_costForAdult
+							195 container
+								196 text INR
+								197 container
+									198 button Increase Value
+										199 image up
+									200 button Decrease Value
+										201 image down
+								202 stepper (settable, integer) Value: 400, ID: seasonal_0_tariff_0_costForCWB
+							203 container
+								204 text INR
+								205 container
+									206 button Increase Value
+										207 image up
+									208 button Decrease Value
+										209 image down
+								210 stepper (settable, integer) Value: 0, ID: seasonal_0_tariff_0_costForInfant
+						211 button Add Date Range
+							212 image
+							213 text Add Date Range
+					214 button Cancel
+					215 button Save Changes
+						216 text Save Changes
+
+The focused UI element is 215 button Save Changes

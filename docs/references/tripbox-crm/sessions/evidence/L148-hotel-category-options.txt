@@ -1,0 +1,144 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+					7 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					8 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+			9 container Breadcrumb
+				10 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				11 image
+				12 text Hotels Repository
+			13 container Organisation settings section
+				14 container
+					15 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+					16 text Hotels Repository
+			17 container
+				18 heading Create Hotel, Value: 1
+					19 text Create Hotel
+				20 text Add a new property with room types, partners, and tariffs
+				21 button Back to hotels
+				22 container
+					23 heading Hotel overview, Value: 2
+						24 text Hotel overview
+					25 text Hero Image
+					26 button Upload image
+						27 image
+						28 text Upload image
+					29 container
+						30 text * Hotel Name
+					31 text field (settable) * Hotel Name, Value: TOS-AUDIT Fictional Hotel B, ID: name
+					32 container
+						33 text * Category
+					34 container
+						35 container
+							36 combo box (expanded, settable) * Category, ID: category, Secondary Actions: Collapse
+							37 text Select category
+						38 text Select a category
+					39 container
+						40 text Hotel Details Link
+						41 image question-circle
+					42 text field (settable) Hotel Details Link question-circle, ID: link
+					43 container
+						44 text Status
+						45 image question-circle
+					46 switch Description: Status question-circle, Value: 1, ID: isActive
+						47 text Active
+						48 text Inactive
+					49 container
+						50 text Visible to agencies
+						51 image question-circle
+					52 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						53 text Visible
+						54 text Internal only
+					55 heading Location and partnerships, Value: 2
+						56 text Location and partnerships
+					57 container
+						58 text * Country
+					59 container
+						60 container Country
+							61 container
+								62 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+								63 text Mauritius, Bali, etc.
+						64 text Enter country
+					65 container
+						66 text * City
+					67 container
+						68 container City
+							69 container
+								70 combo box (disabled, collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+								71 text Bangkok, Hanoi, etc.
+						72 text Enter city
+					73 text Preferred Supplier
+					74 container
+						75 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						76 text Select a supplier
+					77 heading Voucher information, Value: 2
+						78 text Voucher information
+					79 text Hotel address
+					80 text entry area (settable) Hotel address, ID: address
+					81 text Hotel phone
+					82 text field (settable) Hotel phone
+					83 text Hotel email
+					84 text field (settable) Hotel email
+					85 text Important information
+					86 container
+						87 checkbox Description: Bold, Value: 0
+							88 text B
+						89 checkbox Description: Bullet list, Value: 0
+							90 image
+						91 container Important information
+							92 text Add guest-facing information.
+					93 heading Meal plans, Value: 2
+						94 text Meal plans
+					95 container mealPlans
+						96 container
+							97 checkbox (settable, integer) Description: Bed & Breakfast (BB)  , Value: 1
+							98 text Bed & Breakfast (BB)
+						99 container
+							100 checkbox (settable, integer) Description: Half Board (HB)  , Value: 0
+							101 text Half Board (HB)
+						102 container
+							103 checkbox (settable, integer) Description: Full Board (FB)  , Value: 0
+							104 text Full Board (FB)
+						105 container
+							106 checkbox (settable, integer) Description: Half Board (MAP)  , Value: 0
+							107 text Half Board (MAP)
+						108 container
+							109 checkbox (settable, integer) Description: All Meals (AP)  , Value: 0
+							110 text All Meals (AP)
+					111 text Meal plans determine the rate slabs available in the rates modal. Select at least one to manage pricing.
+					112 heading Rooms and rates, Value: 2
+						113 text Rooms and rates
+					114 text Configure room types and launch the rates modal to enter base and seasonal tariffs.
+					115 text No rooms configured yet. Add a room to start defining tariffs.
+					116 button Add Room
+						117 image
+						118 text Add Room
+					119 heading Inclusions and exclusions, Value: 2
+						120 text Inclusions and exclusions
+					121 heading Inclusions, Value: 3
+						122 text Inclusions
+					123 button Add Inclusion
+						124 image
+						125 text Add Inclusion
+					126 heading Exclusions, Value: 3
+						127 text Exclusions
+					128 button Add Exclusion
+						129 image
+						130 text Add Exclusion
+					131 button Cancel
+					132 button Save Changes
+						133 text Save Changes
+		134 container
+			135 list category_list
+				136 Value: 5 Star, ID: category_list_0
+				137 Value: 4 Star, ID: category_list_1
+			138 text 5 Star
+			139 text 4 Star
+			140 text 3 Star
+			141 text 2 Star
+
+The focused UI element is 36 combo box (expanded, settable) * Category, ID: category, Secondary Actions: Collapse

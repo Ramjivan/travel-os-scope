@@ -1,0 +1,245 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository/89a6af2b-1773-41aa-b2a5-7d2fa4548d3e".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository/89a6af2b-1773-41aa-b2a5-7d2fa4548d3e
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1f_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container Breadcrumb
+				22 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				23 image
+				24 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				25 image
+				26 text TOS-AUDIT Fictional Hotel B
+			27 text Organisation control center
+			28 container Organisation settings navigation
+				29 text Settings
+				30 text Workspace controls and operational data.
+				31 container
+					32 text WORKSPACE
+					33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					36 link Description: Users, Value: tripboxcrm.com/org/users
+					37 link Description: Teams, Value: tripboxcrm.com/org/teams
+				38 container
+					39 text OPERATIONS
+					40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				46 container
+					47 text REPOSITORIES
+					48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				51 container
+					52 text CONFIGURATION
+					53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			58 container
+				59 heading Edit Hotel, Value: 1
+					60 text Edit Hotel
+				61 text Update property details, meal plans, and seasonal pricing
+				62 button Back to hotels
+				63 container
+					64 heading Hotel overview, Value: 2
+						65 text Hotel overview
+					66 text Hero Image
+					67 button Upload image
+						68 image
+						69 text Upload image
+					70 container
+						71 text * Hotel Name
+					72 text field (settable) * Hotel Name, Value: TOS-AUDIT Fictional Hotel B, ID: name
+					73 container
+						74 text * Category
+					75 container
+						76 combo box (collapsed, settable) * Category, ID: category, Secondary Actions: Expand
+						77 text 4 Star
+					78 container
+						79 text Hotel Details Link
+						80 image question-circle
+					81 text field (settable) Hotel Details Link question-circle, ID: link
+					82 container
+						83 text Status
+						84 image question-circle
+					85 switch Description: Status question-circle, Value: 1, ID: isActive
+						86 text Active
+						87 text Inactive
+					88 container
+						89 text Visible to agencies
+						90 image question-circle
+					91 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						92 text Visible
+						93 text Internal only
+					94 heading Location and partnerships, Value: 2
+						95 text Location and partnerships
+					96 container
+						97 text * Country
+					98 container Country
+						99 container
+							100 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+							101 text Indonesia (Bali)
+					102 container
+						103 text * City
+					104 container City
+						105 container
+							106 combo box (collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+							107 text Ubud
+					108 text Preferred Supplier
+					109 container
+						110 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						111 text Select a supplier
+					112 heading Voucher information, Value: 2
+						113 text Voucher information
+					114 text Hotel address
+					115 text entry area (settable) Hotel address, ID: address
+					116 text Hotel phone
+					117 text field (settable) Hotel phone
+					118 text Hotel email
+					119 text field (settable) Hotel email
+					120 text Important information
+					121 container
+						122 checkbox Description: Bold, Value: 0
+							123 text B
+						124 checkbox Description: Bullet list, Value: 0
+							125 image
+						126 container Important information
+							127 text Add guest-facing information.
+					128 heading Meal plans, Value: 2
+						129 text Meal plans
+					130 container mealPlans
+						131 container
+							132 checkbox (settable, integer) Description: Bed & Breakfast (BB)  , Value: 1
+							133 text Bed & Breakfast (BB)
+						134 container
+							135 checkbox (settable, integer) Description: Half Board (HB)  , Value: 1
+							136 text Half Board (HB)
+						137 container
+							138 checkbox (settable, integer) Description: Full Board (FB)  , Value: 0
+							139 text Full Board (FB)
+						140 container
+							141 checkbox (settable, integer) Description: Half Board (MAP)  , Value: 0
+							142 text Half Board (MAP)
+						143 container
+							144 checkbox (settable, integer) Description: All Meals (AP)  , Value: 0
+							145 text All Meals (AP)
+					146 text Meal plans determine the rate slabs available in the rates modal. Select at least one to manage pricing.
+					147 heading Rooms and rates, Value: 2
+						148 text Rooms and rates
+					149 text Configure room types and launch the rates modal to enter base and seasonal tariffs.
+					150 container
+						151 container
+							152 text * Room Type
+						153 container
+							154 combo box (collapsed, settable) * Room Type, Value: TOS-AUDIT Standard Room, ID: rooms_0_roomType, Secondary Actions: Expand
+						155 text Pax per Room
+						156 stepper (settable, integer) Pax per Room, Value: 2, ID: rooms_0_paxPerRoom
+						157 button Manage Rates
+							158 image
+							159 text Manage Rates
+						160 button Remove
+							161 image
+							162 text Remove
+					163 button Add Room
+						164 image
+						165 text Add Room
+					166 heading Inclusions and exclusions, Value: 2
+						167 text Inclusions and exclusions
+					168 heading Inclusions, Value: 3
+						169 text Inclusions
+					170 button Add Inclusion
+						171 image
+						172 text Add Inclusion
+					173 heading Exclusions, Value: 3
+						174 text Exclusions
+					175 button Add Exclusion
+						176 image
+						177 text Add Exclusion
+					178 button Cancel
+					179 button Save Changes
+		180 container
+			181 container Configure Rates Set regular and seasonal rates per meal plan
+				182 container
+					183 button Close
+						184 container Close
+							185 image close
+					186 text Configure Rates
+					187 text Set regular and seasonal rates per meal plan
+					188 tab group
+						189 container
+							190 tab (selectable, settable, boolean) BB, Value: 0, ID: rc-tabs-0-tab-BB
+							191 tab (selected, settable, boolean) HB, Value: 1, ID: rc-tabs-0-tab-HB
+					192 container Description: HB, ID: rc-tabs-0-panel-HB
+						193 heading Standard Rates, Value: 6
+							194 text Standard Rates
+						195 text INR
+						196 text Per Room
+						197 container
+							198 text INR
+							199 button Increase Value
+								200 image up
+							201 button (disabled) Decrease Value
+								202 image down
+							203 stepper (settable, integer) Value: 0, ID: rooms_0_HB_tariff_INR_costForAdult
+						204 text Extra Bed
+						205 container
+							206 text INR
+							207 button Increase Value
+								208 image up
+							209 button (disabled) Decrease Value
+								210 image down
+							211 stepper (settable, integer) Value: 0, ID: rooms_0_HB_tariff_INR_costForCWB
+						212 text Extra Bed Child
+						213 container
+							214 text INR
+							215 button Increase Value
+								216 image up
+							217 button (disabled) Decrease Value
+								218 image down
+							219 stepper (settable, integer) Value: 0, ID: rooms_0_HB_tariff_INR_costForCWEB
+						220 text No Bed
+						221 container
+							222 text INR
+							223 button Increase Value
+								224 image up
+							225 button (disabled) Decrease Value
+								226 image down
+							227 stepper (settable, integer) Value: 0, ID: rooms_0_HB_tariff_INR_costForCNB
+						228 text Infant Rate
+						229 container
+							230 text INR
+							231 button Increase Value
+								232 image up
+							233 button (disabled) Decrease Value
+								234 image down
+							235 stepper (settable, integer) Value: 0, ID: rooms_0_HB_tariff_INR_costForInfant
+						236 heading Seasonal Date-specific Rates, Value: 6
+							237 text Seasonal Date-specific Rates
+						238 button Add Seasonal Rate
+							239 image
+							240 text Add Seasonal Rate
+					241 button Discard
+					242 button Done
+
+The focused UI element is 191 tab (selected, settable, boolean) HB, Value: 1, ID: rc-tabs-0-tab-HB

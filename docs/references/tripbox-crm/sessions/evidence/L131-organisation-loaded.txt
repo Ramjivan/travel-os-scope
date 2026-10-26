@@ -1,0 +1,108 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/organisation".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_18_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 text Organisation
+		10 container Organisation settings section
+			11 container
+				12 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				13 text Organisation
+		14 container
+			15 heading Organisation profile, Value: 1
+				16 text Organisation profile
+			17 image
+			18 text Active workspace
+			19 text Workspace identity, regional defaults, brand assets, and account capacity.
+			20 button Edit company details
+				21 image
+				22 text Edit company details
+			23 text WORKSPACE RECORD
+			24 heading Operating profile, Value: 2
+				25 text Operating profile
+			26 text These defaults identify your organisation across lead, itinerary, payment, and communication workflows.
+			27 text Tenant workspace
+			28 definition list
+				29 container Organisation name
+					30 image
+					31 text Organisation name
+				32 text Luxury Indo Tours
+				33 text Displayed across the workspace
+				34 container Operating country
+					35 image
+					36 text Operating country
+				37 text India
+				38 text Used for regional defaults
+				39 container Billing currencies
+					40 image
+					41 text Billing currencies
+				42 text INR
+				43 text Available for quotes and payments
+				44 container Seat capacity
+					45 image
+					46 text Seat capacity
+				47 text 2 users
+				48 text Maximum active team members
+				49 container Company email
+					50 image
+					51 text Company email
+				52 text Not set
+				53 text Shown on company documents
+				54 container GST number
+					55 image
+					56 text GST number
+				57 text Not set
+				58 text Shown on company documents
+				59 container State name
+					60 image
+					61 text State name
+				62 text Not set
+				63 text Used for billing documents
+				64 container Company address
+					65 image
+					66 text Company address
+				67 text Not set
+				68 text Shown on company documents
+			69 text BANK DETAILS
+			70 definition list
+				71 container Bank name
+					72 image
+					73 text Bank name
+				74 text Not set
+				75 text Shown on proforma invoices
+				76 container Account holder name
+					77 image
+					78 text Account holder name
+				79 text Not set
+				80 text Shown on proforma invoices
+				81 container Account number
+					82 image
+					83 text Account number
+				84 text Not set
+				85 text Shown on proforma invoices
+				86 container IFSC code
+					87 image
+					88 text IFSC code
+				89 text Not set
+				90 text Shown on proforma invoices
+				91 container Branch name
+					92 image
+					93 text Branch name
+				94 text Not set
+				95 text Shown on proforma invoices
+			96 container
+				97 text BRAND PREVIEW LI Luxury Indo Tours Shared workspace identity
+			98 image
+			99 heading Organisation image, Value: 2
+				100 text Organisation image
+			101 text Use a square PNG or JPG under 2 MB.
+			102 button Upload image
+				103 image
+				104 text Upload image
+			105 text Shown in team-facing workspace surfaces and shared exports.
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation

@@ -1,0 +1,173 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/itinerary-customization".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/itinerary-customization
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Itinerary Customization
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Itinerary Customization, Value: 1
+				60 text Itinerary Customization
+			61 text Customize templates and output for itinerary documents and links.
+			62 tab group
+				63 container
+					64 tab (selected, settable, boolean) Document (PDF / Word), ID: rc-tabs-0-tab-document, Value: 1
+Document (PDF / Word)
+					65 tab (selectable, settable, boolean) Link, ID: rc-tabs-0-tab-link, Value: 0
+Link
+			66 container Description: Document (PDF / Word), ID: rc-tabs-0-panel-document
+				67 container
+					68 heading Document preferences, Value: 1
+						69 text Document preferences
+					70 text Choose your preferred PDF or Word template and branded artwork. Uploaded artwork becomes available after you save preferences.
+					71 button Save preferences
+				72 container
+					73 container
+						74 heading Document output, Value: 2
+							75 text Document output
+						76 text Choose the file format, document template, theme color, and repeating header or footer artwork.
+					77 text Itinerary format
+					78 container
+						79 combo box (collapsed, settable) Itinerary format, ID: itineraryFormat, Secondary Actions: Expand
+						80 text PDF
+					81 text Document template
+					82 container
+						83 button Standard Summary Selected Preview
+							84 image
+							85 text Standard Summary
+							86 text Selected
+							87 button Preview
+								88 image
+								89 text Preview
+						90 button Visual Brochure PDF Preview
+							91 image
+							92 text Visual Brochure
+							93 text PDF
+							94 button Preview
+								95 image
+								96 text Preview
+						97 button Structured Package Compact tables and day-wise cards for information-rich itineraries. PDF Preview
+							98 image
+							99 text Structured Package
+							100 text Compact tables and day-wise cards for information-rich itineraries.
+							101 text PDF
+							102 button Preview
+								103 image
+								104 text Preview
+						105 button B2B Compact Quote Dense Day/Service/Type/Basis itinerary table with no images, for DMC-to-agent quoting. PDF Preview
+							106 image
+							107 text B2B Compact Quote
+							108 text Dense Day/Service/Type/Basis itinerary table with no images, for DMC-to-agent quoting.
+							109 text PDF
+							110 button Preview
+								111 image
+								112 text Preview
+						113 button Trip Proposal Section-by-section proposal matching the emailed quote, with the standard itinerary header and footer. PDF Preview
+							114 image
+							115 text Trip Proposal
+							116 text Section-by-section proposal matching the emailed quote, with the standard itinerary header and footer.
+							117 text PDF
+							118 button Preview
+								119 image
+								120 text Preview
+						121 button Trip Proposal v2 Trip Proposal with a four-column Day/Service/Type/Basis brief program like the B2B compact quote. PDF Preview
+							122 image
+							123 text Trip Proposal v2
+							124 text Trip Proposal with a four-column Day/Service/Type/Basis brief program like the B2B compact quote.
+							125 text PDF
+							126 button Preview
+								127 image
+								128 text Preview
+					129 text Theme color
+					130 text Header artwork
+					131 button Upload image
+						132 image
+						133 text Upload image
+					134 text Footer artwork
+					135 button Upload image
+						136 image
+						137 text Upload image
+					138 container
+						139 heading Front pages, Value: 2
+							140 text Front pages
+						141 text Automatically attach opening PDF pages when an itinerary matches an exact set of countries or cities
+						142 button Add rule
+							143 image
+							144 text Add rule
+					145 table
+						146 row
+							147 cell
+								148 text Countries
+							149 cell
+								150 text Cities
+							151 cell
+								152 text Actions
+						153 row
+							154 cell
+								155 text No front-page PDF rules configured
+					156 container
+						157 heading Back cover PDF, Value: 2
+							158 text Back cover PDF
+						159 text Append a single PDF to the end of every generated itinerary.
+					160 text Include back cover in PDF
+					161 container
+						162 switch Description: Include back cover in PDF, Value: 1, ID: includeBackCoverPdf
+						163 text Agents can still turn this off for a single download from Advanced options.
+					164 container
+						165 text Use a 1–10 page, A4 portrait PDF up to 5 MB.
+						166 button Upload PDF
+							167 image
+							168 text Upload PDF
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/itinerary-customization

@@ -1,0 +1,24 @@
+{
+  "source": "tos-audit-fictional-report-b-2026-10-10.xlsx",
+  "archive": "tos-audit-fictional-report-b-2026-10-10.xlsx",
+  "bytes": 16009,
+  "sha256": "1751608f2ea83c7a612e43255d41cc60c6d3fd899ae374f0d1a147e21b2032c8",
+  "sheets": [
+    {
+      "name": "1 TOS-AUDIT Fictional Report B",
+      "rows": 2,
+      "columns": 2,
+      "merged": [],
+      "values": [
+        [
+          "Leads",
+          "Conversion rate"
+        ],
+        [
+          "1",
+          "100%"
+        ]
+      ]
+    }
+  ]
+}

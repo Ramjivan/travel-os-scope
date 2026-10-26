@@ -1,0 +1,182 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/agent-portal".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agent-portal
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Agent Portal
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Agent Portal, Value: 1
+				60 text Agent Portal
+			61 text Give your partner agencies a secure workspace to build itineraries from your inventory.
+			62 container
+				63 heading Portal configuration, Value: 2
+					64 text Portal configuration
+				65 text Choose the domains and availability for your agency portal. The identifier remains internal and never appears in portal URLs.
+				66 container
+					67 text * Portal identifier
+				68 text field (settable) * Portal identifier, ID: slug
+				69 text Used internally to identify the tenant. It is not included in portal links.
+				70 text Enable portal
+				71 switch Description: Enable portal, Value: 0, ID: isEnabled
+					72 text Live
+					73 text Off
+				74 image
+				75 text Portal primary color Used for actions, active navigation, links, and focus states throughout the agent portal. Clear it to restore the Tripbox default.
+				76 text #B98022
+				77 text Using default #B98022 Black  text will be used on this color ( 6.17 :1 contrast).
+				78 image
+				79 text Portal secondary color Used for solid buttons and dark panels such as the quote summary. Pick a dark shade, since white text is shown on top. Clear it to restore the Tripbox default.
+				80 text #131B2A
+				81 text Using default #131B2A Portal domains Add hostnames only, such as agents.example.com. The first domain is used as the primary portal link.
+				82 button Add portal domain
+					83 image
+					84 text Add portal domain
+				85 image
+				86 text Login background Upload a JPG or PNG large enough to crop to at least 1000×500 pixels. Images outside the 2:1 ratio open in the crop editor. If omitted, agents see the standard portal login page.
+				87 button Upload image
+					88 image
+					89 text Upload image
+				90 button Save portal
+					91 image
+					92 text Save portal
+			93 container
+				94 heading Portal Pricing rules, Value: 2
+					95 text Portal Pricing rules
+				96 text These rules are applied to agency itineraries without revealing your underlying costs, markup, or tax setup to agency users.
+				97 image info-circle
+				98 text Create and save the portal configuration before setting pricing rules.
+				99 container
+					100 text * Markup strategy
+				101 container
+					102 combo box (disabled, collapsed, settable) * Markup strategy, ID: markupStrategy, Secondary Actions: Expand
+					103 text Percentage of cost
+				104 container
+					105 text * Markup percentage
+				106 container
+					107 stepper (disabled, settable, integer) * Markup percentage, Value: 0, Details: 0.00, ID: markupPercentage
+					108 text %
+				109 container
+					110 text * Pricing currency
+				111 container
+					112 combo box (disabled, collapsed, settable) * Pricing currency, ID: currency, Secondary Actions: Expand
+					113 text INR
+				114 container
+					115 text * Travel markup percentage
+				116 container
+					117 stepper (disabled, settable, integer) * Travel markup percentage, Value: 0, Details: 0.00, ID: travelMarkupPercentage
+					118 text %
+				119 heading GST and TCS rules, Value: 3
+					120 text GST and TCS rules
+				121 text Set each tax percentage and whether it applies to supplier cost, markup, or both together. GST
+				122 container
+					123 text * Percentage
+				124 container
+					125 stepper (disabled, settable, integer) * Percentage, Value: 0, Details: 0.00, ID: taxRules_0_percentage
+					126 text %
+				127 container
+					128 text * Apply on
+				129 container
+					130 combo box (disabled, collapsed, settable) * Apply on, ID: taxRules_0_appliedOn, Secondary Actions: Expand
+					131 text Cost Only
+				132 text TCS
+				133 container
+					134 text * Percentage
+				135 container
+					136 stepper (disabled, settable, integer) * Percentage, Value: 0, Details: 0.00, ID: taxRules_1_percentage
+					137 text %
+				138 container
+					139 text * Apply on
+				140 container
+					141 combo box (disabled, collapsed, settable) * Apply on, ID: taxRules_1_appliedOn, Secondary Actions: Expand
+					142 text Cost Only
+				143 button (disabled) Save pricing rules
+			144 container
+				145 heading AI assistant access and usage, Value: 2
+					146 text AI assistant access and usage
+				147 text Choose which agencies can use the AI trip assistant in the portal and monitor their monthly usage. Usage counts toward your organisation's AI budget.
+			148 container
+				149 image exclamation-circle
+				150 text AI is not enabled for your organisation Turn on AI and the itinerary builder feature in Organisation → AI Settings. Agencies cannot use the assistant until then.
+			151 text Usage for the selected month
+			152 container
+				153 text field (settable) Description: Usage month, Value: 2026-10
+				154 image calendar
+			155 table
+				156 row
+					157 cell
+						158 text Agency
+					159 cell
+						160 text AI assistant
+					161 cell
+						162 text Requests
+					163 cell
+						164 text Tokens
+					165 cell
+						166 text Last used
+				167 row
+					168 cell
+						169 text TOS-AUDIT Fictional Agency A
+						170 container
+							171 text 0  portal user s
+					172 cell
+						173 switch Description: AI assistant for TOS-AUDIT Fictional Agency A, Value: 0
+					174 cell
+						175 text 0
+					176 cell
+						177 text 0
+					178 cell
+						179 text –
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agent-portal

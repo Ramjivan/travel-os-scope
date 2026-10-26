@@ -1,0 +1,220 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/calendar?leadId=1".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar?leadId=1
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Trip calendar, Value: 1
+					23 text Trip calendar
+				24 text 1  trips in the visible month Track active travel windows and inspect day-by-day itinerary activity across the lead pipeline.
+				25 link Description: Lead pipeline, Value: tripboxcrm.com/leads
+				176 button Back to Overview
+					177 image
+					178 text Back to Overview
+				28 button Refresh calendar
+					153 image
+			30 container
+				31 text Itinerary detail
+				179 link Description: Lead #1, Value: tripboxcrm.com/leads/1
+				180 link Description: Itinerary 8f8c639a, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				32 button
+					33 image
+				34 container
+					35 combo box (collapsed, settable) ID: rc_select_13, Secondary Actions: Expand
+					36 text 2026
+				37 container
+					38 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					39 text Nov
+				40 button
+					41 image
+				42 table
+					43 row
+						44 cell
+							45 text Su
+						46 cell
+							47 text Mo
+						48 cell
+							49 text Tu
+						50 cell
+							51 text We
+						52 cell
+							53 text Th
+						54 cell
+							55 text Fr
+						56 cell
+							57 text Sa
+					58 row
+						59 cell 2026-11-01
+							60 text 1
+							181 text No items
+						61 cell 2026-11-02
+							62 text 2
+							182 text No items
+						63 cell 2026-11-03
+							64 text 3
+							183 text No items
+						65 cell 2026-11-04
+							66 text 4
+							184 text No items
+						67 cell 2026-11-05
+							68 text 5
+							185 text No items
+						69 cell 2026-11-06
+							70 text 6
+							186 text No items
+						71 cell 2026-11-07
+							72 text 7
+							187 text No items
+					73 row
+						74 cell 2026-11-08
+							75 text 8
+							188 text No items
+						76 cell 2026-11-09
+							77 text 9
+							189 text No items
+						78 cell 2026-11-10
+							79 text 10
+							190 text No items
+						80 cell 2026-11-11
+							81 text 11
+							191 text No items
+						82 cell 2026-11-12
+							83 text 12
+							192 text No items
+						84 cell 2026-11-13
+							85 text 13
+							193 text No items
+						86 cell 2026-11-14
+							87 text 14
+							194 text No items
+					88 row
+						89 cell 2026-11-15
+							90 text 15
+							195 text No items
+						91 cell 2026-11-16
+							92 text 16
+							196 text No items
+						93 cell 2026-11-17
+							94 text 17
+							197 text No items
+						95 cell 2026-11-18
+							96 text 18
+							198 text No items
+						97 cell 2026-11-19
+							98 text 19
+							199 text No items
+						99 cell 2026-11-20
+							100 text 20
+							200 button Alam Puisi Ubud
+							201 button TOS-AUDIT Fictional Hotel B
+							202 button +1 more
+						102 cell 2026-11-21
+							103 text 21
+							203 button  , Help: Alam Puisi Ubud
+							204 button  , Help: TOS-AUDIT Fictional Hotel B
+							205 button +1 more
+					105 row
+						106 cell 2026-11-22
+							107 text 22
+							206 button  , Help: Alam Puisi Ubud
+							207 button  , Help: TOS-AUDIT Fictional Hotel B
+						109 cell 2026-11-23
+							110 text 23
+							208 button  , Help: Alam Puisi Ubud
+							209 button  , Help: TOS-AUDIT Fictional Hotel B
+						112 cell 2026-11-24
+							113 text 24
+							210 text No items
+						115 cell 2026-11-25
+							116 text 25
+							211 text No items
+						117 cell 2026-11-26
+							118 text 26
+							212 text No items
+						119 cell 2026-11-27
+							120 text 27
+							213 text No items
+						121 cell 2026-11-28
+							122 text 28
+							214 text No items
+					123 row
+						124 cell 2026-11-29
+							125 text 29
+							215 text No items
+						126 cell 2026-11-30
+							127 text 30
+							216 text No items
+						128 cell 2026-12-01
+							129 text 1
+							217 text No items
+						130 cell 2026-12-02
+							131 text 2
+							218 text No items
+						132 cell 2026-12-03
+							133 text 3
+							219 text No items
+						134 cell 2026-12-04
+							135 text 4
+							220 text No items
+						136 cell 2026-12-05
+							137 text 5
+							221 text No items
+					138 row
+						139 cell 2026-12-06
+							140 text 6
+							222 text No items
+						141 cell 2026-12-07
+							142 text 7
+							223 text No items
+						143 cell 2026-12-08
+							144 text 8
+							224 text No items
+						145 cell 2026-12-09
+							146 text 9
+							225 text No items
+						147 cell 2026-12-10
+							148 text 10
+							226 text No items
+						149 cell 2026-12-11
+							150 text 11
+							227 text No items
+						151 cell 2026-12-12
+							152 text 12
+							228 text No items
+		157 container
+			158 container Details · 20 Nov 2026
+				159 container
+					160 button Close
+						161 container Close
+							162 image close
+					163 text Details · 20 Nov 2026
+					164 button TOS-AUDIT Fictional Traveller A Lead #1 confirmed Nishar Arora Indonesia (Bali) 20 Nov 2026 · 4N
+						165 text TOS-AUDIT Fictional Traveller A
+						166 text Lead #
+						167 text 1
+						168 text confirmed
+						169 image
+						170 text Nishar Arora
+						171 image
+						172 text Indonesia (Bali)
+						173 image
+						174 text 20 Nov 2026
+						175 text  · 4N
+
+The focused UI element is 164 button TOS-AUDIT Fictional Traveller A Lead #1 confirmed Nishar Arora Indonesia (Bali) 20 Nov 2026 · 4N

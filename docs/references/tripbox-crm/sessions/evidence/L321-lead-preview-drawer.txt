@@ -1,0 +1,207 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Lead pipeline, Value: 1
+					23 text Lead pipeline
+				24 text 2  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				25 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				26 button Refresh leads
+					27 image
+				28 button New lead
+					29 image
+					30 text New lead
+			31 container
+				32 checkbox New queries 0, Value: 0
+				33 checkbox In progress 1, Value: 0
+				34 checkbox On hold 0, Value: 0
+				35 checkbox Confirmed 1, Value: 0
+				36 checkbox Ongoing 0, Value: 0
+				37 checkbox Completed 0, Value: 0
+				38 checkbox Cancelled 0, Value: 0
+				39 checkbox All leads 2, Value: 1
+			40 container Lead filters
+				41 container
+					42 image
+					43 text field (settable)
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_33, Secondary Actions: Expand
+					46 text All owners
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_34, Secondary Actions: Expand
+					49 text All portal states
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_35, Secondary Actions: Expand
+					52 text All created dates
+				53 button Filters
+					54 image
+					55 text Filters
+				56 button Columns
+					57 image
+					58 text Columns
+				59 button Export leads
+					60 image
+			61 container
+				62 table
+					63 row
+						64 cell
+							65 container
+								66 checkbox (settable, integer) Description: Select all, Value: 0
+						67 cell
+							68 text ID
+						69 cell Guest name
+							70 text GUEST NAME
+						71 cell
+							72 text MOBILE
+						73 cell
+							74 text EMAIL
+						75 cell Travel date
+							76 text TRAVEL DATE
+						77 cell
+							78 text DESTINATION
+						79 cell
+							80 text ASSIGNED TO
+						81 cell
+							82 text STATUS
+						83 cell
+							84 text PREVIEW
+					85 row
+						86 cell
+							87 container
+								88 checkbox (settable, integer) Description: Select lead 2, Value: 0
+						89 cell
+							90 link Description: #2, Value: tripboxcrm.com/leads/2
+						91 cell
+							92 text TOS-AUDIT Fictional Traveller B
+							93 text Social Media · 2N / 3D · 2 travellers
+						94 cell
+							95 image
+							96 text Not provided
+						97 cell
+							98 image
+							99 text traveller-b@example.invalid
+						100 cell
+							101 image
+							102 text 20 Nov 2026
+						103 cell
+							104 image
+							105 text Indonesia (Bali)
+						106 cell
+							107 image
+							108 text Nishar Arora
+						109 cell
+							110 text In Progress
+						111 cell
+							112 button Preview lead 2
+								113 image
+					114 row
+						115 cell
+							116 container
+								117 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						118 cell
+							119 link Description: #1, Value: tripboxcrm.com/leads/1
+						120 cell
+							121 text TOS-AUDIT Fictional Traveller A
+							122 text Social Media · 4N / 5D · 2 travellers
+						123 cell
+							124 image
+							125 text Not provided
+						126 cell
+							127 image
+							128 text traveller-a@example.invalid
+						129 cell
+							130 image
+							131 text 20 Nov 2026
+						132 cell
+							133 image
+							134 text Indonesia (Bali)
+						135 cell
+							136 image
+							137 text Nishar Arora
+						138 cell
+							139 text Confirmed
+						140 cell
+							141 button Preview lead 1
+								142 image
+				143 container leads pagination
+					144 container
+						145 text 1 – 2  of  2 leads
+					146 content list
+						147 container Previous Page
+							148 button (disabled) left
+								149 image left
+						150 text 1
+						151 container Next Page
+							152 button (disabled) right
+								153 image right
+						154 container Page Size
+							155 container
+								156 combo box (collapsed, settable) Description: Page Size, ID: rc_select_36, Secondary Actions: Expand
+								157 text 20 / page
+		158 container Lead quick preview
+			159 container Lead quick preview
+				160 button Close
+					161 image close
+				162 text Lead quick preview
+				163 link Description: Full record, Value: tripboxcrm.com/leads/2
+				164 container
+					165 text LEAD # 2 in-progress
+					166 heading TOS-AUDIT Fictional Traveller B, Value: 2
+						167 text TOS-AUDIT Fictional Traveller B
+					168 text Social Media
+					169 text CONTACT
+					170 image
+					171 text traveller-b@example.invalid
+					172 image
+					173 text Not provided
+					174 text OWNERSHIP
+					175 image
+					176 text Nishar Arora
+					177 image
+					178 text Direct customer
+					179 image
+					180 text 1
+					181 text Destinations
+					182 image
+					183 text 2
+					184 text Travellers
+					185 image
+					186 text 2
+					187 text Nights
+					188 image
+					189 text 1
+					190 text Itineraries
+					191 image
+					192 text TRIP BRIEF
+					193 text Indonesia (Bali)
+					194 text Travelling 20 Nov 2026
+					195 text QUOTE WORKSPACE
+					196 heading Itineraries, Value: 3
+						197 text Itineraries
+					198 link Description: New itinerary, Value: tripboxcrm.com/leads/2/itinerary
+					199 container
+						200 image
+						201 heading Indonesia (Bali), Value: 4
+							202 text Indonesia (Bali)
+						203 text 2  nights ·  20 Nov 2026 proposed QUOTED VALUE ₹11,000
+						204 link Description: Open, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a
+
+The focused UI element is 158 container Lead quick preview

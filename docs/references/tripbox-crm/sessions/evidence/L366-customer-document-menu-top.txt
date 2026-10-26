@@ -1,0 +1,177 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/2".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2l_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 text # 2
+				26 heading TOS-AUDIT Fictional Traveller B, Value: 1
+					27 text TOS-AUDIT Fictional Traveller B
+				28 text In Progress via  Social Media
+				29 button View audit history
+					30 image
+				31 link Description: Edit itinerary, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a
+				32 button Edit lead
+					33 image
+					34 text Edit lead
+			35 container
+				36 text Lead # 2 Created  21 minutes ago  · Updated 10 minutes ago
+				37 button In Progress
+					38 image
+					39 text In Progress
+				40 heading CONTACT, Value: 2
+					41 text CONTACT
+				42 text Linked customer:
+				43 button TOS-AUDIT Fictional Traveller B
+				44 image
+				45 text Not provided
+				46 image
+				47 button Email traveller-b@example.invalid
+				48 heading JOURNEY, Value: 2
+					49 text JOURNEY
+				50 image
+				51 text Indonesia (Bali)
+				52 image
+				53 text 20 Nov 2026
+				54 heading TRIP SCOPE, Value: 2
+					55 text TRIP SCOPE
+				56 image
+				57 container
+					58 text 2  nights ·  3  days
+				59 image
+				60 container
+					61 text 2  traveller s  ( 2  adult s )
+				62 heading OWNERSHIP, Value: 2
+					63 text OWNERSHIP
+				64 text Direct customer
+				65 text Assigned to
+				66 container
+					67 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_15, Secondary Actions: Expand
+					68 text Nishar Arora
+				69 text Tags
+				70 container
+					71 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_16, Secondary Actions: Expand
+					72 text Add tags
+			73 container
+				74 tab group
+					75 container
+						76 tab (selected, settable, boolean) Overview, Value: 1, ID: rc-tabs-0-tab-overview
+						77 tab (selectable, settable, boolean) Itineraries 1, Value: 0, ID: rc-tabs-0-tab-itineraries
+						78 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-0-tab-bookings
+						79 tab (selectable, settable, boolean) Payments, Value: 0, ID: rc-tabs-0-tab-payments
+						80 tab (selectable, settable, boolean) Documents, Value: 0, ID: rc-tabs-0-tab-documents
+						81 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-0-tab-comments
+				82 container Description: Overview, ID: rc-tabs-0-panel-overview
+					83 container
+						84 heading Lead information, Value: 2
+							85 text Lead information
+						86 text Qualification details captured by your team and connected lead sources.
+					87 container
+						88 heading TOS-AUDIT Qualification B, Value: 3
+							89 text TOS-AUDIT Qualification B
+						90 text Lead-specific qualification data.
+						91 definition list
+							92 container TOS-AUDIT Service preference B
+								93 text TOS-AUDIT Service preference B
+							94 text TOS-AUDIT Private
+		95 container
+			96 container
+				97 container
+					98 button Close
+						99 container Close
+							100 image close
+					101 text TF
+					102 heading TOS-AUDIT Fictional Traveller B, Value: 2
+						103 text TOS-AUDIT Fictional Traveller B
+					104 text traveller-b@example.invalid
+					105 container Contact profile sections
+						106 button Profile
+							107 image
+							108 text Profile
+						109 button Documents
+							110 image
+							111 text Documents
+						112 button Lead history
+							113 image
+							114 text Lead history
+						115 button Booking history
+							116 image
+							117 text Booking history
+					118 heading Customer documents, Value: 3
+						119 text Customer documents
+					120 text Reusable documents available to all linked leads.
+					121 button Add document
+						122 image
+						123 text Add document
+					124 image No data
+					125 text No documents added
+		126 container
+			127 container Add customer document
+				128 container
+					129 button Close
+						130 container Close
+							131 image close
+					132 text Add customer document
+					133 container
+						134 text * File
+					135 container
+						136 button Select file
+						137 text PDF, images, Office files, TXT or CSV. Maximum 5 MB.
+					138 container
+						139 text * Document type
+					140 container
+						141 combo box (expanded, settable) * Document type, ID: documentType, Secondary Actions: Collapse
+						142 text Other
+					143 container
+						144 text * Display label
+					145 text field (settable) * Display label, ID: displayLabel
+					146 text Document number
+					147 text field (settable) Document number, ID: documentNumber
+					148 text Issuing country
+					149 text field (settable) Issuing country, ID: issuingCountry
+					150 text Issued date
+					151 container
+						152 text field (settable) Issued date, ID: issuedAt
+						153 image calendar
+					154 text Expiry date
+					155 container
+						156 text field (settable) Expiry date, ID: expiresAt
+						157 image calendar
+					158 text Internal notes
+					159 text entry area (settable) Internal notes, ID: internalNotes
+					160 button Cancel
+					161 button Upload
+		162 container
+			163 list documentType_list
+				174 Value: Passport, ID: documentType_list_0
+				175 Value: Visa, ID: documentType_list_1
+			166 container
+				176 text Passport
+				167 text Visa
+				168 text ID
+				169 text Flight ticket
+				170 text Voucher
+				171 text Hotel confirmation
+				172 text Insurance
+				173 text Other
+
+The focused UI element is 141 combo box (expanded, settable) * Document type, ID: documentType, Secondary Actions: Collapse

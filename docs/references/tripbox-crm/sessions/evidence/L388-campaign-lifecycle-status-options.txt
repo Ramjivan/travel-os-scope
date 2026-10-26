@@ -1,0 +1,122 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/campaigns".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaigns
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Campaigns, Value: 1
+					23 text Campaigns
+				24 text 1  campaigns in this view Organise outreach, distribute contacts, and monitor progress from one focused workspace.
+				25 button Refresh campaigns
+					26 image
+				27 button New campaign
+					28 image
+					29 text New campaign
+			30 container
+				31 checkbox All campaigns, Value: 1
+				32 checkbox Pending, Value: 0
+				33 checkbox Active, Value: 0
+				34 checkbox Completed, Value: 0
+				35 checkbox Cancelled, Value: 0
+			36 container Campaign filters
+				37 container
+					38 image
+					39 text field (settable)
+				40 container
+					41 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+					42 text Newest first
+			43 container
+				44 table
+					45 row
+						46 cell Campaign Name
+							47 text Campaign Name
+						48 cell
+							49 text Contacts
+						50 cell
+							51 text Team Members
+						52 cell
+							53 text Created
+						54 cell Status
+							55 text Status
+							56 button filter
+								57 image filter
+						58 cell
+							59 text Action
+					60 row
+						61 cell
+							62 link Description: TOS-AUDIT Fictional outreach A, Value: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+							63 container
+								64 text Updated  09/10/2026
+						65 cell
+							66 text 1
+						67 cell
+							68 text 0
+						69 cell
+							70 text 09/10/2026
+						71 cell
+							72 text pending
+						73 cell
+							74 container
+								75 link tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+								76 button
+									77 image
+								78 button
+									79 image
+				80 container campaigns pagination
+					81 container
+						82 text 1 – 1  of  1 campaigns
+					83 content list
+						84 container Previous Page
+							85 button (disabled) left
+								86 image left
+						87 text 1
+						88 container Next Page
+							89 button (disabled) right
+								90 image right
+						91 container Page Size
+							92 container
+								93 combo box (collapsed, settable) Description: Page Size, ID: rc_select_7, Secondary Actions: Expand
+								94 text 20 / page
+		95 container
+			96 container Update Campaign
+				97 container
+					98 button Close
+						99 container Close
+							100 image close
+					101 text Update Campaign
+					102 container
+						103 text * Campaign Name
+					104 text field (settable) * Campaign Name, Value: TOS-AUDIT Fictional outreach A, ID: name
+					105 container
+						106 text * Status
+					107 container
+						108 combo box (expanded, settable) * Status, ID: status, Secondary Actions: Collapse
+						109 text Pending
+					110 button Cancel
+					111 button Update
+		112 container
+			113 list status_list
+				114 (selected) Value: Pending, ID: status_list_0
+				115 Value: Active, ID: status_list_1
+			116 text Pending
+			117 text Active
+			118 text Completed
+			119 text Cancelled
+
+The focused UI element is 108 combo box (expanded, settable) * Status, ID: status, Secondary Actions: Collapse

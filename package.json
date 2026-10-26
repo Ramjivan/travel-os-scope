@@ -5,7 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build",
+    "check:web": "npm --prefix apps/web run typecheck",
+    "test:web": "npm --prefix apps/web test",
+    "review:list": "node tools/review/manage.mjs list",
+    "test:review": "node --test tools/review/store.test.mjs tools/review/http.test.mjs",
+    "test:dmc": "node --test tools/dmc/store.test.mjs tools/dmc/http.test.mjs",
+    "test:telemetry": "node --test tools/telemetry/store.test.mjs tools/telemetry/http.test.mjs"
   },
   "keywords": [],
   "author": "",

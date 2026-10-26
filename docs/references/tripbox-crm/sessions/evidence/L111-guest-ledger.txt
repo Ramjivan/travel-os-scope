@@ -1,0 +1,234 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1?tab=payments".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1?tab=payments
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 text # 1
+				29 heading TOS-AUDIT Fictional Traveller A, Value: 1
+					30 text TOS-AUDIT Fictional Traveller A
+				31 text Confirmed via  Social Media
+				32 button View audit history
+					33 image
+				34 link Description: Edit itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				35 button Edit lead
+					36 image
+					37 text Edit lead
+			38 container
+				39 text Lead # 1 Created  an hour ago  · Updated 10 minutes ago
+				40 button Confirmed
+					41 image
+					42 text Confirmed
+				43 heading CONTACT, Value: 2
+					44 text CONTACT
+				45 text Linked customer:
+				46 button TOS-AUDIT Fictional Traveller A
+				47 image
+				48 text Not provided
+				49 image
+				50 button Email traveller-a@example.invalid
+				51 heading JOURNEY, Value: 2
+					52 text JOURNEY
+				53 image
+				54 text Bali
+				55 image
+				56 text 20 Nov 2026
+				57 image
+				58 container
+					59 text From  Fictional Departure City
+				60 heading TRIP SCOPE, Value: 2
+					61 text TRIP SCOPE
+				62 image
+				63 container
+					64 text 4  nights ·  5  days
+				65 image
+				66 container
+					67 text 2  traveller s  ( 2  adult s )
+				68 heading OWNERSHIP, Value: 2
+					69 text OWNERSHIP
+				70 text Direct customer
+				71 text Assigned to
+				72 container
+					73 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_0, Secondary Actions: Expand
+					74 text Nishar Arora
+				75 text Tags
+				76 container
+					77 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_1, Secondary Actions: Expand
+					78 text Add tags
+			79 container
+				80 tab group
+					81 container
+						82 tab (selectable, settable, boolean) Overview, Value: 0, ID: rc-tabs-0-tab-overview
+						83 tab (selectable, settable, boolean) Itineraries 1, Value: 0, ID: rc-tabs-0-tab-itineraries
+						84 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-0-tab-bookings
+						85 tab (selected, settable, boolean) Payments, Value: 1, ID: rc-tabs-0-tab-payments
+						86 tab (selectable, settable, boolean) Documents, Value: 0, ID: rc-tabs-0-tab-documents
+						87 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-0-tab-comments
+				88 container Description: Payments, ID: rc-tabs-0-panel-payments
+					89 image
+					90 heading Payment operations, Value: 2
+						91 text Payment operations
+					92 text Track collections, payouts, and reconciliation.
+					93 button Guest ledger, Help: View guest ledger
+						94 image
+						95 text Guest ledger
+					96 button Proforma Invoice
+						97 image
+						98 text Proforma Invoice
+					99 button plus Add Payment Schedule
+						100 image plus
+						101 text Add Payment Schedule
+					102 tab group
+						103 container
+							104 tab (selected, settable, boolean) Traveller collections (1), ID: rc-tabs-1-tab-receive, Value: 1
+Traveller collections (
+1
+)
+							105 tab (selectable, settable, boolean) Supplier payouts (0), ID: rc-tabs-1-tab-send, Value: 0
+Supplier payouts (
+0
+)
+					106 container Description: Traveller collections (1), ID: rc-tabs-1-panel-receive
+						107 text TOTAL AMOUNT
+						108 text ₹15,400
+						109 text TOTAL RECEIVED
+						110 text ₹4,000
+						111 text REMAINING TO COLLECT
+						112 text ₹11,400
+						113 text PROGRESS
+						114 text 26.0%
+						115 container
+							116 image
+							117 text Traveller collections ( 1 )
+							118 image
+							119 text TOS-AUDIT Fictional collection plan
+							120 image
+							121 text PARTIAL Due  10 Nov 2026
+							122 button Log Payment
+								123 image
+								124 text Log Payment
+							125 button Move
+							126 text SCHEDULED AMOUNT ₹15,400 RECEIVED AMOUNT ₹4,000 REMAINING TO RECEIVE ₹11,400
+							127 image
+							128 text Attachments ( 0 / 10 )
+							129 text No schedule attachments.
+							130 button Manage
+								131 image
+								132 text Manage
+							133 text Payment history
+							134 image
+							135 text ₹4,000 Incoming
+							136 image
+							137 text Other # TOS-AUDIT-NO-REAL-TRANSACTION
+							138 button Receipt
+								139 image
+								140 text Receipt
+							141 button Edit
+							142 button Verify
+							143 button Delete
+							144 text Oct 09 12:00 AM
+							145 image
+							146 text Fictional audit receipt entry only; no money received or transferred.
+		147 container
+			148 container Guest ledger TOS-AUDIT Fictional Traveller A · Lead #1
+				149 container Close Guest ledger TOS-AUDIT Fictional Traveller A · Lead #1 INR ledger totals Cancelled and junk schedules are excluded. Every logged client receipt is included; receipts awaiting verification are marked. Close Download XLSX
+					150 container
+						151 button Close
+							152 container Close
+								153 image close
+						154 heading Guest ledger, Value: 2
+							155 text Guest ledger
+						156 container
+							157 text TOS-AUDIT Fictional Traveller A  · Lead # 1
+						158 container INR ledger totals
+							159 text TOTAL DEBIT
+							160 text ₹15,400.00
+							161 text RECEIPTS
+							162 text ₹4,000.00
+							163 text BALANCE DUE
+							164 text ₹11,400.00
+						165 container
+							166 table
+								167 row
+									168 cell
+										169 text Date
+									170 cell
+										171 text Service / Particulars
+									172 cell
+										173 text Travel Details
+									174 cell
+										175 text Ref.
+									176 cell
+										177 text Debit
+									178 cell
+										179 text Receipt
+									180 cell
+										181 text Balance
+							182 table
+								183 row
+									184 cell
+										185 text 09-Oct-2026
+									186 cell
+										187 text Payment received · Other
+										188 text Pending verification
+									189 cell
+										190 text Against TOS-AUDIT Fictional collection plan
+									191 cell
+										192 text TOS-AUDIT-NO-REAL-TRANSACTION
+									193 cell
+										194 text —
+									195 cell
+										196 text ₹4,000.00
+									197 cell
+										198 text -₹4,000.00
+								199 row
+									200 cell
+										201 text 10-Nov-2026
+									202 cell
+										203 text TOS-AUDIT Fictional collection plan
+									204 cell
+										205 text Bali
+20 Nov 2026
+									206 cell
+										207 text SCH-76FDEB
+									208 cell
+										209 text ₹15,400.00
+									210 cell
+										211 text —
+									212 cell
+										213 text ₹11,400.00
+							214 table
+								215 row
+									216 cell
+										217 text Closing balance
+									218 cell
+										219 text ₹11,400.00
+						220 text Cancelled and junk schedules are excluded. Every logged client receipt is included; receipts awaiting verification are marked.
+						221 button Close
+						222 button Download XLSX
+							223 image
+							224 text Download XLSX
+
+The focused UI element is 149 container Close Guest ledger TOS-AUDIT Fictional Traveller A · Lead #1 INR ledger totals Cancelled and junk schedules are excluded. Every logged client receipt is included; receipts awaiting verification are marked. Close Download XLSX

@@ -1,0 +1,107 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/users/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/users/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Users
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Add user, Value: 1
+				60 text Add user
+			61 text Create a workspace account and assign the access needed for their role.
+			62 container
+				63 heading Account details, Value: 2
+					64 text Account details
+				65 text Identity and sign-in information shown across the workspace.
+				66 container
+					67 text * Full name
+				68 text field (settable) * Full name, ID: fullname
+				69 container
+					70 text * Email address
+				71 text field (settable) * Email address
+				72 text Phone number
+				73 container
+					74 container
+						75 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					76 text field (settable) Phone number, Value: <redacted>
+				77 container
+					78 text * Temporary password
+				79 container
+					80 text field (settable) * Temporary password
+					81 image eye-invisible
+				82 button Cancel
+				83 button Create user
+			84 container
+				85 heading Access, Value: 2
+					86 text Access
+				87 text Role and workspace availability.
+				88 container
+					89 text * Role
+				90 container
+					91 combo box (collapsed, settable) * Role, ID: role, Secondary Actions: Expand
+					92 text Select a role
+				93 text Account status
+				94 switch Description: Account status, Value: 1, ID: isActive
+					95 text Active
+					96 text Inactive
+			97 container
+				98 heading Verified payment amendment access, Value: 2
+					99 text Verified payment amendment access
+				100 text Allow this user to unverify payments for correction
+				101 text Allow verified payment amendments
+				102 switch Description: Allow verified payment amendments, Value: 0, ID: canAmendVerifiedPayments
+					103 text Allowed
+					104 text Not allowed
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/users/new

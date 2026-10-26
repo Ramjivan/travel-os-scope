@@ -1,0 +1,669 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_20_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 link Description: #1, Value: tripboxcrm.com/leads/1
+					29 image
+					30 text Edit itinerary
+				31 heading Itinerary workspace, Value: 1
+					32 text Itinerary workspace
+				33 text Proposed for  TOS-AUDIT Fictional Traveller A
+				34 button Quote with AI
+					35 image
+					36 text Quote with AI
+				37 button Approve & start booking
+			38 container
+				39 image
+				40 text Route
+				41 text Indonesia (Bali)
+				42 text Country-level route
+				43 text Travel dates
+				44 container
+					45 text 20 Nov – 24 Nov 2026 ·  4  nights
+				46 image
+				47 text Guests
+				48 container
+					49 text 2  adults
+				50 text Currency
+				51 text INR
+				52 button Trip details
+					53 image
+					54 text Trip details
+				55 button Add stops
+					56 image
+					57 text Add stops
+				58 container
+					59 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					60 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					61 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					62 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					63 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					64 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					65 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				66 container hotels
+					67 image
+					68 heading Hotels, Value: 3
+						69 text Hotels
+					70 container
+						71 text 1  accommodation stays
+					72 button Add hotel
+						73 image
+						74 text Add hotel
+					75 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					76 text Ubud
+					77 image
+					78 text 20 Nov  – 24 Nov  · 4N
+					79 button View details for Alam Puisi Ubud
+						80 text Alam Puisi Ubud
+						81 text Draft
+					82 text Standard Double
+					83 text BB
+					84 button View rates for Alam Puisi Ubud
+						85 text INR
+						86 text 4,000
+					87 button Edit Alam Puisi Ubud
+						88 image
+					89 button Remove Alam Puisi Ubud
+						90 image
+					91 container
+						92 image
+						93 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					94 button Browse
+						95 image
+						96 text Browse
+				97 container activities
+					98 image
+					99 heading Daily plan, Value: 3
+						100 text Daily plan
+					101 text Activities and ground transport in one timeline
+					102 container
+						103 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						104 container
+							105 image
+							106 button Benoa Water Sports ACTIVITY Kuta · Draft
+								107 text Benoa Water Sports
+								108 text ACTIVITY
+								109 text Kuta · Draft
+							110 button INR 2,400
+							111 button
+								112 image
+							113 button Edit Benoa Water Sports
+								114 image
+							115 button Remove Benoa Water Sports
+								116 image
+							117 container
+								118 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							119 button Activities
+								120 image
+								121 text Activities
+							122 button Transport
+								123 image
+								124 text Transport
+						125 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						126 container
+							127 container
+								128 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							129 button Activities
+								130 image
+								131 text Activities
+							132 button Transport
+								133 image
+								134 text Transport
+						135 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						136 container
+							137 container
+								138 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							139 button Activities
+								140 image
+								141 text Activities
+							142 button Transport
+								143 image
+								144 text Transport
+						145 text DAY  4 23 Nov INDONESIA (BALI) Monday
+						146 container
+							147 container
+								148 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+							149 button Activities
+								150 image
+								151 text Activities
+							152 button Transport
+								153 image
+								154 text Transport
+						155 text DAY  5 24 Nov INDONESIA (BALI) Tuesday
+						156 container
+							157 container
+								158 combo box (collapsed, settable) ID: rc_select_9, Secondary Actions: Expand
+							159 button Activities
+								160 image
+								161 text Activities
+							162 button Transport
+								163 image
+								164 text Transport
+				165 container daily-transports
+					166 image
+					167 heading Full day transport, Value: 2
+						168 text Full day transport
+					169 text Cab services charged per day across your selected dates
+					170 container
+						171 image
+						172 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_10, Secondary Actions: Expand
+					173 button Browse inventory
+						174 image
+						175 text Browse inventory
+					176 image No data
+					177 text No Full Day transports added
+				178 container travel
+					179 image
+					180 heading Flights, Value: 3
+						181 text Flights
+					182 container
+						183 text 0  flight segments
+					184 text No flights added
+					185 button Add flight
+						186 image
+						187 text Add flight
+				188 container Description: Custom services, ID: custom-services
+					189 image
+					190 heading Custom services(1), Value: 3
+						191 text Custom services ( 1 )
+					192 text Visas, insurance, and other trip arrangements
+					193 button Add service
+						194 image
+						195 text Add service
+					196 image
+					197 text TOS-AUDIT Internal trip planning
+					198 text Trip-wide · Handled internally
+					199 text ₹10,000
+					200 button Edit TOS-AUDIT Internal trip planning
+						201 image
+						202 text Edit
+					203 button (disabled) Move service up
+						204 image
+					205 button (disabled) Move service down
+						206 image
+					207 button Remove service
+						208 image
+				209 container
+					210 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						211 image
+						212 text Inclusions & policies
+						213 text 0 inclusions · 0 exclusions · 0 policy sections
+						214 image
+					215 button Markup & taxes 10% markup · No taxes, ID: markup
+						216 image
+						217 text Markup & taxes
+						218 text 10% markup · No taxes
+						219 image
+					220 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						221 image
+						222 text Cost breakdown
+						223 text Hotels, activities, transport, flights and custom services
+						224 image
+				225 container
+					226 text LIVE QUOTE
+					227 text Live calculation
+					228 heading Indonesia (Bali), Value: 2
+						229 text Indonesia (Bali)
+					230 image
+					231 text 20 Nov  to  24 Nov 4  night s
+					232 container mobile-quote-details
+						233 image
+						234 text TOS-AUDIT Fictional Traveller A
+						235 container
+							236 text 2  Adults
+						237 heading Quote composition, Value: 3
+							238 text Quote composition
+						239 text Base, margin, taxes
+						240 container Quote cost composition
+						241 text Base cost ₹16,400 Markup ₹1,640  ( 10 %) Selling price ₹18,040 Per adult ₹9,020
+					242 heading Actions, Value: 3
+						243 text Actions
+					244 text Payment plan set ₹15,400 Unaccounted amount ₹2,640
+					245 button Save Itinerary
+						246 image
+						247 text Save Itinerary
+					248 button Payment Management
+						249 image
+						250 text Payment Management
+					251 button Download Itinerary
+						252 image
+						253 text Download Itinerary
+					254 button Quick Share
+						255 image
+						256 text Quick Share
+		257 container
+			258 container Add transport Day 1 services · rates applied in INR Create New DESTINATION Indonesia (Bali)   CITY   SEARCH INVENTORY
+				259 container Close Add transport Day 1 services · rates applied in INR Create New DESTINATION Indonesia (Bali)   CITY   SEARCH INVENTORY Available transport Select services to add to this itinerary day. Transport result view 121 results 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING ) Kuta Cab Fixed 7N RETURN FLIGHT TICKETS Kuta Cab Fixed Alas Harum Bali
+					260 container
+						261 button Close
+							262 container Close
+								263 image close
+						264 image
+						265 heading Add transport, Value: 2
+							266 text Add transport
+						267 container
+							268 text Day 1 services  · rates applied in INR
+						269 button Create New
+						270 container
+							271 text DESTINATION
+							272 container
+								273 combo box (collapsed, settable) DESTINATION Indonesia (Bali)  , ID: rc_select_15, Secondary Actions: Expand
+								274 text Indonesia (Bali)
+						275 container
+							276 text CITY
+							277 container
+								278 combo box (collapsed, settable) CITY  , ID: rc_select_16, Secondary Actions: Expand
+						279 container
+							280 text SEARCH INVENTORY
+							281 image
+							282 text field (settable) SEARCH INVENTORY
+						283 text SERVICE TYPE
+						284 button All Services
+						285 button Cab
+						286 button Private Transfer
+						287 button Private Tour
+						288 text SUPPLIER
+						289 container
+							290 combo box (collapsed, settable) ID: rc_select_17, Secondary Actions: Expand
+							291 text All suppliers
+						292 text VEHICLE FIT
+						293 container
+							294 container
+								295 combo box (collapsed, settable) ID: rc_select_18, Secondary Actions: Expand
+								296 text Any vehicle
+							297 container
+								298 button Increase Value
+									299 image up
+								300 button Decrease Value
+									301 image down
+							302 stepper (settable, integer) 0
+						303 container
+							304 text Available transport Select services to add to this itinerary day.
+							305 container Transport result view
+								306 checkbox Description: List View, Value: 1
+									307 image
+								308 checkbox Description: Grid View, Value: 0
+									309 image
+							310 text 121 results
+						311 checkbox 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING ) Kuta Cab Fixed, Value: 0
+							312 heading 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING ), Value: 3
+								313 text 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING )
+							314 image
+							315 text Kuta
+							316 text Cab
+							317 text Fixed
+						318 checkbox 7N RETURN FLIGHT TICKETS Kuta Cab Fixed, Value: 0
+							319 heading 7N RETURN FLIGHT TICKETS, Value: 3
+								320 text 7N RETURN FLIGHT TICKETS
+							321 image
+							322 text Kuta
+							323 text Cab
+							324 text Fixed
+						325 checkbox Alas Harum Bali Ubud Private Tour Fixed, Value: 0
+							326 heading Alas Harum Bali, Value: 3
+								327 text Alas Harum Bali
+							328 image
+							329 text Ubud
+							330 text Private Tour
+							331 text Fixed
+						332 checkbox Alas Harum (Transfers only) Ubud Private Tour Fixed, Value: 0
+							333 heading Alas Harum (Transfers only), Value: 3
+								334 text Alas Harum (Transfers only)
+							335 image
+							336 text Ubud
+							337 text Private Tour
+							338 text Fixed
+						339 checkbox Aloha Bali Swing Ubud Private Tour Fixed, Value: 0
+							340 heading Aloha Bali Swing, Value: 3
+								341 text Aloha Bali Swing
+							342 image
+							343 text Ubud
+							344 text Private Tour
+							345 text Fixed
+						346 checkbox Arrival in Ubud Ubud Private Tour Fixed, Value: 0
+							347 heading Arrival in Ubud, Value: 3
+								348 text Arrival in Ubud
+							349 image
+							350 text Ubud
+							351 text Private Tour
+							352 text Fixed
+						353 checkbox Atlas Club Bali Seminyak Private Tour Fixed, Value: 0
+							354 heading Atlas Club Bali, Value: 3
+								355 text Atlas Club Bali
+							356 image
+							357 text Seminyak
+							358 text Private Tour
+							359 text Fixed
+						360 checkbox Azul Beach Club Kuta Private Tour Fixed, Value: 0
+							361 heading Azul Beach Club, Value: 3
+								362 text Azul Beach Club
+							363 image
+							364 text Kuta
+							365 text Private Tour
+							366 text Fixed
+						367 checkbox Bali Bird Park Ubud Private Tour Fixed, Value: 0
+							368 heading Bali Bird Park, Value: 3
+								369 text Bali Bird Park
+							370 image
+							371 text Ubud
+							372 text Private Tour
+							373 text Fixed
+						374 checkbox Bali Butterfly Park Ubud Private Tour Fixed, Value: 0
+							375 heading Bali Butterfly Park, Value: 3
+								376 text Bali Butterfly Park
+							377 image
+							378 text Ubud
+							379 text Private Tour
+							380 text Fixed
+						381 checkbox Bali Jungle swing Ubud Private Tour Fixed, Value: 0
+							382 heading Bali Jungle swing, Value: 3
+								383 text Bali Jungle swing
+							384 image
+							385 text Ubud
+							386 text Private Tour
+							387 text Fixed
+						388 checkbox Balinese Cooking Class Ubud Private Tour Fixed, Value: 0
+							389 heading Balinese Cooking Class, Value: 3
+								390 text Balinese Cooking Class
+							391 image
+							392 text Ubud
+							393 text Private Tour
+							394 text Fixed
+						395 checkbox Balinese Massage Kuta Private Tour Fixed, Value: 0
+							396 heading Balinese Massage, Value: 3
+								397 text Balinese Massage
+							398 image
+							399 text Kuta
+							400 text Private Tour
+							401 text Fixed
+						402 checkbox Bali Safari - Jungle Hopper Pass Kuta Private Tour Fixed, Value: 0
+							403 heading Bali Safari - Jungle Hopper Pass, Value: 3
+								404 text Bali Safari - Jungle Hopper Pass
+							405 image
+							406 text Kuta
+							407 text Private Tour
+							408 text Fixed
+						409 checkbox Bali Swing Ubud Private Tour Fixed, Value: 0
+							410 heading Bali Swing, Value: 3
+								411 text Bali Swing
+							412 image
+							413 text Ubud
+							414 text Private Tour
+							415 text Fixed
+						416 checkbox Banjar Hot Springs Kuta Private Tour Fixed, Value: 0
+							417 heading Banjar Hot Springs, Value: 3
+								418 text Banjar Hot Springs
+							419 image
+							420 text Kuta
+							421 text Private Tour
+							422 text Fixed
+						423 checkbox Banyunmala Waterfall Ubud Private Tour Fixed, Value: 0
+							424 heading Banyunmala Waterfall, Value: 3
+								425 text Banyunmala Waterfall
+							426 image
+							427 text Ubud
+							428 text Private Tour
+							429 text Fixed
+						430 checkbox Batik factory Ubud Private Tour Fixed, Value: 0
+							431 heading Batik factory, Value: 3
+								432 text Batik factory
+							433 image
+							434 text Ubud
+							435 text Private Tour
+							436 text Fixed
+						437 checkbox Benoa Water Sports Kuta Private Tour Fixed, Value: 0
+							438 heading Benoa Water Sports, Value: 3
+								439 text Benoa Water Sports
+							440 image
+							441 text Kuta
+							442 text Private Tour
+							443 text Fixed
+						444 checkbox Besakih Temple Ubud Private Tour Fixed, Value: 0
+							445 heading Besakih Temple, Value: 3
+								446 text Besakih Temple
+							447 image
+							448 text Ubud
+							449 text Private Tour
+							450 text Fixed
+						451 checkbox Blue Lagoon & include snorkeling Seminyak Private Tour Fixed, Value: 0
+							452 heading Blue Lagoon & include snorkeling, Value: 3
+								453 text Blue Lagoon & include snorkeling
+							454 image
+							455 text Seminyak
+							456 text Private Tour
+							457 text Fixed
+						458 checkbox Campuhan Ridge Walk Ubud Private Tour Fixed, Value: 0
+							459 heading Campuhan Ridge Walk, Value: 3
+								460 text Campuhan Ridge Walk
+							461 image
+							462 text Ubud
+							463 text Private Tour
+							464 text Fixed
+						465 checkbox Candle Light Dinner at Alam Puisi Villa Ubud Private Tour Fixed, Value: 0
+							466 heading Candle Light Dinner at Alam Puisi Villa, Value: 3
+								467 text Candle Light Dinner at Alam Puisi Villa
+							468 image
+							469 text Ubud
+							470 text Private Tour
+							471 text Fixed
+						472 checkbox Candle Light Dinner at Bintang Bali Resort Ubud Private Tour Fixed, Value: 0
+							473 heading Candle Light Dinner at Bintang Bali Resort, Value: 3
+								474 text Candle Light Dinner at Bintang Bali Resort
+							475 image
+							476 text Ubud
+							477 text Private Tour
+							478 text Fixed
+						479 checkbox Candle Light Dinner at Golden tulip Jineng Ubud Private Tour Fixed, Value: 0
+							480 heading Candle Light Dinner at Golden tulip Jineng, Value: 3
+								481 text Candle Light Dinner at Golden tulip Jineng
+							482 image
+							483 text Ubud
+							484 text Private Tour
+							485 text Fixed
+						486 checkbox Candle Light Dinner at Jimbaran Beach Jimbaran Private Tour Fixed, Value: 0
+							487 heading Candle Light Dinner at Jimbaran Beach, Value: 3
+								488 text Candle Light Dinner at Jimbaran Beach
+							489 image
+							490 text Jimbaran
+							491 text Private Tour
+							492 text Fixed
+						493 checkbox Celuk Mas Village Ubud Private Tour Fixed, Value: 0
+							494 heading Celuk Mas Village, Value: 3
+								495 text Celuk Mas Village
+							496 image
+							497 text Ubud
+							498 text Private Tour
+							499 text Fixed
+						500 checkbox Coffee Plantation Ubud Private Tour Fixed, Value: 0
+							501 heading Coffee Plantation, Value: 3
+								502 text Coffee Plantation
+							503 image
+							504 text Ubud
+							505 text Private Tour
+							506 text Fixed
+						507 checkbox Cretya Ubud Tour Ubud Private Tour Fixed, Value: 0
+							508 heading Cretya Ubud Tour, Value: 3
+								509 text Cretya Ubud Tour
+							510 image
+							511 text Ubud
+							512 text Private Tour
+							513 text Fixed
+						514 checkbox Departure from Hotel - Bali Denpasar Airport Ubud Private Tour Fixed, Value: 0
+							515 heading Departure from Hotel - Bali Denpasar Airport, Value: 3
+								516 text Departure from Hotel - Bali Denpasar Airport
+							517 image
+							518 text Ubud
+							519 text Private Tour
+							520 text Fixed
+						521 checkbox DISCOVER SCUBA DIVING Gili Islands Private Tour Fixed, Value: 0
+							522 heading DISCOVER SCUBA DIVING, Value: 3
+								523 text DISCOVER SCUBA DIVING
+							524 image
+							525 text Gili Islands
+							526 text Private Tour
+							527 text Fixed
+						528 checkbox Dolphin Watching At Lovina Beach Kuta Private Tour Fixed, Value: 0
+							529 heading Dolphin Watching At Lovina Beach, Value: 3
+								530 text Dolphin Watching At Lovina Beach
+							531 image
+							532 text Kuta
+							533 text Private Tour
+							534 text Fixed
+						535 checkbox Dreamland Beach Kuta Private Tour Fixed, Value: 0
+							536 heading Dreamland Beach, Value: 3
+								537 text Dreamland Beach
+							538 image
+							539 text Kuta
+							540 text Private Tour
+							541 text Fixed
+						542 checkbox Early Morning sunrise Mount Batur Jeep Tour Ubud Private Tour Fixed, Value: 0
+							543 heading Early Morning sunrise Mount Batur Jeep Tour, Value: 3
+								544 text Early Morning sunrise Mount Batur Jeep Tour
+							545 image
+							546 text Ubud
+							547 text Private Tour
+							548 text Fixed
+						549 checkbox East Nusa Penida Nusa Penida Private Tour Fixed, Value: 0
+							550 heading East Nusa Penida, Value: 3
+								551 text East Nusa Penida
+							552 image
+							553 text Nusa Penida
+							554 text Private Tour
+							555 text Fixed
+						556 checkbox Fiji Waterfall Kuta Private Tour Fixed, Value: 0
+							557 heading Fiji Waterfall, Value: 3
+								558 text Fiji Waterfall
+							559 image
+							560 text Kuta
+							561 text Private Tour
+							562 text Fixed
+						563 checkbox Finns Beach Club Kuta Private Tour Fixed, Value: 0
+							564 heading Finns Beach Club, Value: 3
+								565 text Finns Beach Club
+							566 image
+							567 text Kuta
+							568 text Private Tour
+							569 text Fixed
+						570 checkbox Floating breakfast at villa Ubud Cab Fixed, Value: 0
+							571 heading Floating breakfast at villa, Value: 3
+								572 text Floating breakfast at villa
+							573 image
+							574 text Ubud
+							575 text Cab
+							576 text Fixed
+						577 checkbox Garuda Wisnu Kencana Cultural Park Kuta Private Tour Fixed, Value: 0
+							578 heading Garuda Wisnu Kencana Cultural Park, Value: 3
+								579 text Garuda Wisnu Kencana Cultural Park
+							580 image
+							581 text Kuta
+							582 text Private Tour
+							583 text Fixed
+						584 checkbox Gate of Heaven Ubud Private Tour Fixed, Value: 0
+							585 heading Gate of Heaven, Value: 3
+								586 text Gate of Heaven
+							587 image
+							588 text Ubud
+							589 text Private Tour
+							590 text Fixed
+						591 checkbox Git Git Waterfall Kuta Private Tour Fixed, Value: 0
+							592 heading Git Git Waterfall, Value: 3
+								593 text Git Git Waterfall
+							594 image
+							595 text Kuta
+							596 text Private Tour
+							597 text Fixed
+						598 checkbox Goa Lawah Temple (Bat Caves) Kuta Private Tour Fixed, Value: 0
+							599 heading Goa Lawah Temple (Bat Caves), Value: 3
+								600 text Goa Lawah Temple (Bat Caves)
+							601 image
+							602 text Kuta
+							603 text Private Tour
+							604 text Fixed
+						605 checkbox Handara Gate Kuta Private Tour Fixed, Value: 0
+							606 heading Handara Gate, Value: 3
+								607 text Handara Gate
+							608 image
+							609 text Kuta
+							610 text Private Tour
+							611 text Fixed
+						612 checkbox Happy Swing Kuta Private Tour Fixed, Value: 0
+							613 heading Happy Swing, Value: 3
+								614 text Happy Swing
+							615 image
+							616 text Kuta
+							617 text Private Tour
+							618 text Fixed
+						619 checkbox Heaven Swing Ubud Private Tour Fixed, Value: 0
+							620 heading Heaven Swing, Value: 3
+								621 text Heaven Swing
+							622 image
+							623 text Ubud
+							624 text Private Tour
+							625 text Fixed
+						626 checkbox Interhotel transfers from Hotel in Kuta to Hotel in Seminyak Seminyak Private Transfer Fixed, Value: 0
+							627 heading Interhotel transfers from Hotel in Kuta to Hotel in Seminyak, Value: 3
+								628 text Interhotel transfers from Hotel in Kuta to Hotel in Seminyak
+							629 image
+							630 text Seminyak
+							631 text Private Transfer
+							632 text Fixed
+						633 checkbox Interhotel transfers from Hotel in Kuta to Hotel in Ubud Ubud Private Transfer Fixed, Value: 0
+							634 heading Interhotel transfers from Hotel in Kuta to Hotel in Ubud, Value: 3
+								635 text Interhotel transfers from Hotel in Kuta to Hotel in Ubud
+							636 image
+							637 text Ubud
+							638 text Private Transfer
+							639 text Fixed
+						640 checkbox Interhotel transfers from Hotel in Seminyak to Hotel in Kuta Kuta Private Transfer Fixed, Value: 0
+							641 heading Interhotel transfers from Hotel in Seminyak to Hotel in Kuta, Value: 3
+								642 text Interhotel transfers from Hotel in Seminyak to Hotel in Kuta
+							643 image
+							644 text Kuta
+							645 text Private Transfer
+							646 text Fixed
+						647 checkbox Interhotel transfers from Hotel in Seminyak to Hotel in Ubud Ubud Private Transfer Fixed, Value: 0
+							648 heading Interhotel transfers from Hotel in Seminyak to Hotel in Ubud, Value: 3
+								649 text Interhotel transfers from Hotel in Seminyak to Hotel in Ubud
+							650 image
+							651 text Ubud
+							652 text Private Transfer
+							653 text Fixed
+						654 checkbox Interhotel transfers from Hotel in Ubud to Hotel in Kuta Kuta Private Transfer Fixed, Value: 0
+							655 heading Interhotel transfers from Hotel in Ubud to Hotel in Kuta, Value: 3
+								656 text Interhotel transfers from Hotel in Ubud to Hotel in Kuta
+							657 image
+							658 text Kuta
+							659 text Private Transfer
+							660 text Fixed
+						661 text 0  selected
+						662 button Close
+						663 button (disabled) Add transport
+						664 button (disabled) Add with linked activities
+							665 image
+							666 text Add with linked activities
+
+The focused UI element is 259 container Close Add transport Day 1 services · rates applied in INR Create New DESTINATION Indonesia (Bali)   CITY   SEARCH INVENTORY Available transport Select services to add to this itinerary day. Transport result view 121 results 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING ) Kuta Cab Fixed 7N RETURN FLIGHT TICKETS Kuta Cab Fixed Alas Harum Bali

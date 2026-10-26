@@ -1,0 +1,122 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/organisation".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_18_, Secondary Actions: Expand
+					7 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					8 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+			9 container Breadcrumb
+				10 text Organisation
+			11 container Organisation settings section
+				12 container
+					13 combo box (expanded, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Collapse
+					14 text Organisation
+			15 container
+				16 heading Organisation profile, Value: 1
+					17 text Organisation profile
+				18 image
+				19 text Active workspace
+				20 text Workspace identity, regional defaults, brand assets, and account capacity.
+				21 button Edit company details
+					22 image
+					23 text Edit company details
+				24 text WORKSPACE RECORD
+				25 heading Operating profile, Value: 2
+					26 text Operating profile
+				27 text These defaults identify your organisation across lead, itinerary, payment, and communication workflows.
+				28 text Tenant workspace
+				29 definition list
+					30 container Organisation name
+						31 image
+						32 text Organisation name
+					33 text Luxury Indo Tours
+					34 text Displayed across the workspace
+					35 container Operating country
+						36 image
+						37 text Operating country
+					38 text India
+					39 text Used for regional defaults
+					40 container Billing currencies
+						41 image
+						42 text Billing currencies
+					43 text INR
+					44 text Available for quotes and payments
+					45 container Seat capacity
+						46 image
+						47 text Seat capacity
+					48 text 2 users
+					49 text Maximum active team members
+					50 container Company email
+						51 image
+						52 text Company email
+					53 text Not set
+					54 text Shown on company documents
+					55 container GST number
+						56 image
+						57 text GST number
+					58 text Not set
+					59 text Shown on company documents
+					60 container State name
+						61 image
+						62 text State name
+					63 text Not set
+					64 text Used for billing documents
+					65 container Company address
+						66 image
+						67 text Company address
+					68 text Not set
+					69 text Shown on company documents
+				70 text BANK DETAILS
+				71 definition list
+					72 container Bank name
+						73 image
+						74 text Bank name
+					75 text Not set
+					76 text Shown on proforma invoices
+					77 container Account holder name
+						78 image
+						79 text Account holder name
+					80 text Not set
+					81 text Shown on proforma invoices
+					82 container Account number
+						83 image
+						84 text Account number
+					85 text Not set
+					86 text Shown on proforma invoices
+					87 container IFSC code
+						88 image
+						89 text IFSC code
+					90 text Not set
+					91 text Shown on proforma invoices
+					92 container Branch name
+						93 image
+						94 text Branch name
+					95 text Not set
+					96 text Shown on proforma invoices
+				97 container
+					98 text BRAND PREVIEW LI Luxury Indo Tours Shared workspace identity
+				99 image
+				100 heading Organisation image, Value: 2
+					101 text Organisation image
+				102 text Use a square PNG or JPG under 2 MB.
+				103 button Upload image
+					104 image
+					105 text Upload image
+				106 text Shown in team-facing workspace surfaces and shared exports.
+		107 container
+			108 list rc_select_0_list
+				109 (selected) Value: Organisation, ID: rc_select_0_list_1
+				110 Value: Agent Portal, ID: rc_select_0_list_2
+			111 container
+				112 text Workspace
+				113 text Organisation
+				114 text Agent Portal
+				115 text Agencies
+				116 text Users
+				117 text Teams
+				118 text Operations
+				119 text Mailboxes
+
+The focused UI element is 13 combo box (expanded, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Collapse

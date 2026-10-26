@@ -5,9 +5,28 @@ const db = require('./database');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const AUTH_USER = 'admin';
+const AUTH_PASS = 'TravelOS@2026';
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
+
+function requireBasicAuth(req, res, next) {
+  const authHeader = req.headers.authorization || '';
+  const [scheme, encoded] = authHeader.split(' ');
+
+  if (scheme === 'Basic' && encoded) {
+    const [user, pass] = Buffer.from(encoded, 'base64').toString('utf8').split(':');
+    if (user === AUTH_USER && pass === AUTH_PASS) {
+      return next();
+    }
+  }
+
+  res.set('WWW-Authenticate', 'Basic realm="Travel OS Scope Planner"');
+  return res.status(401).send('Authentication required');
+}
+
+app.use(requireBasicAuth);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Client IP extractor helper

@@ -1,0 +1,196 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/dashboard".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/dashboard
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1a_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 heading Operations dashboard, Value: 1
+				22 text Operations dashboard
+			23 text Organisation view Last 30 days  · Updated  10 Oct 2026, 16:01
+			24 button Create Lead
+				25 image
+				26 text Create Lead
+			27 button Review Payments
+				28 image
+				29 text Review Payments
+			30 button Customize
+				31 image
+				32 text Customize
+		33 container
+			34 container Organisation performance metrics
+				35 container
+					36 image
+					37 image
+					38 text + 100 % 2 Active Leads
+				39 container
+					40 image
+					41 image
+					42 text + 100 % 1 Bookings In Progress
+				43 container
+					44 image
+					45 text 0  overdue INR 0 Revenue At Risk
+				46 container
+					47 image
+					48 image
+					49 text + 50 % 50% Lead Conversion
+			50 container
+				51 heading Lead pipeline, Value: 2
+					52 text Lead pipeline
+				53 text Current volume against stage targets
+				54 button Current status of leads across the organisation sales pipeline
+					55 image
+				56 text Open pipeline 2 Live targets New
+				57 image
+				58 text 0 /  2 In Progress
+				59 image
+				60 text 1 /  2 On Hold
+				61 image
+				62 text 0 /  2 Confirmed
+				63 image
+				64 text 1 /  2 Completed
+				65 image
+				66 text 0 /  2
+			67 container
+				68 heading Lead sources, Value: 2
+					69 text Lead sources
+				70 text Where organisation enquiries originate
+				71 button Distribution of organisation leads by connected source
+					72 image
+				73 image
+					74 image
+				75 container
+					76 text 2 Total leads
+				77 text Social Media 100 %
+			78 container
+				79 heading Upcoming departures, Value: 2
+					80 text Upcoming departures
+				81 text Trips beginning in the next 30 days
+				82 button Confirmed and proposed trips beginning within 30 days
+					83 image
+				84 text No upcoming departures Confirmed trips will appear here as their start dates approach.
+			85 container
+				86 heading Payment watchlist, Value: 2
+					87 text Payment watchlist
+				88 text Collections due soon or already overdue
+				89 button Client payment schedules due in the next seven days or overdue
+					90 image
+				91 text Collections are on schedule Upcoming and overdue client payments will appear here.
+			92 container
+				93 heading Team pulse, Value: 2
+					94 text Team pulse
+				95 text Lead load, conversion, and revenue by team member
+				96 button Team performance for the current reporting period
+					97 image
+				98 text NA
+				99 text Nishar Arora
+				100 container
+					101 text owner  ·  2  leads
+				102 text INR 31,240
+				103 text 50 %
+			104 container
+				105 heading Source performance, Value: 2
+					106 text Source performance
+				107 text Lead volume compared with conversion rate
+				108 text Leads Conversion
+				109 image
+					110 text Social Media
+					111 text 0
+					112 text 0.5
+					113 text 1
+					114 text 1.5
+					115 text 2
+			116 container
+				117 heading Destination demand, Value: 2
+					118 text Destination demand
+				119 text Leads and conversion by destination
+				120 text Leads Conversion
+				121 image
+					122 text Indonesia (Bali)
+					123 text 0
+					124 text 0.5
+					125 text 1
+					126 text 1.5
+					127 text 2
+			128 container
+				129 heading Departure cities, Value: 2
+					130 text Departure cities
+				131 text Where confirmed travellers begin their journey
+				132 image
+					133 image
+				134 container
+					135 text 1 Leads
+				136 text Fictional Departure City 100 %
+			137 container
+				138 heading Monthly lead movement, Value: 2
+					139 text Monthly lead movement
+				140 text Total enquiries, proposals, and conversions
+				141 text Total Proposed Converted
+				142 image
+					143 text May
+					144 text Jun
+					145 text Jul
+					146 text Aug
+					147 text Sep
+					148 text Oct
+					149 text 0
+					150 text 0.5
+					151 text 1
+					152 text 1.5
+					153 text 2
+			154 container
+				155 heading Business signals, Value: 2
+					156 text Business signals
+				157 text Changes that need an owner decision
+				158 image
+				159 text 100 %
+				160 text Avg Response Time
+				161 text 15m
+				162 text Average time to first follow-up
+				163 image
+				164 text 50 %
+				165 text Proposal Acceptance
+				166 text 50%
+				167 text Confirmed itineraries vs proposals
+				168 image
+				169 text 100 %
+				170 text Revenue Forecast
+				171 text INR 15,840
+				172 text Outstanding receipts due in next 30 days
+				173 image
+				174 text 0 %
+				175 text At-Risk Itineraries
+				176 text 0
+				177 text Proposed trips starting in next 14 days
+			178 container
+				179 heading Alerts and reminders, Value: 2
+					180 text Alerts and reminders
+				181 text Operational items ordered by attention level
+				182 text No alerts right now New operational reminders will be grouped here by priority.
+			183 container
+				184 heading Important dates, Value: 2
+					185 text Important dates
+				186 text Client birthdays and anniversaries
+				187 container Important dates range
+					188 container
+						189 combo box (collapsed, settable) Description: Important dates range, ID: rc_select_0, Secondary Actions: Expand
+						190 text This week
+				191 button Upcoming client birthdays and anniversaries
+					192 image
+				193 text No important dates There are no birthdays or anniversaries in the selected range.
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/dashboard

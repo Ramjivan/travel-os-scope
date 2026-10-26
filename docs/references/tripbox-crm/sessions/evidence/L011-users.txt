@@ -1,0 +1,125 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/users".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/users
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1i_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Users
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Users, Value: 1
+				60 text Users
+			61 text Manage access, roles, and active workspace seats for the organisation.
+			62 link Description: Add user, Value: tripboxcrm.com/org/users/new
+			63 container List controls
+				64 container
+					65 image
+					66 search text field (settable)
+					67 button search
+						68 image search
+				69 container
+					70 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					71 text Filter by role
+				72 container
+					73 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					74 text Filter by status
+				75 button
+					76 image
+			77 table
+				78 row
+					79 cell Name
+						80 text Name
+					81 cell Email
+						82 text Email
+					83 cell
+						84 text Phone
+					85 cell Role
+						86 text Role
+					87 cell Status
+						88 text Status
+					89 cell Last Active
+						90 text Last Active
+					91 cell
+						92 text Actions
+				93 row
+					94 cell
+						95 text Nishar Arora Member since  a day ago
+					96 cell
+						97 text [demo account email omitted]
+					98 cell
+						99 text -
+					100 cell
+						101 text Owner
+					102 cell
+						103 text Active
+					104 cell
+						105 text 09 Oct 2026, 05:48 PM
+					106 cell
+						107 link tripboxcrm.com/org/users/ce6e5b96-79d8-4679-a795-00930191c40c
+			108 container users pagination
+				109 container
+					110 text 1 – 1  of  1 users
+				111 content list
+					112 container Previous Page
+						113 button (disabled) left
+							114 image left
+					115 text 1
+					116 container Next Page
+						117 button (disabled) right
+							118 image right
+					119 container Page Size
+						120 container
+							121 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+							122 text 10 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/users

@@ -1,0 +1,86 @@
+[
+  {
+    "reference_id": "UI-001",
+    "source_filename": "codex-clipboard-520a4af3-cc09-40a6-8cd9-fa0177e452ab.png",
+    "source_sha256": "90cea938d63932b3936cd8fde221f59a3539994eade649cf31af3d375e7f979f",
+    "archive_filename": "ui-001-planner-two-hotels.png",
+    "archive_sha256": "90cea938d63932b3936cd8fde221f59a3539994eade649cf31af3d375e7f979f",
+    "dimensions": [
+      1163,
+      739
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-002",
+    "source_filename": "codex-clipboard-ddc631ed-9192-4459-836b-bc925f2c988f.png",
+    "source_sha256": "b1ae32c57e9fa32add5289b2abacd1af3a57723b885e5964fea16ea421deac3a",
+    "archive_filename": "ui-002-package-search.png",
+    "archive_sha256": "b1ae32c57e9fa32add5289b2abacd1af3a57723b885e5964fea16ea421deac3a",
+    "dimensions": [
+      576,
+      377
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-003",
+    "source_filename": "codex-clipboard-b540d943-8552-4fa7-97d2-dd024608d589.png",
+    "source_sha256": "e4014a8c72a8612fbb95d192a8c88dc228adbc14fd633b0c904c6458a9f8a489",
+    "archive_filename": "ui-003-split-stay-search.png",
+    "archive_sha256": "e4014a8c72a8612fbb95d192a8c88dc228adbc14fd633b0c904c6458a9f8a489",
+    "dimensions": [
+      606,
+      485
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-004",
+    "source_filename": "codex-clipboard-b244fd8d-94e4-4770-bb26-e05715cedaf4.png",
+    "source_sha256": "6f40200aa93a1a3177b56d4981fbc68e18c44d41244efc78dae30ea31169a296",
+    "archive_filename": "ui-004-hotel-room-options.png",
+    "archive_sha256": "6f40200aa93a1a3177b56d4981fbc68e18c44d41244efc78dae30ea31169a296",
+    "dimensions": [
+      977,
+      685
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-005",
+    "source_filename": "codex-clipboard-8804b3d4-a375-4528-8302-988094260e49.png",
+    "source_sha256": "d75c0e0f8e10d2bf41a098d0e9eccd97a5c9f6bf5a2fa6ad41faf425f484df73",
+    "archive_filename": "ui-005-transfer-selection.png",
+    "archive_sha256": "d75c0e0f8e10d2bf41a098d0e9eccd97a5c9f6bf5a2fa6ad41faf425f484df73",
+    "dimensions": [
+      1196,
+      541
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-006",
+    "source_filename": "codex-clipboard-c61ea799-8c50-4e1c-8c2a-3146583a6de3.png",
+    "source_sha256": "c37c5b8fff76fe49601f49d1d573107a4543a6137c048fa86c65eac47205a408",
+    "archive_filename": "ui-006-tour-addons.png",
+    "archive_sha256": "c37c5b8fff76fe49601f49d1d573107a4543a6137c048fa86c65eac47205a408",
+    "dimensions": [
+      1231,
+      694
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "UI-007",
+    "source_filename": "codex-clipboard-3e55c140-3f13-4501-a7f1-dda2c8f3c71f.png",
+    "source_sha256": "2bda5d51a12f4e8f4d027fa1a7fac1e6ac8afa61d8e0fffeee66ab21fe16e828",
+    "archive_filename": "ui-007-planner-partial-stay.png",
+    "archive_sha256": "2bda5d51a12f4e8f4d027fa1a7fac1e6ac8afa61d8e0fffeee66ab21fe16e828",
+    "dimensions": [
+      1142,
+      752
+    ],
+    "redactions": []
+  }
+]

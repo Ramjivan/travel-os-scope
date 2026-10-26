@@ -1,0 +1,138 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/query-sources".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/query-sources
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1u_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Query Sources
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Query sources, Value: 1
+				60 text Query sources
+			61 text Maintain lead origin partners, inbound source contacts, and active source availability.
+			62 link Description: Add source, Value: tripboxcrm.com/org/query-source/new
+			63 text Sources
+			64 text 4
+			65 text Total origin records
+			66 text Visible
+			67 text 4
+			68 text After current filters
+			69 text Active
+			70 text 4
+			71 text Available for lead attribution
+			72 container List controls
+				73 container
+					74 image
+					75 search text field (settable)
+					76 button search
+						77 image search
+				78 container
+					79 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					80 text Filter by status
+				81 button
+					82 image
+			83 table
+				84 row
+					85 cell Name
+						86 text Name
+					87 cell
+						88 text Contact Info
+					89 cell Status
+						90 text Status
+					91 cell
+						92 text Actions
+				93 row
+					94 cell
+						95 text Direct
+					96 cell
+						97 text Active
+					98 cell
+						99 link tripboxcrm.com/org/query-source/0e0fb8af-93d4-485c-966d-aebe77f2b7b7
+				100 row
+					101 cell
+						102 text Social Media
+					103 cell
+						104 text Active
+					105 cell
+						106 link tripboxcrm.com/org/query-source/a5640103-9b0c-48d9-bc79-e7eca8dc52fc
+				107 row
+					108 cell
+						109 text Website
+					110 cell
+						111 text Active
+					112 cell
+						113 link tripboxcrm.com/org/query-source/b1701bf4-a1bf-40cb-8148-e341c4759309
+				114 row
+					115 cell
+						116 text Reference
+					117 cell
+						118 text Active
+					119 cell
+						120 link tripboxcrm.com/org/query-source/810b32c9-b55d-4f05-80f8-53b4c3133ca9
+			121 container sources pagination
+				122 container
+					123 text 1 – 4  of  4 sources
+				124 content list
+					125 container Previous Page
+						126 button (disabled) left
+							127 image left
+					128 text 1
+					129 container Next Page
+						130 button (disabled) right
+							131 image right
+					132 container Page Size
+						133 container
+							134 combo box (collapsed, settable) Description: Page Size, ID: rc_select_2, Secondary Actions: Expand
+							135 text 10 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/query-sources

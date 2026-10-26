@@ -1,0 +1,216 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Lead pipeline, Value: 1
+					23 text Lead pipeline
+				24 text 2  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				25 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				26 button Refresh leads
+					330 image
+				28 button New lead
+					29 image
+					30 text New lead
+			31 container
+				32 checkbox New queries 0, Value: 0
+				33 checkbox In progress 1, Value: 0
+				34 checkbox On hold 0, Value: 0
+				35 checkbox Confirmed 1, Value: 0
+				36 checkbox Ongoing 0, Value: 0
+				37 checkbox Completed 0, Value: 0
+				38 checkbox Cancelled 0, Value: 0
+				39 checkbox All leads 2, Value: 1
+			40 container Lead filters
+				41 container
+					42 image
+					43 text field (settable)
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					46 text All owners
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_15, Secondary Actions: Expand
+					49 text All portal states
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_16, Secondary Actions: Expand
+					52 text All created dates
+				53 button Filters
+					54 image
+					55 text Filters
+				56 button Columns
+					57 image
+					58 text Columns
+				59 button Export leads
+					60 image
+			89 container
+				90 table
+					91 row
+						331 cell
+							332 container
+								333 checkbox (settable, integer) Description: Select all, Value: 0
+						95 cell
+							96 text ID
+						97 cell Guest name
+							334 text GUEST NAME
+						99 cell
+							100 text MOBILE
+						101 cell
+							102 text EMAIL
+						103 cell Travel date
+							335 text TRAVEL DATE
+						105 cell
+							106 text DESTINATION
+						107 cell
+							108 text ASSIGNED TO
+						109 cell
+							110 text STATUS
+						111 cell
+							112 text PREVIEW
+					338 row
+						339 cell
+							340 container
+								341 checkbox (settable, integer) Description: Select lead 2, Value: 0
+						342 cell
+							343 link Description: #2, Value: tripboxcrm.com/leads/2
+						344 cell
+							345 text TOS-AUDIT Fictional Traveller B
+							346 text Social Media · 2N / 3D · 2 travellers
+						347 cell
+							348 image
+							349 text Not provided
+						350 cell
+							351 image
+							352 text traveller-b@example.invalid
+						353 cell
+							354 image
+							355 text 20 Nov 2026
+						356 cell
+							357 image
+							358 text Indonesia (Bali)
+						359 cell
+							360 image
+							361 text Nishar Arora
+						362 cell
+							363 text In Progress
+						366 cell
+							367 button Preview lead 2
+								368 image
+					369 row
+						370 cell
+							371 container
+								372 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						373 cell
+							374 link Description: #1, Value: tripboxcrm.com/leads/1
+						375 cell
+							376 text TOS-AUDIT Fictional Traveller A
+							377 text Social Media · 4N / 5D · 2 travellers
+						378 cell
+							379 image
+							380 text Not provided
+						381 cell
+							382 image
+							383 text traveller-a@example.invalid
+						384 cell
+							385 image
+							386 text 20 Nov 2026
+						387 cell
+							388 image
+							389 text Indonesia (Bali)
+						390 cell
+							391 image
+							392 text Nishar Arora
+						393 cell
+							394 text Confirmed
+						397 cell
+							398 button Preview lead 1
+								399 image
+				400 container leads pagination
+					401 container
+						402 text 1 – 2  of  2 leads
+					403 content list
+						404 container Previous Page
+							405 button (disabled) left
+								406 image left
+						407 text 1
+						408 container Next Page
+							409 button (disabled) right
+								410 image right
+						411 container Page Size
+							412 container
+								413 combo box (collapsed, settable) Description: Page Size, ID: rc_select_23, Secondary Actions: Expand
+								414 text 20 / page
+		415 container
+			416 container Advanced Filters
+				417 container
+					418 button Close
+						419 container Close
+							420 image close
+					421 image
+					422 text Advanced Filters
+					423 container Saved filters
+						424 image
+						425 heading Saved filters, Value: 2
+							426 text Saved filters
+						427 heading MY SAVED FILTERS, Value: 3
+							428 text MY SAVED FILTERS
+						429 text No personal saved filters yet.
+						430 heading SHARED FILTERS, Value: 3
+							431 text SHARED FILTERS
+						432 text No shared filters yet.
+					433 container
+						434 text Field
+						435 container
+							436 combo box (expanded, settable) ID: rc_select_24, Secondary Actions: Collapse
+					437 container
+						438 text Operator
+						439 container
+							440 text Equals
+					441 container
+						442 text Value
+						443 container
+							444 combo box (collapsed, settable) ID: rc_select_26, Secondary Actions: Expand
+							445 text Type values and press Enter
+					446 container
+						447 button
+							448 image
+					449 button Add Filter
+						450 image
+						451 text Add Filter
+					452 button (disabled) Clear All
+					453 button Cancel
+					454 button (disabled) Save filter
+						455 image
+						456 text Save filter
+					457 button (disabled) Apply Filters
+		458 container
+			459 list rc_select_24_list
+				460 Value: Guest Name, ID: rc_select_24_list_0
+				461 Value: Guest Mobile, ID: rc_select_24_list_1
+			462 container
+				463 text Guest Name
+				464 text Guest Mobile
+				465 text Guest Email
+				466 text Guest Location
+				467 text Adults
+				468 text Cwb
+				469 text Cnb
+				470 text Infant
+
+The focused UI element is 436 combo box (expanded, settable) ID: rc_select_24, Secondary Actions: Collapse

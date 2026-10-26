@@ -1,0 +1,117 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/dashboard".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/dashboard
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Operations dashboard, Value: 1
+					23 text Operations dashboard
+				24 text Organisation view Last 30 days  · Updated  10 Oct 2026, 16:00
+			35 container
+				36 text Customize organisation dashboard Drag, resize, hide, or restore widgets. Data remains organisation-wide.
+				37 button Reset
+					38 image
+					39 text Reset
+				40 button Cancel
+					41 image
+					42 text Cancel
+				43 button Save layout
+					44 image
+					45 text Save layout
+			118 container
+				119 heading Hidden widgets, Value: 3
+					120 text Hidden widgets
+				121 text Restore a widget to the bottom of the active layout. Important Dates
+				122 button Add Important Dates
+					123 image
+			34 container
+				46 container
+					47 button Move Metrics
+						48 image
+						49 text Metrics
+					50 button Hide Metrics
+						51 image
+				52 container
+					53 button Move Pipeline
+						54 image
+						55 text Pipeline
+					56 button Hide Pipeline
+						57 image
+				58 container
+					59 button Move Lead Sources
+						60 image
+						61 text Lead Sources
+					62 button Hide Lead Sources
+						63 image
+				64 container
+					65 button Move Departures
+						66 image
+						67 text Departures
+					68 button Hide Departures
+						69 image
+				70 container
+					71 button Move Payment Watchlist
+						72 image
+						73 text Payment Watchlist
+					74 button Hide Payment Watchlist
+						75 image
+				76 container
+					77 button Move Team Pulse
+						78 image
+						79 text Team Pulse
+					80 button Hide Team Pulse
+						81 image
+				82 container
+					83 button Move Top Lead Sources
+						84 image
+						85 text Top Lead Sources
+					86 button Hide Top Lead Sources
+						87 image
+				88 container
+					89 button Move Top Destinations
+						90 image
+						91 text Top Destinations
+					92 button Hide Top Destinations
+						93 image
+				94 container
+					95 button Move Top Departure Cities
+						96 image
+						97 text Top Departure Cities
+					98 button Hide Top Departure Cities
+						99 image
+				100 container
+					101 button Move Monthly Leads Trend
+						102 image
+						103 text Monthly Leads Trend
+					104 button Hide Monthly Leads Trend
+						105 image
+				106 container
+					107 button Move Business Insights
+						108 image
+						109 text Business Insights
+					110 button Hide Business Insights
+						111 image
+				112 container
+					113 button Move Alerts & Reminders
+						114 image
+						115 text Alerts & Reminders
+					116 button Hide Alerts & Reminders
+						117 image
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/dashboard

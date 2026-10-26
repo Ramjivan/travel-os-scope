@@ -1,0 +1,255 @@
+import { test } from 'node:test'
+import assert from 'node:assert/strict'
+import { createCrmService, CRM_KEY } from './crm.ts'
+import { BOOKING_KEY } from '../domain/booking.ts'
+import { DEMO_USERS } from '../fixtures/workspace.ts'
+import { SALES_EXECUTIVES } from '../fixtures/crm.ts'
+import { crmFixture } from '../fixtures/crm.ts'
+import { distributeLeads, followbackTime, queryLeads, type NewLeadInput } from '../domain/crm.ts'
+import type { DemoUser, StoragePort } from '../domain/workspace.ts'
+
+const time = Date.parse('2026-10-06T10:00:00.000Z')
+const input: NewLeadInput = { name: 'Sample Contact', organization: '', email: 'sample@travelos.example', phone: 'DEMO-TEST', destination: 'Bali', travelDate: '2026-11-10', nights: 5, travelers: 2, budget: 100000, source: 'Manual', requirements: 'Private transfers' }
+function setup() {
+  const values = new Map<string, string>()
+  let actor: DemoUser | null = DEMO_USERS[2]
+  let blocked = false
+  const storage: StoragePort = { getItem: key => values.get(key) ?? (key === BOOKING_KEY ? JSON.stringify({ bookings: [] }) : null), setItem: (key, value) => { if (blocked) throw new Error(); values.set(key, value) }, removeItem: key => { values.delete(key) } }
+  const service = createCrmService(storage, () => actor, () => time, async () => {})
+  return { service, values, storage, user: () => actor!, setUser: (value: DemoUser | null) => { actor = value }, block: (value: boolean) => { blocked = value } }
+}
+test('created lead and all communication channels survive adapter recreation; stages remain independent', async () => {
+  const s = setup(), lead = await s.service.createLead(input)
+  await s.service.recordCommunication(lead.id, { channel: 'whatsapp', body: 'Sample hello' })
+  await s.service.recordCommunication(lead.id, { channel: 'email', subject: 'Sample trip', body: 'Sample preferences', direction: 'incoming' })
+  await s.service.recordCommunication(lead.id, { channel: 'call', body: 'Agreed next touchpoint', outcome: 'Connected', durationSeconds: 31 })
+  const next = createCrmService(s.storage, s.user, () => time, async () => {})
+  const data = await next.load()
+  assert.equal(data.leads.find(item => item.id === lead.id)?.stage, 'New')
+  assert.deepEqual(data.activities.filter(item => item.leadId === lead.id).map(item => item.kind), ['system', 'whatsapp', 'email', 'call'])
+  await next.changeStage(lead.id, 'Qualified')
+  assert.equal((await next.load()).leads.find(item => item.id === lead.id)?.stage, 'Qualified')
+})
+test('executives cannot transfer; manager reassigns and open tasks follow owner', async () => {
+  const s = setup()
+  assert.equal((await s.service.load()).leads.length, 10)
+  await assert.rejects(s.service.addNote('LD-1009', 'Unauthorized'), /unavailable/)
+  await assert.rejects(s.service.assignLead('LD-1001', 'demo-manager'), /Only the manager/)
+  await assert.rejects(s.service.assignLead('LD-1009', 'demo-sales'), /Only the manager/)
+  await assert.rejects(s.service.assignLead('LD-1001', 'demo-sales-riley'), /Only the manager/)
+  s.setUser(DEMO_USERS[1])
+  await s.service.assignLead('LD-1001', 'demo-sales-riley')
+  s.setUser(DEMO_USERS[4])
+  assert.equal((await s.service.load()).leads.length, 11)
+  assert.equal((await s.service.load()).followUps.find(task => task.id === 'FU-001')?.ownerId, 'demo-sales-riley')
+  s.setUser(DEMO_USERS[1])
+  await s.service.assignLead('LD-1001', 'demo-sales')
+  s.setUser(DEMO_USERS[1]); assert.equal((await s.service.load()).leads.length, 40)
+  await s.service.assignLead('LD-1001', 'demo-manager')
+  const managed = await s.service.load()
+  assert.equal(managed.followUps.find(task => task.id === 'FU-001')?.ownerId, 'demo-manager')
+  assert.equal(queryLeads(managed, s.user(), { search: '', stage: '', source: '', view: 'mine' }, time).length, 1)
+  await s.service.addNote('LD-1001', 'Manager working the lead')
+  s.setUser(DEMO_USERS[2]); assert.equal((await s.service.load()).leads.some(item => item.id === 'LD-1001'), false)
+  s.setUser(DEMO_USERS[3]); await assert.rejects(s.service.load(), /cannot access/)
+  s.setUser(null); await assert.rejects(s.service.load(), /cannot access/)
+})
+test('distribution covers batch sizes and team sizes evenly, including fewer leads than members', () => {
+  for (let members = 1; members <= 7; members++) for (let size = 1; size <= 20; size++) {
+    const team = Array.from({ length: members }, (_, i) => `member-${i}`)
+    const ids = Array.from({ length: size }, (_, i) => `lead-${i}`)
+    const result = distributeLeads(ids, team, 2)
+    assert.deepEqual(result.map(item => item.leadId), ids)
+    const counts = team.map(id => result.filter(item => item.ownerId === id).length)
+    assert.ok(Math.max(...counts) - Math.min(...counts) <= 1)
+  }
+  assert.throws(() => distributeLeads(['lead'], [], 0), /No eligible/)
+})
+
+test('expanded team can receive existing leads; old staff labels render without rewriting stored history or notes', async () => {
+  const s = setup()
+  const lead = await s.service.createLead(input)
+  const saved = JSON.parse(s.values.get(CRM_KEY)!)
+  saved.activities.push({ id: 'old-assignment', leadId: lead.id, actor: 'Jordan Lee', at: '2026-10-06T10:00:00.000Z', kind: 'system', body: 'Ownership transferred: Sam Taylor → Riley Chen.', simulated: true })
+  saved.activities.push({ id: 'old-note', leadId: lead.id, actor: 'Sam Taylor', at: '2026-10-06T10:00:00.000Z', kind: 'note', body: 'Customer mentioned Riley Chen.', simulated: true })
+  s.values.set(CRM_KEY, JSON.stringify(saved))
+  const raw = s.values.get(CRM_KEY)
+  const displayed = await s.service.load()
+  assert.equal(displayed.activities.find(item => item.id === 'old-assignment')?.actor, 'Aishwarya')
+  assert.equal(displayed.activities.find(item => item.id === 'old-assignment')?.body, 'Ownership transferred: Rikit → Mathew.')
+  assert.equal(displayed.activities.find(item => item.id === 'old-note')?.body, 'Customer mentioned Riley Chen.')
+  assert.equal(s.values.get(CRM_KEY), raw)
+  const mahima = DEMO_USERS.find(user => user.name === 'Mahima')!
+  s.setUser(mahima)
+  assert.equal((await s.service.load()).leads.length, 41)
+  const preview = await s.service.previewAssignment({ mode: 'release', leadIds: ['LD-1001', 'LD-1002', 'LD-1003', 'LD-1004'] })
+  assert.deepEqual(preview.assignments.map(item => item.ownerId), SALES_EXECUTIVES.map(user => user.id))
+  await s.service.applyAssignment(preview)
+  for (const name of ['Disha', 'Paji']) {
+    s.setUser(DEMO_USERS.find(user => user.name === name)!)
+    assert.equal((await s.service.load()).leads.length, 11)
+  }
+  s.setUser(mahima)
+  await s.service.assignLead('LD-1001', mahima.id)
+  assert.equal(queryLeads(await s.service.load(), mahima, { search: '', stage: '', source: '', view: 'mine' }, time).length, 1)
+})
+test('manager release previews evenly, rotates remainder across reload, preserves stages/history/completed owners', async () => {
+  const s = setup(); s.setUser(DEMO_USERS[1])
+  await s.service.completeFollowUp('FU-002')
+  const before = await s.service.load(), raw = s.values.get(CRM_KEY)
+  const ids = ['LD-1001', 'LD-1002', 'LD-1003']
+  const preview = await s.service.previewAssignment({ mode: 'release', leadIds: ids })
+  assert.equal(s.values.get(CRM_KEY), raw)
+  assert.deepEqual(preview.assignments.map(item => item.ownerId), SALES_EXECUTIVES.slice(0, 3).map(user => user.id))
+  await s.service.applyAssignment(preview)
+  let data = await s.service.load()
+  assert.deepEqual(data.leads.map(lead => lead.stage), before.leads.map(lead => lead.stage))
+  assert.deepEqual(data.activities.slice(0, before.activities.length), before.activities)
+  assert.equal(data.followUps.find(task => task.id === 'FU-002')?.ownerId, 'demo-sales')
+  assert.equal(data.distributionCursor, 3)
+  const recreated = createCrmService(s.storage, s.user, () => time, async () => {})
+  const next = await recreated.previewAssignment({ mode: 'release', leadIds: ['LD-1001'] })
+  assert.equal(next.assignments[0].ownerId, 'demo-sales-paji')
+  await recreated.applyAssignment(next)
+  data = await recreated.load()
+  assert.equal(data.followUps.find(task => task.id === 'FU-001')?.ownerId, 'demo-sales-paji')
+  assert.equal(data.distributionCursor, 0)
+  await recreated.reset(); assert.equal((await recreated.load()).distributionCursor ?? 0, 0)
+})
+test('bulk assignment denies unauthorized or invalid selection; stale and failed commits save no partial batch', async () => {
+  const s = setup()
+  await assert.rejects(s.service.previewAssignment({ mode: 'release', leadIds: ['LD-1001'] }), /Only the manager/)
+  await assert.rejects(s.service.previewAssignment({ mode: 'manual', leadIds: ['LD-1001', 'LD-1002'], ownerId: 'demo-sales-riley' }), /Only the manager/)
+  s.setUser(DEMO_USERS[1])
+  await assert.rejects(s.service.previewAssignment({ mode: 'release', leadIds: [] }), /unique leads/)
+  await assert.rejects(s.service.previewAssignment({ mode: 'release', leadIds: ['LD-1001', 'LD-1001'] }), /unique leads/)
+  await assert.rejects(s.service.previewAssignment({ mode: 'manual', leadIds: ['LD-1001', 'missing'], ownerId: 'demo-sales-riley' }), /unavailable/)
+  await assert.rejects(s.service.previewAssignment({ mode: 'manual', leadIds: ['LD-1001'], ownerId: 'demo-operations' }), /eligible sales owner/)
+  const stale = await s.service.previewAssignment({ mode: 'release', leadIds: ['LD-1001', 'LD-1002'] })
+  await s.service.addNote('LD-1003', 'New activity invalidates preview')
+  const raw = s.values.get(CRM_KEY)
+  await assert.rejects(s.service.applyAssignment(stale), /changed after this preview/)
+  assert.equal(s.values.get(CRM_KEY), raw)
+  const valid = await s.service.previewAssignment({ mode: 'manual', leadIds: ['LD-1001', 'LD-1002'], ownerId: 'demo-manager' })
+  s.block(true); await assert.rejects(s.service.applyAssignment(valid), /could not save/)
+  assert.equal(s.values.get(CRM_KEY), raw)
+  s.block(false); await s.service.applyAssignment(valid)
+  assert.ok((await s.service.load()).leads.filter(lead => valid.leadIds.includes(lead.id)).every(lead => lead.ownerId === 'demo-manager'))
+  const release = await s.service.previewAssignment({ mode: 'release', leadIds: ['LD-1001'] }), beforeFailure = s.values.get(CRM_KEY)
+  s.service.failNext(); await assert.rejects(s.service.applyAssignment(release), /interruption/)
+  assert.equal(s.values.get(CRM_KEY), beforeFailure)
+  await s.service.applyAssignment(release)
+  assert.equal((await s.service.load()).distributionCursor, 1)
+})
+test('invalid and failed writes create no partial activity; retry succeeds once', async () => {
+  const s = setup()
+  await assert.rejects(s.service.createLead({ ...input, email: 'invalid' }), /valid email/)
+  await assert.rejects(s.service.recordCommunication('LD-1001', { channel: 'email', body: 'test' }), /subject/)
+  await assert.rejects(s.service.recordCommunication('LD-1001', { channel: 'call', body: 'test', outcome: 'Connected', durationSeconds: -1 }), /valid duration/)
+  assert.equal(s.values.size, 0)
+  s.service.failNext(); await assert.rejects(s.service.addNote('LD-1001', 'Retry note'), /interruption/)
+  s.block(true); await assert.rejects(s.service.addNote('LD-1001', 'Retry note'), /could not save/)
+  assert.equal(s.values.size, 0)
+  s.block(false); await s.service.addNote('LD-1001', 'Retry note')
+  assert.equal((await s.service.load()).activities.filter(a => a.body === 'Retry note').length, 1)
+})
+test('follow-up boundary is strict; repeated completion has one history event; reset restores seed', async () => {
+  const s = setup()
+  await assert.rejects(s.service.scheduleFollowUp('LD-1001', 'Boundary', new Date(time).toISOString(), 'call'), /future/)
+  await s.service.scheduleFollowUp('LD-1001', 'Future touchpoint', new Date(time + 60000).toISOString(), 'email')
+  let data = await s.service.load()
+  const task = data.followUps.find(item => item.title === 'Future touchpoint')!
+  await s.service.completeFollowUp(task.id); await s.service.completeFollowUp(task.id)
+  data = await s.service.load()
+  assert.equal(data.activities.filter(a => a.body === 'Follow-up completed: Future touchpoint.').length, 1)
+  const query = { search: 'Bali', view: 'today' as const, source: 'Meta', stage: 'New' }
+  assert.deepEqual(queryLeads(data, s.user(), query, time).map(l => l.id), ['LD-1001'])
+  assert.equal(queryLeads(data, s.user(), { ...query, view: 'overdue' }, time).length, 0)
+  assert.equal(queryLeads(data, s.user(), { ...query, view: 'overdue' }, time + 1).length, 1)
+  await s.service.reset(); data = await s.service.load()
+  assert.equal(data.followUps.some(item => item.title === 'Future touchpoint'), false)
+  assert.equal(data.activities.some(item => item.kind === 'note'), false)
+})
+test('corrupt storage is not silently overwritten and reset recovers explicitly', async () => {
+  const s = setup(); s.values.set(CRM_KEY, '{broken')
+  await assert.rejects(s.service.load(), /could not be read/)
+  await assert.rejects(s.service.addNote('LD-1001', 'test'), /could not be read/)
+  assert.equal(s.values.get(CRM_KEY), '{broken')
+  await s.service.reset(); assert.equal((await s.service.load()).leads.length, 10)
+})
+
+test('every executive starts with the same scenarios and scoped tasks; edits and transfers remain independent', async () => {
+  const s = setup()
+  let scenarios: string[] | undefined
+  for (const owner of SALES_EXECUTIVES) {
+    s.setUser(owner)
+    const data = await s.service.load()
+    const current = data.leads.map(lead => `${lead.name}:${lead.destination}:${lead.stage}`).sort()
+    if (scenarios) assert.deepEqual(current, scenarios); else scenarios = current
+    assert.equal(data.leads.length, 10)
+    assert.equal(data.followUps.length, 4)
+    assert.ok(data.leads.every(lead => lead.ownerId === owner.id))
+    assert.ok(data.followUps.every(task => task.ownerId === owner.id && data.leads.some(lead => lead.id === task.leadId)))
+    assert.ok(data.activities.some(item => item.kind === 'whatsapp'))
+  }
+  s.setUser(DEMO_USERS.find(user => user.name === 'Disha')!)
+  const lead = (await s.service.load()).leads.find(lead => lead.name === 'Asha Kapoor')!
+  await s.service.addNote(lead.id, 'Disha sample note')
+  s.setUser(DEMO_USERS[2])
+  assert.equal((await s.service.load()).activities.some(item => item.body === 'Disha sample note'), false)
+  s.setUser(DEMO_USERS[1])
+  await s.service.assignLead(lead.id, 'demo-sales')
+  s.setUser(DEMO_USERS.find(user => user.name === 'Disha')!)
+  assert.equal((await s.service.load()).leads.length, 9)
+  assert.equal((await s.service.load()).leads.some(item => item.id === lead.id), false)
+})
+
+test('existing samples upgrade once without replacing edits, assignments, completed tasks or custom records', async () => {
+  const s = setup(), existing = crmFixture()
+  existing.leads = existing.leads.filter(lead => /^LD-\d+$/.test(lead.id))
+  existing.activities = existing.activities.filter(item => existing.leads.some(lead => lead.id === item.leadId))
+  existing.followUps = existing.followUps.filter(item => existing.leads.some(lead => lead.id === item.leadId))
+  delete existing.demoSamplesRevision
+  existing.leads[0].ownerId = 'demo-manager'; existing.leads[0].stage = 'Qualified'
+  existing.followUps[0].completedAt = new Date(time).toISOString()
+  existing.leads.push({ ...existing.leads[0], id: 'LD-2001', name: 'Existing custom sample' })
+  const originals = structuredClone(existing)
+  s.values.set(CRM_KEY, JSON.stringify(existing)); s.setUser(DEMO_USERS[1])
+  s.block(true); await assert.rejects(s.service.load(), /could not be read/)
+  assert.deepEqual(JSON.parse(s.values.get(CRM_KEY)!), originals)
+  s.block(false); const upgraded = await s.service.load()
+  assert.equal(upgraded.leads.length, 41)
+  assert.equal(upgraded.sequence, originals.sequence + 1)
+  for (const lead of originals.leads) assert.deepEqual(upgraded.leads.find(item => item.id === lead.id), lead)
+  for (const task of originals.followUps) assert.deepEqual(upgraded.followUps.find(item => item.id === task.id), task)
+  const raw = s.values.get(CRM_KEY)
+  await s.service.load(); assert.equal(s.values.get(CRM_KEY), raw)
+  assert.equal(new Set(upgraded.leads.map(lead => lead.id)).size, upgraded.leads.length)
+})
+test('followback quick times use IST calendar boundaries independently of host time zone', () => {
+  const late = Date.parse('2026-10-06T20:00:00Z') // 7 October in IST
+  assert.equal(followbackTime(late, 'evening'), '2026-10-07T18:00')
+  assert.equal(followbackTime(late, 'tomorrow'), '2026-10-08T10:00')
+  assert.equal(followbackTime(Date.parse('2026-12-31T12:00:00Z'), 'days', 2), '2027-01-02T10:00')
+  assert.throws(() => followbackTime(time, 'days', 0), /1 to 365/)
+  assert.throws(() => followbackTime(time, 'days', 1.5), /1 to 365/)
+})
+test('customer followback is validated, persists with timeline link, follows owner and completes once', async () => {
+  const s = setup(), due = new Date(time + 86400000).toISOString()
+  await assert.rejects(s.service.scheduleFollowUp('LD-1001', 'Call back', due, 'call', { kind: 'followback' }), /customer’s followback request/)
+  assert.equal(s.values.size, 0)
+  s.block(true)
+  await assert.rejects(s.service.scheduleFollowUp('LD-1001', 'Call back', due, 'call', { kind: 'followback', requestedNote: 'Call tomorrow after discussing with family' }), /could not save/)
+  assert.equal(s.values.size, 0)
+  s.block(false)
+  await s.service.scheduleFollowUp('LD-1001', 'Call back', due, 'call', { kind: 'followback', requestedNote: 'Call tomorrow after discussing with family' })
+  const next = createCrmService(s.storage, s.user, () => time, async () => {})
+  const data = await next.load(), task = data.followUps.find(item => item.kind === 'followback')!
+  assert.equal(task.requestedNote, 'Call tomorrow after discussing with family')
+  assert.equal(data.activities.find(item => item.followUpId === task.id)?.body.includes('Customer request:'), true)
+  assert.equal(data.leads.find(item => item.id === 'LD-1001')?.stage, 'New')
+  s.setUser(DEMO_USERS[1]); await next.assignLead('LD-1001', 'demo-sales-riley'); s.setUser(DEMO_USERS[4])
+  assert.equal((await next.load()).followUps.find(item => item.id === task.id)?.ownerId, 'demo-sales-riley')
+  await next.completeFollowUp(task.id); await next.completeFollowUp(task.id)
+  assert.equal((await next.load()).activities.filter(item => item.body === 'Followback completed: Call back.').length, 1)
+})

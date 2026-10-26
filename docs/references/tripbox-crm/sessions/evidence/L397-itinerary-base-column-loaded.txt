@@ -1,0 +1,162 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itineraries".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itineraries
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Itineraries, Value: 1
+					23 text Itineraries
+				24 text 2  in this view Review proposals, confirmed trips, traveller details, and commercial values in one workspace.
+				25 button Refresh itineraries
+					26 image
+				27 button Columns
+					28 image
+					29 text Columns
+				30 button Export
+					31 image
+					32 text Export
+			33 container
+				34 checkbox All itineraries 2, Value: 1
+				35 checkbox Proposed, Value: 0
+				36 checkbox Confirmed, Value: 0
+			37 container Itinerary filters
+				38 container
+					39 image
+					40 text field (settable)
+				41 container
+					42 combo box (collapsed, settable) ID: rc_select_13, Secondary Actions: Expand
+					43 text All lead statuses
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					46 text Recently created
+			47 container
+				48 table
+					49 row
+						50 cell Lead ID
+							51 text LEAD ID
+						52 cell Guest Details
+							53 text GUEST DETAILS
+						54 cell Destination
+							55 text DESTINATION
+							56 button filter
+								57 image filter
+						58 cell Pax Details
+							59 text PAX DETAILS
+						60 cell Nights
+							61 text NIGHTS
+						62 cell Total Cost (incl. Markup & Tax)
+							63 text TOTAL COST (INCL. MARKUP & TAX)
+						64 cell Itinerary Status
+							65 text ITINERARY STATUS
+							66 button filter
+								67 image filter
+						68 cell Confirmed At
+							69 text CONFIRMED AT
+						70 cell Created
+							71 text CREATED
+						156 cell Base Cost
+							157 text BASE COST
+						72 cell
+							73 text ACTIONS
+					74 row
+						75 cell
+							76 link Description: #2, Value: tripboxcrm.com/leads/2
+						77 cell
+							78 text TOS-AUDIT Fictional Traveller B
+							79 text traveller-b@example.invalid
+							80 text In Progress
+						81 cell
+							82 image
+							83 text Indonesia (Bali)
+							84 container
+								85 text Start:  20 Nov 2026
+						86 cell
+							87 image
+							88 text 2  guests
+							89 text 2A
+						90 cell
+							91 container
+								92 text 2 N /  3 D
+						93 cell
+							94 text ₹11,000
+							95 text INR
+						96 cell
+							97 text Proposed
+						98 cell
+							99 text Not Confirmed
+						100 cell
+							101 text 10 Oct 2026
+							102 text 28 minutes ago
+						158 cell
+							159 text ₹11,000
+						103 cell
+							104 button
+								105 image
+					106 row
+						107 cell
+							108 link Description: #1, Value: tripboxcrm.com/leads/1
+						109 cell
+							110 text TOS-AUDIT Fictional Traveller A
+							111 text traveller-a@example.invalid
+							112 text Confirmed
+						113 cell
+							114 image
+							115 text Indonesia (Bali)
+							116 container
+								117 text Start:  20 Nov 2026
+						118 cell
+							119 image
+							120 text 2  guests
+							121 text 2A
+						122 cell
+							123 container
+								124 text 4 N /  5 D
+						125 cell
+							126 text ₹31,240
+							127 text INR
+						128 cell
+							129 text Confirmed
+						130 cell
+							131 text 10 Oct 2026
+							132 text 2 hours ago
+						133 cell
+							134 text 09 Oct 2026
+							135 text a day ago
+						160 cell
+							161 text ₹28,400
+						136 cell
+							137 button
+								138 image
+				139 container itineraries pagination
+					140 container
+						141 text 1 – 2  of  2 itineraries
+					142 content list
+						143 container Previous Page
+							144 button (disabled) left
+								145 image left
+						146 text 1
+						147 container Next Page
+							148 button (disabled) right
+								149 image right
+						150 container Page Size
+							151 container
+								152 combo box (collapsed, settable) Description: Page Size, ID: rc_select_15, Secondary Actions: Expand
+								153 text 20 / page
+
+The focused UI element is 27 button Columns

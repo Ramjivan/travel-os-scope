@@ -1,0 +1,46 @@
+[
+  {
+    "href": "/reports/preset/lead-overview",
+    "name": "Lead overview\n\nVolume, conversion, cancellations, untouched leads, and current status."
+  },
+  {
+    "href": "/reports/preset/status-aging",
+    "name": "Lead status and aging\n\nCurrent pipeline status, age bands, and open leads needing attention."
+  },
+  {
+    "href": "/reports/preset/conversion-trend",
+    "name": "Conversion trend\n\nCreated-lead cohorts and their current conversion performance over time."
+  },
+  {
+    "href": "/reports/preset/source-effectiveness",
+    "name": "Source and campaign effectiveness\n\nCompare acquisition sources, forms, ad sets, and origins."
+  },
+  {
+    "href": "/reports/preset/market-performance",
+    "name": "Destination and market performance\n\nSee which destinations and departure cities produce qualified business."
+  },
+  {
+    "href": "/reports/preset/user-performance",
+    "name": "User performance and workload\n\nAssigned workload, conversions, response time, proposals, and revenue."
+  },
+  {
+    "href": "/reports/preset/followup-performance",
+    "name": "Follow-up and response\n\nFirst-response speed, follow-up coverage, and idle-lead rate."
+  },
+  {
+    "href": "/reports/preset/pnl-report",
+    "name": "PNL report\n\nItinerary pricing and verified payments for confirmed, ongoing, and completed files."
+  },
+  {
+    "href": "/reports/preset/verified-payment-schedules-summary",
+    "name": "Verified Payment Schedules Summary\n\nVerified collections, supplier payments, and balance for confirmed, ongoing, and completed files."
+  },
+  {
+    "href": "/reports/preset/supplier-payments-summary",
+    "name": "Suppliers Payments Report\n\nScheduled, paid, and pending supplier payouts for confirmed, ongoing, and completed files."
+  },
+  {
+    "href": "/reports/preset/factor-performance",
+    "name": "Best and least performing factors\n\nFind high-performing values and factors that need attention."
+  }
+]

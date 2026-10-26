@@ -1,0 +1,152 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/calendar".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1o_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 heading Trip calendar, Value: 1
+				25 text Trip calendar
+			26 text 0  trips in the visible month Track active travel windows and inspect day-by-day itinerary activity across the lead pipeline.
+			27 link Description: Lead pipeline, Value: tripboxcrm.com/leads
+			28 checkbox Weekly, Value: 0
+			29 checkbox Monthly, Value: 1
+			30 button Refresh calendar
+				31 image
+		32 container
+			33 text Trip overview
+			34 button
+				35 image
+			36 container
+				37 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				38 text 2026
+			39 container
+				40 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				41 text Oct
+			42 button
+				43 image
+			44 table
+				45 row
+					46 cell
+						47 text Su
+					48 cell
+						49 text Mo
+					50 cell
+						51 text Tu
+					52 cell
+						53 text We
+					54 cell
+						55 text Th
+					56 cell
+						57 text Fr
+					58 cell
+						59 text Sa
+				60 row
+					61 cell 2026-09-27
+						62 text 27
+					63 cell 2026-09-28
+						64 text 28
+					65 cell 2026-09-29
+						66 text 29
+					67 cell 2026-09-30
+						68 text 30
+					69 cell 2026-10-01
+						70 text 1
+					71 cell 2026-10-02
+						72 text 2
+					73 cell 2026-10-03
+						74 text 3
+				75 row
+					76 cell 2026-10-04
+						77 text 4
+					78 cell 2026-10-05
+						79 text 5
+					80 cell 2026-10-06
+						81 text 6
+					82 cell 2026-10-07
+						83 text 7
+					84 cell 2026-10-08
+						85 text 8
+					86 cell 2026-10-09
+						87 text 9
+					88 cell 2026-10-10
+						89 text 10
+				90 row
+					91 cell 2026-10-11
+						92 text 11
+					93 cell 2026-10-12
+						94 text 12
+					95 cell 2026-10-13
+						96 text 13
+					97 cell 2026-10-14
+						98 text 14
+					99 cell 2026-10-15
+						100 text 15
+					101 cell 2026-10-16
+						102 text 16
+					103 cell 2026-10-17
+						104 text 17
+				105 row
+					106 cell 2026-10-18
+						107 text 18
+					108 cell 2026-10-19
+						109 text 19
+					110 cell 2026-10-20
+						111 text 20
+					112 cell 2026-10-21
+						113 text 21
+					114 cell 2026-10-22
+						115 text 22
+					116 cell 2026-10-23
+						117 text 23
+					118 cell 2026-10-24
+						119 text 24
+				120 row
+					121 cell 2026-10-25
+						122 text 25
+					123 cell 2026-10-26
+						124 text 26
+					125 cell 2026-10-27
+						126 text 27
+					127 cell 2026-10-28
+						128 text 28
+					129 cell 2026-10-29
+						130 text 29
+					131 cell 2026-10-30
+						132 text 30
+					133 cell 2026-10-31
+						134 text 31
+				135 row
+					136 cell 2026-11-01
+						137 text 1
+					138 cell 2026-11-02
+						139 text 2
+					140 cell 2026-11-03
+						141 text 3
+					142 cell 2026-11-04
+						143 text 4
+					144 cell 2026-11-05
+						145 text 5
+					146 cell 2026-11-06
+						147 text 6
+					148 cell 2026-11-07
+						149 text 7
+
+The focused UI element is 29 checkbox Monthly, Value: 1

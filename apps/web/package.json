@@ -1,0 +1,34 @@
+{
+  "name": "@travel-os/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1 --configLoader native",
+    "test": "node --experimental-strip-types --test src/services/workspace.test.ts src/services/crm.test.ts src/services/booking.test.ts src/services/dmc-auth.test.ts src/services/dmc.test.ts src/services/telemetry.test.ts src/services/itinerary.test.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.4.0",
+    "lucide-react": "^0.577.0",
+    "radix-ui": "^1.7.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tw-animate-css": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "shadcn": "^4.21.3",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.0",
+    "vite": "^8.3.3"
+  }
+}

@@ -1,0 +1,67 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/saved/6279ff3e-d466-498a-b0df-992d3cb71bd9".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/saved/6279ff3e-d466-498a-b0df-992d3cb71bd9
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Reports, Value: tripboxcrm.com/reports
+					24 image
+					25 text TOS-AUDIT Fictional Report B
+				26 heading TOS-AUDIT Fictional Report B, Value: 1
+					27 text TOS-AUDIT Fictional Report B
+				28 text Organisation data Fictional audit only. Personal rolling totals; no real business conclusion.
+				29 container Report date range
+					30 container
+						31 combo box (collapsed, settable) Description: Report date range, ID: rc_select_10, Secondary Actions: Expand
+						32 text Last 30 days
+				33 button Refresh report
+					34 image
+				35 button Save copy
+					36 image
+					37 text Save copy
+				38 button Edit
+					39 image
+					40 text Edit
+				41 button Delete saved report
+					42 image
+				43 button Export XLSX
+					44 image
+					45 text Export XLSX
+			46 container TOS-AUDIT Fictional Report B
+				47 container
+					48 heading TOS-AUDIT Fictional Report B, Value: 2, ID: report-section-analysis
+						49 text TOS-AUDIT Fictional Report B
+					50 text Results use the selected lead-created date range.
+				51 table TOS-AUDIT Fictional Report B data table
+					52 row
+						53 cell
+							54 text Leads
+						55 cell
+							56 text Conversion rate
+					57 row
+						58 cell
+							59 text 1
+						60 cell
+							61 text 100%
+		62 container
+			63 image check-circle
+			64 text Report saved
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/saved/6279ff3e-d466-498a-b0df-992d3cb71bd9

@@ -1,0 +1,79 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/supplier/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/supplier/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+					7 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					8 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+			9 container Breadcrumb
+				10 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				11 image
+				12 text Suppliers
+			13 container Organisation settings section
+				14 container
+					15 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+					16 text Suppliers
+			17 container
+				18 heading Add supplier, Value: 1
+					19 text Add supplier
+				20 text Maintain supplier identity, destination coverage, commercial preferences, and payment details.
+				21 container
+					22 heading Business details, Value: 2
+						23 text Business details
+					24 text Core supplier identity and operating location.
+					25 container
+						26 text * Supplier name
+					27 text field (settable) * Supplier name, Value: TOS-AUDIT Fictional Supplier B, ID: name
+					29 text Address
+					30 text entry area (settable) Address, ID: address
+					31 container
+						32 text * Country
+					33 container
+						34 combo box (collapsed, settable) * Country, ID: country, Secondary Actions: Expand
+						74 text Select supplier country
+					36 text Select supplier country
+					37 text Website
+					38 text field (settable) Website, ID: website
+				39 container
+					40 heading Commercial details, Value: 2
+						41 text Commercial details
+					42 text Payment preference and private banking information.
+					43 text Payment method
+					44 container
+						45 combo box (collapsed, settable) Payment method, ID: preferredPaymentMethod, Secondary Actions: Expand
+						46 text Select preferred payment method
+					47 text Beneficiary Name
+					48 text field (settable) Beneficiary Name, ID: bankDetails_beneficiaryName
+					49 text Bank Name
+					50 text field (settable) Bank Name, ID: bankDetails_bankName
+					51 text Account Number
+					52 text field (settable) Account Number, ID: bankDetails_accountNumber
+					53 text Account Type
+					54 container
+						55 combo box (collapsed, settable) Account Type, ID: bankDetails_accountType, Secondary Actions: Expand
+						56 text Select account type
+				57 container
+					58 heading Coverage and operations, Value: 2
+						59 text Coverage and operations
+					60 text Destinations, internal notes, and supplier availability.
+					61 text Destinations
+					62 container
+						63 combo box (expanded, settable) Destinations, ID: supportedDestinations, Secondary Actions: Collapse
+						64 text Select supported countries/destinations
+					65 text Notes
+					66 text entry area (settable) Notes, ID: notes, Value: Fictional supplier for the 2026-10-10 repository audit. No real inventory, banking, reservation or communication.
+					67 text Supplier status
+					68 switch Description: Supplier status, Value: 1, ID: isActive
+						69 text Active
+						70 text Inactive
+					71 button Cancel
+					72 button Create supplier
+						73 text Create supplier
+		75 container
+			76 list supportedDestinations_list
+				77 Value: Indonesia (Bali), ID: supportedDestinations_list_0
+			78 text Indonesia (Bali)
+
+The focused UI element is 63 combo box (expanded, settable) Destinations, ID: supportedDestinations, Secondary Actions: Collapse

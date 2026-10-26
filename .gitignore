@@ -1,7 +1,11 @@
-﻿node_modules/
+node_modules/
 .DS_Store
 *.log
 data/*.db
 data/*.db-journal
 data/*.db-wal
 data/*.db-shm
+apps/web/dist/
+data/review/
+data/dmc/
+data/telemetry/

@@ -1,0 +1,4 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/organisation".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation

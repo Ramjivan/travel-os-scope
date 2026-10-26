@@ -1,0 +1,113 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/payments".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/payments
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 heading Payments, Value: 1
+				25 text Payments
+			26 text 1  schedules in this view Track traveller collections, supplier payouts, due dates, and supporting files.
+			27 button Refresh payment schedules
+				28 image
+		29 container
+			30 checkbox All schedules 1, Value: 1
+			31 checkbox Pending, Value: 0
+			32 checkbox Partially paid, Value: 0
+			33 checkbox Paid, Value: 0
+			34 checkbox Verified, Value: 0
+			35 checkbox Overdue, Value: 0
+			36 checkbox Junk, Value: 0
+		37 container Payment schedule filters
+			38 container
+				39 image
+				40 text field (settable)
+			41 container
+				42 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				43 text All Payments
+			44 container
+				45 text field (settable)
+				46 container to
+					47 image swap-right
+				48 text field (settable)
+				49 image calendar
+			50 container
+				51 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				52 text Upcoming due first
+			53 button Export payment schedules
+				54 image
+		55 container
+			56 table
+				57 row
+					58 cell
+						59 text DETAILS
+					60 cell
+						61 text TOTAL DUE
+					62 cell
+						63 text TYPE
+					64 cell
+						65 text DUE DATE RANGE
+					66 cell
+						67 text STATUS
+					68 cell
+						69 text FILES
+					70 cell
+						71 text ACTIONS
+				72 row
+					73 cell
+						74 image
+						75 text TOS-AUDIT Fictional Traveller A
+						76 link Description: Lead #1, Value: tripboxcrm.com/leads/1
+						77 container
+							78 text 1  schedule
+					79 cell
+						80 text ₹15,400
+						81 progress indicator 26
+						82 container
+							83 text ₹11,400 to collect
+					84 cell
+						85 text Receive
+					86 cell
+						87 text 10 Nov 2026
+					88 cell
+						89 text partial
+					90 cell
+						91 image
+						92 text 0
+					93 cell
+						94 button
+							95 image
+			96 container payment schedules pagination
+				97 container
+					98 text 1 – 1  of  1 payment schedules
+				99 content list
+					100 container Previous Page
+						101 button (disabled) left
+							102 image left
+					103 text 1
+					104 container Next Page
+						105 button (disabled) right
+							106 image right
+					107 container Page Size
+						108 container
+							109 combo box (collapsed, settable) Description: Page Size, ID: rc_select_2, Secondary Actions: Expand
+							110 text 20 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/payments

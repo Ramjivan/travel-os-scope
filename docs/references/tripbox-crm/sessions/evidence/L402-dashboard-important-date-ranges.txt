@@ -1,0 +1,204 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/dashboard".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/dashboard
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Operations dashboard, Value: 1
+					23 text Operations dashboard
+				24 text Organisation view Last 30 days  · Updated  10 Oct 2026, 16:00
+				25 button Create Lead
+					26 image
+					27 text Create Lead
+				28 button Review Payments
+					29 image
+					30 text Review Payments
+				31 button Customize
+					32 image
+					33 text Customize
+			34 container
+				35 container Organisation performance metrics
+					36 container
+						37 image
+						38 image
+						39 text + 100 % 2 Active Leads
+					40 container
+						41 image
+						42 image
+						43 text + 100 % 1 Bookings In Progress
+					44 container
+						45 image
+						46 text 0  overdue INR 0 Revenue At Risk
+					47 container
+						48 image
+						49 image
+						50 text + 50 % 50% Lead Conversion
+				51 container
+					52 heading Lead pipeline, Value: 2
+						53 text Lead pipeline
+					54 text Current volume against stage targets
+					55 button Current status of leads across the organisation sales pipeline
+						56 image
+					57 text Open pipeline 2 Live targets New
+					58 image
+					59 text 0 /  2 In Progress
+					60 image
+					61 text 1 /  2 On Hold
+					62 image
+					63 text 0 /  2 Confirmed
+					64 image
+					65 text 1 /  2 Completed
+					66 image
+					67 text 0 /  2
+				68 container
+					69 heading Lead sources, Value: 2
+						70 text Lead sources
+					71 text Where organisation enquiries originate
+					72 button Distribution of organisation leads by connected source
+						73 image
+					74 image
+						75 image
+					76 container
+						77 text 2 Total leads
+					78 text Social Media 100 %
+				79 container
+					80 heading Upcoming departures, Value: 2
+						81 text Upcoming departures
+					82 text Trips beginning in the next 30 days
+					83 button Confirmed and proposed trips beginning within 30 days
+						84 image
+					85 text No upcoming departures Confirmed trips will appear here as their start dates approach.
+				86 container
+					87 heading Payment watchlist, Value: 2
+						88 text Payment watchlist
+					89 text Collections due soon or already overdue
+					90 button Client payment schedules due in the next seven days or overdue
+						91 image
+					92 text Collections are on schedule Upcoming and overdue client payments will appear here.
+				93 container
+					94 heading Team pulse, Value: 2
+						95 text Team pulse
+					96 text Lead load, conversion, and revenue by team member
+					97 button Team performance for the current reporting period
+						98 image
+					99 text NA
+					100 text Nishar Arora
+					101 container
+						102 text owner  ·  2  leads
+					103 text INR 31,240
+					104 text 50 %
+				105 container
+					106 heading Source performance, Value: 2
+						107 text Source performance
+					108 text Lead volume compared with conversion rate
+					109 text Leads Conversion
+					110 image
+						111 text Social Media
+						112 text 0
+						113 text 0.5
+						114 text 1
+						115 text 1.5
+						116 text 2
+				117 container
+					118 heading Destination demand, Value: 2
+						119 text Destination demand
+					120 text Leads and conversion by destination
+					121 text Leads Conversion
+					122 image
+						123 text Indonesia (Bali)
+						124 text 0
+						125 text 0.5
+						126 text 1
+						127 text 1.5
+						128 text 2
+				129 container
+					130 heading Departure cities, Value: 2
+						131 text Departure cities
+					132 text Where confirmed travellers begin their journey
+					133 image
+						134 image
+					135 container
+						136 text 1 Leads
+					137 text Fictional Departure City 100 %
+				138 container
+					139 heading Monthly lead movement, Value: 2
+						140 text Monthly lead movement
+					141 text Total enquiries, proposals, and conversions
+					142 text Total Proposed Converted
+					143 image
+						144 text May
+						145 text Jun
+						146 text Jul
+						147 text Aug
+						148 text Sep
+						149 text Oct
+						150 text 0
+						151 text 0.5
+						152 text 1
+						153 text 1.5
+						154 text 2
+				155 container
+					156 heading Business signals, Value: 2
+						157 text Business signals
+					158 text Changes that need an owner decision
+					159 image
+					160 text 100 %
+					161 text Avg Response Time
+					162 text 15m
+					163 text Average time to first follow-up
+					164 image
+					165 text 50 %
+					166 text Proposal Acceptance
+					167 text 50%
+					168 text Confirmed itineraries vs proposals
+					169 image
+					170 text 100 %
+					171 text Revenue Forecast
+					172 text INR 15,840
+					173 text Outstanding receipts due in next 30 days
+					174 image
+					175 text 0 %
+					176 text At-Risk Itineraries
+					177 text 0
+					178 text Proposed trips starting in next 14 days
+				179 container
+					180 heading Alerts and reminders, Value: 2
+						181 text Alerts and reminders
+					182 text Operational items ordered by attention level
+					183 text No alerts right now New operational reminders will be grouped here by priority.
+				184 container
+					185 heading Important dates, Value: 2
+						186 text Important dates
+					187 text Client birthdays and anniversaries
+					188 container Important dates range
+						189 container
+							190 combo box (expanded, settable) Description: Important dates range, ID: rc_select_31, Secondary Actions: Collapse
+							191 text This week
+					192 button Upcoming client birthdays and anniversaries
+						193 image
+					194 text No important dates There are no birthdays or anniversaries in the selected range.
+		195 list rc_select_31_list
+			196 Value: Today, ID: rc_select_31_list_0
+				197 text Today
+			198 (selected) Value: This week, ID: rc_select_31_list_1
+				199 text This week
+			200 Value: This month, ID: rc_select_31_list_2
+				201 text This month
+
+The focused UI element is 190 combo box (expanded, settable) Description: Important dates range, ID: rc_select_31, Secondary Actions: Collapse

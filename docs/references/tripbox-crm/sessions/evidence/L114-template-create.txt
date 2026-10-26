@@ -1,0 +1,135 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itinerary-templates/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_12_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Itinerary templates, Value: tripboxcrm.com/itinerary-templates
+					27 image
+					28 text New template
+				29 heading Create itinerary template, Value: 1
+					30 text Create itinerary template
+			31 container
+				32 heading Template details, Value: 3
+					33 text Template details
+				34 container
+					35 text * Template name
+				36 container
+					37 text field (settable) * Template name, ID: name
+					38 text Auto
+				39 container Trip details
+					40 heading Trip details, Value: 4, ID: template-trip-details
+						41 text Trip details
+					42 container
+						43 text 0  nights ·  0  stop s
+					44 button Edit trip details
+						45 image
+						46 text Edit
+					47 container Route stops
+						48 text No route planned
+				49 container
+					50 text Preferred coming from
+					51 container Preferred coming from
+						52 container
+							53 combo box (collapsed, settable) Description: Preferred coming from, ID: rc_select_7, Secondary Actions: Expand
+							54 text Search city or country
+				55 container
+					56 text Preferred going to
+					57 container Preferred going to
+						58 container
+							59 combo box (collapsed, settable) Description: Preferred going to, ID: rc_select_8, Secondary Actions: Expand
+							60 text Search city or country
+				61 text Share with agents
+				62 text Show in agent portal
+				63 switch Description: Share this itinerary template with agents, Value: 1, ID: shareWithAgent
+				64 image
+				65 heading Hotels, Value: 3
+					66 text Hotels
+				67 container
+					68 text 0  accommodation  stays
+				69 button (disabled) Add hotel
+					70 image
+					71 text Add hotel
+				72 text ROUTE STOP HOTEL ROOM TYPE MEAL PLAN NIGHTS ACTIONS
+				73 text No hotels added yet
+				74 text Add accommodation from the filtered inventory.
+				75 container
+					76 image
+					77 combo box (disabled, collapsed, settable) Description: Search and add a hotel to the template, ID: rc_select_9, Secondary Actions: Expand
+				78 button (disabled) Browse
+					79 image
+					80 text Browse
+				81 image
+				82 heading Daily plan, Value: 3
+					83 text Daily plan
+				84 text Activities and ground transport in one timeline
+				85 container
+					86 text DAY  1 Route Departure day
+				87 container
+					88 combo box (disabled, collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_6, Secondary Actions: Expand
+				89 button (disabled) Activities
+					90 image
+					91 text Activities
+				92 button (disabled) Transport
+					93 image
+					94 text Transport
+				95 image
+				96 heading Full Day Transports, Value: 3
+					97 text Full Day Transports
+				98 text Cab services spanning a reusable template-day range
+				99 button Add Full Day transport
+					100 image
+					101 text Add Full Day transport
+				102 text No Full Day transports added.
+				103 button Inclusions & exclusions 0 inclusions · 0 exclusions
+					104 image
+					105 text Inclusions & exclusions
+					106 text 0
+					107 text  inclusions · 
+					108 text 0
+					109 text  exclusions
+					110 image
+				111 container
+					112 text 0  plan items across 0 nights
+				113 button Cancel
+				114 button Create template
+		115 container
+			116 container
+				117 container
+					118 button Close
+						119 container Close
+							120 image close
+					121 image
+					122 heading Plan this route by cities?, Value: 2
+						123 text Plan this route by cities?
+					124 text Choose how this reusable itinerary should allocate its destinations and nights.
+					125 button Add city stops Choose cities in travel order and allocate nights to each stop.
+						126 image
+						127 text Add city stops
+						128 text Choose cities in travel order and allocate nights to each stop.
+					129 button Use countries only Choose countries and allocate nights to each destination.
+						130 image
+						131 text Use countries only
+						132 text Choose countries and allocate nights to each destination.
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates/new

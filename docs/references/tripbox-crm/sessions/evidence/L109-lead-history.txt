@@ -1,0 +1,219 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1?tab=itineraries".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1?tab=itineraries
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 text # 1
+				29 heading TOS-AUDIT Fictional Traveller A, Value: 1
+					30 text TOS-AUDIT Fictional Traveller A
+				31 text Confirmed via  Social Media
+				32 button View audit history
+					33 image
+				34 link Description: Edit itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				35 button Edit lead
+					36 image
+					37 text Edit lead
+			38 container
+				39 text Lead # 1 Created  an hour ago  · Updated 10 minutes ago
+				40 button Confirmed
+					41 image
+					42 text Confirmed
+				43 heading CONTACT, Value: 2
+					44 text CONTACT
+				45 text Linked customer:
+				46 button TOS-AUDIT Fictional Traveller A
+				47 image
+				48 text Not provided
+				49 image
+				50 button Email traveller-a@example.invalid
+				51 heading JOURNEY, Value: 2
+					52 text JOURNEY
+				53 image
+				54 text Bali
+				55 image
+				56 text 20 Nov 2026
+				57 image
+				58 container
+					59 text From  Fictional Departure City
+				60 heading TRIP SCOPE, Value: 2
+					61 text TRIP SCOPE
+				62 image
+				63 container
+					64 text 4  nights ·  5  days
+				65 image
+				66 container
+					67 text 2  traveller s  ( 2  adult s )
+				68 heading OWNERSHIP, Value: 2
+					69 text OWNERSHIP
+				70 text Direct customer
+				71 text Assigned to
+				72 container
+					73 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_0, Secondary Actions: Expand
+					74 text Nishar Arora
+				75 text Tags
+				76 container
+					77 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_1, Secondary Actions: Expand
+					78 text Add tags
+			79 container
+				80 tab group
+					81 container
+						82 tab (selectable, settable, boolean) Overview, Value: 0, ID: rc-tabs-0-tab-overview
+						83 tab (selected, settable, boolean) Itineraries 1, Value: 1, ID: rc-tabs-0-tab-itineraries
+						84 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-0-tab-bookings
+						85 tab (selectable, settable, boolean) Payments, Value: 0, ID: rc-tabs-0-tab-payments
+						86 tab (selectable, settable, boolean) Documents, Value: 0, ID: rc-tabs-0-tab-documents
+						87 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-0-tab-comments
+				88 container Description: Itineraries 1, ID: rc-tabs-0-panel-itineraries
+					89 heading Itinerary workspace, Value: 2
+						90 text Itinerary workspace
+					91 text Compare versions, confirm the final plan, and share documents.
+					92 segmented control
+						93 container
+							94 radio button (settable, integer) Description: Confirmed 0, Value: 0
+							95 text Confirmed 0
+							96 radio button (settable, integer) Description: Cancelled 0, Value: 0
+							97 text Cancelled 0
+							98 radio button (settable, integer) Description: All 1, Value: 1
+							99 text All 1
+					100 link Open itinerary 1
+						101 image
+						102 text Itinerary 
+						103 text 1
+						104 text Proposed
+						105 text Indonesia (Bali)
+						106 image
+						107 text 4
+						108 text N / 
+						109 text 5
+						110 text D
+						111 text  · 20 Nov 2026
+						112 image
+						113 text Updated 11 minutes ago
+						114 image
+						115 text Nishar Arora
+						116 text ₹18,040
+						117 container
+							118 link tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+							119 button
+								120 image
+							121 button
+								122 image
+							123 button
+								124 image
+		125 container
+			126 container Lead History
+				127 container Close Lead History 1-4 of 4 items left 1 right
+					128 container
+						129 button Close
+							130 container Close
+								131 image close
+						132 image
+						133 text Lead History
+						134 container
+							135 table
+								136 row
+									137 cell
+										138 text Action
+									139 cell
+										140 text Entity
+									141 cell
+										142 text Changes
+									143 cell
+										144 text User
+									145 cell
+										146 text Date
+							147 table
+								148 row
+									149 cell
+										150 image
+										151 text STATUS CHANGE
+									152 cell
+										153 text Lead
+									154 cell
+										155 text Status changed: in-progress -> confirmed
+									156 cell
+										157 image
+										158 text Nishar Arora
+									159 cell
+										160 container
+											161 image
+											162 text 10 minutes ago
+								163 row
+									164 cell
+										165 image
+										166 text CREATE
+									167 cell
+										168 text Payment
+									169 cell
+										170 text Logged receive payment of 4000 INR via other on 2026-10-09
+									171 cell
+										172 image
+										173 text Nishar Arora
+									174 cell
+										175 container
+											176 image
+											177 text 33 minutes ago
+								178 row
+									179 cell
+										180 image
+										181 text CREATE
+									182 cell
+										183 text Payment
+									184 cell
+										185 text Created receive payment schedule "TOS-AUDIT Fictional collection plan" for 15400 INR due on 2026-11-10
+									186 cell
+										187 image
+										188 text Nishar Arora
+									189 cell
+										190 container
+											191 image
+											192 text 34 minutes ago
+								193 row
+									194 cell
+										195 image
+										196 text CREATE
+									197 cell
+										198 text Lead
+									199 cell
+										200 text Created new lead for TOS-AUDIT Fictional Traveller A
+									201 cell
+										202 image
+										203 text Nishar Arora
+									204 cell
+										205 container
+											206 image
+											207 text an hour ago
+							208 content list
+								209 text 1-4 of 4 items
+								210 container Previous Page
+									211 button (disabled) left
+										212 image left
+								213 text 1
+								214 container Next Page
+									215 button (disabled) right
+										216 image right
+
+The focused UI element is 127 container Close Lead History 1-4 of 4 items left 1 right

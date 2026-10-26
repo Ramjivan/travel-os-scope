@@ -1,0 +1,89 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/preset/supplier-payments-summary".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/supplier-payments-summary
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_v_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Reports, Value: tripboxcrm.com/reports
+					27 image
+					28 text Suppliers Payments Report
+				29 heading Suppliers Payments Report, Value: 1
+					30 text Suppliers Payments Report
+				31 text Organisation data Supplier payout schedules due in the selected period for confirmed, ongoing, and completed files. Paid includes logged payments; pending is the unpaid scheduled amount.
+				32 container Report date range
+					33 container
+						34 combo box (expanded, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Collapse
+						35 text Last 30 days
+				36 button Refresh report
+					37 image
+				38 button Export XLSX
+					39 image
+					40 text Export XLSX
+			41 container Supplier payment position
+				42 container
+					43 heading Supplier payment position, Value: 2, ID: report-section-supplier-payments
+						44 text Supplier payment position
+					45 text Junk and cancelled schedules are excluded. Unlinked payouts appear under Unassigned supplier.
+				46 container Payment totals
+					47 text Suppliers in report
+					48 text 0
+					49 text Scheduled payouts
+					50 text —
+					51 text Paid to suppliers
+					52 text —
+					53 text Pending to suppliers
+					54 text —
+				55 table Supplier payment position data table
+					56 row
+						57 cell
+							58 text Supplier
+						59 cell
+							60 text Currency
+						61 cell
+							62 text Schedules
+						63 cell
+							64 text Scheduled amount
+						65 cell
+							66 text Paid amount
+						67 cell
+							68 text Pending amount
+					69 row
+						70 cell
+							71 container
+								72 image No data
+								73 text No data for this period
+		74 container
+			75 list rc_select_0_list
+				76 Value: Last 7 days, ID: rc_select_0_list_0
+				77 (selected) Value: Last 30 days, ID: rc_select_0_list_1
+				78 Value: Last 90 days, ID: rc_select_0_list_2
+			79 container
+				80 text Last 7 days
+				81 text Last 30 days
+				82 text Last 90 days
+				83 text This month
+				84 text This quarter
+				85 text This year
+				86 text Custom dates
+
+The focused UI element is 34 combo box (expanded, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Collapse

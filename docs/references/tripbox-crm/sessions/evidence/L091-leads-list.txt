@@ -1,0 +1,133 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 heading Lead pipeline, Value: 1
+				25 text Lead pipeline
+			26 text 1  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+			27 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+			28 button Refresh leads
+				29 image
+			30 button New lead
+				31 image
+				32 text New lead
+		33 container
+			34 checkbox New queries 0, Value: 0
+			35 checkbox In progress 0, Value: 0
+			36 checkbox On hold 0, Value: 0
+			37 checkbox Confirmed 1, Value: 0
+			38 checkbox Ongoing 0, Value: 0
+			39 checkbox Completed 0, Value: 0
+			40 checkbox Cancelled 0, Value: 0
+			41 checkbox All leads 1, Value: 1
+		42 container Lead filters
+			43 container
+				44 image
+				45 text field (settable)
+			46 container
+				47 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				48 text All owners
+			49 container
+				50 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				51 text All portal states
+			52 container
+				53 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				54 text All created dates
+			55 button Filters
+				56 image
+				57 text Filters
+			58 button Columns
+				59 image
+				60 text Columns
+			61 button Export leads
+				62 image
+		63 container
+			64 table
+				65 row
+					66 cell
+						67 container
+							68 checkbox (settable, integer) Description: Select all, Value: 0
+					69 cell
+						70 text ID
+					71 cell Guest name
+						72 text GUEST NAME
+					73 cell
+						74 text MOBILE
+					75 cell
+						76 text EMAIL
+					77 cell Travel date
+						78 text TRAVEL DATE
+					79 cell
+						80 text DESTINATION
+					81 cell
+						82 text ASSIGNED TO
+					83 cell
+						84 text STATUS
+					85 cell
+						86 text PREVIEW
+				87 row
+					88 cell
+						89 container
+							90 checkbox (settable, integer) Description: Select lead 1, Value: 0
+					91 cell
+						92 link Description: #1, Value: tripboxcrm.com/leads/1
+					93 cell
+						94 text TOS-AUDIT Fictional Traveller A
+						95 text Social Media · 4N / 5D · 2 travellers
+					96 cell
+						97 image
+						98 text Not provided
+					99 cell
+						100 image
+						101 text traveller-a@example.invalid
+					102 cell
+						103 image
+						104 text 20 Nov 2026
+					105 cell
+						106 image
+						107 text Bali
+					108 cell
+						109 image
+						110 text Nishar Arora
+					111 cell
+						112 text Confirmed
+					113 cell
+						114 button Preview lead 1
+							115 image
+			116 container leads pagination
+				117 container
+					118 text 1 – 1  of  1 leads
+				119 content list
+					120 container Previous Page
+						121 button (disabled) left
+							122 image left
+					123 text 1
+					124 container Next Page
+						125 button (disabled) right
+							126 image right
+					127 container Page Size
+						128 container
+							129 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+							130 text 20 / page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads

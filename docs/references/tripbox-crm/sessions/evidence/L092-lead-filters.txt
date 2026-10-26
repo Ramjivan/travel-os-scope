@@ -1,0 +1,164 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 heading Lead pipeline, Value: 1
+					26 text Lead pipeline
+				27 text 1  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				28 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				29 button Refresh leads
+					30 image
+				31 button New lead
+					32 image
+					33 text New lead
+			34 container
+				35 checkbox New queries 0, Value: 0
+				36 checkbox In progress 0, Value: 0
+				37 checkbox On hold 0, Value: 0
+				38 checkbox Confirmed 1, Value: 0
+				39 checkbox Ongoing 0, Value: 0
+				40 checkbox Completed 0, Value: 0
+				41 checkbox Cancelled 0, Value: 0
+				42 checkbox All leads 1, Value: 1
+			43 container Lead filters
+				44 container
+					45 image
+					46 text field (settable)
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					49 text All owners
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					52 text All portal states
+				53 container
+					54 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					55 text All created dates
+				56 button Filters
+					57 image
+					58 text Filters
+				59 button Columns
+					60 image
+					61 text Columns
+				62 button Export leads
+					63 image
+			64 container
+				65 table
+					66 row
+						67 cell
+							68 container
+								69 checkbox (settable, integer) Description: Select all, Value: 0
+						70 cell
+							71 text ID
+						72 cell Guest name
+							73 text GUEST NAME
+						74 cell
+							75 text MOBILE
+						76 cell
+							77 text EMAIL
+						78 cell Travel date
+							79 text TRAVEL DATE
+						80 cell
+							81 text DESTINATION
+						82 cell
+							83 text ASSIGNED TO
+						84 cell
+							85 text STATUS
+						86 cell
+							87 text PREVIEW
+					88 row
+						89 cell
+							90 container
+								91 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						92 cell
+							93 link Description: #1, Value: tripboxcrm.com/leads/1
+						94 cell
+							95 text TOS-AUDIT Fictional Traveller A
+							96 text Social Media · 4N / 5D · 2 travellers
+						97 cell
+							98 image
+							99 text Not provided
+						100 cell
+							101 image
+							102 text traveller-a@example.invalid
+						103 cell
+							104 image
+							105 text 20 Nov 2026
+						106 cell
+							107 image
+							108 text Bali
+						109 cell
+							110 image
+							111 text Nishar Arora
+						112 cell
+							113 text Confirmed
+						114 cell
+							115 button Preview lead 1
+								116 image
+				117 container leads pagination
+					118 container
+						119 text 1 – 1  of  1 leads
+					120 content list
+						121 container Previous Page
+							122 button (disabled) left
+								123 image left
+						124 text 1
+						125 container Next Page
+							126 button (disabled) right
+								127 image right
+						128 container Page Size
+							129 container
+								130 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+								131 text 20 / page
+		132 container
+			133 container Advanced Filters
+				134 container Close Advanced Filters Clear All Cancel Save filter Apply Filters
+					135 container
+						136 button Close
+							137 container Close
+								138 image close
+						139 image
+						140 text Advanced Filters
+						141 container Saved filters
+							142 image
+							143 heading Saved filters, Value: 2
+								144 text Saved filters
+							145 heading MY SAVED FILTERS, Value: 3
+								146 text MY SAVED FILTERS
+							147 text No personal saved filters yet.
+							148 heading SHARED FILTERS, Value: 3
+								149 text SHARED FILTERS
+							150 text No shared filters yet.
+						151 image
+						152 text No filters added yet. Click "Add Filter" to get started.
+						153 button Add Filter
+							154 image
+							155 text Add Filter
+						156 button (disabled) Clear All
+						157 button Cancel
+						158 button (disabled) Save filter
+							159 image
+							160 text Save filter
+						161 button (disabled) Apply Filters
+
+The focused UI element is 134 container Close Advanced Filters Clear All Cancel Save filter Apply Filters

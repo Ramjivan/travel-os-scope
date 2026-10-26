@@ -1,0 +1,13 @@
+# TripboxCRM — custom lead qualification fields
+
+Screen ID TRIPBOX-S15, Owner, 2026-10-09 and 2026-10-10. References L036–043 in the [first session](../sessions/2026-10-09.md), L226–231 in the [later session](../sessions/2026-10-10.md). `/org/custom-fields`. First draft discarded; later fictional configuration saved.
+
+The page initially has no sections. Add section opens section naming; an unsaved **TOS-AUDIT draft section** was added to inspect its editor. The page describes controlling additional lead-information order, has Add section/Save changes and section field counts. Two section action icons were unlabelled.
+
+Add Field to the section opens **Field Details**, Close, required Field Label, required Field Name (displayed derived name), required Field Type and Add Field. Expanded types: Text, Number, Select. Select exposes Field Options and **+ Add Option**; an example option was entered in the temporary draft. These are workspace qualification fields, distinct from itinerary custom-service fields.
+
+The outer **Save changes** was never clicked. Reload returned to no sections (L043), verifying that the inspected draft was discarded. The lead Overview says **Custom qualification fields will appear here when available**; no saved field was available to test that relationship. Exact controls and draft values remain in L037–042. Required/default rules, option ordering, populated lead editing, reports/filter exposure, migration and deletion are unverified.
+
+Later L226–231: saved section **TOS-AUDIT Qualification B**, Select field **TOS-AUDIT Service preference B**, derived name `tos_audit_service_preference_b`, options **TOS-AUDIT Private, TOS-AUDIT Shared**. Add Field inserts into the local section; the outer Save changes produced **Query fields updated successfully**. Existing lead Overview immediately showed section/field **Not provided**. Edit lead `/leads/edit/1` includes section05 Custom details, optional Select with both values. Saved value **TOS-AUDIT Shared**, then Overview showed it with **Lead updated successfully**. This verifies definition→edit→detail propagation. Report grouping, filter and factor tables subsequently show **Tos Audit Service Preference B** (L252/L258/L267, [S16](16-reports-and-export.md)). Required enforcement, type migration, ordering, lead-list filters and deletion remain open.
+
+L313–326 later resolved lead-list propagation: custom field available among22column choices, values shown; personal saved EqualsShared filter returnedLeadA and stage counts correctly; bulk-edit LeadB toPrivate retained in detail. Original column layout restored. [S05](05-lead-lists-and-documents.md) preserves exact controls and remaining operator/type gaps.

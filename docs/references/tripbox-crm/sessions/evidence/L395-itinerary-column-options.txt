@@ -1,0 +1,314 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itineraries".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itineraries
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Itineraries, Value: 1
+					23 text Itineraries
+				24 text 2  in this view Review proposals, confirmed trips, traveller details, and commercial values in one workspace.
+				25 button Refresh itineraries
+					26 image
+				27 button Columns
+					28 image
+					29 text Columns
+				30 button Export
+					31 image
+					32 text Export
+			33 container
+				34 checkbox All itineraries 2, Value: 1
+				35 checkbox Proposed, Value: 0
+				36 checkbox Confirmed, Value: 0
+			37 container Itinerary filters
+				38 container
+					39 image
+					40 text field (settable)
+				41 container
+					42 combo box (collapsed, settable) ID: rc_select_13, Secondary Actions: Expand
+					43 text All lead statuses
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					46 text Recently created
+			47 container
+				48 table
+					49 row
+						50 cell Lead ID
+							51 text LEAD ID
+						52 cell Guest Details
+							53 text GUEST DETAILS
+						54 cell Destination
+							55 text DESTINATION
+							56 button filter
+								57 image filter
+						58 cell Pax Details
+							59 text PAX DETAILS
+						60 cell Nights
+							61 text NIGHTS
+						62 cell Total Cost (incl. Markup & Tax)
+							63 text TOTAL COST (INCL. MARKUP & TAX)
+						64 cell Itinerary Status
+							65 text ITINERARY STATUS
+							66 button filter
+								67 image filter
+						68 cell Confirmed At
+							69 text CONFIRMED AT
+						70 cell Created
+							71 text CREATED
+						72 cell
+							73 text ACTIONS
+					74 row
+						75 cell
+							76 link Description: #2, Value: tripboxcrm.com/leads/2
+						77 cell
+							78 text TOS-AUDIT Fictional Traveller B
+							79 text traveller-b@example.invalid
+							80 text In Progress
+						81 cell
+							82 image
+							83 text Indonesia (Bali)
+							84 container
+								85 text Start:  20 Nov 2026
+						86 cell
+							87 image
+							88 text 2  guests
+							89 text 2A
+						90 cell
+							91 container
+								92 text 2 N /  3 D
+						93 cell
+							94 text ₹11,000
+							95 text INR
+						96 cell
+							97 text Proposed
+						98 cell
+							99 text Not Confirmed
+						100 cell
+							101 text 10 Oct 2026
+							102 text 27 minutes ago
+						103 cell
+							104 button
+								105 image
+					106 row
+						107 cell
+							108 link Description: #1, Value: tripboxcrm.com/leads/1
+						109 cell
+							110 text TOS-AUDIT Fictional Traveller A
+							111 text traveller-a@example.invalid
+							112 text Confirmed
+						113 cell
+							114 image
+							115 text Indonesia (Bali)
+							116 container
+								117 text Start:  20 Nov 2026
+						118 cell
+							119 image
+							120 text 2  guests
+							121 text 2A
+						122 cell
+							123 container
+								124 text 4 N /  5 D
+						125 cell
+							126 text ₹31,240
+							127 text INR
+						128 cell
+							129 text Confirmed
+						130 cell
+							131 text 10 Oct 2026
+							132 text 2 hours ago
+						133 cell
+							134 text 09 Oct 2026
+							135 text a day ago
+						136 cell
+							137 button
+								138 image
+				139 container itineraries pagination
+					140 container
+						141 text 1 – 2  of  2 itineraries
+					142 content list
+						143 container Previous Page
+							144 button (disabled) left
+								145 image left
+						146 text 1
+						147 container Next Page
+							148 button (disabled) right
+								149 image right
+						150 container Page Size
+							151 container
+								152 combo box (collapsed, settable) Description: Page Size, ID: rc_select_15, Secondary Actions: Expand
+								153 text 20 / page
+		154 container
+			155 container Choose itinerary columns
+				156 container Close Choose itinerary columns Choose the fields your team needs, then move them into the order used by the table. Reset layout Lead ID   Move Lead ID up Move Lead ID down Guest Details   Move Guest Details up Move Guest Details down Destination   Move Destination up Move Destination down Pax Details   Move Pax Details up Move Pax Details down Nights   Move Nights up Move Nights down Total Cost (incl. Markup & Tax)   Move Total Cost (incl. Markup & Tax) up Move Total Cost (incl. Markup & Tax) down Itinerary Status   Move Itinerary Status up Move Itinerary Status down
+					157 container
+						158 button Close
+							159 container Close
+								160 image close
+						161 text Choose itinerary columns Choose the fields your team needs, then move them into the order used by the table.
+						162 button Reset layout
+							163 image
+							164 text Reset layout
+						165 container
+							166 checkbox (settable, integer) Description: Lead ID  , Value: 1
+							167 text Lead ID
+						168 button (disabled) Move Lead ID up
+							169 image
+						170 button Move Lead ID down
+							171 image
+						172 container
+							173 checkbox (settable, integer) Description: Guest Details  , Value: 1
+							174 text Guest Details
+						175 button Move Guest Details up
+							176 image
+						177 button Move Guest Details down
+							178 image
+						179 container
+							180 checkbox (settable, integer) Description: Destination  , Value: 1
+							181 text Destination
+						182 button Move Destination up
+							183 image
+						184 button Move Destination down
+							185 image
+						186 container
+							187 checkbox (settable, integer) Description: Pax Details  , Value: 1
+							188 text Pax Details
+						189 button Move Pax Details up
+							190 image
+						191 button Move Pax Details down
+							192 image
+						193 container
+							194 checkbox (settable, integer) Description: Nights  , Value: 1
+							195 text Nights
+						196 button Move Nights up
+							197 image
+						198 button Move Nights down
+							199 image
+						200 container
+							201 checkbox (settable, integer) Description: Total Cost (incl. Markup & Tax)  , Value: 1
+							202 text Total Cost (incl. Markup & Tax)
+						203 button Move Total Cost (incl. Markup & Tax) up
+							204 image
+						205 button Move Total Cost (incl. Markup & Tax) down
+							206 image
+						207 container
+							208 checkbox (settable, integer) Description: Itinerary Status  , Value: 1
+							209 text Itinerary Status
+						210 button Move Itinerary Status up
+							211 image
+						212 button Move Itinerary Status down
+							213 image
+						214 container
+							215 checkbox (settable, integer) Description: Confirmed At  , Value: 1
+							216 text Confirmed At
+						217 button Move Confirmed At up
+							218 image
+						219 button Move Confirmed At down
+							220 image
+						221 container
+							222 checkbox (settable, integer) Description: Created  , Value: 1
+							223 text Created
+						224 button Move Created up
+							225 image
+						226 button Move Created down
+							227 image
+						228 container
+							229 checkbox (settable, integer) Description: Base Cost  , Value: 0
+							230 text Base Cost
+						231 button Move Base Cost up
+							232 image
+						233 button Move Base Cost down
+							234 image
+						235 container
+							236 checkbox (settable, integer) Description: Override Base Cost  , Value: 0
+							237 text Override Base Cost
+						238 button Move Override Base Cost up
+							239 image
+						240 button Move Override Base Cost down
+							241 image
+						242 container
+							243 checkbox (settable, integer) Description: Override Cost Enabled  , Value: 0
+							244 text Override Cost Enabled
+						245 button Move Override Cost Enabled up
+							246 image
+						247 button Move Override Cost Enabled down
+							248 image
+						249 container
+							250 checkbox (settable, integer) Description: Markup Percentage  , Value: 0
+							251 text Markup Percentage
+						252 button Move Markup Percentage up
+							253 image
+						254 button Move Markup Percentage down
+							255 image
+						256 container
+							257 checkbox (settable, integer) Description: Markup (Non-Travel)  , Value: 0
+							258 text Markup (Non-Travel)
+						259 button Move Markup (Non-Travel) up
+							260 image
+						261 button Move Markup (Non-Travel) down
+							262 image
+						263 container
+							264 checkbox (settable, integer) Description: Markup (Travel)  , Value: 0
+							265 text Markup (Travel)
+						266 button Move Markup (Travel) up
+							267 image
+						268 button Move Markup (Travel) down
+							269 image
+						270 container
+							271 checkbox (settable, integer) Description: GST  , Value: 0
+							272 text GST
+						273 button Move GST up
+							274 image
+						275 button Move GST down
+							276 image
+						277 container
+							278 checkbox (settable, integer) Description: TCS  , Value: 0
+							279 text TCS
+						280 button Move TCS up
+							281 image
+						282 button Move TCS down
+							283 image
+						284 container
+							285 checkbox (settable, integer) Description: Cost Per Adult  , Value: 0
+							286 text Cost Per Adult
+						287 button Move Cost Per Adult up
+							288 image
+						289 button Move Cost Per Adult down
+							290 image
+						291 container
+							292 checkbox (settable, integer) Description: Cost Per CWB  , Value: 0
+							293 text Cost Per CWB
+						294 button Move Cost Per CWB up
+							295 image
+						296 button Move Cost Per CWB down
+							297 image
+						298 container
+							299 checkbox (settable, integer) Description: Cost Per CNB  , Value: 0
+							300 text Cost Per CNB
+						301 button Move Cost Per CNB up
+							302 image
+						303 button Move Cost Per CNB down
+							304 image
+						305 container
+							306 checkbox (settable, integer) Description: Cost Per Infant  , Value: 0
+							307 text Cost Per Infant
+						308 button Move Cost Per Infant up
+							309 image
+						310 button (disabled) Move Cost Per Infant down
+							311 image
+
+The focused UI element is 156 container Close Choose itinerary columns Choose the fields your team needs, then move them into the order used by the table. Reset layout Lead ID   Move Lead ID up Move Lead ID down Guest Details   Move Guest Details up Move Guest Details down Destination   Move Destination up Move Destination down Pax Details   Move Pax Details up Move Pax Details down Nights   Move Nights up Move Nights down Total Cost (incl. Markup & Tax)   Move Total Cost (incl. Markup & Tax) up Move Total Cost (incl. Markup & Tax) down Itinerary Status   Move Itinerary Status up Move Itinerary Status down

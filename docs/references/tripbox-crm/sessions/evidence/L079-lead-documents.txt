@@ -1,0 +1,109 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1?tab=documents".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1?tab=documents
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2c_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 text # 1
+				29 heading TOS-AUDIT Fictional Traveller A, Value: 1
+					30 text TOS-AUDIT Fictional Traveller A
+				31 text Confirmed via  Social Media
+				32 button View audit history
+					33 image
+				34 link Description: Edit itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				35 button Edit lead
+					36 image
+					37 text Edit lead
+			38 container
+				39 text Lead # 1 Created  37 minutes ago  · Updated a few seconds ago
+				40 button Confirmed
+					41 image
+					42 text Confirmed
+				43 heading CONTACT, Value: 2
+					44 text CONTACT
+				45 text Linked customer:
+				46 button TOS-AUDIT Fictional Traveller A
+				47 image
+				48 text Not provided
+				49 image
+				50 button Email traveller-a@example.invalid
+				51 heading JOURNEY, Value: 2
+					52 text JOURNEY
+				53 image
+				54 text Bali
+				55 image
+				56 text 20 Nov 2026
+				57 image
+				58 container
+					59 text From  Fictional Departure City
+				60 heading TRIP SCOPE, Value: 2
+					61 text TRIP SCOPE
+				62 image
+				63 container
+					64 text 4  nights ·  5  days
+				65 image
+				66 container
+					67 text 2  traveller s  ( 2  adult s )
+				68 heading OWNERSHIP, Value: 2
+					69 text OWNERSHIP
+				70 text Direct customer
+				71 text Assigned to
+				72 container
+					73 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_0, Secondary Actions: Expand
+					74 text Nishar Arora
+				75 text Tags
+				76 container
+					77 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_1, Secondary Actions: Expand
+					78 text Add tags
+			79 container
+				80 tab group
+					81 container
+						82 tab (selectable, settable, boolean) Overview, Value: 0, ID: rc-tabs-0-tab-overview
+						83 tab (selectable, settable, boolean) Itineraries 1, Value: 0, ID: rc-tabs-0-tab-itineraries
+						84 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-0-tab-bookings
+						85 tab (selectable, settable, boolean) Payments, Value: 0, ID: rc-tabs-0-tab-payments
+						86 tab (selected, settable, boolean) Documents, Value: 1, ID: rc-tabs-0-tab-documents
+						87 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-0-tab-comments
+				88 container Description: Documents, ID: rc-tabs-0-panel-documents
+					89 container
+						90 heading Trip documents, Value: 3
+							91 text Trip documents
+						92 text Tickets, vouchers, confirmations and files for this trip only.
+						93 button Add document
+							94 image
+							95 text Add document
+						96 image No data
+						97 text No documents added
+					98 container
+						99 heading Customer documents, Value: 3
+							100 text Customer documents
+						101 text Reusable identity and travel documents from the linked customer profile.
+						102 button Add document
+							103 image
+							104 text Add document
+						105 image No data
+						106 text No documents added
+
+The focused UI element is 86 tab (selected, settable, boolean) Documents, Value: 1, ID: rc-tabs-0-tab-documents

@@ -1,0 +1,256 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+					7 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					8 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+			9 container Breadcrumb
+				10 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				11 image
+				12 text Hotels Repository
+			13 container Organisation settings section
+				14 container
+					15 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+					16 text Hotels Repository
+			17 container
+				18 heading Hotels repository, Value: 1
+					19 text Hotels repository
+				20 text Maintain hotel inventory, categories, and regional defaults used while building itineraries.
+				21 button Import with AI
+					22 image
+					23 text Import with AI
+				24 link Description: Add hotel, Value: tripboxcrm.com/org/hotels-repository/new
+				25 text Hotels
+				26 text 1578
+				27 text Total inventory records
+				28 text Visible
+				29 text 1578
+				30 text Matching current filters
+				31 text Categories
+				32 text 4
+				33 text Available hotel classes
+				34 container List controls
+					35 container
+						36 image
+						37 search text field (settable)
+						38 button search
+							39 image search
+					40 container
+						41 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+						42 text Filter by category
+					43 container
+						44 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+						45 text Agency portal
+					46 container
+						47 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+						48 text Inventory source
+					49 button
+						50 image
+					51 button (disabled) Bulk edit
+						52 image
+						53 text Bulk edit
+					54 button Import / export
+						55 image
+						56 text Import / export
+				57 table
+					58 row
+						59 cell
+							60 container
+								61 checkbox 0
+						62 cell
+						63 cell
+						64 cell
+						65 cell
+						66 cell
+					67 row
+						68 cell
+							69 container
+								70 checkbox 0
+						71 cell
+							72 link tripboxcrm.com/org/hotels-repository/a147ffe8-1234-4bde-a69e-ca94664701c3
+							73 link tripboxcrm.com/org/hotels-repository/new?duplicate=a147ffe8-1234-4bde-a69e-ca94664701c3
+							74 button
+								75 image
+					76 row
+						77 cell
+							78 container
+								79 checkbox 0
+						80 cell
+							81 link tripboxcrm.com/org/hotels-repository/80ce3ac2-c0d2-4be2-af82-3ed8ad9b88a4
+							82 link tripboxcrm.com/org/hotels-repository/new?duplicate=80ce3ac2-c0d2-4be2-af82-3ed8ad9b88a4
+							83 button
+								84 image
+					85 row
+						86 cell
+							87 container
+								88 checkbox 0
+						89 cell
+							90 link tripboxcrm.com/org/hotels-repository/b677e654-7825-47a5-a62c-08bd5ce0279c
+							91 link tripboxcrm.com/org/hotels-repository/new?duplicate=b677e654-7825-47a5-a62c-08bd5ce0279c
+							92 button
+								93 image
+					94 row
+						95 cell
+							96 container
+								97 checkbox 0
+						98 cell
+							99 link tripboxcrm.com/org/hotels-repository/521348bf-0e3d-4796-9006-5d528fea0eb0
+							100 link tripboxcrm.com/org/hotels-repository/new?duplicate=521348bf-0e3d-4796-9006-5d528fea0eb0
+							101 button
+								102 image
+					103 row
+						104 cell
+							105 container
+								106 checkbox 0
+						107 cell
+							108 link tripboxcrm.com/org/hotels-repository/1ec0dee7-527a-41c2-9de8-712775dac4b6
+							109 link tripboxcrm.com/org/hotels-repository/new?duplicate=1ec0dee7-527a-41c2-9de8-712775dac4b6
+							110 button
+								111 image
+					112 row
+						113 cell
+							114 container
+								115 checkbox 0
+						116 cell
+							117 link tripboxcrm.com/org/hotels-repository/c5abf7b5-2499-4ab3-8dfc-9f752da72bc9
+							118 link tripboxcrm.com/org/hotels-repository/new?duplicate=c5abf7b5-2499-4ab3-8dfc-9f752da72bc9
+							119 button
+								120 image
+					121 row
+						122 cell
+							123 container
+								124 checkbox 0
+						125 cell
+							126 link tripboxcrm.com/org/hotels-repository/0b44566a-8a66-4c66-9307-4e4940d056be
+							127 link tripboxcrm.com/org/hotels-repository/new?duplicate=0b44566a-8a66-4c66-9307-4e4940d056be
+							128 button
+								129 image
+					130 row
+						131 cell
+							132 container
+								133 checkbox 0
+						134 cell
+							135 link tripboxcrm.com/org/hotels-repository/deb6786e-b729-4e8a-8ecf-dbab40092ad9
+							136 link tripboxcrm.com/org/hotels-repository/new?duplicate=deb6786e-b729-4e8a-8ecf-dbab40092ad9
+							137 button
+								138 image
+					139 row
+						140 cell
+							141 container
+								142 checkbox 0
+						143 cell
+							144 link tripboxcrm.com/org/hotels-repository/f4ea3b36-06ca-44a8-8912-dcdba8e7a5c3
+							145 link tripboxcrm.com/org/hotels-repository/new?duplicate=f4ea3b36-06ca-44a8-8912-dcdba8e7a5c3
+							146 button
+								147 image
+					148 row
+						149 cell
+							150 container
+								151 checkbox 0
+						152 cell
+							153 link tripboxcrm.com/org/hotels-repository/7d5d85a4-384d-46bf-a218-35de1aa08c45
+							154 link tripboxcrm.com/org/hotels-repository/new?duplicate=7d5d85a4-384d-46bf-a218-35de1aa08c45
+							155 button
+								156 image
+					157 row
+						158 cell
+							159 container
+								160 checkbox 0
+						161 cell
+							162 link tripboxcrm.com/org/hotels-repository/f00e6d05-1ddc-469f-8aac-3d45d2c6cc4c
+							163 link tripboxcrm.com/org/hotels-repository/new?duplicate=f00e6d05-1ddc-469f-8aac-3d45d2c6cc4c
+							164 button
+								165 image
+					166 row
+						167 cell
+							168 container
+								169 checkbox 0
+						170 cell
+							171 link tripboxcrm.com/org/hotels-repository/d851c4f2-c81c-4d9a-8ab3-89f966d48f20
+							172 link tripboxcrm.com/org/hotels-repository/new?duplicate=d851c4f2-c81c-4d9a-8ab3-89f966d48f20
+							173 button
+								174 image
+					175 row
+						176 cell
+							177 container
+								178 checkbox 0
+						179 cell
+							180 link …
+							181 link …
+							182 button
+								183 image
+					184 row
+						185 cell
+							186 container
+								187 checkbox 0
+						188 cell
+							189 link …
+							190 link …
+							191 button
+								192 image
+					193 row
+						194 cell
+							195 container
+								196 checkbox 0
+						197 cell
+							198 link …
+							199 link …
+							200 button
+								201 image
+					202 row
+						203 cell
+							204 container
+								205 checkbox 0
+						206 cell
+							207 link …
+							208 link …
+							209 button
+								210 image
+					211 row
+						212 cell
+							213 container
+								214 checkbox 0
+						215 cell
+							216 link …
+							217 link …
+							218 button
+								219 image
+					220 row
+						221 cell
+							222 container
+								223 checkbox 0
+						224 cell
+							225 link …
+							226 link …
+							227 button
+								228 image
+					229 row
+						230 cell
+							231 container
+								232 checkbox 0
+						233 cell
+							234 link …
+							235 link …
+							236 button
+								237 image
+					238 row
+						239 cell
+							240 container
+								241 checkbox 0
+						242 cell
+							243 link …
+							244 link …
+							245 button
+								246 image
+				247 container hotels pagination
+					248 content list
+						249 button
+							250 image
+		251 container
+			252 image check-circle
+			253 text Hotel created successfully
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository

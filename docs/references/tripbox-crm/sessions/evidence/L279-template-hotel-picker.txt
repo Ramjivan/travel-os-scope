@@ -1,0 +1,483 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itinerary-templates/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_v_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Itinerary templates, Value: tripboxcrm.com/itinerary-templates
+					27 image
+					28 text New template
+				29 heading Create itinerary template, Value: 1
+					30 text Create itinerary template
+			31 container
+				32 heading Template details, Value: 3
+					33 text Template details
+				34 container
+					35 text * Template name
+				136 text field (settable) * Template name, Value: TOS-AUDIT Fictional Template B, ID: name
+				39 container Trip details
+					40 heading Trip details, Value: 4, ID: template-trip-details
+						41 text Trip details
+					42 container
+						43 text 2  nights ·  1  stop
+					44 button Edit trip details
+						45 image
+						46 text Edit
+					47 container Route stops
+						115 text Ubud 2 N
+				49 container
+					50 text Preferred coming from
+					51 container Preferred coming from
+						52 container
+							53 combo box (collapsed, settable) Description: Preferred coming from, ID: rc_select_10, Secondary Actions: Expand
+							54 text Search city or country
+				55 container
+					56 text Preferred going to
+					57 container Preferred going to
+						58 container
+							59 combo box (collapsed, settable) Description: Preferred going to, ID: rc_select_11, Secondary Actions: Expand
+							60 text Search city or country
+				61 text Share with agents
+				62 text Show in agent portal
+				63 switch Description: Share this itinerary template with agents, Value: 0, ID: shareWithAgent
+				64 image
+				65 heading Hotels, Value: 3
+					66 text Hotels
+				67 container
+					68 text 0  accommodation  stays
+				69 button Add hotel
+					70 image
+					71 text Add hotel
+				72 text ROUTE STOP HOTEL ROOM TYPE MEAL PLAN NIGHTS ACTIONS
+				73 text No hotels added yet
+				74 text Add accommodation from the filtered inventory.
+				75 container
+					76 image
+					77 combo box (collapsed, settable) Description: Search and add a hotel to the template, ID: rc_select_12, Secondary Actions: Expand
+				78 button Browse
+					79 image
+					80 text Browse
+				81 image
+				82 heading Daily plan, Value: 3
+					83 text Daily plan
+				84 text Activities and ground transport in one timeline
+				85 container
+					86 text DAY  1 Ubud 2N stop
+				87 container
+					88 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_9, Secondary Actions: Expand
+				89 button Activities
+					90 image
+					91 text Activities
+				92 button Transport
+					93 image
+					94 text Transport
+				116 container
+					117 text DAY  2 Ubud 2N stop
+				118 container
+					119 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_19, Secondary Actions: Expand
+				120 button Activities
+					121 image
+					122 text Activities
+				123 button Transport
+					124 image
+					125 text Transport
+				126 container
+					127 text DAY  3 Ubud Departure day
+				128 container
+					129 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_20, Secondary Actions: Expand
+				130 button Activities
+					131 image
+					132 text Activities
+				133 button Transport
+					134 image
+					135 text Transport
+				95 image
+				96 heading Full Day Transports, Value: 3
+					97 text Full Day Transports
+				98 text Cab services spanning a reusable template-day range
+				99 button Add Full Day transport
+					100 image
+					101 text Add Full Day transport
+				102 text No Full Day transports added.
+				103 button Inclusions & exclusions 0 inclusions · 0 exclusions
+					104 image
+					105 text Inclusions & exclusions
+					106 text 0
+					107 text  inclusions · 
+					108 text 0
+					109 text  exclusions
+					110 image
+				111 container
+					112 text 0  plan items across 2 nights
+				113 button Cancel
+				114 button Create template
+		137 container
+			138 container Add hotels Room inventory Create New DESTINATION Indonesia (Bali)   CITY Ubud   SEARCH INVENTORY Search hotels...
+				139 container Close Add hotels Room inventory Create New DESTINATION Indonesia (Bali)   CITY Ubud   SEARCH INVENTORY Search hotels... Available hotels Hotel result view 55 results Alam Puisi Ubud Ubud 4 Star Alam Puisi Villa Ubud 4 Star Alankara Villa Ubud 4 Star
+					140 container
+						141 button Close
+							142 container Close
+								143 image close
+						144 image
+						145 heading Add hotels, Value: 2
+							146 text Add hotels
+						147 text Room inventory
+						148 button Create New
+						149 container
+							150 text DESTINATION
+							151 container
+								152 combo box (collapsed, settable) ID: rc_select_21, Secondary Actions: Expand
+								153 text Indonesia (Bali)
+						154 container
+							155 text CITY
+							156 container
+								157 combo box (collapsed, settable) ID: rc_select_22, Secondary Actions: Expand
+								158 text Ubud
+						159 container
+							160 text SEARCH INVENTORY
+							161 image
+							162 text field (settable)
+						163 image
+						164 text SUPPLIER
+						165 container
+							166 combo box (collapsed, settable) ID: rc_select_23, Secondary Actions: Expand
+							167 text Filter by supplier
+						168 image
+						169 text CATEGORIES
+						170 button All categories
+						171 button 5 Star
+						172 button 4 Star
+						173 button 3 Star
+						174 button 2 Star
+						175 text Available hotels
+						176 container Hotel result view
+							177 checkbox Description: List View, Value: 1
+								178 image
+							179 checkbox Description: Grid View, Value: 0
+								180 image
+						181 text 55 results
+						182 button Alam Puisi Ubud Ubud 4 Star
+							183 heading Alam Puisi Ubud, Value: 3
+								184 text Alam Puisi Ubud
+							185 image
+							186 text Ubud
+							187 text 4 Star
+						188 button Alam Puisi Villa Ubud 4 Star
+							189 heading Alam Puisi Villa, Value: 3
+								190 text Alam Puisi Villa
+							191 image
+							192 text Ubud
+							193 text 4 Star
+						194 button Alankara Villa Ubud 4 Star
+							195 heading Alankara Villa, Value: 3
+								196 text Alankara Villa
+							197 image
+							198 text Ubud
+							199 text 4 Star
+						200 button Arta Private Villa Ubud 4 Star
+							201 heading Arta Private Villa, Value: 3
+								202 text Arta Private Villa
+							203 image
+							204 text Ubud
+							205 text 4 Star
+						206 button Ashoka Tree Resort Ubud Ubud 4 Star
+							207 heading Ashoka Tree Resort Ubud, Value: 3
+								208 text Ashoka Tree Resort Ubud
+							209 image
+							210 text Ubud
+							211 text 4 Star
+						212 button Ashoka Tree Ubud Ubud 4 Star
+							213 heading Ashoka Tree Ubud, Value: 3
+								214 text Ashoka Tree Ubud
+							215 image
+							216 text Ubud
+							217 text 4 Star
+						218 button Asvara Resort & Spa Ubud by Ini Vie Hospitality Ubud 5 Star
+							219 heading Asvara Resort & Spa Ubud by Ini Vie Hospitality, Value: 3
+								220 text Asvara Resort & Spa Ubud by Ini Vie Hospitality
+							221 image
+							222 text Ubud
+							223 text 5 Star
+						224 button Asvara Villa Ubud Ubud 5 Star
+							225 heading Asvara Villa Ubud, Value: 3
+								226 text Asvara Villa Ubud
+							227 image
+							228 text Ubud
+							229 text 5 Star
+						230 button Asvara Villa Ubud by Ini Vie Hospitality Ubud 4 Star
+							231 heading Asvara Villa Ubud by Ini Vie Hospitality, Value: 3
+								232 text Asvara Villa Ubud by Ini Vie Hospitality
+							233 image
+							234 text Ubud
+							235 text 4 Star
+						236 button Bliss Ubud Spa Resort Ubud 4 Star
+							237 heading Bliss Ubud Spa Resort, Value: 3
+								238 text Bliss Ubud Spa Resort
+							239 image
+							240 text Ubud
+							241 text 4 Star
+						242 button Bubble Hotel Bali Ubud - Glamping Ubud 4 Star
+							243 heading Bubble Hotel Bali Ubud - Glamping, Value: 3
+								244 text Bubble Hotel Bali Ubud - Glamping
+							245 image
+							246 text Ubud
+							247 text 4 Star
+						248 button Bumi Linggah Villas Bali Ubud 4 Star
+							249 heading Bumi Linggah Villas Bali, Value: 3
+								250 text Bumi Linggah Villas Bali
+							251 image
+							252 text Ubud
+							253 text 4 Star
+						254 button Camaya Bali Ubud 4 Star
+							255 heading Camaya Bali, Value: 3
+								256 text Camaya Bali
+							257 image
+							258 text Ubud
+							259 text 4 Star
+						260 button Campuhan Sebatu Resort Ubud 4 Star
+							261 heading Campuhan Sebatu Resort, Value: 3
+								262 text Campuhan Sebatu Resort
+							263 image
+							264 text Ubud
+							265 text 4 Star
+						266 button Dedary Resort & Spa Ubud by iNi Vie Hospitality Ubud 4 Star
+							267 heading Dedary Resort & Spa Ubud by iNi Vie Hospitality, Value: 3
+								268 text Dedary Resort & Spa Ubud by iNi Vie Hospitality
+							269 image
+							270 text Ubud
+							271 text 4 Star
+						272 button Freddies Resort & Villas Ubud Bali Ubud 4 Star
+							273 heading Freddies Resort & Villas Ubud Bali, Value: 3
+								274 text Freddies Resort & Villas Ubud Bali
+							275 image
+							276 text Ubud
+							277 text 4 Star
+						278 button Full Moon Villa Ubud 4 Star
+							279 heading Full Moon Villa, Value: 3
+								280 text Full Moon Villa
+							281 image
+							282 text Ubud
+							283 text 4 Star
+						284 button Fullmoon Villa Ubud Ubud 4 Star
+							285 heading Fullmoon Villa Ubud, Value: 3
+								286 text Fullmoon Villa Ubud
+							287 image
+							288 text Ubud
+							289 text 4 Star
+						290 button FuramaXclusive Resort & Villas Ubud 5 Star
+							291 heading FuramaXclusive Resort & Villas, Value: 3
+								292 text FuramaXclusive Resort & Villas
+							293 image
+							294 text Ubud
+							295 text 5 Star
+						296 button Green Sari Private Villa Ubud 4 Star
+							297 heading Green Sari Private Villa, Value: 3
+								298 text Green Sari Private Villa
+							299 image
+							300 text Ubud
+							301 text 4 Star
+						302 button Hideout Bali Ubud 5 Star
+							303 heading Hideout Bali, Value: 3
+								304 text Hideout Bali
+							305 image
+							306 text Ubud
+							307 text 5 Star
+						308 button Hideout Eco Bamboo House Bali Ubud 4 Star
+							309 heading Hideout Eco Bamboo House Bali, Value: 3
+								310 text Hideout Eco Bamboo House Bali
+							311 image
+							312 text Ubud
+							313 text 4 Star
+						314 button Horison Seminyak Ubud 4 Star
+							315 heading Horison Seminyak, Value: 3
+								316 text Horison Seminyak
+							317 image
+							318 text Ubud
+							319 text 4 Star
+						320 button IPIAN Cinta by Pramana Villas Ubud 3 Star
+							321 heading IPIAN Cinta by Pramana Villas, Value: 3
+								322 text IPIAN Cinta by Pramana Villas
+							323 image
+							324 text Ubud
+							325 text 3 Star
+						326 button Jannata Resort & Spa Ubud 5 Star
+							327 heading Jannata Resort & Spa, Value: 3
+								328 text Jannata Resort & Spa
+							329 image
+							330 text Ubud
+							331 text 5 Star
+						332 button Kayumanis Ubud Private Villas & Spa Ubud 4 Star
+							333 heading Kayumanis Ubud Private Villas & Spa, Value: 3
+								334 text Kayumanis Ubud Private Villas & Spa
+							335 image
+							336 text Ubud
+							337 text 4 Star
+						338 button Kenran Resort Ubud Ubud 4 Star
+							339 heading Kenran Resort Ubud, Value: 3
+								340 text Kenran Resort Ubud
+							341 image
+							342 text Ubud
+							343 text 4 Star
+						344 button Kori Maharani Villas Ubud 4 Star
+							345 heading Kori Maharani Villas, Value: 3
+								346 text Kori Maharani Villas
+							347 image
+							348 text Ubud
+							349 text 4 Star
+						350 button Kori Maharani Villas Ubud 4 Star
+							351 heading Kori Maharani Villas, Value: 3
+								352 text Kori Maharani Villas
+							353 image
+							354 text Ubud
+							355 text 4 Star
+						356 button Kupu Kupu Barong Villas Ubud 5 Star
+							357 heading Kupu Kupu Barong Villas, Value: 3
+								358 text Kupu Kupu Barong Villas
+							359 image
+							360 text Ubud
+							361 text 5 Star
+						362 button Ladera Villa Ubud Ubud 4 Star
+							363 heading Ladera Villa Ubud, Value: 3
+								364 text Ladera Villa Ubud
+							365 image
+							366 text Ubud
+							367 text 4 Star
+						368 button Maya Ubud Resort & Spa Ubud 5 Star
+							369 heading Maya Ubud Resort & Spa, Value: 3
+								370 text Maya Ubud Resort & Spa
+							371 image
+							372 text Ubud
+							373 text 5 Star
+						374 button Mayura Ubud Retreat Ubud 4 Star
+							375 heading Mayura Ubud Retreat, Value: 3
+								376 text Mayura Ubud Retreat
+							377 image
+							378 text Ubud
+							379 text 4 Star
+						380 button METLAND SEVA SEMINYAK BALI Ubud 4 Star
+							381 heading METLAND SEVA SEMINYAK BALI, Value: 3
+								382 text METLAND SEVA SEMINYAK BALI
+							383 image
+							384 text Ubud
+							385 text 4 Star
+						386 button Royal Casa Ganesha Resort & Spa Ubud 4 Star
+							387 heading Royal Casa Ganesha Resort & Spa, Value: 3
+								388 text Royal Casa Ganesha Resort & Spa
+							389 image
+							390 text Ubud
+							391 text 4 Star
+						392 button Royal Casa Ganesha Resort & Spa Ubud 4 Star
+							393 heading Royal Casa Ganesha Resort & Spa, Value: 3
+								394 text Royal Casa Ganesha Resort & Spa
+							395 image
+							396 text Ubud
+							397 text 4 Star
+						398 button Royal Pita Maha Ubud 5 Star
+							399 heading Royal Pita Maha, Value: 3
+								400 text Royal Pita Maha
+							401 image
+							402 text Ubud
+							403 text 5 Star
+						404 button Samkhya Villas Ubud 4 Star
+							405 heading Samkhya Villas, Value: 3
+								406 text Samkhya Villas
+							407 image
+							408 text Ubud
+							409 text 4 Star
+						410 button Santi Mandala Ubud 3 Star
+							411 heading Santi Mandala, Value: 3
+								412 text Santi Mandala
+							413 image
+							414 text Ubud
+							415 text 3 Star
+						416 button Suarti Boutique Village Ubud 4 Star
+							417 heading Suarti Boutique Village, Value: 3
+								418 text Suarti Boutique Village
+							419 image
+							420 text Ubud
+							421 text 4 Star
+						422 button Swiss-Belcourt Sunset Ubud 4 Star
+							423 heading Swiss-Belcourt Sunset, Value: 3
+								424 text Swiss-Belcourt Sunset
+							425 image
+							426 text Ubud
+							427 text 4 Star
+						428 button Tanadewa Villas and Resorts Ubud 5 Star
+							429 heading Tanadewa Villas and Resorts, Value: 3
+								430 text Tanadewa Villas and Resorts
+							431 image
+							432 text Ubud
+							433 text 5 Star
+						434 button The Evitel Ubud Ubud 3 Star
+							435 heading The Evitel Ubud, Value: 3
+								436 text The Evitel Ubud
+							437 image
+							438 text Ubud
+							439 text 3 Star
+						440 button The Kalyana Ubud Resort Ubud 4 Star
+							441 heading The Kalyana Ubud Resort, Value: 3
+								442 text The Kalyana Ubud Resort
+							443 image
+							444 text Ubud
+							445 text 4 Star
+						446 button The Lokha Ubud Resort, Villas & Spa Ubud 5 Star
+							447 heading The Lokha Ubud Resort, Villas & Spa, Value: 3
+								448 text The Lokha Ubud Resort, Villas & Spa
+							449 image
+							450 text Ubud
+							451 text 5 Star
+						452 button The Payogan Villa Ubud 4 Star
+							453 heading The Payogan Villa, Value: 3
+								454 text The Payogan Villa
+							455 image
+							456 text Ubud
+							457 text 4 Star
+						458 button Three Gold Luxury private villa Ubud 4 Star
+							459 heading Three Gold Luxury private villa, Value: 3
+								460 text Three Gold Luxury private villa
+							461 image
+							462 text Ubud
+							463 text 4 Star
+						464 button TOS-AUDIT Fictional Hotel B Ubud 4 Star
+							465 heading TOS-AUDIT Fictional Hotel B, Value: 3
+								466 text TOS-AUDIT Fictional Hotel B
+							467 image
+							468 text Ubud
+							469 text 4 Star
+						470 button Ubud Heaven Sayan Villa Ubud 4 Star
+							471 heading Ubud Heaven Sayan Villa, Value: 3
+								472 text Ubud Heaven Sayan Villa
+							473 image
+							474 text Ubud
+							475 text 4 Star
+						476 button Ubud Mesari Private Pool Villa Ubud 4 Star
+							477 heading Ubud Mesari Private Pool Villa, Value: 3
+								478 text Ubud Mesari Private Pool Villa
+							479 image
+							480 text Ubud
+							481 text 4 Star
+						482 text 0  selected
+						483 button Close
+						484 button (disabled) Add Hotels
+
+The focused UI element is 139 container Close Add hotels Room inventory Create New DESTINATION Indonesia (Bali)   CITY Ubud   SEARCH INVENTORY Search hotels... Available hotels Hotel result view 55 results Alam Puisi Ubud Ubud 4 Star Alam Puisi Villa Ubud 4 Star Alankara Villa Ubud 4 Star

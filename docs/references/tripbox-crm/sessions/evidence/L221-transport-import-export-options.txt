@@ -1,0 +1,182 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/transports-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Transports Repository
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Transports repository, Value: 1
+					61 text Transports repository
+				62 text Maintain transfer, cab, and tour vehicle services used in itinerary logistics.
+				63 link Description: Add transport, Value: tripboxcrm.com/org/transports-repository/new
+				64 text Transports
+				65 text 1
+				66 text Total service records
+				67 text Visible
+				68 text 1
+				69 text Matching current filters
+				70 text Service types
+				71 text 3
+				72 text Available service filters
+				73 container List controls
+					74 container
+						75 image
+						76 search text field (settable) TOS-AUDIT
+						77 button close-circle
+							78 image close-circle
+						79 button search
+							80 image search
+					81 container
+						82 combo box (collapsed, settable) ID: rc_select_12, Secondary Actions: Expand
+						83 text Filter by service
+					84 container
+						85 combo box (collapsed, settable) ID: rc_select_13, Secondary Actions: Expand
+						86 text Agency portal
+					87 container
+						88 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+						89 text Inventory source
+					90 button
+						91 image
+					92 button (disabled) Bulk edit
+						93 image
+						94 text Bulk edit
+					95 button Import / export
+						96 image
+						97 text Import / export
+				98 table
+					99 row
+						100 cell
+							101 container
+								102 checkbox (settable, integer) Description: Select all, Value: 0
+						103 cell Transport
+							104 text Transport
+						105 cell Location
+							106 text Location
+						107 cell
+							108 text Service
+						109 cell Preferred supplier
+							110 text Preferred supplier
+						111 cell
+							112 text Status
+						113 cell
+							114 text Agent portal
+						115 cell
+							116 text Actions
+					117 row
+						118 cell
+							119 container
+								120 checkbox (settable, integer) Description:  , Value: 0
+						121 cell
+							122 image transport
+						123 cell
+							124 text TOS-AUDIT Fictional Full Day Transport B Updated  a few seconds ago
+						125 cell
+							126 text Ubud
+							127 text Indonesia (Bali)
+						128 cell
+							129 text Cab
+							130 text daily
+						131 cell
+							132 text -
+						133 cell
+							134 text Active
+						135 cell
+							136 text Visible
+						137 cell
+							138 link tripboxcrm.com/org/transports-repository/eba15477-932f-4aa8-bb30-449f41b9d722
+							139 link tripboxcrm.com/org/transports-repository/new?duplicate=eba15477-932f-4aa8-bb30-449f41b9d722
+							140 button
+								141 image
+				142 container transports pagination
+					143 container
+						144 text 1 – 1  of  1 transports
+					145 content list
+						146 container Previous Page
+							147 button (disabled) left
+								148 image left
+						149 text 1
+						150 container Next Page
+							151 button (disabled) right
+								152 image right
+						153 container Page Size
+							154 container
+								155 combo box (collapsed, settable) Description: Page Size, ID: rc_select_16, Secondary Actions: Expand
+								156 text 20 / page
+		157 container
+			158 container Import/Export Transports
+				159 container Close Import/Export Transports Export Transports Export all transports in your repository to an Excel file (.xlsx format). Includes service details, supplier, inclusions, exclusions, base rates, seasonal rates, and vehicle rates. Export All Transports Import Transports Upload an Excel file (.xlsx) to import cabs, private transfers, and private tours into your repository. Download a sample template with the required import columns. Download Template Maximum file size: 5MB Upload Excel File Close
+					160 container
+						161 button Close
+							162 container Close
+								163 image close
+						164 text Import/Export Transports
+						165 image
+						166 text Export Transports Export all transports in your repository to an Excel file (.xlsx format). Includes service details, supplier, inclusions, exclusions, base rates, seasonal rates, and vehicle rates.
+						167 button Export All Transports
+							168 image
+							169 text Export All Transports
+						170 image
+						171 text Import Transports Upload an Excel file (.xlsx) to import cabs, private transfers, and private tours into your repository. Download a sample template with the required import columns.
+						172 button Download Template
+							173 image
+							174 text Download Template
+						175 text Maximum file size: 5MB
+						176 button Upload Excel File
+							177 image
+							178 text Upload Excel File
+						179 button Close
+
+The focused UI element is 159 container Close Import/Export Transports Export Transports Export all transports in your repository to an Excel file (.xlsx format). Includes service details, supplier, inclusions, exclusions, base rates, seasonal rates, and vehicle rates. Export All Transports Import Transports Upload an Excel file (.xlsx) to import cabs, private transfers, and private tours into your repository. Download a sample template with the required import columns. Download Template Maximum file size: 5MB Upload Excel File Close

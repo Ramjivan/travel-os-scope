@@ -1,0 +1,177 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/transports-repository/eba15477-932f-4aa8-bb30-449f41b9d722".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository/eba15477-932f-4aa8-bb30-449f41b9d722
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				28 image
+				29 text TOS-AUDIT Fictional Full Day Transport B
+			30 text Organisation control center
+			31 container Organisation settings navigation
+				32 text Settings
+				33 text Workspace controls and operational data.
+				34 container
+					35 text WORKSPACE
+					36 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					37 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					38 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					39 link Description: Users, Value: tripboxcrm.com/org/users
+					40 link Description: Teams, Value: tripboxcrm.com/org/teams
+				41 container
+					42 text OPERATIONS
+					43 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					44 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					45 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					46 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					47 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					48 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				49 container
+					50 text REPOSITORIES
+					51 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					52 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					53 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				54 container
+					55 text CONFIGURATION
+					56 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					57 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					58 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					59 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					60 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			61 container
+				62 heading Edit transport, Value: 1
+					63 text Edit transport
+				64 text Manage service details, vehicles, pricing, and seasonal rates.
+				65 button Back to transports
+				66 container
+					67 heading Transport overview, Value: 2
+						68 text Transport overview
+					69 text Transport Image
+					70 button Upload image
+						71 image
+						72 text Upload image
+					73 container
+						74 text * Transport Name
+					75 text field (settable) * Transport Name, Value: TOS-AUDIT Fictional Full Day Transport B, ID: name
+					76 container
+						77 text * Service Type
+					78 container
+						79 combo box (collapsed, settable) * Service Type, ID: serviceType, Secondary Actions: Expand
+						80 text Cab
+					81 container
+						82 text * Rate Basis
+					83 container
+						84 combo box (collapsed, settable) * Rate Basis, ID: rateBasis, Secondary Actions: Expand
+						85 text Full Day
+					86 container
+						87 text Status
+						88 image question-circle
+					89 switch Description: Status question-circle, Value: 1, ID: isActive
+						90 text Active
+						91 text Inactive
+					92 container
+						93 text Visible to agencies
+						94 image question-circle
+					95 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+						96 text Visible
+						97 text Internal only
+					98 text Description (Optional)
+					99 container
+						100 text entry area (settable) Description (Optional), Value: Fictional transport audit only. No real vehicle or supplier reservation., ID: description
+						101 text 72 / 3000
+					102 heading Location and supplier, Value: 2
+						103 text Location and supplier
+					104 container
+						105 text * Country
+					106 container Country
+						107 container
+							108 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+							109 text Indonesia (Bali)
+					110 container
+						111 text * City
+					112 container City
+						113 container
+							114 combo box (collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+							115 text Ubud
+					116 text Preferred Supplier
+					117 container
+						118 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+						119 text Select a supplier
+					120 heading Inclusions and exclusions, Value: 2
+						121 text Inclusions and exclusions
+					122 heading Inclusions, Value: 3
+						123 text Inclusions
+					124 button Add Inclusion
+						125 image
+						126 text Add Inclusion
+					127 heading Exclusions, Value: 3
+						128 text Exclusions
+					129 button Add Exclusion
+						130 image
+						131 text Add Exclusion
+					132 heading Vehicles and rates, Value: 2
+						133 text Vehicles and rates
+					134 container
+						135 text Vehicle Type
+						136 container
+							137 combo box (collapsed, settable) Vehicle Type, Value: TOS-AUDIT Sedan B, ID: vehicles_0_vehicleType, Secondary Actions: Expand
+						138 text Max Pax
+						139 container
+							140 button Increase Value
+								141 image up
+							142 button Decrease Value
+								143 image down
+							144 stepper (settable, integer) Max Pax, Value: 4, ID: vehicles_0_pax
+						145 button Manage Rates
+							146 image
+							147 text Manage Rates
+						148 button Remove
+							149 image
+							150 text Remove
+					151 button Add Vehicle
+						152 image
+						153 text Add Vehicle
+					154 button Cancel
+					155 button Save Changes
+		156 container
+			157 container Configure Vehicle Rates Set base standard for this vehicle type
+				158 container Close Configure Vehicle Rates Set base standard for this vehicle type INR Rate INR Increase Value Decrease Value 1,500 Discard Done
+					159 container
+						160 button Close
+							161 container Close
+								162 image close
+						163 text Configure Vehicle Rates
+						164 text Set base standard for this vehicle type
+						165 text INR  Rate
+						166 container
+							167 text INR
+							168 button Increase Value
+								169 image up
+							170 button Decrease Value
+								171 image down
+							172 stepper (settable, integer) Value: 1500, Details: 1,500, ID: vehicles_0_rate_INR
+						173 button Discard
+						174 button Done
+
+The focused UI element is 158 container Close Configure Vehicle Rates Set base standard for this vehicle type INR Rate INR Increase Value Decrease Value 1,500 Discard Done

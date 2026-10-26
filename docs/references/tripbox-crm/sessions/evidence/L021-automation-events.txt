@@ -1,0 +1,164 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/automated-emails".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/automated-emails
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Automated Emails
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Automated emails, Value: 1
+					61 text Automated emails
+				62 text Send consistent, event-driven messages while keeping every lead and trip communication accountable.
+				63 button
+					64 image
+				65 button Add automation
+					66 image
+					67 text Add automation
+				68 table
+					69 row
+						70 cell
+							71 text Title
+						72 cell
+							73 text Event
+						74 cell
+							75 text Mailbox
+						76 cell
+							77 text Subject
+						78 cell
+							79 text Active
+						80 cell
+							81 text Actions
+					82 row
+						83 cell
+							84 container
+								85 image No data
+								86 heading No automated emails, Value: 3
+									87 text No automated emails
+								88 text Create an automation to send consistent event-driven messages.
+		89 container
+			90 container Create Automated Email
+				91 container
+					92 button Close
+						93 container Close
+							94 image close
+					95 text Create Automated Email
+					96 container
+						97 text * Title
+					98 text field (settable) * Title
+					99 container
+						100 text * Trigger Event
+					101 container
+						102 combo box (expanded, settable) * Trigger Event, ID: event, Secondary Actions: Collapse
+						103 text Select event
+					104 container
+						105 text * Send From (Mailbox)
+					106 container
+						107 combo box (collapsed, settable) * Send From (Mailbox), ID: mailboxId, Secondary Actions: Expand
+						108 text Select mailbox
+					109 text Active
+					110 switch Description: Active, Value: 1, ID: isActive
+					111 container
+						112 text * Email Subject
+					113 text field (settable) * Email Subject, ID: subject
+					114 container
+						115 text Click a placeholder to insert it into the body :
+					116 text Guest Name
+					117 text Guest Email
+					118 text Guest Mobile
+					119 text Guest Location
+					120 text Destinations
+					121 text Nights
+					122 text Planned Travel Date
+					123 text Adults
+					124 text CWB
+					125 text CNB
+					126 text Infants
+					127 text Departure City
+					128 text Lead ID
+					129 text Status
+					130 text Source
+					131 text Organisation Name
+					132 container
+						133 text Email Body  *
+					134 button B
+					135 button I
+					136 button U
+					137 button S
+					138 button
+						139 image
+					140 button
+						141 image
+					142 button Link
+						143 image
+						144 text Link
+					145 button
+						146 image
+					147 button
+						148 image
+					149 text Write the email body... Use placeholders like {{guestName}} which will be replaced with actual data.
+					150 button Cancel
+					151 button Create
+		152 container
+			153 list event_list
+				154 Value: Lead Created, ID: event_list_0
+				155 Value: Status -> Confirmed, ID: event_list_1
+			156 text Lead Created
+			157 text Status -> Confirmed
+			158 text Status -> Ongoing Trip
+			159 text Status -> Trip Completed
+			160 text Status -> Cancelled
+			161 text Payment Received
+
+The focused UI element is 102 combo box (expanded, settable) * Trigger Event, ID: event, Secondary Actions: Collapse

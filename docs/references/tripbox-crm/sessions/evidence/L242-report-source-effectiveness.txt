@@ -1,0 +1,40 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/preset/source-effectiveness".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/source-effectiveness
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Reports, Value: tripboxcrm.com/reports
+				23 image
+				24 text Source Effectiveness
+			25 heading Source Effectiveness, Value: 1
+				26 text Source Effectiveness
+			27 container Report date range
+				28 container
+					29 combo box (collapsed, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Expand
+					30 text Last 30 days
+			31 button Refresh report
+				32 image loading
+			33 button (disabled) Export XLSX
+				34 image
+				35 text Export XLSX
+		36 container
+			37 heading 3
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/source-effectiveness

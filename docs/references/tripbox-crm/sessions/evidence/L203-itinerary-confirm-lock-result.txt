@@ -1,0 +1,125 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5/confirm".
+0 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5/confirm
+	1 container
+		2 container
+			3 container Primary navigation
+				4 container
+					5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					6 image
+					7 text Luxury Indo Tours
+					8 button Quotes
+						9 text Quotes
+						10 image
+					11 button Leads
+						12 text Leads
+						13 image
+					14 link Description: Payments, Value: tripboxcrm.com/payments
+					15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					17 link Description: Reports, Value: tripboxcrm.com/reports
+					18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+						19 text Open account menu
+						20 text NA
+						21 text Nishar Arora
+						22 image
+			23 container
+				24 container Breadcrumb
+					25 link Description: Leads, Value: tripboxcrm.com/leads
+					26 image
+					27 link Description: #1, Value: tripboxcrm.com/leads/1
+					28 image
+					29 link Description: Itinerary a031689e42f5, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+					30 image
+					31 text Confirm
+				32 heading Confirm itinerary, Value: 1
+					33 text Confirm itinerary
+				34 text Schedule balanced
+				35 link Description: Back to itinerary, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+				36 button Confirm itinerary
+					37 image
+					38 text Confirm itinerary
+			39 container
+				40 text Lead and itinerary
+				41 heading TOS-AUDIT Fictional Traveller A, Value: 2
+					42 text TOS-AUDIT Fictional Traveller A
+				43 text Review the client collection schedule before this proposal becomes the active operational itinerary. ₹31,240
+				44 image
+				45 text Destination Indonesia (Bali)
+				46 image
+				47 text Duration 4  nights
+				48 image
+				49 text Travellers 2  total
+				50 image
+				51 text Status Proposal ready
+				52 text Collection target
+				53 text ₹31,240
+				54 text Scheduled 100 %
+			55 container
+				56 heading Payment schedule, Value: 2
+					57 text Payment schedule
+				58 text 2  milestone s Build the client collection plan that will be attached to this confirmed itinerary.
+				59 button Add schedule
+					60 image
+					61 text Add schedule
+				62 text 01
+				63 text TOS-AUDIT Fictional collection plan
+				64 text Existing lead payment schedule
+				65 button Remove
+					66 image
+					67 text Remove
+				68 text Description
+				69 text field (disabled) TOS-AUDIT Fictional collection plan
+				70 text Amount
+				71 container
+					72 text INR
+					73 stepper (disabled, settable, integer) Value: 15400, Details: 15,400
+				74 text Due date
+				75 container
+					76 text field (disabled) 2026-11-10
+					77 image calendar
+				78 text 02
+				79 text TOS-AUDIT Fictional remaining collection
+				80 text New collection milestone
+				81 button Remove
+					82 image
+					83 text Remove
+				84 text Description
+				85 text field (settable) TOS-AUDIT Fictional remaining collection
+				86 text Amount
+				87 container
+					88 text INR
+					89 container
+						90 button Increase Value
+							91 image up
+						92 button Decrease Value
+							93 image down
+					94 stepper (settable, integer) Value: 15840, Details: 15,840
+				95 text Due date
+				96 container
+					97 text field (settable) 2026-11-15
+					98 image calendar
+					99 button close-circle
+						100 image close-circle
+			101 container
+				102 heading Confirmation check, Value: 2
+					103 text Confirmation check
+				104 text The itinerary can be confirmed once the collection schedule balances.
+				105 text Selling price ₹31,240 Scheduled ₹31,240 Remaining ₹0
+				106 image
+				107 text Ready to confirm
+				108 button Confirm itinerary
+					109 image
+					110 text Confirm itinerary
+				111 heading What happens next, Value: 2
+					112 text What happens next
+				113 image
+				114 text Payment schedules created
+				115 text Client receipts are tracked against the milestones above.
+				116 image
+				117 text Operations workspace opens
+				118 text Hotels, activities, transfers, and travel items become available for supplier booking.
+				119 image
+				120 text Lead becomes confirmed
+				121 text The team sees this as the active trip plan for execution.
+
+The focused UI element is 36 button Confirm itinerary

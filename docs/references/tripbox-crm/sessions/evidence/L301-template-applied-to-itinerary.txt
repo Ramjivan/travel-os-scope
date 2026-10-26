@@ -1,0 +1,476 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/2/itinerary".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2/itinerary
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_22_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 link Description: #2, Value: tripboxcrm.com/leads/2
+					26 image
+					27 text New itinerary
+				28 heading Create itinerary, Value: 1
+					29 text Create itinerary
+				30 text Draft for  TOS-AUDIT Fictional Traveller B
+				31 button Quote with AI
+					32 image
+					33 text Quote with AI
+			34 container
+				35 image
+				36 text Route
+				37 text Indonesia (Bali)
+				38 text Country-level route
+				39 text Travel dates
+				40 container
+					41 text 20 Nov – 22 Nov 2026 ·  2  nights
+				42 image
+				43 text Guests
+				44 container
+					45 text 2  adults
+				46 text Currency
+				47 text INR
+				48 button Trip details
+					49 image
+					50 text Trip details
+				51 button Add stops
+					52 image
+					53 text Add stops
+				54 container
+					55 link Description: Hotels, Value: tripboxcrm.com/leads/2/itinerary#hotels
+					56 link Description: Daily plan, Value: tripboxcrm.com/leads/2/itinerary#activities
+					57 link Description: Travel, Value: tripboxcrm.com/leads/2/itinerary#travel
+					58 link Description: Custom services, Value: tripboxcrm.com/leads/2/itinerary#custom-services
+					59 link Description: Details, Value: tripboxcrm.com/leads/2/itinerary#extras
+					60 link Description: Pricing, Value: tripboxcrm.com/leads/2/itinerary#markup
+					61 link Description: Cost, Value: tripboxcrm.com/leads/2/itinerary#cost
+				62 container hotels
+					63 image
+					64 heading Hotels, Value: 3
+						65 text Hotels
+					66 container
+						67 text 0  accommodation stays
+					68 button Add hotel
+						69 image
+						70 text Add hotel
+					71 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					72 text No hotels added yet
+					73 text Add accommodation from the filtered inventory.
+					74 container
+						75 image
+						76 combo box (collapsed, settable) ID: rc_select_33, Secondary Actions: Expand
+					77 button Browse
+						78 image
+						79 text Browse
+				80 container activities
+					81 image
+					82 heading Daily plan, Value: 3
+						83 text Daily plan
+					84 text Activities and ground transport in one timeline
+					85 container
+						86 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						87 container
+							88 container
+								89 combo box (collapsed, settable) ID: rc_select_34, Secondary Actions: Expand
+							90 button Activities
+								91 image
+								92 text Activities
+							93 button Transport
+								94 image
+								95 text Transport
+						96 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						97 container
+							98 container
+								99 combo box (collapsed, settable) ID: rc_select_35, Secondary Actions: Expand
+							100 button Activities
+								101 image
+								102 text Activities
+							103 button Transport
+								104 image
+								105 text Transport
+						106 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						107 container
+							108 container
+								109 combo box (collapsed, settable) ID: rc_select_36, Secondary Actions: Expand
+							110 button Activities
+								111 image
+								112 text Activities
+							113 button Transport
+								114 image
+								115 text Transport
+				116 container daily-transports
+					117 image
+					118 heading Full day transport, Value: 2
+						119 text Full day transport
+					120 text Cab services charged per day across your selected dates
+					121 container
+						122 image
+						123 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_37, Secondary Actions: Expand
+					124 button Browse inventory
+						125 image
+						126 text Browse inventory
+					127 image No data
+					128 text No Full Day transports added
+				129 container travel
+					130 image
+					131 heading Flights, Value: 3
+						132 text Flights
+					133 container
+						134 text 0  flight segments
+					135 text No flights added
+					136 button Add flight
+						137 image
+						138 text Add flight
+				139 container Description: Custom services, ID: custom-services
+					140 image
+					141 heading Custom services, Value: 3
+						142 text Custom services
+					143 text Visas, insurance, and other trip arrangements
+					144 button Add service
+						145 image
+						146 text Add service
+					147 text No custom services yet
+					148 text Use Add service to include an arrangement with its own details and pricing.
+				149 container
+					150 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						151 image
+						152 text Inclusions & policies
+						153 text 0 inclusions · 0 exclusions · 0 policy sections
+						154 image
+					155 button Markup & taxes 0% markup · No taxes, ID: markup
+						156 image
+						157 text Markup & taxes
+						158 text 0% markup · No taxes
+						159 image
+					160 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						161 image
+						162 text Cost breakdown
+						163 text Hotels, activities, transport, flights and custom services
+						164 image
+				165 container
+					166 text LIVE QUOTE Live calculation
+					167 heading Indonesia (Bali), Value: 2
+						168 text Indonesia (Bali)
+					169 image
+					170 text 20 Nov  to  22 Nov 2  night s
+					171 container mobile-quote-details
+						172 image
+						173 text TOS-AUDIT Fictional Traveller B
+						174 container
+							175 text 2  Adults
+						176 heading Quote composition, Value: 3
+							177 text Quote composition
+						178 text Base, margin, taxes
+						179 container Quote cost composition
+						180 text Base cost ₹0 Markup ₹0  ( 0 %) Selling price ₹0 Per adult ₹0
+				181 container
+					182 heading Actions, Value: 3
+						183 text Actions
+					184 text Payment plan set ₹0 Unaccounted amount ₹0
+					185 button Save Itinerary
+						186 image
+						187 text Save Itinerary
+					188 button Payment Management
+						189 image
+						190 text Payment Management
+					191 button (disabled) Quick Share
+						192 image
+						193 text Quick Share
+		212 container
+			213 container
+				214 container
+					215 button Close
+						216 container Close
+							217 image close
+					218 image
+					219 heading AI quote recommendations, Value: 2
+						220 text AI quote recommendations
+					221 text AI matched templates to your route, trip duration, and team usage.
+					222 text Indonesia (Bali)  · Country-only route  ·  2  night s
+					223 button Plan city stops
+						224 image
+						225 text Plan city stops
+					226 tab group Template plan views
+						227 tab (selectable, settable, boolean) AI suggested, Value: 0
+						228 tab (selected, settable, boolean) Browse templates, Value: 1
+					229 container Template library
+						236 container
+							237 image
+							238 text field (settable)
+						239 container
+							240 combo box (collapsed, settable) ID: rc_select_39, Secondary Actions: Expand
+							241 text Filter by tags
+						242 button Favourites
+							243 image
+							244 text Favourites
+						245 button TOS-AUDIT Fictional Template B Indonesia (Bali) 1 2 nights 1 0 1
+							246 heading TOS-AUDIT Fictional Template B, Value: 3
+								247 text TOS-AUDIT Fictional Template B
+							248 image
+							249 text Indonesia (Bali)
+							483 text 1
+							250 image
+							251 text 2
+							252 text  nights
+							253 image
+							254 text 1
+							255 image
+							256 text 0
+							257 image
+							258 text 1
+						259 button Indonesia (Bali) - 7N Indonesia (Bali) 7 nights 3 9 3
+							260 heading Indonesia (Bali) - 7N, Value: 3
+								261 text Indonesia (Bali) - 7N
+							262 image
+							263 text Indonesia (Bali)
+							264 image
+							265 text 7
+							266 text  nights
+							267 image
+							268 text 3
+							269 image
+							270 text 9
+							271 image
+							272 text 3
+						273 button Indonesia (Bali) - 6N Indonesia (Bali) 6 nights 2 9 3
+							274 heading Indonesia (Bali) - 6N, Value: 3
+								275 text Indonesia (Bali) - 6N
+							276 image
+							277 text Indonesia (Bali)
+							278 image
+							279 text 6
+							280 text  nights
+							281 image
+							282 text 2
+							283 image
+							284 text 9
+							285 image
+							286 text 3
+						287 button Indonesia (Bali) - 7N Indonesia (Bali) 7 nights 2 3 14
+							288 heading Indonesia (Bali) - 7N, Value: 3
+								289 text Indonesia (Bali) - 7N
+							290 image
+							291 text Indonesia (Bali)
+							292 image
+							293 text 7
+							294 text  nights
+							295 image
+							296 text 2
+							297 image
+							298 text 3
+							299 image
+							300 text 14
+						301 button Indonesia (Bali) - 5N Indonesia (Bali) 5 nights 2 2 11
+							302 heading Indonesia (Bali) - 5N, Value: 3
+								303 text Indonesia (Bali) - 5N
+							304 image
+							305 text Indonesia (Bali)
+							306 image
+							307 text 5
+							308 text  nights
+							309 image
+							310 text 2
+							311 image
+							312 text 2
+							313 image
+							314 text 11
+						315 button Indonesia (Bali) - 4N Indonesia (Bali) 4 nights 2 3 4
+							316 heading Indonesia (Bali) - 4N, Value: 3
+								317 text Indonesia (Bali) - 4N
+							318 image
+							319 text Indonesia (Bali)
+							320 image
+							321 text 4
+							322 text  nights
+							323 image
+							324 text 2
+							325 image
+							326 text 3
+							327 image
+							328 text 4
+						329 button 3N Kuta* Arrival -- Water Sports / Uluwatu / Kecak -- Ulun Danu / Git Git / Tanah Lot -- Indonesia (Bali) 3 nights 0 1 5
+							330 heading 3N Kuta* Arrival -- Water Sports / Uluwatu / Kecak -- Ulun Danu / Git Git / Tanah Lot --, Value: 3
+								331 text 3N Kuta* Arrival -- Water Sports / Uluwatu / Kecak -- Ulun Danu / Git Git / Tanah Lot --
+							332 image
+							333 text Indonesia (Bali)
+							334 image
+							335 text 3
+							336 text  nights
+							337 image
+							338 text 0
+							339 image
+							340 text 1
+							341 image
+							342 text 5
+						343 button 3N* - Arrival -- Water Sports / Uluwatu / Kecak Dance - UlunDanu / Git Git / Tanah Lot Indonesia (Bali) 3 nights 0 1 5
+							344 heading 3N* - Arrival -- Water Sports / Uluwatu / Kecak Dance - UlunDanu / Git Git / Tanah Lot, Value: 3
+								345 text 3N* - Arrival -- Water Sports / Uluwatu / Kecak Dance - UlunDanu / Git Git / Tanah Lot
+							346 image
+							347 text Indonesia (Bali)
+							348 image
+							349 text 3
+							350 text  nights
+							351 image
+							352 text 0
+							353 image
+							354 text 1
+							355 image
+							356 text 5
+						357 button 5N* Arrival - Water Sports / Uluwatu / Kecak -- Ulundanu / Git Git / Tanah -- West Nusa -- Ubud Transfer / Kintamani / Rice Terrace / Pioneer Swing / Village Tour / Art Market -- Departure. Indonesia (Bali) 5 nights 0 1 13
+							358 heading Value: 3, 5N* Arrival - Water Sports / Uluwatu / Kecak -- Ulundanu / Git Git / Tanah -- West Nusa -- Ubud Transfer / Kintamani / Rice Terrace / Pioneer Swing / Village Tour / Art Market -- Departure.
+								359 text 5N* Arrival - Water Sports / Uluwatu / Kecak -- Ulundanu / Git Git / Tanah -- West Nusa -- Ubud Transfer / Kintamani / Rice Terrace / Pioneer Swing / Village Tour / Art Market -- Departure.
+							360 image
+							361 text Indonesia (Bali)
+							362 image
+							363 text 5
+							364 text  nights
+							365 image
+							366 text 0
+							367 image
+							368 text 1
+							369 image
+							370 text 13
+						371 button 4N* Arrival -- Water Sport / Uluwatu / kecak -- Nusa Penida -- Ubud Transfer / Kintamani / Rice Terrace / Swing / Ubud art -- Departure Indonesia (Bali) 6 nights 0 1 9
+							372 heading Value: 3, 4N* Arrival -- Water Sport / Uluwatu / kecak -- Nusa Penida -- Ubud Transfer / Kintamani / Rice Terrace / Swing / Ubud art -- Departure
+								373 text 4N* Arrival -- Water Sport / Uluwatu / kecak -- Nusa Penida -- Ubud Transfer / Kintamani / Rice Terrace / Swing / Ubud art -- Departure
+							374 image
+							375 text Indonesia (Bali)
+							376 image
+							377 text 6
+							378 text  nights
+							379 image
+							380 text 0
+							381 image
+							382 text 1
+							383 image
+							384 text 9
+						385 button 2N* Ubud -- Transfer to Ubud / Kintamani / Tegalalang Rice / Bali Swing / Ubud Art Market -- ATV Ride -- Departure Indonesia (Bali) 2 nights 1 5 2
+							386 heading Value: 3, 2N* Ubud -- Transfer to Ubud / Kintamani / Tegalalang Rice / Bali Swing / Ubud Art Market -- ATV Ride -- Departure
+								387 text 2N* Ubud -- Transfer to Ubud / Kintamani / Tegalalang Rice / Bali Swing / Ubud Art Market -- ATV Ride -- Departure
+							388 image
+							389 text Indonesia (Bali)
+							390 image
+							391 text 2
+							392 text  nights
+							393 image
+							394 text 1
+							395 image
+							396 text 5
+							397 image
+							398 text 2
+						399 button 4N* Kuta -- Arrival -- Water Sports / Uluwatu / Kecak -- West Nusa -- Ulun Danu / Git Git / Tanah Lot -- Transfer to Ubud Indonesia (Bali) 4 nights 1 5 2
+							400 heading Value: 3, 4N* Kuta -- Arrival -- Water Sports / Uluwatu / Kecak -- West Nusa -- Ulun Danu / Git Git / Tanah Lot -- Transfer to Ubud
+								401 text 4N* Kuta -- Arrival -- Water Sports / Uluwatu / Kecak -- West Nusa -- Ulun Danu / Git Git / Tanah Lot -- Transfer to Ubud
+							402 image
+							403 text Indonesia (Bali)
+							404 image
+							405 text 4
+							406 text  nights
+							407 image
+							408 text 1
+							409 image
+							410 text 5
+							411 image
+							412 text 2
+						413 button 1N* West Nusa Penida - Transfer to West Nusa Penida -- Transfer to Bali Indonesia (Bali) 1 nights 0 2 1
+							414 heading 1N* West Nusa Penida - Transfer to West Nusa Penida -- Transfer to Bali, Value: 3
+								415 text 1N* West Nusa Penida - Transfer to West Nusa Penida -- Transfer to Bali
+							416 image
+							417 text Indonesia (Bali)
+							418 image
+							419 text 1
+							420 text  nights
+							421 image
+							422 text 0
+							423 image
+							424 text 2
+							425 image
+							426 text 1
+						427 button 1N* Gili -- Transfer from Kuta to Gili / Snorkeling -- Transfer to Kuta Indonesia (Bali) 1 nights 0 1 2
+							428 heading 1N* Gili -- Transfer from Kuta to Gili / Snorkeling -- Transfer to Kuta, Value: 3
+								429 text 1N* Gili -- Transfer from Kuta to Gili / Snorkeling -- Transfer to Kuta
+							430 image
+							431 text Indonesia (Bali)
+							432 image
+							433 text 1
+							434 text  nights
+							435 image
+							436 text 0
+							437 image
+							438 text 1
+							439 image
+							440 text 2
+						441 button 2N* Gili - Transfer from Kuta / Snorkeling -- Leisure -- Transfer from Gili to Kuta Indonesia (Bali) 2 nights 0 2 2
+							442 heading 2N* Gili - Transfer from Kuta / Snorkeling -- Leisure -- Transfer from Gili to Kuta, Value: 3
+								443 text 2N* Gili - Transfer from Kuta / Snorkeling -- Leisure -- Transfer from Gili to Kuta
+							444 image
+							445 text Indonesia (Bali)
+							446 image
+							447 text 2
+							448 text  nights
+							449 image
+							450 text 0
+							451 image
+							452 text 2
+							453 image
+							454 text 2
+						455 button Indonesia (Bali) 4N Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida Indonesia (Bali) 4 nights 1 1 8
+							456 heading Value: 3, Indonesia (Bali) 4N Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida
+								457 text Indonesia (Bali) 4N Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida
+							458 image
+							459 text Indonesia (Bali)
+							460 image
+							461 text 4
+							462 text  nights
+							463 image
+							464 text 1
+							465 image
+							466 text 1
+							467 image
+							468 text 8
+						469 button Indonesia (Bali) 4N Kuta 2N Ubud Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida, Kintamani Tours, Ubud Village Tour, Tegalalang Rice Terrace, Pioneer Swing, Ubud Art Market, Floating Breakfast in villa. Indonesia (Bali) 6 nights 0 2 13
+							470 heading Value: 3, Indonesia (Bali) 4N Kuta 2N Ubud Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida, Kintamani Tours, Ubud Village Tour, Tegalalang Rice Terrace, Pioneer Swing, Ubud Art Market, Floating Breakfast in villa.
+								471 text Indonesia (Bali) 4N Kuta 2N Ubud Package // Benoa Water Sports, Uluwatu Sunset Tour, Kecak Dance, Ulun Danu Temple, Git Git Waterfall, Tanah lot temple, West Nusa Penida, Kintamani Tours, Ubud Village Tour, Tegalalang Rice Terrace, Pioneer Swing, Ubud Art Market, Floating Breakfast in villa.
+							472 image
+							473 text Indonesia (Bali)
+							474 image
+							475 text 6
+							476 text  nights
+							477 image
+							478 text 0
+							479 image
+							480 text 2
+							481 image
+							482 text 13
+					484 text Custom plan
+					485 container
+						486 text 1  template  · 2/2 nights
+					487 content list Selected templates
+						488 container
+							489 text 1 .  TOS-AUDIT Fictional Template B
+							490 button (disabled) Move TOS-AUDIT Fictional Template B earlier
+								491 image
+							492 button (disabled) Move TOS-AUDIT Fictional Template B later
+								493 image
+					234 button Cancel
+					235 button loading Apply custom plan
+						494 image loading
+						495 text Apply custom plan
+
+The focused UI element is 235 button loading Apply custom plan

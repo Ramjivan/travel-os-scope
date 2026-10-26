@@ -1,0 +1,299 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/preset/factor-performance".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/factor-performance
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1g_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Reports, Value: tripboxcrm.com/reports
+				23 image
+				24 text Best and least performing factors
+			25 heading Best and least performing factors, Value: 1
+				26 text Best and least performing factors
+			27 text Organisation data Categorical factors ranked with a minimum sample of five leads.
+			28 container Report date range
+				29 container
+					30 combo box (collapsed, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Expand
+					31 text Last 30 days
+			32 button Refresh report
+				33 image
+			34 button Export XLSX
+				35 image
+				36 text Export XLSX
+		37 container Source
+			38 container
+				39 heading Source, Value: 2, ID: report-section-source
+					40 text Source
+				41 text Rankings describe correlation, not causation.
+			42 container
+				43 image exclamation-circle
+				44 text No values meet the five-lead minimum sample yet.
+			45 table Source data table
+				46 row
+					47 cell
+						48 text Signal
+					49 cell
+						50 text Source
+					51 cell
+						52 text Leads
+					53 cell
+						54 text Converted leads
+					55 cell
+						56 text Conversion rate
+					57 cell
+						58 text Cancellation rate
+				59 row
+					60 cell
+						61 image No data
+						62 text No data for this period
+		63 container Assignee
+			64 container
+				65 heading Assignee, Value: 2, ID: report-section-assignee
+					66 text Assignee
+				67 text Rankings describe correlation, not causation.
+			68 container
+				69 image exclamation-circle
+				70 text No values meet the five-lead minimum sample yet.
+			71 table Assignee data table
+				72 row
+					73 cell
+						74 text Signal
+					75 cell
+						76 text Assignee
+					77 cell
+						78 text Leads
+					79 cell
+						80 text Converted leads
+					81 cell
+						82 text Conversion rate
+					83 cell
+						84 text Cancellation rate
+				85 row
+					86 cell
+						87 image No data
+						88 text No data for this period
+		89 container Origin
+			90 container
+				91 heading Origin, Value: 2, ID: report-section-origin
+					92 text Origin
+				93 text Rankings describe correlation, not causation.
+			94 container
+				95 image exclamation-circle
+				96 text No values meet the five-lead minimum sample yet.
+			97 table Origin data table
+				98 row
+					99 cell
+						100 text Signal
+					101 cell
+						102 text Origin
+					103 cell
+						104 text Leads
+					105 cell
+						106 text Converted leads
+					107 cell
+						108 text Conversion rate
+					109 cell
+						110 text Cancellation rate
+				111 row
+					112 cell
+						113 image No data
+						114 text No data for this period
+		115 container Destination
+			116 container
+				117 heading Destination, Value: 2, ID: report-section-destination
+					118 text Destination
+				119 text Rankings describe correlation, not causation.
+			120 container
+				121 image exclamation-circle
+				122 text No values meet the five-lead minimum sample yet.
+			123 table Destination data table
+				124 row
+					125 cell
+						126 text Signal
+					127 cell
+						128 text Destination
+					129 cell
+						130 text Leads
+					131 cell
+						132 text Converted leads
+					133 cell
+						134 text Conversion rate
+					135 cell
+						136 text Cancellation rate
+				137 row
+					138 cell
+						139 image No data
+						140 text No data for this period
+		141 container Departure city
+			142 container
+				143 heading Departure city, Value: 2, ID: report-section-departureCity
+					144 text Departure city
+				145 text Rankings describe correlation, not causation.
+			146 container
+				147 image exclamation-circle
+				148 text No values meet the five-lead minimum sample yet.
+			149 table Departure city data table
+				150 row
+					151 cell
+						152 text Signal
+					153 cell
+						154 text Departure city
+					155 cell
+						156 text Leads
+					157 cell
+						158 text Converted leads
+					159 cell
+						160 text Conversion rate
+					161 cell
+						162 text Cancellation rate
+				163 row
+					164 cell
+						165 image No data
+						166 text No data for this period
+		167 container Agency
+			168 container
+				169 heading Agency, Value: 2, ID: report-section-agency
+					170 text Agency
+				171 text Rankings describe correlation, not causation.
+			172 container
+				173 image exclamation-circle
+				174 text No values meet the five-lead minimum sample yet.
+			175 table Agency data table
+				176 row
+					177 cell
+						178 text Signal
+					179 cell
+						180 text Agency
+					181 cell
+						182 text Leads
+					183 cell
+						184 text Converted leads
+					185 cell
+						186 text Conversion rate
+					187 cell
+						188 text Cancellation rate
+				189 row
+					190 cell
+						191 image No data
+						192 text No data for this period
+		193 container Tag
+			194 container
+				195 heading Tag, Value: 2, ID: report-section-tags
+					196 text Tag
+				197 text Rankings describe correlation, not causation.
+			198 container
+				199 image exclamation-circle
+				200 text No values meet the five-lead minimum sample yet.
+			201 table Tag data table
+				202 row
+					203 cell
+						204 text Signal
+					205 cell
+						206 text Tag
+					207 cell
+						208 text Leads
+					209 cell
+						210 text Converted leads
+					211 cell
+						212 text Conversion rate
+					213 cell
+						214 text Cancellation rate
+				215 row
+					216 cell
+						217 image No data
+						218 text No data for this period
+		219 container Facebook form
+			220 container
+				221 heading Facebook form, Value: 2, ID: report-section-facebookFormName
+					222 text Facebook form
+				223 text Rankings describe correlation, not causation.
+			224 container
+				225 image exclamation-circle
+				226 text No values meet the five-lead minimum sample yet.
+			227 table Facebook form data table
+				228 row
+					229 cell
+						230 text Signal
+					231 cell
+						232 text Facebook form
+					233 cell
+						234 text Leads
+					235 cell
+						236 text Converted leads
+					237 cell
+						238 text Conversion rate
+					239 cell
+						240 text Cancellation rate
+				241 row
+					242 cell
+						243 image No data
+						244 text No data for this period
+		245 container Facebook ad set
+			246 container
+				247 heading Facebook ad set, Value: 2, ID: report-section-facebookAdsetName
+					248 text Facebook ad set
+				249 text Rankings describe correlation, not causation.
+			250 container
+				251 image exclamation-circle
+				252 text No values meet the five-lead minimum sample yet.
+			253 table Facebook ad set data table
+				254 row
+					255 cell
+						256 text Signal
+					257 cell
+						258 text Facebook ad set
+					259 cell
+						260 text Leads
+					261 cell
+						262 text Converted leads
+					263 cell
+						264 text Conversion rate
+					265 cell
+						266 text Cancellation rate
+				267 row
+					268 cell
+						269 image No data
+						270 text No data for this period
+		271 container Tos Audit Service Preference B
+			272 container
+				273 heading Tos Audit Service Preference B, Value: 2, ID: report-section-custom:tos_audit_service_preference_b
+					274 text Tos Audit Service Preference B
+				275 text Rankings describe correlation, not causation.
+			276 container
+				277 image exclamation-circle
+				278 text No values meet the five-lead minimum sample yet.
+			279 table Tos Audit Service Preference B data table
+				280 row
+					281 cell
+						282 text Signal
+					283 cell
+						284 text Tos Audit Service Preference B
+					285 cell
+						286 text Leads
+					287 cell
+						288 text Converted leads
+					289 cell
+						290 text Conversion rate
+					291 cell
+						292 text Cancellation rate
+				293 row
+					294 cell
+						295 image No data
+						296 text No data for this period
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/factor-performance

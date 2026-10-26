@@ -1,0 +1,154 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/calendar".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/calendar
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1o_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 heading Trip calendar, Value: 1
+					26 text Trip calendar
+				27 text 0  trips in the visible month Track active travel windows and inspect day-by-day itinerary activity across the lead pipeline.
+				28 link Description: Lead pipeline, Value: tripboxcrm.com/leads
+				29 checkbox Weekly, Value: 0
+				30 checkbox Monthly, Value: 1
+				31 button Refresh calendar
+					151 image
+			33 container
+				34 text Trip overview
+				35 button
+					36 image
+				37 container
+					38 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					39 text 2026
+				152 text Nov
+				40 container
+					41 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					42 text Nov
+				43 button
+					44 image
+				45 table
+					46 row
+						47 cell
+							48 text Su
+						49 cell
+							50 text Mo
+						51 cell
+							52 text Tu
+						53 cell
+							54 text We
+						55 cell
+							56 text Th
+						57 cell
+							58 text Fr
+						59 cell
+							60 text Sa
+					61 row
+						62 cell 2026-11-01
+							63 text 1
+						64 cell 2026-11-02
+							65 text 2
+						66 cell 2026-11-03
+							67 text 3
+						68 cell 2026-11-04
+							69 text 4
+						70 cell 2026-11-05
+							71 text 5
+						72 cell 2026-11-06
+							73 text 6
+						74 cell 2026-11-07
+							75 text 7
+					76 row
+						77 cell 2026-11-08
+							78 text 8
+						79 cell 2026-11-09
+							80 text 9
+						81 cell 2026-11-10
+							82 text 10
+						83 cell 2026-11-11
+							84 text 11
+						85 cell 2026-11-12
+							86 text 12
+						87 cell 2026-11-13
+							88 text 13
+						89 cell 2026-11-14
+							90 text 14
+					91 row
+						92 cell 2026-11-15
+							93 text 15
+						94 cell 2026-11-16
+							95 text 16
+						96 cell 2026-11-17
+							97 text 17
+						98 cell 2026-11-18
+							99 text 18
+						100 cell 2026-11-19
+							101 text 19
+						102 cell 2026-11-20
+							103 text 20
+						104 cell 2026-11-21
+							105 text 21
+					106 row
+						107 cell 2026-11-22
+							108 text 22
+						109 cell 2026-11-23
+							110 text 23
+						111 cell 2026-11-24
+							112 text 24
+						113 cell 2026-11-25
+							114 text 25
+						115 cell 2026-11-26
+							116 text 26
+						117 cell 2026-11-27
+							118 text 27
+						119 cell 2026-11-28
+							120 text 28
+					121 row
+						122 cell 2026-11-29
+							123 text 29
+						124 cell 2026-11-30
+							125 text 30
+						126 cell 2026-12-01
+							127 text 1
+						128 cell 2026-12-02
+							129 text 2
+						130 cell 2026-12-03
+							131 text 3
+						132 cell 2026-12-04
+							133 text 4
+						134 cell 2026-12-05
+							135 text 5
+					136 row
+						137 cell 2026-12-06
+							138 text 6
+						139 cell 2026-12-07
+							140 text 7
+						141 cell 2026-12-08
+							142 text 8
+						143 cell 2026-12-09
+							144 text 9
+						145 cell 2026-12-10
+							146 text 10
+						147 cell 2026-12-11
+							148 text 11
+						149 cell 2026-12-12
+							150 text 12
+
+The focused UI element is 41 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand

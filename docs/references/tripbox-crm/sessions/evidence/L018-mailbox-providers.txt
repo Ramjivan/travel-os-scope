@@ -1,0 +1,99 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/mailboxes/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/mailboxes/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Mailboxes
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Connect mailbox, Value: 1
+					61 text Connect mailbox
+				62 text Authorize a provider, choose the synced inbox, and configure how your team sends client communication.
+				63 container
+					64 heading Provider connection, Value: 2
+						65 text Provider connection
+					66 text Authorize the provider and choose the inbox to synchronize.
+					67 container
+						68 text * Email Provider
+					69 container
+						70 combo box (expanded, settable) * Email Provider, ID: provider, Secondary Actions: Collapse
+						71 text Select provider
+					72 text Mailbox Email
+					73 text field (disabled) Mailbox Email
+				74 container
+					75 heading Mailbox settings, Value: 2
+						76 text Mailbox settings
+					77 text Control its workspace label, availability, and sending priority.
+					78 text Display name
+					79 text field (settable) Display name, ID: displayName
+					80 text Sync status
+					81 switch Description: Sync status, Value: 1, ID: isActive
+						82 text Active
+						83 text Inactive
+					84 text Default sender
+					85 switch Description: Default sender, Value: 0, ID: isDefault
+						86 text Default
+						87 text Standard
+				88 container
+					89 button Cancel
+					90 button Connect mailbox
+		91 container
+			92 list provider_list
+				93 Value: Outlook, ID: provider_list_0
+				94 Value: Gmail, ID: provider_list_1
+			95 text Outlook
+			96 text Gmail
+
+The focused UI element is 70 combo box (expanded, settable) * Email Provider, ID: provider, Secondary Actions: Collapse

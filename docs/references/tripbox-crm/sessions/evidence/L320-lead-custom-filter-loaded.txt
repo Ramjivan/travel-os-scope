@@ -1,0 +1,132 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 heading Lead pipeline, Value: 1
+					23 text Lead pipeline
+				24 text 1  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				25 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				26 button Refresh leads
+					419 image
+				28 button New lead
+					29 image
+					30 text New lead
+			31 container
+				32 checkbox New queries 0, Value: 0
+				33 checkbox In progress 0, Value: 0
+				34 checkbox On hold 0, Value: 0
+				35 checkbox Confirmed 1, Value: 0
+				36 checkbox Ongoing 0, Value: 0
+				37 checkbox Completed 0, Value: 0
+				38 checkbox Cancelled 0, Value: 0
+				39 checkbox All leads 1, Value: 1
+			40 container Lead filters
+				41 container
+					42 image
+					43 text field (settable)
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+					46 text All owners
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_15, Secondary Actions: Expand
+					49 text All portal states
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_16, Secondary Actions: Expand
+					52 text All created dates
+				53 button Filters 1
+					54 image
+					55 text Filters
+					418 text 1
+				56 button Columns
+					57 image
+					58 text Columns
+				59 button Export leads
+					60 image
+			420 container
+				421 table
+					422 row
+						423 cell
+							424 container
+								425 checkbox (settable, integer) Description: Select all, Value: 0
+						426 cell
+							427 text ID
+						428 cell Guest name
+							429 text GUEST NAME
+						430 cell
+							431 text MOBILE
+						432 cell
+							433 text EMAIL
+						434 cell Travel date
+							435 text TRAVEL DATE
+						436 cell
+							437 text DESTINATION
+						438 cell
+							439 text ASSIGNED TO
+						440 cell
+							441 text STATUS
+						442 cell
+							443 text PREVIEW
+					444 row
+						445 cell
+							446 container
+								447 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						448 cell
+							449 link Description: #1, Value: tripboxcrm.com/leads/1
+						450 cell
+							451 text TOS-AUDIT Fictional Traveller A
+							452 text Social Media · 4N / 5D · 2 travellers
+						453 cell
+							454 image
+							455 text Not provided
+						456 cell
+							457 image
+							458 text traveller-a@example.invalid
+						459 cell
+							460 image
+							461 text 20 Nov 2026
+						462 cell
+							463 image
+							464 text Indonesia (Bali)
+						465 cell
+							466 image
+							467 text Nishar Arora
+						468 cell
+							469 text Confirmed
+						470 cell
+							471 button Preview lead 1
+								472 image
+				473 container leads pagination
+					474 container
+						475 text 1 – 1  of  1 leads
+					476 content list
+						477 container Previous Page
+							478 button (disabled) left
+								479 image left
+						480 text 1
+						481 container Next Page
+							482 button (disabled) right
+								483 image right
+						484 container Page Size
+							485 container
+								486 combo box (collapsed, settable) Description: Page Size, ID: rc_select_30, Secondary Actions: Expand
+								487 text 20 / page
+
+The focused UI element is 53 button Filters 1

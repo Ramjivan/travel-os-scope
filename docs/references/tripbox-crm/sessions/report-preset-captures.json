@@ -1,0 +1,22 @@
+[
+  {
+    "id": "L190",
+    "path": "/reports/preset/status-aging"
+  },
+  {
+    "id": "L190",
+    "path": "/reports/preset/conversion-trend"
+  },
+  {
+    "id": "L190",
+    "path": "/reports/preset/source-effectiveness"
+  },
+  {
+    "id": "L190",
+    "path": "/reports/preset/market-performance"
+  },
+  {
+    "id": "L190",
+    "path": "/reports/preset/user-performance"
+  }
+]

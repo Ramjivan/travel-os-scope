@@ -1,0 +1,700 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_20_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 link Description: #1, Value: tripboxcrm.com/leads/1
+					29 image
+					30 text Edit itinerary
+				31 heading Itinerary workspace, Value: 1
+					32 text Itinerary workspace
+				33 text Proposed for  TOS-AUDIT Fictional Traveller A
+				34 button Quote with AI
+					35 image
+					36 text Quote with AI
+				37 button Approve & start booking
+			38 container
+				39 image
+				40 text Route
+				41 text Indonesia (Bali)
+				42 text Country-level route
+				43 text Travel dates
+				44 container
+					45 text 20 Nov – 24 Nov 2026 ·  4  nights
+				46 image
+				47 text Guests
+				48 container
+					49 text 2  adults
+				50 text Currency
+				51 text INR
+				52 button Trip details
+					53 image
+					54 text Trip details
+				55 button Add stops
+					56 image
+					57 text Add stops
+				58 container
+					59 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					60 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					61 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					62 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					63 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					64 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					65 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				66 container hotels
+					67 image
+					68 heading Hotels, Value: 3
+						69 text Hotels
+					70 container
+						71 text 1  accommodation stays
+					72 button Add hotel
+						73 image
+						74 text Add hotel
+					75 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					76 text Ubud
+					77 image
+					78 text 20 Nov  – 24 Nov  · 4N
+					79 button View details for Alam Puisi Ubud
+						80 text Alam Puisi Ubud
+						81 text Draft
+					82 text Standard Double
+					83 text BB
+					84 button View rates for Alam Puisi Ubud
+						85 text INR
+						86 text 4,000
+					87 button Edit Alam Puisi Ubud
+						88 image
+					89 button Remove Alam Puisi Ubud
+						90 image
+					91 container
+						92 image
+						93 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					94 button Browse
+						95 image
+						96 text Browse
+				97 container activities
+					98 image
+					99 heading Daily plan, Value: 3
+						100 text Daily plan
+					101 text Activities and ground transport in one timeline
+					102 container
+						103 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						104 container
+							105 image
+							106 button Benoa Water Sports ACTIVITY Kuta · Draft
+								107 text Benoa Water Sports
+								108 text ACTIVITY
+								109 text Kuta · Draft
+							110 button INR 2,400
+							111 button
+								112 image
+							113 button Edit Benoa Water Sports
+								114 image
+							115 button Remove Benoa Water Sports
+								116 image
+							117 container
+								118 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							119 button Activities
+								120 image
+								121 text Activities
+							122 button Transport
+								123 image
+								124 text Transport
+						125 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						126 container
+							127 container
+								128 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							129 button Activities
+								130 image
+								131 text Activities
+							132 button Transport
+								133 image
+								134 text Transport
+						135 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						136 container
+							137 container
+								138 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							139 button Activities
+								140 image
+								141 text Activities
+							142 button Transport
+								143 image
+								144 text Transport
+						145 text DAY  4 23 Nov INDONESIA (BALI) Monday
+						146 container
+							147 container
+								148 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+							149 button Activities
+								150 image
+								151 text Activities
+							152 button Transport
+								153 image
+								154 text Transport
+						155 text DAY  5 24 Nov INDONESIA (BALI) Tuesday
+						156 container
+							157 container
+								158 combo box (collapsed, settable) ID: rc_select_9, Secondary Actions: Expand
+							159 button Activities
+								160 image
+								161 text Activities
+							162 button Transport
+								163 image
+								164 text Transport
+				165 container daily-transports
+					166 image
+					167 heading Full day transport, Value: 2
+						168 text Full day transport
+					169 text Cab services charged per day across your selected dates
+					170 container
+						171 image
+						172 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_10, Secondary Actions: Expand
+					173 button Browse inventory
+						174 image
+						175 text Browse inventory
+					176 image No data
+					177 text No Full Day transports added
+				178 container travel
+					179 image
+					180 heading Flights, Value: 3
+						181 text Flights
+					182 container
+						183 text 0  flight segments
+					184 text No flights added
+					185 button Add flight
+						186 image
+						187 text Add flight
+				188 container Description: Custom services, ID: custom-services
+					189 image
+					190 heading Custom services(1), Value: 3
+						191 text Custom services ( 1 )
+					192 text Visas, insurance, and other trip arrangements
+					193 button Add service
+						194 image
+						195 text Add service
+					196 image
+					197 text TOS-AUDIT Internal trip planning
+					198 text Trip-wide · Handled internally
+					199 text ₹10,000
+					200 button Edit TOS-AUDIT Internal trip planning
+						201 image
+						202 text Edit
+					203 button (disabled) Move service up
+						204 image
+					205 button (disabled) Move service down
+						206 image
+					207 button Remove service
+						208 image
+				209 container
+					210 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						211 image
+						212 text Inclusions & policies
+						213 text 0 inclusions · 0 exclusions · 0 policy sections
+						214 image
+					215 button Markup & taxes 10% markup · No taxes, ID: markup
+						216 image
+						217 text Markup & taxes
+						218 text 10% markup · No taxes
+						219 image
+					220 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						221 image
+						222 text Cost breakdown
+						223 text Hotels, activities, transport, flights and custom services
+						224 image
+				225 container
+					226 text LIVE QUOTE Live calculation
+					227 heading Indonesia (Bali), Value: 2
+						228 text Indonesia (Bali)
+					229 image
+					230 text 20 Nov  to  24 Nov 4  night s
+					231 container mobile-quote-details
+						232 image
+						233 text TOS-AUDIT Fictional Traveller A
+						234 container
+							235 text 2  Adults
+						236 heading Quote composition, Value: 3
+							237 text Quote composition
+						238 text Base, margin, taxes
+						239 container Quote cost composition
+						240 text Base cost ₹16,400 Markup ₹1,640  ( 10 %) Selling price ₹18,040 Per adult ₹9,020
+				241 container
+					242 heading Actions, Value: 3
+						243 text Actions
+					244 text Payment plan set ₹15,400 Unaccounted amount ₹2,640
+					245 button Save Itinerary
+						246 image
+						247 text Save Itinerary
+					248 button Payment Management
+						249 image
+						250 text Payment Management
+					251 button Download Itinerary
+						252 image
+						253 text Download Itinerary
+					254 button Quick Share
+						255 image
+						256 text Quick Share
+		257 container
+			258 container Add hotels Room inventory · rates shown in INR Create New DESTINATION Indonesia (Bali)   CITY Cities in Indonesia (Bali)   SEARCH INVENTORY Search hotels...
+				259 container Close Add hotels Room inventory · rates shown in INR Create New DESTINATION Indonesia (Bali)   CITY Cities in Indonesia (Bali)   SEARCH INVENTORY Search hotels... Available hotels Hotel result view 150 results Alam Puisi villa Kuta 4 Star From Rate unavailable Alam Puisi Villa Ubud 4 Star From Rate unavailable
+					260 container
+						261 button Close
+							262 container Close
+								263 image close
+						264 image
+						265 heading Add hotels, Value: 2
+							266 text Add hotels
+						267 container
+							268 text Room inventory  · rates shown in INR
+						269 button Create New
+						270 container
+							271 text DESTINATION
+							272 container
+								273 combo box (collapsed, settable) ID: rc_select_15, Secondary Actions: Expand
+								274 text Indonesia (Bali)
+						275 container
+							276 text CITY
+							277 container
+								278 combo box (collapsed, settable) ID: rc_select_16, Secondary Actions: Expand
+								279 text Cities in Indonesia (Bali)
+						280 container
+							281 text SEARCH INVENTORY
+							282 image
+							283 text field (settable)
+						284 image
+						285 text SUPPLIER
+						286 container
+							287 combo box (collapsed, settable) ID: rc_select_17, Secondary Actions: Expand
+							288 text Filter by supplier
+						289 image
+						290 text CATEGORIES
+						291 button All categories
+						292 button 5 Star
+						293 button 4 Star
+						294 button 3 Star
+						295 button 2 Star
+						296 text Available hotels
+						297 container Hotel result view
+							298 checkbox Description: List View, Value: 1
+								299 image
+							300 checkbox Description: Grid View, Value: 0
+								301 image
+						302 text 150 results
+						303 button Alam Puisi villa Kuta 4 Star From Rate unavailable
+							304 heading Alam Puisi villa, Value: 3
+								305 text Alam Puisi villa
+							306 image
+							307 text Kuta
+							308 text 4 Star
+							309 text From
+							310 text Rate unavailable
+						311 button Alam Puisi Villa Ubud 4 Star From Rate unavailable
+							312 heading Alam Puisi Villa, Value: 3
+								313 text Alam Puisi Villa
+							314 image
+							315 text Ubud
+							316 text 4 Star
+							317 text From
+							318 text Rate unavailable
+						319 button Alankara Villa Ubud 4 Star From Rate unavailable
+							320 heading Alankara Villa, Value: 3
+								321 text Alankara Villa
+							322 image
+							323 text Ubud
+							324 text 4 Star
+							325 text From
+							326 text Rate unavailable
+						327 button Aldeoz Grand Kencana Kuta 4 Star From Rate unavailable
+							328 heading Aldeoz Grand Kencana, Value: 3
+								329 text Aldeoz Grand Kencana
+							330 image
+							331 text Kuta
+							332 text 4 Star
+							333 text From
+							334 text Rate unavailable
+						335 button Amaroossa Suite Bali Nusa Dua 4 Star From Rate unavailable
+							336 heading Amaroossa Suite Bali, Value: 3
+								337 text Amaroossa Suite Bali
+							338 image
+							339 text Nusa Dua
+							340 text 4 Star
+							341 text From
+							342 text Rate unavailable
+						343 button Anathera Resort Kuta Kuta 4 Star From Rate unavailable
+							344 heading Anathera Resort Kuta, Value: 3
+								345 text Anathera Resort Kuta
+							346 image
+							347 text Kuta
+							348 text 4 Star
+							349 text From
+							350 text Rate unavailable
+						351 button Anvaya Beach Resort & Spa Kuta 5 Star From Rate unavailable
+							352 heading Anvaya Beach Resort & Spa, Value: 3
+								353 text Anvaya Beach Resort & Spa
+							354 image
+							355 text Kuta
+							356 text 5 Star
+							357 text From
+							358 text Rate unavailable
+						359 button Arta Private Villa Ubud 4 Star From Rate unavailable
+							360 heading Arta Private Villa, Value: 3
+								361 text Arta Private Villa
+							362 image
+							363 text Ubud
+							364 text 4 Star
+							365 text From
+							366 text Rate unavailable
+						367 button Ashoka Tree Resort Ubud Ubud 4 Star From Rate unavailable
+							368 heading Ashoka Tree Resort Ubud, Value: 3
+								369 text Ashoka Tree Resort Ubud
+							370 image
+							371 text Ubud
+							372 text 4 Star
+							373 text From
+							374 text Rate unavailable
+						375 button Ashoka Tree Ubud Ubud 4 Star From Rate unavailable
+							376 heading Ashoka Tree Ubud, Value: 3
+								377 text Ashoka Tree Ubud
+							378 image
+							379 text Ubud
+							380 text 4 Star
+							381 text From
+							382 text Rate unavailable
+						383 button Aston Sunset Beach Resort - Gili Trawangan Gili Islands 4 Star From Rate unavailable
+							384 heading Aston Sunset Beach Resort - Gili Trawangan, Value: 3
+								385 text Aston Sunset Beach Resort - Gili Trawangan
+							386 image
+							387 text Gili Islands
+							388 text 4 Star
+							389 text From
+							390 text Rate unavailable
+						391 button Asvara Resort & Spa Ubud by Ini Vie Hospitality Ubud 5 Star From Rate unavailable
+							392 heading Asvara Resort & Spa Ubud by Ini Vie Hospitality, Value: 3
+								393 text Asvara Resort & Spa Ubud by Ini Vie Hospitality
+							394 image
+							395 text Ubud
+							396 text 5 Star
+							397 text From
+							398 text Rate unavailable
+						399 button Asvara Villa Ubud Ubud 5 Star From Rate unavailable
+							400 heading Asvara Villa Ubud, Value: 3
+								401 text Asvara Villa Ubud
+							402 image
+							403 text Ubud
+							404 text 5 Star
+							405 text From
+							406 text Rate unavailable
+						407 button Asvara Villa Ubud by Ini Vie Hospitality Ubud 4 Star From Rate unavailable
+							408 heading Asvara Villa Ubud by Ini Vie Hospitality, Value: 3
+								409 text Asvara Villa Ubud by Ini Vie Hospitality
+							410 image
+							411 text Ubud
+							412 text 4 Star
+							413 text From
+							414 text Rate unavailable
+						415 button Atanaya Hotel - Kuta Kuta 4 Star From Rate unavailable
+							416 heading Atanaya Hotel - Kuta, Value: 3
+								417 text Atanaya Hotel - Kuta
+							418 image
+							419 text Kuta
+							420 text 4 Star
+							421 text From
+							422 text Rate unavailable
+						423 button Ayana Resort Kuta 5 Star From Rate unavailable
+							424 heading Ayana Resort, Value: 3
+								425 text Ayana Resort
+							426 image
+							427 text Kuta
+							428 text 5 Star
+							429 text From
+							430 text Rate unavailable
+						431 button Bali Dream Suite Villa Seminyak Seminyak 4 Star From Rate unavailable
+							432 heading Bali Dream Suite Villa Seminyak, Value: 3
+								433 text Bali Dream Suite Villa Seminyak
+							434 image
+							435 text Seminyak
+							436 text 4 Star
+							437 text From
+							438 text Rate unavailable
+						439 button Bali Masari Villas & Spa Seminyak 4 Star From Rate unavailable
+							440 heading Bali Masari Villas & Spa, Value: 3
+								441 text Bali Masari Villas & Spa
+							442 image
+							443 text Seminyak
+							444 text 4 Star
+							445 text From
+							446 text Rate unavailable
+						447 button BALI SUN TROPICAL HOTEL & SPA Kuta 4 Star From Rate unavailable
+							448 heading BALI SUN TROPICAL HOTEL & SPA, Value: 3
+								449 text BALI SUN TROPICAL HOTEL & SPA
+							450 image
+							451 text Kuta
+							452 text 4 Star
+							453 text From
+							454 text Rate unavailable
+						455 button Bintang Bali Resort Kuta 5 Star From Rate unavailable
+							456 heading Bintang Bali Resort, Value: 3
+								457 text Bintang Bali Resort
+							458 image
+							459 text Kuta
+							460 text 5 Star
+							461 text From
+							462 text Rate unavailable
+						463 button Bliss Surfer Hotel Kuta 4 Star From Rate unavailable
+							464 heading Bliss Surfer Hotel, Value: 3
+								465 text Bliss Surfer Hotel
+							466 image
+							467 text Kuta
+							468 text 4 Star
+							469 text From
+							470 text Rate unavailable
+						471 button Bliss Ubud Spa Resort Ubud 4 Star From Rate unavailable
+							472 heading Bliss Ubud Spa Resort, Value: 3
+								473 text Bliss Ubud Spa Resort
+							474 image
+							475 text Ubud
+							476 text 4 Star
+							477 text From
+							478 text Rate unavailable
+						479 button Bubble Hotel Bali Ubud - Glamping Ubud 4 Star From Rate unavailable
+							480 heading Bubble Hotel Bali Ubud - Glamping, Value: 3
+								481 text Bubble Hotel Bali Ubud - Glamping
+							482 image
+							483 text Ubud
+							484 text 4 Star
+							485 text From
+							486 text Rate unavailable
+						487 button Bumi Linggah Villas Bali Ubud 4 Star From Rate unavailable
+							488 heading Bumi Linggah Villas Bali, Value: 3
+								489 text Bumi Linggah Villas Bali
+							490 image
+							491 text Ubud
+							492 text 4 Star
+							493 text From
+							494 text Rate unavailable
+						495 button Camaya Bali Ubud 4 Star From Rate unavailable
+							496 heading Camaya Bali, Value: 3
+								497 text Camaya Bali
+							498 image
+							499 text Ubud
+							500 text 4 Star
+							501 text From
+							502 text Rate unavailable
+						503 button Campuhan Sebatu Resort Ubud 4 Star From Rate unavailable
+							504 heading Campuhan Sebatu Resort, Value: 3
+								505 text Campuhan Sebatu Resort
+							506 image
+							507 text Ubud
+							508 text 4 Star
+							509 text From
+							510 text Rate unavailable
+						511 button Cocana Resort Gili Trawangan Gili Islands 5 Star From Rate unavailable
+							512 heading Cocana Resort Gili Trawangan, Value: 3
+								513 text Cocana Resort Gili Trawangan
+							514 image
+							515 text Gili Islands
+							516 text 5 Star
+							517 text From
+							518 text Rate unavailable
+						519 button Crystal Hotel Kuta Kuta 4 Star From Rate unavailable
+							520 heading Crystal Hotel Kuta, Value: 3
+								521 text Crystal Hotel Kuta
+							522 image
+							523 text Kuta
+							524 text 4 Star
+							525 text From
+							526 text Rate unavailable
+						527 button Dedary Resort & Spa Ubud by iNi Vie Hospitality Ubud 4 Star From Rate unavailable
+							528 heading Dedary Resort & Spa Ubud by iNi Vie Hospitality, Value: 3
+								529 text Dedary Resort & Spa Ubud by iNi Vie Hospitality
+							530 image
+							531 text Ubud
+							532 text 4 Star
+							533 text From
+							534 text Rate unavailable
+						535 button de Vins Sky Seminyak 4 Star From Rate unavailable
+							536 heading de Vins Sky, Value: 3
+								537 text de Vins Sky
+							538 image
+							539 text Seminyak
+							540 text 4 Star
+							541 text From
+							542 text Rate unavailable
+						543 button Diamond Hotel Kuta Kuta 3 Star From Rate unavailable
+							544 heading Diamond Hotel Kuta, Value: 3
+								545 text Diamond Hotel Kuta
+							546 image
+							547 text Kuta
+							548 text 3 Star
+							549 text From
+							550 text Rate unavailable
+						551 button Discovery Kartika Plaza Kuta 5 Star From Rate unavailable
+							552 heading Discovery Kartika Plaza, Value: 3
+								553 text Discovery Kartika Plaza
+							554 image
+							555 text Kuta
+							556 text 5 Star
+							557 text From
+							558 text Rate unavailable
+						559 button Eden Kuta Kuta 4 Star From Rate unavailable
+							560 heading Eden Kuta, Value: 3
+								561 text Eden Kuta
+							562 image
+							563 text Kuta
+							564 text 4 Star
+							565 text From
+							566 text Rate unavailable
+						567 button Enroute Dinner (Set Menu) at Indian Restaurant Kuta 4 Star From Rate unavailable
+							568 heading Enroute Dinner (Set Menu) at Indian Restaurant, Value: 3
+								569 text Enroute Dinner (Set Menu) at Indian Restaurant
+							570 image
+							571 text Kuta
+							572 text 4 Star
+							573 text From
+							574 text Rate unavailable
+						575 button Fairfield by Marriott Bali Kuta Sunset Road Kuta 4 Star From Rate unavailable
+							576 heading Fairfield by Marriott Bali Kuta Sunset Road, Value: 3
+								577 text Fairfield by Marriott Bali Kuta Sunset Road
+							578 image
+							579 text Kuta
+							580 text 4 Star
+							581 text From
+							582 text Rate unavailable
+						583 button Fairfield by Marriott Bali Legian Kuta 4 Star From Rate unavailable
+							584 heading Fairfield by Marriott Bali Legian, Value: 3
+								585 text Fairfield by Marriott Bali Legian
+							586 image
+							587 text Kuta
+							588 text 4 Star
+							589 text From
+							590 text Rate unavailable
+						591 button Famous Hotel Kuta Kuta 4 Star From Rate unavailable
+							592 heading Famous Hotel Kuta, Value: 3
+								593 text Famous Hotel Kuta
+							594 image
+							595 text Kuta
+							596 text 4 Star
+							597 text From
+							598 text Rate unavailable
+						599 button Fourteen Roses Beach Hotel Kuta 3 Star From Rate unavailable
+							600 heading Fourteen Roses Beach Hotel, Value: 3
+								601 text Fourteen Roses Beach Hotel
+							602 image
+							603 text Kuta
+							604 text 3 Star
+							605 text From
+							606 text Rate unavailable
+						607 button Freddies Resort & Villas Ubud Bali Ubud 4 Star From Rate unavailable
+							608 heading Freddies Resort & Villas Ubud Bali, Value: 3
+								609 text Freddies Resort & Villas Ubud Bali
+							610 image
+							611 text Ubud
+							612 text 4 Star
+							613 text From
+							614 text Rate unavailable
+						615 button Full Moon Villa Ubud 4 Star From Rate unavailable
+							616 heading Full Moon Villa, Value: 3
+								617 text Full Moon Villa
+							618 image
+							619 text Ubud
+							620 text 4 Star
+							621 text From
+							622 text Rate unavailable
+						623 button Fullmoon Villa Ubud Ubud 4 Star From Rate unavailable
+							624 heading Fullmoon Villa Ubud, Value: 3
+								625 text Fullmoon Villa Ubud
+							626 image
+							627 text Ubud
+							628 text 4 Star
+							629 text From
+							630 text Rate unavailable
+						631 button FuramaXclusive Ocean Beach Seminyak Seminyak 5 Star From Rate unavailable
+							632 heading FuramaXclusive Ocean Beach Seminyak, Value: 3
+								633 text FuramaXclusive Ocean Beach Seminyak
+							634 image
+							635 text Seminyak
+							636 text 5 Star
+							637 text From
+							638 text Rate unavailable
+						639 button FuramaXclusive Resort & Villas Ubud 5 Star From Rate unavailable
+							640 heading FuramaXclusive Resort & Villas, Value: 3
+								641 text FuramaXclusive Resort & Villas
+							642 image
+							643 text Ubud
+							644 text 5 Star
+							645 text From
+							646 text Rate unavailable
+						647 button Giri Sea Cliff Penida Resort & Spa Nusa Penida 5 Star From Rate unavailable
+							648 heading Giri Sea Cliff Penida Resort & Spa, Value: 3
+								649 text Giri Sea Cliff Penida Resort & Spa
+							650 image
+							651 text Nusa Penida
+							652 text 5 Star
+							653 text From
+							654 text Rate unavailable
+						655 button Golden Tulip Jineng Resort Kuta 4 Star From Rate unavailable
+							656 heading Golden Tulip Jineng Resort, Value: 3
+								657 text Golden Tulip Jineng Resort
+							658 image
+							659 text Kuta
+							660 text 4 Star
+							661 text From
+							662 text Rate unavailable
+						663 button Grand balisani suite Kuta 4 Star From Rate unavailable
+							664 heading Grand balisani suite, Value: 3
+								665 text Grand balisani suite
+							666 image
+							667 text Kuta
+							668 text 4 Star
+							669 text From
+							670 text Rate unavailable
+						671 button Grand Ixora Hotel Kuta 4 Star From Rate unavailable
+							672 heading Grand Ixora Hotel, Value: 3
+								673 text Grand Ixora Hotel
+							674 image
+							675 text Kuta
+							676 text 4 Star
+							677 text From
+							678 text Rate unavailable
+						679 button Grand Kesambi Resort and Villa Seminyak 4 Star From Rate unavailable
+							680 heading Grand Kesambi Resort and Villa, Value: 3
+								681 text Grand Kesambi Resort and Villa
+							682 image
+							683 text Seminyak
+							684 text 4 Star
+							685 text From
+							686 text Rate unavailable
+						687 button Grand Livio Kuta 3 Star From Rate unavailable
+							688 heading Grand Livio, Value: 3
+								689 text Grand Livio
+							690 image
+							691 text Kuta
+							692 text 3 Star
+							693 text From
+							694 text Rate unavailable
+						695 text 0  selected
+						696 button Close
+						697 button (disabled) Add Hotels
+
+The focused UI element is 259 container Close Add hotels Room inventory · rates shown in INR Create New DESTINATION Indonesia (Bali)   CITY Cities in Indonesia (Bali)   SEARCH INVENTORY Search hotels... Available hotels Hotel result view 150 results Alam Puisi villa Kuta 4 Star From Rate unavailable Alam Puisi Villa Ubud 4 Star From Rate unavailable

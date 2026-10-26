@@ -1,0 +1,605 @@
+[
+  {
+    "reference_id": "NEXUS-001",
+    "source_filename": "codex-clipboard-75e54918-bdc6-4d3b-bb64-c5e5549824f8.png",
+    "source_sha256": "0fd863492a4c19e7f8b16eb5b1371e6950bc2c8a6b1d1c2785c041569ede48aa",
+    "archive_filename": "nexus-001-holiday-destinations.png",
+    "archive_sha256": "0fd863492a4c19e7f8b16eb5b1371e6950bc2c8a6b1d1c2785c041569ede48aa",
+    "dimensions": [
+      740,
+      626
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-002",
+    "source_filename": "codex-clipboard-ee5f21be-8184-4269-bde8-9965d8f2bd71.png",
+    "source_sha256": "27778a92ad8b24d39e9e46d8a1d93f4f9875cd38b6583be59d9af46613994fe5",
+    "archive_filename": "nexus-002-holiday-duration.png",
+    "archive_sha256": "27778a92ad8b24d39e9e46d8a1d93f4f9875cd38b6583be59d9af46613994fe5",
+    "dimensions": [
+      535,
+      519
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-003",
+    "source_filename": "codex-clipboard-3897c067-0154-4734-989f-647ecf974316.png",
+    "source_sha256": "7e5de5f46101e86ffba99a9558daf78f2aad7c9b7d04cb55fdc66d9243eef75d",
+    "archive_filename": "nexus-003-series-air-and-fixed-departures.png",
+    "archive_sha256": "7e5de5f46101e86ffba99a9558daf78f2aad7c9b7d04cb55fdc66d9243eef75d",
+    "dimensions": [
+      1261,
+      747
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-004",
+    "source_filename": "screencapture-nexusdmc-trip-dashboard-2026-10-06-13_35_23.png",
+    "source_sha256": "c84ff2ed793de9d89ab1289c6dabe47ca1978dafae3336115131e9502fe455bc",
+    "archive_filename": "nexus-004-dashboard-redacted.png",
+    "archive_sha256": "3bb2a4abb6033363a541dd4912fd75a70980831d31396bf91deb213cdcaff682",
+    "dimensions": [
+      1470,
+      3045
+    ],
+    "redactions": [
+      "Signed-in organization identity, user name and recharge balance"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-005",
+    "source_filename": "codex-clipboard-f2ae9016-ac00-4266-8142-55e567432e7a.png",
+    "source_sha256": "4233715fc1a8ad7dcb6878f420d3a16a0255fbbccd3c919cd1dbab8562e0c544",
+    "archive_filename": "nexus-005-group-airfare-request.png",
+    "archive_sha256": "4233715fc1a8ad7dcb6878f420d3a16a0255fbbccd3c919cd1dbab8562e0c544",
+    "dimensions": [
+      1420,
+      625
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-006",
+    "source_filename": "codex-clipboard-9c4494e6-9e95-41d0-8e2b-cef0ad6584ff.png",
+    "source_sha256": "59c7fc49156acede1156e6c03e1d23bc64d1ba8bff3e4d5b1ddd4296a35610cd",
+    "archive_filename": "nexus-006-hotel-search-results.png",
+    "archive_sha256": "59c7fc49156acede1156e6c03e1d23bc64d1ba8bff3e4d5b1ddd4296a35610cd",
+    "dimensions": [
+      1227,
+      628
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-007",
+    "source_filename": "codex-clipboard-2f6f305b-27c4-4fcd-ad0d-248ba10aa9c8.png",
+    "source_sha256": "c85ebfd0da90a1b8e6e2b89622fc21d40edb7a966d2a196b89764ac30506226b",
+    "archive_filename": "nexus-007-hotel-results-lower.png",
+    "archive_sha256": "c85ebfd0da90a1b8e6e2b89622fc21d40edb7a966d2a196b89764ac30506226b",
+    "dimensions": [
+      935,
+      569
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-008",
+    "source_filename": "codex-clipboard-fd38d6c8-2bbb-46f6-bc45-419aece427ea.png",
+    "source_sha256": "37f8fafd43a4479fff3786d2f36acb441bc030261da71aa6761b275987f8ae8c",
+    "archive_filename": "nexus-008-hotel-filters-upper.png",
+    "archive_sha256": "37f8fafd43a4479fff3786d2f36acb441bc030261da71aa6761b275987f8ae8c",
+    "dimensions": [
+      315,
+      750
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-009",
+    "source_filename": "codex-clipboard-a9e194c1-9ceb-404a-9f5e-0068ffceef4c.png",
+    "source_sha256": "ef55c0048ec7986974194cd336fa3bd17744a5569342d14d9cbcf45e37a4db55",
+    "archive_filename": "nexus-009-hotel-property-area-filters.png",
+    "archive_sha256": "ef55c0048ec7986974194cd336fa3bd17744a5569342d14d9cbcf45e37a4db55",
+    "dimensions": [
+      309,
+      620
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-010",
+    "source_filename": "codex-clipboard-e8061c0a-ae0c-4e75-8366-7c8f3e2c9fb0.png",
+    "source_sha256": "b4e78bbb1a78e824513f74d6961878fc4e7a65cc4568f143dc9c0d13f893862d",
+    "archive_filename": "nexus-010-hotel-meal-amenity-filters.png",
+    "archive_sha256": "b4e78bbb1a78e824513f74d6961878fc4e7a65cc4568f143dc9c0d13f893862d",
+    "dimensions": [
+      309,
+      644
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-011",
+    "source_filename": "codex-clipboard-4db90642-908a-4aa0-808a-e789ee3c1e1b.png",
+    "source_sha256": "243451df4fdf168c0c2d5fb0aa8bfa2a996d9b21d6b0b01249aa0e610c77edcd",
+    "archive_filename": "nexus-011-hotel-amenities-lower.png",
+    "archive_sha256": "243451df4fdf168c0c2d5fb0aa8bfa2a996d9b21d6b0b01249aa0e610c77edcd",
+    "dimensions": [
+      287,
+      400
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-012",
+    "source_filename": "codex-clipboard-48b99670-52eb-4b76-acf9-87f0417c4087.png",
+    "source_sha256": "8a68ebe21187756900a60dcf4d99f89a2efc6161f4a178cafb4694eb2f76c754",
+    "archive_filename": "nexus-012-hotel-price-map.png",
+    "archive_sha256": "8a68ebe21187756900a60dcf4d99f89a2efc6161f4a178cafb4694eb2f76c754",
+    "dimensions": [
+      440,
+      317
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-013",
+    "source_filename": "codex-clipboard-6d1a0ad5-67dd-4f83-af10-acdc2a6e0943.png",
+    "source_sha256": "24054a6b1ae10f8da2100ce557cca1ee3bb8134088cf0ec2a353c14a22f9515a",
+    "archive_filename": "nexus-013-customized-proposal-setup.png",
+    "archive_sha256": "24054a6b1ae10f8da2100ce557cca1ee3bb8134088cf0ec2a353c14a22f9515a",
+    "dimensions": [
+      529,
+      740
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-014",
+    "source_filename": "codex-clipboard-d84d1c3d-74f6-4744-b105-7919419b205f.png",
+    "source_sha256": "2bdc9635613e7307611a186b53b1479cab73d326c6affe360dff4deff9d481d6",
+    "archive_filename": "nexus-014-customize-trip-full-redacted.png",
+    "archive_sha256": "0e47cbd08258ebf31e609b6f4ead42c0c883bdccafac5fabbb9de5e47e40563d",
+    "dimensions": [
+      1470,
+      8227
+    ],
+    "redactions": [
+      "Signed-in organization identity, user name and recharge balance"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-015",
+    "source_filename": "codex-clipboard-f74abcc6-0af8-4660-95bf-b0c65af96f50.png",
+    "source_sha256": "a819f3763147f58d87b89626accfcfbd9c18b378512bfd597090d6043ddfb90f",
+    "archive_filename": "nexus-015-bali-navigation-panel.png",
+    "archive_sha256": "a819f3763147f58d87b89626accfcfbd9c18b378512bfd597090d6043ddfb90f",
+    "dimensions": [
+      378,
+      342
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-016",
+    "source_filename": "codex-clipboard-4a151873-1c65-41d3-a5f4-26f70419f7ce.png",
+    "source_sha256": "d78b6301753fc80ed848d09ce0d60500c5138a6dd54c6a0600105463d041222f",
+    "archive_filename": "nexus-016-jakarta-navigation-panel.png",
+    "archive_sha256": "d78b6301753fc80ed848d09ce0d60500c5138a6dd54c6a0600105463d041222f",
+    "dimensions": [
+      361,
+      323
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-017",
+    "source_filename": "codex-clipboard-787ae125-4552-407e-b716-058e6c96e23d.png",
+    "source_sha256": "09de7997007647e6a3be65b874cd810f878a0a3f6dc1fce363e919c351549aac",
+    "archive_filename": "nexus-017-flight-search-loading-redacted.png",
+    "archive_sha256": "5a98b573d699cb625679b804b042375ee6a5d92ccef7c5a18da8284691a6f9a7",
+    "dimensions": [
+      1221,
+      545
+    ],
+    "redactions": [
+      "Background strips outside flight modal, containing partial organization/account text"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-018",
+    "source_filename": "codex-clipboard-1b1d7546-00ed-4b0e-9f34-d796de1274ae.png",
+    "source_sha256": "a441d121bde2ee509ce451d14aecf74381e41f783741840a91c41ff1f7aaa030",
+    "archive_filename": "nexus-018-onward-flight-results.png",
+    "archive_sha256": "a441d121bde2ee509ce451d14aecf74381e41f783741840a91c41ff1f7aaa030",
+    "dimensions": [
+      1117,
+      745
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-019",
+    "source_filename": "codex-clipboard-8006940a-3c52-4cf2-a378-e4a0391e68a8.png",
+    "source_sha256": "4a44eb5e66b0ff8833cb461ec160ab4470c2a591ab943ac738e09d41b39b6a32",
+    "archive_filename": "nexus-019-flight-departure-time-filter.png",
+    "archive_sha256": "4a44eb5e66b0ff8833cb461ec160ab4470c2a591ab943ac738e09d41b39b6a32",
+    "dimensions": [
+      494,
+      350
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-020",
+    "source_filename": "codex-clipboard-2339dc98-4f25-44e9-961c-c13dedba5919.png",
+    "source_sha256": "8348fd2196bcfdb4bbdb5edf0dff5320693a6b8f6cec81b9186add739423d80b",
+    "archive_filename": "nexus-020-return-flight-results.png",
+    "archive_sha256": "8348fd2196bcfdb4bbdb5edf0dff5320693a6b8f6cec81b9186add739423d80b",
+    "dimensions": [
+      1120,
+      737
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-021",
+    "source_filename": "codex-clipboard-7b99d794-d8f4-4301-b587-81e381d01c26.png",
+    "source_sha256": "4c58a20f2729152aa8576858629c6304981556a4964d7df003d178144c1882d4",
+    "archive_filename": "nexus-021-selected-flight-pair.png",
+    "archive_sha256": "4c58a20f2729152aa8576858629c6304981556a4964d7df003d178144c1882d4",
+    "dimensions": [
+      1111,
+      709
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-022",
+    "source_filename": "codex-clipboard-a718f028-dbca-4e85-9e5d-0c8f47530576.png",
+    "source_sha256": "d7927faf1df246fa746ae1ead1a12dfa4e1e862fd75464ca3612d8c9d06165b2",
+    "archive_filename": "nexus-022-selected-flights-airport-warning.png",
+    "archive_sha256": "d7927faf1df246fa746ae1ead1a12dfa4e1e862fd75464ca3612d8c9d06165b2",
+    "dimensions": [
+      1434,
+      578
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-023",
+    "source_filename": "codex-clipboard-9e855a69-e7de-4e35-ae1a-e0ab42ebeed2.png",
+    "source_sha256": "0863cca2de88e79e4f649834eae75f3e35ef8469f657e22e4593afdb0b902a0e",
+    "archive_filename": "nexus-023-add-activity-bali.png",
+    "archive_sha256": "0863cca2de88e79e4f649834eae75f3e35ef8469f657e22e4593afdb0b902a0e",
+    "dimensions": [
+      996,
+      675
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-024",
+    "source_filename": "codex-clipboard-b3f6113f-4ce3-4d37-aef5-b73195799feb.png",
+    "source_sha256": "831ccb13e114cfd03a6ab4fbb865e9700767f82f75cb3be8d42ac2497f1a1e09",
+    "archive_filename": "nexus-024-add-arrival-bali.png",
+    "archive_sha256": "831ccb13e114cfd03a6ab4fbb865e9700767f82f75cb3be8d42ac2497f1a1e09",
+    "dimensions": [
+      961,
+      665
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-025",
+    "source_filename": "codex-clipboard-7a842bab-26bb-4301-b284-fa6022c1b0ce.png",
+    "source_sha256": "cb04b870a817303c89c7be8b56070c585bbff61fe281da552f74f71bd41a8d50",
+    "archive_filename": "nexus-025-change-day-itinerary.png",
+    "archive_sha256": "cb04b870a817303c89c7be8b56070c585bbff61fe281da552f74f71bd41a8d50",
+    "dimensions": [
+      976,
+      713
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-027",
+    "source_filename": "codex-clipboard-5a0b02b8-cbbe-4e45-8ab4-ec7e6640d82c.png",
+    "source_sha256": "d47f2cce7720ef56a489edc784aa38f0f8bf33dbab0cbee015670d41b451dece",
+    "archive_filename": "nexus-027-uae-visa-options.png",
+    "archive_sha256": "d47f2cce7720ef56a489edc784aa38f0f8bf33dbab0cbee015670d41b451dece",
+    "dimensions": [
+      892,
+      298
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-028",
+    "source_filename": "codex-clipboard-4226965a-b832-4976-90cb-fb0627f886e8.png",
+    "source_sha256": "fbdfe02e1234a37bc7c5416ca16832a12675db04eea20bfdb4d807fe87402016",
+    "archive_filename": "nexus-028-visa-and-insurance-sections.png",
+    "archive_sha256": "fbdfe02e1234a37bc7c5416ca16832a12675db04eea20bfdb4d807fe87402016",
+    "dimensions": [
+      957,
+      417
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-029",
+    "source_filename": "codex-clipboard-76f77dad-980e-4ced-a7f5-f8124984aa8b.png",
+    "source_sha256": "42c0830cbe87e1701da11248915a2671ccefd79dcb3d20ea751b0e792a958d13",
+    "archive_filename": "nexus-029-hotel-consistency-warning.png",
+    "archive_sha256": "42c0830cbe87e1701da11248915a2671ccefd79dcb3d20ea751b0e792a958d13",
+    "dimensions": [
+      540,
+      206
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-030",
+    "source_filename": "codex-clipboard-2d7ea236-9351-4fc4-9004-4b4bf1cadccc.png",
+    "source_sha256": "f4164aa59eba6e2525103048ad9bdf1448537b213957b0db1b037fcabc76d83c",
+    "archive_filename": "nexus-030-flight-arrival-hotel-date-options.png",
+    "archive_sha256": "f4164aa59eba6e2525103048ad9bdf1448537b213957b0db1b037fcabc76d83c",
+    "dimensions": [
+      925,
+      595
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-031",
+    "source_filename": "codex-clipboard-058ace62-3d44-4c46-9a54-86a93dccdcfc.png",
+    "source_sha256": "3b5b2424e0d98cef49b7d01a729ab832a5eb146f141bd061c0ee4d4862952211",
+    "archive_filename": "nexus-031-group-tour-package-list.png",
+    "archive_sha256": "3b5b2424e0d98cef49b7d01a729ab832a5eb146f141bd061c0ee4d4862952211",
+    "dimensions": [
+      1218,
+      691
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-032",
+    "source_filename": "codex-clipboard-5aca3a01-7b40-4da0-bd7e-cfcc7ac40806.png",
+    "source_sha256": "e252901b5eb02b6af5532c62f24164e62a94febcead1a55b6898a482179c1bef",
+    "archive_filename": "nexus-032-group-duration-ex-city-filters.png",
+    "archive_sha256": "e252901b5eb02b6af5532c62f24164e62a94febcead1a55b6898a482179c1bef",
+    "dimensions": [
+      241,
+      673
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-033",
+    "source_filename": "codex-clipboard-9921d8de-c48a-4ef7-8866-abfa050637f3.png",
+    "source_sha256": "4141267d484283f5de1926f9de9fda29f5fa53408e17072fcdd0b711ac7964a9",
+    "archive_filename": "nexus-033-group-destination-city-filters.png",
+    "archive_sha256": "4141267d484283f5de1926f9de9fda29f5fa53408e17072fcdd0b711ac7964a9",
+    "dimensions": [
+      261,
+      684
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-034",
+    "source_filename": "codex-clipboard-a2e1dca1-65d5-443e-96c6-7d4e98c59eab.png",
+    "source_sha256": "2b881ec9f5cd73996b4e33f410d66bf024c0d5749a5074f170a622e33f9eafac",
+    "archive_filename": "nexus-034-group-star-price-month-filters.png",
+    "archive_sha256": "2b881ec9f5cd73996b4e33f410d66bf024c0d5749a5074f170a622e33f9eafac",
+    "dimensions": [
+      239,
+      646
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-035",
+    "source_filename": "codex-clipboard-f67e3698-4de2-48b6-831b-e605bc7626be.png",
+    "source_sha256": "6856eaf25845f00ebe820afeecf147085c5d02a8effd9e7ef4f331cc18179d20",
+    "archive_filename": "nexus-035-group-traveler-discover-filters.png",
+    "archive_sha256": "6856eaf25845f00ebe820afeecf147085c5d02a8effd9e7ef4f331cc18179d20",
+    "dimensions": [
+      269,
+      680
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-036",
+    "source_filename": "codex-clipboard-06ef5f1d-50c3-4e82-84b9-0f8dca71a1c4.png",
+    "source_sha256": "0666d5d7d6831a0bbe0b2b550eec516f00f2f11eeba2c13d01201fa7d39e748a",
+    "archive_filename": "nexus-036-account-statement-redacted.png",
+    "archive_sha256": "73734646e7d3308be9f4d69224d7cd9369b6ba452afb8aba3c35606bd2ca75d5",
+    "dimensions": [
+      1436,
+      593
+    ],
+    "redactions": [
+      "Customer names, booking/payment references, PNR, private booking/payment details, transaction amounts and wallet summaries"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-037",
+    "source_filename": "codex-clipboard-5e28e706-49cd-44d3-b98f-c9aca851e9f7.png",
+    "source_sha256": "a725e24ed8745e9630ffca63d93ac4e85bda8b919dad34ca8204877fe9a0c747",
+    "archive_filename": "nexus-037-wallet-statement-redacted.png",
+    "archive_sha256": "6a4a93bbefa13b4e0af089f8441efb2ccdd08c0a7adcb3879957faf4fe690915",
+    "dimensions": [
+      1414,
+      363
+    ],
+    "redactions": [
+      "Booking/payment references, private transaction description cells, amounts and balances"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-038",
+    "source_filename": "codex-clipboard-09f98e3f-5f61-44ef-ac26-ace6de65a2dd.png",
+    "source_sha256": "5b2e92b49c9887b10a81e34fb9d23c71ceb7e1c1f8f21d32f18092e7361042a5",
+    "archive_filename": "nexus-038-wallet-top-up-redacted.png",
+    "archive_sha256": "7ce4df6c43f7c362411fb5c61f5804fa8ac013400e1a18e7cf4e2c3f54ac3944",
+    "dimensions": [
+      1301,
+      581
+    ],
+    "redactions": [
+      "Private Deposit Balance"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-039",
+    "source_filename": "codex-clipboard-fed2ff81-ef78-41e0-b0df-7b293916c64a.png",
+    "source_sha256": "83cd7a5af17416851195b045aca7ea0c6d28185274ef362ef839447f11220e29",
+    "archive_filename": "nexus-039-deposit-request.png",
+    "archive_sha256": "83cd7a5af17416851195b045aca7ea0c6d28185274ef362ef839447f11220e29",
+    "dimensions": [
+      818,
+      737
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-040",
+    "source_filename": "codex-clipboard-bfca531a-aba3-42f1-ab06-eff160995397.png",
+    "source_sha256": "9c0d41ef34af2e3001d376dc9defa37ed15dad3811eef7a5cb8be2321dcdfbba",
+    "archive_filename": "nexus-040-manage-staff-redacted.png",
+    "archive_sha256": "1eec589eb488744e6a2a2ab4fb7d53b3ded0fccf82cb18017dcc6bab54fc0768",
+    "dimensions": [
+      1423,
+      404
+    ],
+    "redactions": [
+      "Staff names, emails/mobile numbers and cropped organization header fragment"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-041",
+    "source_filename": "codex-clipboard-91d4fe0d-ba80-4bea-b12b-24a345add361.png",
+    "source_sha256": "177ca2792f36859c18ebd285ebbbd067e443306b76f3109c3aac87c6d3f57c05",
+    "archive_filename": "nexus-041-settings-menu.png",
+    "archive_sha256": "177ca2792f36859c18ebd285ebbbd067e443306b76f3109c3aac87c6d3f57c05",
+    "dimensions": [
+      1187,
+      320
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-042",
+    "source_filename": "codex-clipboard-b3af2885-06f5-47f5-9ea1-fe5ccc00c50e.png",
+    "source_sha256": "385c813667bbb0845415510ab80f32fe38452a42160cfb7490f34b1e7cdd7f3a",
+    "archive_filename": "nexus-042-sales-markup-settings-redacted.png",
+    "archive_sha256": "b470189e82253ec57a874a8428564e1c3160430d6591325396c7cd18d50ddd45",
+    "dimensions": [
+      1235,
+      669
+    ],
+    "redactions": [
+      "Agency ID"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-043",
+    "source_filename": "codex-clipboard-571a7aa0-2548-4dc0-8323-917eb4d8b4d8.png",
+    "source_sha256": "2837a54c3538e16125c13ed08a677c1f63b1aee6307422479df389f3ada61a27",
+    "archive_filename": "nexus-043-sales-settings.png",
+    "archive_sha256": "2837a54c3538e16125c13ed08a677c1f63b1aee6307422479df389f3ada61a27",
+    "dimensions": [
+      1274,
+      577
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "NEXUS-044",
+    "source_filename": "codex-clipboard-30fc9944-0512-4e62-9fc1-faa06a5f446b.png",
+    "source_sha256": "c5d5994a92906861d9ef6c99462a88df9c94a614bc037e996edb10de8b555afd",
+    "archive_filename": "nexus-044-agency-tax-details-redacted.png",
+    "archive_sha256": "866fe3321d25c012d39d1f0678b98a56c603ee4a62eca7b4cbb644eb771f8e09",
+    "dimensions": [
+      1194,
+      555
+    ],
+    "redactions": [
+      "PAN Number and email in update message"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-045",
+    "source_filename": "codex-clipboard-50385123-6470-42ab-bb67-62526541594f.png",
+    "source_sha256": "f31353d48d209a45375da6dc7b4f18e707e145224d1f988ab120591c2e817d2c",
+    "archive_filename": "nexus-045-business-profile-redacted.png",
+    "archive_sha256": "cd5481229af4dbedb1fe5f2ddb6dfee26cde53258eaa773937780ed7f6372b54",
+    "dimensions": [
+      1187,
+      662
+    ],
+    "redactions": [
+      "Business name/address/city/pincode, agency identifier, map/location labels"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-046",
+    "source_filename": "codex-clipboard-a71a1bd8-d552-4778-9a0a-1e227daf9ed6.png",
+    "source_sha256": "cd2ce31847aa40cf92451993a3a85f87698056892a43b1fb30e56bf65dd0574a",
+    "archive_filename": "nexus-046-my-leads-redacted.png",
+    "archive_sha256": "342bf180478a1587dac055a2879d68d69f3296afb67c7a0670455f532222d750",
+    "dimensions": [
+      1435,
+      484
+    ],
+    "redactions": [
+      "Assigned staff/customer names and quote identifiers"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-047",
+    "source_filename": "codex-clipboard-1d0994ef-cbf5-4736-a884-461b97a2e2fe.png",
+    "source_sha256": "0b988d2a23030be71a143cc6e6eab0ac3f110a52ced11dec7d15c65552d4a8a4",
+    "archive_filename": "nexus-047-proposals-list-redacted.png",
+    "archive_sha256": "659a8c390aef2952f0481750de87a4540e778a2143e884846a61a33bd0a00858",
+    "dimensions": [
+      1419,
+      369
+    ],
+    "redactions": [
+      "Proposal identifier/customer name and embedded My Leads thumbnail"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-049",
+    "source_filename": "screencapture-nexusdmc-trip-trip-review-2026-10-06-15_38_47.png",
+    "source_sha256": "f8bacf61303befc881917b512ef7eeffa0e82d94407814573a4c63c175a9af8a",
+    "archive_filename": "nexus-049-trip-confirmation-redacted.png",
+    "archive_sha256": "539af5155b9c925ff943add272a0aa8a42dbd151c9769f9d54ca3e345ea4248a",
+    "dimensions": [
+      1470,
+      4026
+    ],
+    "redactions": [
+      "Organization/user/recharge balance, trip/PNR identifiers and seller identity/location",
+      "Guest name/contact details, payment amounts, traveler titles/names/birth dates/passport numbers/expiry dates"
+    ]
+  },
+  {
+    "reference_id": "NEXUS-050",
+    "source_filename": "codex-clipboard-9216ab1b-dad5-4a97-b7bc-bbd11c89db27.png",
+    "source_sha256": "a0f6fc9c63dab5cd7e8cd1ad9db373a90d860ad826584d516efaad263bcd60ef",
+    "archive_filename": "nexus-050-my-leads-menu.png",
+    "archive_sha256": "a0f6fc9c63dab5cd7e8cd1ad9db373a90d860ad826584d516efaad263bcd60ef",
+    "dimensions": [
+      287,
+      284
+    ],
+    "redactions": []
+  }
+]

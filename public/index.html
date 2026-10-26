@@ -32,8 +32,23 @@
       <!-- Brand & Title -->
       <div class="flex items-center gap-1.5 sm:gap-2.5 flex-shrink-0">
         <span class="bg-blue-600 text-white font-extrabold px-2 py-0.5 rounded text-[11px] sm:text-xs tracking-wider uppercase">Travel OS</span>
-        <h1 class="text-xs sm:text-sm font-bold text-slate-800 hidden md:inline">Scope Planner</h1>
-        <span id="client-badge" class="hidden text-[10px] sm:text-xs bg-indigo-50 text-indigo-700 font-semibold px-1.5 sm:px-2 py-0.5 rounded border border-indigo-200 truncate max-w-[85px] sm:max-w-none"></span>
+        <h1 class="text-xs sm:text-sm font-bold text-slate-800 hidden md:inline">Scope & Pitch</h1>
+        <button type="button" onclick="promptEditClient()" id="client-badge" title="Click to customize client name for this presentation" 
+                class="hidden text-[10px] sm:text-xs bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-semibold px-1.5 sm:px-2 py-0.5 rounded border border-indigo-200 truncate max-w-[110px] sm:max-w-none transition-colors cursor-pointer"></button>
+      </div>
+
+      <!-- VIEW MODE SWITCHER (EXECUTIVE PITCH vs SCOPE PLANNER) -->
+      <div class="flex items-center p-0.5 bg-slate-100 rounded-lg border border-slate-200 text-[11px] sm:text-xs font-semibold no-print flex-shrink-0 shadow-2xs">
+        <button type="button" id="tab-pitch-btn" onclick="setViewMode('pitch')" 
+                class="px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer text-slate-600 hover:text-slate-900">
+          <svg class="w-3.5 h-3.5 text-indigo-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
+          <span class="font-bold">Executive Pitch</span>
+        </button>
+        <button type="button" id="tab-planner-btn" onclick="setViewMode('planner')" 
+                class="px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer text-slate-600 hover:text-slate-900">
+          <svg class="w-3.5 h-3.5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+          <span class="hidden sm:inline">Scope Planner</span><span class="sm:hidden">Planner</span>
+        </button>
       </div>
 
       <!-- Email Identifier Chip -->
@@ -41,35 +56,27 @@
         <button type="button" onclick="openEmailModal()" id="email-btn" title="Click to view or link your email" 
                 class="px-2 sm:px-2.5 py-1 text-[11px] sm:text-xs font-semibold rounded-lg border flex items-center gap-1.5 transition-all shadow-2xs cursor-pointer bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-200">
           <svg class="w-3.5 h-3.5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-          <span id="top-email-text" class="truncate max-w-[95px] sm:max-w-[170px]">Add Email</span>
+          <span id="top-email-text" class="truncate max-w-[95px] sm:max-w-[140px]">Add Email</span>
         </button>
       </div>
 
-      <!-- Live Counters -->
-      <div class="flex items-center gap-1 sm:gap-2 text-[10px] sm:text-xs font-semibold flex-shrink-0">
-        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-emerald-50 text-emerald-700 rounded-md sm:rounded-lg border border-emerald-200">
+      <!-- Live Counters (hidden in pitch mode if desired, or compact) -->
+      <div id="top-counters-bar" class="flex items-center gap-1 sm:gap-2 text-[10px] sm:text-xs font-semibold flex-shrink-0">
+        <div class="flex items-center gap-1 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-emerald-50 text-emerald-700 rounded-md sm:rounded-lg border border-emerald-200">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <span>Now: <b id="count-now" class="font-bold">0</b></span>
         </div>
-        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-amber-50 text-amber-700 rounded-md sm:rounded-lg border border-amber-200">
+        <div class="flex items-center gap-1 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-amber-50 text-amber-700 rounded-md sm:rounded-lg border border-amber-200">
           <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
           <span>Later: <b id="count-later" class="font-bold">0</b></span>
-        </div>
-        <div class="flex items-center gap-1 px-1.5 sm:px-2.5 py-0.5 sm:py-1 bg-rose-50 text-rose-700 rounded-lg border border-rose-200">
-          <span class="w-1.5 h-1.5 rounded-full bg-rose-500"></span>
-          <span><span class="hidden sm:inline">Exclude</span><span class="sm:hidden">Excl</span>: <b id="count-excluded" class="font-bold">0</b></span>
         </div>
       </div>
 
       <!-- Action Buttons -->
       <div class="flex items-center gap-1 sm:gap-1.5 no-print flex-shrink-0">
-        <button onclick="copySummary()" title="Copy Scope Summary" class="px-2 sm:px-3 py-1.5 text-[11px] sm:text-xs font-semibold bg-slate-800 hover:bg-slate-900 text-white rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
+        <button onclick="copySummary()" title="Copy Scope Summary Link" class="px-2 sm:px-2.5 py-1.5 text-[11px] sm:text-xs font-semibold bg-slate-800 hover:bg-slate-900 text-white rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-          <span class="hidden lg:inline">Copy</span> <span class="hidden sm:inline">Summary</span>
-        </button>
-        <button onclick="downloadJSON()" title="Download State JSON" class="px-2 sm:px-3 py-1.5 text-[11px] sm:text-xs font-semibold bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-          <span class="hidden lg:inline">Download</span> <span>JSON</span>
+          <span class="hidden lg:inline">Share</span>
         </button>
         <button onclick="window.print()" title="Print / Save PDF" class="px-2 sm:px-2.5 py-1.5 text-[11px] sm:text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 rounded-lg shadow-xs transition-all flex items-center gap-1 cursor-pointer">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
@@ -80,35 +87,495 @@
     </div>
   </header>
 
-  <!-- INTRO BANNER -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5">
-    <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-xl p-4 sm:p-5 text-white shadow-md mb-6 flex flex-wrap items-center justify-between gap-4 overflow-hidden">
-      <div class="max-w-2xl">
-        <h2 class="text-base sm:text-lg font-extrabold tracking-tight">Customize Your Platform Scope</h2>
-        <p class="text-slate-300 text-xs sm:text-sm mt-0.5">
-          Drag & drop or use quick buttons to organize features. Add missing requirements in the <b>"Did we miss something?"</b> box. All changes auto-save.
+    
+    <!-- ======================================================== -->
+    <!-- 1. EXECUTIVE PITCH PRESENTATION VIEW                     -->
+    <!-- ======================================================== -->
+    <div id="pitch-view" class="space-y-8 sm:space-y-10">
+      
+      <!-- HERO PRESENTATION BANNER -->
+      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 text-white p-6 sm:p-8 shadow-xl border border-indigo-900/50">
+        <!-- Glow accents -->
+        <div class="absolute -right-16 -top-16 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-16 -bottom-16 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="relative z-10 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-[11px] font-bold tracking-wider uppercase mb-3">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              Executive Platform Pitch &bull; Travel OS
+            </div>
+            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white leading-tight">
+              The Operating System for Modern Tour Operators & DMCs
+            </h1>
+            <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed max-w-2xl">
+              A unified travel ERP that eliminates disconnected spreadsheets, blind margins, unmonitored WhatsApps, and manual GST chaos — delivering an auditable, end-to-end operation.
+            </p>
+
+            <!-- Personalized Presentation Meta Strip -->
+            <div class="mt-4 pt-4 border-t border-indigo-900/60 flex flex-wrap items-center gap-2.5 sm:gap-4 text-xs text-slate-300">
+              <div class="flex items-center gap-1.5 bg-indigo-950/70 px-3 py-1 rounded-lg border border-indigo-800/50">
+                <span class="text-indigo-400">🏢 Prepared for:</span>
+                <span id="pitch-client-display" onclick="promptEditClient()" title="Click to customize client name" 
+                      class="font-bold text-white underline decoration-dotted decoration-indigo-400 cursor-pointer hover:text-indigo-200">Valued Partner</span>
+              </div>
+              <div class="flex items-center gap-1.5 bg-indigo-950/70 px-3 py-1 rounded-lg border border-indigo-800/50">
+                <span class="text-indigo-400">📅 Date:</span>
+                <span class="font-bold text-white">October 17, 2026</span>
+              </div>
+              <div class="flex items-center gap-1.5 bg-indigo-950/70 px-3 py-1 rounded-lg border border-indigo-800/50">
+                <span class="text-indigo-400">🚀 Core Horizon:</span>
+                <span class="font-bold text-emerald-400">12 Months (Phase 1)</span>
+              </div>
+              <div class="flex items-center gap-1.5 bg-indigo-950/70 px-3 py-1 rounded-lg border border-indigo-800/50">
+                <span class="text-indigo-400">🛡️ Compliance:</span>
+                <span class="font-bold text-amber-300">DPDP Act 2023 & PCI DSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Actions -->
+          <div class="flex flex-col sm:flex-row lg:flex-col gap-2.5 flex-shrink-0">
+            <button type="button" onclick="setViewMode('planner')" 
+                    class="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+              <span>Explore Detailed Scope</span>
+            </button>
+            <button type="button" onclick="window.print()" 
+                    class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 cursor-pointer">
+              <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+              <span>Print Executive Pitch (PDF)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROBLEM VS SOLUTION CONTRAST CARDS -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+        <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="w-7 h-7 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center font-bold text-xs mb-2.5">01</div>
+            <h4 class="font-bold text-[10px] uppercase tracking-wider text-rose-600">The Problem</h4>
+            <h3 class="text-sm font-extrabold text-slate-800 mt-1">Fragmented WhatsApps & Lost Inquiries</h3>
+            <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+              Sales reps chat on personal phones. Calls go unrecorded. When an employee leaves, your customer conversations leave with them.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50/70 p-2 rounded-lg">
+            <span>✨</span> <span>Exotel IVR + Web WhatsApp + AI Call Summaries</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="w-7 h-7 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center font-bold text-xs mb-2.5">02</div>
+            <h4 class="font-bold text-[10px] uppercase tracking-wider text-amber-600">The Problem</h4>
+            <h3 class="text-sm font-extrabold text-slate-800 mt-1">Manual Quotation Re-Keying</h3>
+            <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+              Copy-pasting rates from supplier PDF quotes into Excel takes hours. Errors in child age brackets or single supplements kill profit.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50/70 p-2 rounded-lg">
+            <span>✨</span> <span>AI PDF Quote Parser + Dynamic FIT Wizard in 5 Mins</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="w-7 h-7 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xs mb-2.5">03</div>
+            <h4 class="font-bold text-[10px] uppercase tracking-wider text-blue-600">The Problem</h4>
+            <h3 class="text-sm font-extrabold text-slate-800 mt-1">Margin Blind Spots & GST Chaos</h3>
+            <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+              Net margins are invisible until monthly bank reconciliation. Applying 5% tour package vs 18% agency GST manually causes tax penalties.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50/70 p-2 rounded-lg">
+            <span>✨</span> <span>Per-Booking Real-Time P&L + Dual-Model GST Engine</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="w-7 h-7 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-xs mb-2.5">04</div>
+            <h4 class="font-bold text-[10px] uppercase tracking-wider text-indigo-600">The Problem</h4>
+            <h3 class="text-sm font-extrabold text-slate-800 mt-1">Zero Audit Trail & Governance Risk</h3>
+            <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">
+              Sales reps discount quotes without approval. No log of who changed prices, sent vouchers, or accessed confidential passport copies.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50/70 p-2 rounded-lg">
+            <span>✨</span> <span>Tamper-Proof Audit Trail + DPDP 2023 Masking</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- THE 4 CORE SHOWCASE PILLARS -->
+      <div class="space-y-6 sm:space-y-8">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-3">
+          <div>
+            <span class="text-xs font-bold text-indigo-600 uppercase tracking-widest">Platform Core Architecture</span>
+            <h2 class="text-xl sm:text-2xl font-black text-slate-900">4 Core Pillars Demanded by Enterprise Travel Leaders</h2>
+          </div>
+          <span class="text-xs text-slate-500 hidden sm:inline font-medium">Fully unified under one role-based engine</span>
+        </div>
+
+        <!-- PILLAR 1: CRM & COMMUNICATIONS SUITE -->
+        <div class="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-sm relative overflow-hidden">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-slate-100">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xl border border-blue-200">
+                💬
+              </div>
+              <div>
+                <span class="text-[11px] font-bold text-blue-600 uppercase tracking-wider">Pillar 01 &bull; Sales & Telephony</span>
+                <h3 class="text-lg sm:text-xl font-black text-slate-900">Omnichannel CRM & Communications Suite</h3>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-xs font-bold bg-blue-50 text-blue-800 px-3 py-1.5 rounded-lg border border-blue-200 w-fit">
+              <span>⚡ 40% Faster First Response</span>
+              <span class="text-blue-300">&bull;</span>
+              <span>100% Chat Retention</span>
+            </div>
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Centralizes every inbound inquiry, sales call, and WhatsApp conversation directly in the browser. Sales reps never hand out personal mobile numbers, and supervisors retain 100% visibility.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mt-5">
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-blue-600 font-bold text-xs uppercase tracking-wide">01. Ad Auto-Capture</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Meta & Google Ads Webhooks</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Instant lead injection into visual Kanban pipeline with duplicate phone/email detection and round-robin allocation.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-blue-600 font-bold text-xs uppercase tracking-wide">02. Web WhatsApp</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Official Two-Way Team Inbox</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Official WhatsApp Business API integration inside the browser. Dispatch proposals, payment links, and vouchers in 1 click.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-blue-600 font-bold text-xs uppercase tracking-wide">03. Integrated Telephony</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Exotel IVR & Click-to-Call</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Click-to-call directly from customer records. Inbound smart IVR recognizes returning travelers and routes to assigned rep.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-blue-600 font-bold text-xs uppercase tracking-wide">04. AI Intelligence</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Whisper Speech-to-Text & Summaries</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Every phone call is automatically recorded, transcribed to text, and summarized into 3-5 bullet points against the lead file.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PILLAR 2: TRAVEL ACCOUNTING, BILLING & INVOICING -->
+        <div class="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-sm relative overflow-hidden">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-slate-100">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-xl border border-emerald-200">
+                💰
+              </div>
+              <div>
+                <span class="text-[11px] font-bold text-emerald-600 uppercase tracking-wider">Pillar 02 &bull; Finance & Revenue Protection</span>
+                <h3 class="text-lg sm:text-xl font-black text-slate-900">Travel Accounting, Invoicing & Real-Time P&L</h3>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-xs font-bold bg-emerald-50 text-emerald-800 px-3 py-1.5 rounded-lg border border-emerald-200 w-fit">
+              <span>🎯 100% Margin Transparency</span>
+              <span class="text-emerald-300">&bull;</span>
+              <span>Zero Leakage</span>
+            </div>
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Eliminates spreadsheet-based blind pricing. Connects client collections directly to supplier purchase costs, enforcing margin floors, automated dual-model GST tax invoices, and real-time ledger settlement.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mt-5">
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-emerald-600 font-bold text-xs uppercase tracking-wide">01. Margin Engine</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Per-Booking Real-Time P&L</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Instant gross margin % and net profit calculation (Client Sell Price - Total Supplier Cost) visible to managers prior to locking.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-emerald-600 font-bold text-xs uppercase tracking-wide">02. Indian Tax Engine</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Dual-Model GST Invoicing</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Automated generation of 5% Tour Package invoices (without ITC) and 18% Agent Service invoices with compliant SAC codes and GSTIN.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-emerald-600 font-bold text-xs uppercase tracking-wide">03. Digital Collections</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Razorpay / UPI Payment Links</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Generate WhatsApp-shareable payment links with real-time webhook callbacks that immediately update outstanding balance dues.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-emerald-600 font-bold text-xs uppercase tracking-wide">04. Ledger Settlement</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Supplier Payables & Tally Export</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Track vendor payables, manual UTR numbers, advance receipts, and export complete audit ledgers directly into Tally Prime or CSV.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PILLAR 3: REAL-TIME REPORTING & MIS ANALYTICS -->
+        <div class="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-sm relative overflow-hidden">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-slate-100">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center font-bold text-xl border border-purple-200">
+                📊
+              </div>
+              <div>
+                <span class="text-[11px] font-bold text-purple-600 uppercase tracking-wider">Pillar 03 &bull; Intelligence & Oversight</span>
+                <h3 class="text-lg sm:text-xl font-black text-slate-900">Real-Time Reporting & MIS Analytics</h3>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-xs font-bold bg-purple-50 text-purple-800 px-3 py-1.5 rounded-lg border border-purple-200 w-fit">
+              <span>📈 3-Click Executive Oversight</span>
+              <span class="text-purple-300">&bull;</span>
+              <span>Live Dashboards</span>
+            </div>
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Puts live operational metrics at management's fingertips. No more waiting until the end of the month for reports — know your top sales reps, highest-margin destinations, and pipeline conversion bottlenecks instantly.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mt-5">
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-purple-600 font-bold text-xs uppercase tracking-wide">01. Rep Performance</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Executive KPI Cockpit</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Personalized rep views tracking active leads, follow-up compliance rate, conversion %, and first response times.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-purple-600 font-bold text-xs uppercase tracking-wide">02. Revenue Health</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Company Management MIS</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Aggregate gross sales, realized net profit, destination revenue breakdown, and marketing ad-spend ROI analytics.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-purple-600 font-bold text-xs uppercase tracking-wide">03. Pipeline Funnel</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Conversion Funnel & Lost Reasons</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Pinpoint exact stages where leads drop off. Categorize lost deals (pricing, competitor, timing) to adjust future markups.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-purple-600 font-bold text-xs uppercase tracking-wide">04. Operations Dispatch</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Movement & Seat Fill-Rates</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Daily operational calendar of passenger arrivals, hotel check-ins, and pre-purchased series air seat depletion rates.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PILLAR 4: TAMPER-PROOF AUDIT TRAIL & GOVERNANCE -->
+        <div class="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-sm relative overflow-hidden">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-5 border-b border-slate-100">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold text-xl border border-amber-200">
+                🛡️
+              </div>
+              <div>
+                <span class="text-[11px] font-bold text-amber-600 uppercase tracking-wider">Pillar 04 &bull; Security & Compliance</span>
+                <h3 class="text-lg sm:text-xl font-black text-slate-900">Tamper-Proof Audit Trail & Enterprise Governance</h3>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 text-xs font-bold bg-amber-50 text-amber-800 px-3 py-1.5 rounded-lg border border-amber-200 w-fit">
+              <span>🔒 100% Immutable Event Logs</span>
+              <span class="text-amber-300">&bull;</span>
+              <span>DPDP 2023 Ready</span>
+            </div>
+          </div>
+
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Provides foolproof security and compliance. Prevents unauthorized rate tampering, logs every price revision, protects client passport data under the India DPDP Act 2023, and insulates against card data liabilities.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 mt-5">
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-amber-600 font-bold text-xs uppercase tracking-wide">01. Immutable Logs</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Tamper-Proof Audit Trail</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Every action is cryptographically logged: User ID, Action Name, Record Modified, Exact Timestamp, and IP Address.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-amber-600 font-bold text-xs uppercase tracking-wide">02. Manager Oversight</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Supervisory Inspection Layer</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Supervisors can listen to any call recording, inspect WhatsApp chats, view quote revision diffs, and approve discount overrides.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-amber-600 font-bold text-xs uppercase tracking-wide">03. Strict Permissions</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">Role-Based Access (RBAC)</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Granular role separation across Super Admin, Sales Manager, Sales Rep, Operations Executive, and Accounts Team.</p>
+            </div>
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+              <div class="text-amber-600 font-bold text-xs uppercase tracking-wide">04. Privacy Compliance</div>
+              <h4 class="font-bold text-slate-900 text-xs sm:text-sm mt-1">India DPDP Act 2023 & PCI DSS</h4>
+              <p class="text-slate-500 text-xs mt-1 leading-relaxed">Passport masking (******4589), right-to-forget anonymization, S3 KMS encryption, and hosted PCI DSS SAQ-A tokenization.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- THE CONNECTIVE OPERATING ENGINE (THE TRAVEL WORKFLOW) -->
+      <div class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-2xl p-6 sm:p-8 shadow-md">
+        <div class="max-w-2xl">
+          <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">The Connective Workflow Engine</span>
+          <h3 class="text-xl sm:text-2xl font-black mt-1">How Travel OS Connects Every Stage Into One File</h3>
+          <p class="text-slate-300 text-xs sm:text-sm mt-1.5 leading-relaxed">
+            Most travel tools only make quotes or store leads. Travel OS bridges the gap between sales and operations, executing the booking and settling the financial ledger in one deterministic journey:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mt-6 text-center">
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">🎯</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">1. Inquire</div>
+            <div class="text-xs font-semibold text-white mt-1">Ads & WhatsApp Lead Capture</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">⚡</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">2. Quote</div>
+            <div class="text-xs font-semibold text-white mt-1">FIT Wizard & AI PDF Parser</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">🔒</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">3. Lock</div>
+            <div class="text-xs font-semibold text-white mt-1">1-Click Convert to Booking</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">📋</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">4. Execute</div>
+            <div class="text-xs font-semibold text-white mt-1">Automated Client & Hotel Vouchers</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">💰</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">5. Settle</div>
+            <div class="text-xs font-semibold text-white mt-1">Per-Booking P&L & GST Invoicing</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur-xs p-3.5 rounded-xl border border-white/10">
+            <div class="text-xl mb-1">🛡️</div>
+            <div class="text-[11px] font-bold text-indigo-300 uppercase">6. Audit</div>
+            <div class="text-xs font-semibold text-white mt-1">Immutable Logs & DPDP Protection</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMMERCIAL ROADMAP & COMPLIANCE SUMMARY -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
+        <div class="border-b border-slate-200 pb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Phased Delivery & Investment</span>
+            <h2 class="text-xl sm:text-2xl font-black text-slate-900">Commercial Roadmap & Delivery Horizons</h2>
+          </div>
+          <div class="text-xs font-bold text-slate-600 bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 w-fit">
+            Total Horizon: ~22 Months &bull; 3 Milestone Gates
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <!-- Phase 1 -->
+          <div class="p-5 rounded-xl border-2 border-blue-500 bg-blue-50/30 flex flex-col justify-between relative">
+            <span class="absolute -top-3 right-4 bg-blue-600 text-white text-[10px] font-extrabold uppercase px-2 py-0.5 rounded shadow-xs">Core Focus</span>
+            <div>
+              <div class="text-xs font-bold text-blue-700 uppercase tracking-wider">Phase 01 &bull; 12 Months</div>
+              <h3 class="text-base font-extrabold text-slate-900 mt-1">Internal CRM & Booking ERP</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Full Lead CRM, IVR Call Recording, Browser WhatsApp, Offline Hotel Contracts, Series Air Fares, FIT Packaging, 1-Click Vouchers, Per-Booking P&L, Dual-GST Invoicing, and Tamper-Proof Audit Trail.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-blue-200/60 flex items-baseline justify-between">
+              <span class="text-xs text-slate-500 font-medium">Investment:</span>
+              <span class="text-lg font-black text-slate-900">₹ 183.00 Lakhs</span>
+            </div>
+          </div>
+
+          <!-- Phase 2 -->
+          <div class="p-5 rounded-xl border border-slate-200 bg-slate-50/50 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Phase 02 &bull; 5 Months</div>
+              <h3 class="text-base font-extrabold text-slate-900 mt-1">Live API Integration Layer</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Geta Hotel API live rate fetch, room deduplication & normalization, Flight GDS live search & instant PNR booking (TBO/Amadeus), and multi-source rate comparison deck.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 flex items-baseline justify-between">
+              <span class="text-xs text-slate-500 font-medium">Investment:</span>
+              <span class="text-lg font-black text-slate-900">₹ 57.45 Lakhs</span>
+            </div>
+          </div>
+
+          <!-- Phase 3 -->
+          <div class="p-5 rounded-xl border border-slate-200 bg-slate-50/50 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Phase 03 &bull; 7 Months</div>
+              <h3 class="text-base font-extrabold text-slate-900 mt-1">B2B Partner Portal ("MyBiz")</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Registered sub-agent self-service logins, digital wallet top-up, configurable overdraft credit lines, white-label proposal generation, and monthly commission settlement statements.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 flex items-baseline justify-between">
+              <span class="text-xs text-slate-500 font-medium">Investment:</span>
+              <span class="text-lg font-black text-slate-900">₹ 84.35 Lakhs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compliance & Security Note Strip -->
+        <div class="bg-indigo-50/70 border border-indigo-200/80 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xl">🛡️</span>
+            <div>
+              <span class="font-extrabold text-indigo-950">Statutory Compliance Ready:</span>
+              <span class="text-indigo-800 ml-1">PCI DSS (SAQ A tokenized card elements via Razorpay/Stripe, eliminating raw card liabilities) + India DPDP Act 2023 Enterprise Data Protection.</span>
+            </div>
+          </div>
+          <span class="font-bold text-indigo-700 bg-white px-3 py-1 rounded-lg border border-indigo-200 shadow-2xs whitespace-nowrap">
+            PCI Included &bull; DPDP Add-on ~₹2.5L–₹4L
+          </span>
+        </div>
+      </div>
+
+      <!-- TRANSITION CALL TO ACTION -->
+      <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-2xl p-6 sm:p-8 text-white text-center shadow-lg flex flex-col items-center">
+        <h3 class="text-lg sm:text-2xl font-black">Want to Review Every Specific Feature in Detail?</h3>
+        <p class="text-slate-300 text-xs sm:text-sm mt-1.5 max-w-xl">
+          Switch over to the interactive Scope Planner to prioritize features between "Needed for Now" and "Deferred", customize notes in rich text, and answer timeline discovery questions.
         </p>
+        <button type="button" onclick="setViewMode('planner')" 
+                class="mt-5 px-6 py-3 rounded-xl bg-blue-500 hover:bg-blue-400 text-white font-extrabold text-xs sm:text-sm shadow-md transition-all flex items-center gap-2 cursor-pointer">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+          <span>Open Interactive Scope Planner</span>
+        </button>
       </div>
-      <div class="flex flex-wrap items-center gap-3 text-xs font-medium text-slate-300">
-        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> <b>Needed Now</b></span>
-        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-400"></span> <b>Deferred</b></span>
-        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-rose-400"></span> <b>Excluded</b></span>
-      </div>
+
     </div>
 
-    <!-- MODULES CONTAINER -->
-    <div id="modules-container" class="space-y-8 sm:space-y-10"></div>
-
-    <!-- 10 CRITICAL QUESTIONS SECTION -->
-    <section class="mt-12 sm:mt-14 bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 shadow-sm print-break">
-      <div class="border-b border-slate-200 pb-4 mb-6">
-        <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Final Step</span>
-        <h2 class="text-xl sm:text-2xl font-black text-slate-900">10 Questions That Determine Timeline & Pricing</h2>
-        <p class="text-xs sm:text-sm text-slate-500 mt-1">These answers help us calculate exact engineering hours and third-party API dependencies.</p>
+    <!-- ======================================================== -->
+    <!-- 2. DETAILED SCOPE PLANNER VIEW                          -->
+    <!-- ======================================================== -->
+    <div id="planner-view" class="hidden">
+      <!-- INTRO BANNER -->
+      <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-xl p-4 sm:p-5 text-white shadow-md mb-6 flex flex-wrap items-center justify-between gap-4 overflow-hidden">
+        <div class="max-w-2xl">
+          <h2 class="text-base sm:text-lg font-extrabold tracking-tight">Customize Your Platform Scope</h2>
+          <p class="text-slate-300 text-xs sm:text-sm mt-0.5">
+            Drag & drop or use quick buttons to organize features. Add missing requirements in the <b>"Did we miss something?"</b> box. All changes auto-save.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-3 text-xs font-medium text-slate-300">
+          <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> <b>Needed Now</b></span>
+          <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-400"></span> <b>Deferred</b></span>
+          <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-rose-400"></span> <b>Excluded</b></span>
+        </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6" id="questions-grid"></div>
-    </section>
+      <!-- MODULES CONTAINER -->
+      <div id="modules-container" class="space-y-8 sm:space-y-10"></div>
+
+      <!-- 10 CRITICAL QUESTIONS SECTION -->
+      <section class="mt-12 sm:mt-14 bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 shadow-sm print-break">
+        <div class="border-b border-slate-200 pb-4 mb-6">
+          <span class="text-xs font-bold text-blue-600 uppercase tracking-widest">Final Step</span>
+          <h2 class="text-xl sm:text-2xl font-black text-slate-900">10 Questions That Determine Timeline & Pricing</h2>
+          <p class="text-xs sm:text-sm text-slate-500 mt-1">These answers help us calculate exact engineering hours and third-party API dependencies.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6" id="questions-grid"></div>
+      </section>
+    </div>
 
     <!-- FEATURE EDIT & RICH TEXT NOTES MODAL -->
     <div id="feature-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 z-50 hidden no-print">
@@ -1003,15 +1470,100 @@
       closeFeatureEditor();
     }
   
+    // VIEW MODE SWITCHER (EXECUTIVE PITCH vs SCOPE PLANNER)
+    window.currentViewMode = 'pitch';
+
+    function setViewMode(mode) {
+      window.currentViewMode = mode;
+      localStorage.setItem('travel_os_view_mode', mode);
+
+      const pitchView = document.getElementById('pitch-view');
+      const plannerView = document.getElementById('planner-view');
+      const pitchBtn = document.getElementById('tab-pitch-btn');
+      const plannerBtn = document.getElementById('tab-planner-btn');
+
+      if (mode === 'pitch') {
+        if (pitchView) pitchView.classList.remove('hidden');
+        if (plannerView) plannerView.classList.add('hidden');
+        if (pitchBtn) pitchBtn.className = "px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer bg-white text-indigo-700 shadow-xs font-bold border border-indigo-100";
+        if (plannerBtn) plannerBtn.className = "px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer text-slate-600 hover:text-slate-900 font-semibold";
+      } else {
+        if (plannerView) plannerView.classList.remove('hidden');
+        if (pitchView) pitchView.classList.add('hidden');
+        if (plannerBtn) plannerBtn.className = "px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer bg-white text-blue-700 shadow-xs font-bold border border-blue-100";
+        if (pitchBtn) pitchBtn.className = "px-2.5 sm:px-3 py-1 rounded-md transition-all flex items-center gap-1.5 cursor-pointer text-slate-600 hover:text-slate-900 font-semibold";
+      }
+
+      // Update URL query parameter without page reload
+      try {
+        const url = new URL(window.location);
+        url.searchParams.set('view', mode);
+        window.history.replaceState({}, '', url);
+      } catch (e) {}
+
+      if (window.tracker && window.tracker.trackAction) {
+        window.tracker.trackAction('switch_view', `Switched view mode to: ${mode}`);
+      }
+    }
+
+    function promptEditClient() {
+      const current = localStorage.getItem('travel_os_client_tag') || '';
+      const newClient = prompt('Enter Client / Agency Name to customize this pitch presentation:', current || 'Ramlal Saini & Co');
+      if (newClient !== null && newClient.trim()) {
+        const trimmed = newClient.trim();
+        localStorage.setItem('travel_os_client_tag', trimmed);
+        syncClientDisplay(trimmed);
+
+        try {
+          const url = new URL(window.location);
+          url.searchParams.set('client', trimmed);
+          window.history.replaceState({}, '', url);
+        } catch (e) {}
+
+        if (window.tracker && window.tracker.trackAction) {
+          window.tracker.trackAction('update_client_name', `Client name set to: ${trimmed}`);
+        }
+      }
+    }
+
+    function syncClientDisplay(name) {
+      const badge = document.getElementById('client-badge');
+      const pitchMeta = document.getElementById('pitch-client-display');
+      if (name) {
+        if (badge) {
+          badge.innerText = "Client: " + name;
+          badge.classList.remove('hidden');
+        }
+        if (pitchMeta) {
+          pitchMeta.innerText = name;
+        }
+      } else {
+        if (badge) badge.classList.add('hidden');
+        if (pitchMeta) pitchMeta.innerText = "Valued Partner";
+      }
+    }
+
+    // Keyboard shortcut 'P' to toggle modes
+    window.addEventListener('keydown', (e) => {
+      const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : '';
+      if (tag === 'input' || tag === 'textarea' || (e.target && e.target.isContentEditable)) return;
+      if (e.key === 'p' || e.key === 'P') {
+        setViewMode(window.currentViewMode === 'pitch' ? 'planner' : 'pitch');
+      }
+    });
+
     // INITIAL LOAD
     renderModules();
     const p = new URLSearchParams(window.location.search);
-    const c = p.get("client") || p.get("c");
+    const c = p.get("client") || p.get("c") || localStorage.getItem('travel_os_client_tag');
     if (c) { 
-      const b = document.getElementById("client-badge"); 
-      b.innerText = "Client: " + c; 
-      b.classList.remove("hidden"); 
+      syncClientDisplay(c);
+      localStorage.setItem('travel_os_client_tag', c);
     }
+
+    // Resolve initial view mode from URL or localStorage (default to 'pitch' for meeting presentation)
+    const initialView = p.get("view") || p.get("mode") || localStorage.getItem('travel_os_view_mode') || 'pitch';
+    setViewMode(initialView);
 
     // Check if email was provided in URL query string (?email=... or ?e=...)
     const urlEmail = p.get("email") || p.get("e");
@@ -1021,14 +1573,14 @@
     }
     updateTopBarEmail();
 
-    // If user has no email saved and hasn't dismissed the prompt in this session, gently prompt after 1.5s
+    // If user has no email saved and hasn't dismissed the prompt in this session, gently prompt after 2s
     if (!localStorage.getItem('travel_os_user_email') && !sessionStorage.getItem('email_prompt_dismissed')) {
       setTimeout(() => {
-        if (!localStorage.getItem('travel_os_user_email')) {
+        if (!localStorage.getItem('travel_os_user_email') && window.currentViewMode === 'planner') {
           openEmailModal();
           sessionStorage.setItem('email_prompt_dismissed', 'true');
         }
-      }, 1500);
+      }, 2000);
     }
   </script>
 </body>

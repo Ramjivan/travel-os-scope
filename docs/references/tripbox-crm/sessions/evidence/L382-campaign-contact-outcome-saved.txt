@@ -1,0 +1,150 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1f_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					24 image
+					25 text TOS-AUDIT Fictional outreach A
+				26 heading TOS-AUDIT Fictional outreach A, Value: 1
+					27 text TOS-AUDIT Fictional outreach A
+				28 text pending 1  contacts
+				29 button Refresh campaign
+					52 image
+				31 button Manage team
+					32 image
+					33 text Manage team
+				34 button Add contacts
+					35 image
+					36 text Add contacts
+			37 container
+				38 text CONTACTS 1 TEAM MEMBERS 0 SELECTED 0 CREATED 09/10/2026
+			39 container Contact filters
+				40 container
+					41 image
+					42 text field (settable)
+				43 container
+					44 combo box (collapsed, settable) ID: rc_select_22, Secondary Actions: Expand
+					45 text All statuses
+				46 container
+					47 combo box (collapsed, settable) ID: rc_select_23, Secondary Actions: Expand
+					48 text All outcomes
+				49 container
+					50 combo box (collapsed, settable) ID: rc_select_24, Secondary Actions: Expand
+					51 text All assignees
+			53 container
+				54 table
+					55 row
+						56 cell
+							57 container
+								58 checkbox (settable, integer) Description: Select all, Value: 0
+						59 cell
+							60 text CONTACT NAME
+						61 cell
+							62 text EMAIL
+						63 cell
+							64 text PHONE
+						65 cell
+							66 text TAGS
+						67 cell
+							68 text STATUS
+							69 button filter
+								70 image filter
+						71 cell
+							72 text OUTCOME
+							73 button filter
+								74 image filter
+						75 cell
+							76 text ASSIGNED TO
+							77 button filter
+								78 image filter
+						79 cell
+							80 text ACTION
+					81 row
+						82 cell
+							83 container
+								84 checkbox (settable, integer) Description:  , Value: 0
+						85 cell
+							86 button TOS-AUDIT Fictional Family Contact C
+						87 cell
+							88 text family-c@example.invalid
+						89 cell
+							90 text -
+						91 cell
+							92 button TOS-AUDIT Household C
+						93 cell
+							94 text new
+						95 cell
+							96 text -
+						97 cell
+							98 text -
+						99 cell
+							100 container
+								101 button
+									102 image
+								103 button
+									104 image
+				105 container contacts pagination
+					106 container
+						107 text 1 – 1  of  1 contacts
+					108 content list
+						109 container Previous Page
+							110 button (disabled) left
+								111 image left
+						112 text 1
+						113 container Next Page
+							114 button (disabled) right
+								115 image right
+						116 container Page Size
+							117 container
+								118 combo box (collapsed, settable) Description: Page Size, ID: rc_select_26, Secondary Actions: Expand
+								119 text 20 / page
+		120 container
+			121 container Update Contact
+				122 container
+					123 button Close
+						124 container Close
+							125 image close
+					126 text Update Contact
+					127 text Status
+					128 container
+						129 combo box (collapsed, settable) Status, ID: status, Secondary Actions: Expand
+						130 text New
+					131 text Outcome
+					132 container
+						133 combo box (collapsed, settable) Outcome, ID: outcome, Secondary Actions: Expand
+						147 text Interested
+					135 text Reference Name
+					136 text field (settable) Reference Name, ID: referenceName
+					137 text Reference Phone
+					138 text field (settable) Reference Phone
+					139 text Followup Date
+					140 container
+						141 text field (settable) Followup Date, ID: followupDate
+						142 image calendar
+					143 text Note
+					144 text entry area (settable) Note, Value: TOS-AUDIT fictional outcome only; no customer contacted., ID: note
+					145 button Cancel
+					146 button loading Update
+						148 image loading
+						149 text Update
+
+The focused UI element is 146 button loading Update

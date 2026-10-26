@@ -1,0 +1,369 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_2d_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 link Description: #2, Value: tripboxcrm.com/leads/2
+					26 image
+					27 text Edit itinerary
+				28 heading Itinerary workspace, Value: 1
+					29 text Itinerary workspace
+				30 text Proposed for  TOS-AUDIT Fictional Traveller B
+				31 button Quote with AI
+					32 image
+					33 text Quote with AI
+				34 button Approve & start booking
+			35 container
+				36 image
+				37 text Route
+				38 text Indonesia (Bali)
+				39 text Country-level route
+				40 text Travel dates
+				41 container
+					42 text 20 Nov – 22 Nov 2026 ·  2  nights
+				43 image
+				44 text Guests
+				45 container
+					46 text 2  adults
+				47 text Currency
+				48 text INR
+				49 button Trip details
+					50 image
+					51 text Trip details
+				52 button Add stops
+					53 image
+					54 text Add stops
+				55 container
+					56 link Description: Hotels, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#hotels
+					57 link Description: Daily plan, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#activities
+					58 link Description: Travel, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#travel
+					59 link Description: Custom services, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#custom-services
+					60 link Description: Details, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#extras
+					61 link Description: Pricing, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#markup
+					62 link Description: Cost, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a#cost
+				63 container hotels
+					64 image
+					65 heading Hotels, Value: 3
+						66 text Hotels
+					67 container
+						68 text 1  accommodation stays
+					69 button Add hotel
+						70 image
+						71 text Add hotel
+					72 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					232 text Ubud
+					233 image
+					234 text 20 Nov  – 22 Nov  · 2N
+					235 button View details for TOS-AUDIT Fictional Hotel B
+						236 text TOS-AUDIT Fictional Hotel B
+						237 text Draft
+					238 text TOS-AUDIT Standard Room
+					239 text HB
+					240 button View rates for TOS-AUDIT Fictional Hotel B
+						241 text INR
+						242 text 11,400
+					243 button Edit TOS-AUDIT Fictional Hotel B
+						244 image
+					245 button Remove TOS-AUDIT Fictional Hotel B
+						246 image
+					88 container
+						89 image
+						90 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					91 button Browse
+						92 image
+						93 text Browse
+				94 container activities
+					95 image
+					96 heading Daily plan, Value: 3
+						97 text Daily plan
+					98 text Activities and ground transport in one timeline
+					99 container
+						100 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						101 container
+							102 container
+								103 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							104 button Activities
+								105 image
+								106 text Activities
+							107 button Transport
+								108 image
+								109 text Transport
+						110 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						111 container
+							112 container
+								113 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							114 button Activities
+								115 image
+								116 text Activities
+							117 button Transport
+								118 image
+								119 text Transport
+						120 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						121 container
+							122 container
+								123 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							124 button Activities
+								125 image
+								126 text Activities
+							127 button Transport
+								128 image
+								129 text Transport
+				130 container daily-transports
+					131 image
+					132 heading Full day transport, Value: 2
+						133 text Full day transport
+					134 text Cab services charged per day across your selected dates
+					135 container
+						136 image
+						137 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_8, Secondary Actions: Expand
+					138 button Browse inventory
+						139 image
+						140 text Browse inventory
+					141 image
+					142 button TOS-AUDIT Fictional Full Day Transport B Full Day Ubud · 20 Nov–22 Nov · Draft
+						143 text TOS-AUDIT Fictional Full Day Transport B
+						144 text Full Day
+						145 text Ubud · 20 Nov–22 Nov · Draft
+					146 button INR 4,500
+					147 button (disabled) Move Full Day transport up
+						148 image
+					149 button (disabled) Move Full Day transport down
+						150 image
+					151 button Edit Full Day transport
+						152 image
+					153 button Remove Full Day transport
+						154 image
+				155 container travel
+					156 image
+					157 heading Flights, Value: 3
+						158 text Flights
+					159 container
+						160 text 1  flight segments
+					161 text 1
+					162 button Fictional departure airport → Fictional arrival airport Draft TOS-AUDIT Fictional Airline B TOS-AUDIT-001 · Timing not set · Direct
+						163 text Fictional departure airport → Fictional arrival airport
+						164 text Draft
+						165 text TOS-AUDIT Fictional Airline B TOS-AUDIT-001 · Timing not set · Direct
+					166 button INR 500
+					167 button Edit flight 1
+						168 image
+					169 button Remove flight 1
+						170 image
+					171 button Add flight
+						172 image
+						173 text Add flight
+				174 container Description: Custom services, ID: custom-services
+					175 image
+					176 heading Custom services, Value: 3
+						177 text Custom services
+					178 text Visas, insurance, and other trip arrangements
+					179 button Add service
+						180 image
+						181 text Add service
+					182 text No custom services yet
+					183 text Use Add service to include an arrangement with its own details and pricing.
+				184 container
+					185 button Inclusions & policies 1 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						186 image
+						187 text Inclusions & policies
+						188 text 1 inclusions · 0 exclusions · 0 policy sections
+						189 image
+					190 button Markup & taxes 0% markup · No taxes, ID: markup
+						191 image
+						192 text Markup & taxes
+						193 text 0% markup · No taxes
+						194 image
+					195 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						196 image
+						197 text Cost breakdown
+						198 text Hotels, activities, transport, flights and custom services
+						199 image
+				200 container
+					201 text LIVE QUOTE Live calculation
+					202 heading Indonesia (Bali), Value: 2
+						203 text Indonesia (Bali)
+					204 image
+					205 text 20 Nov  to  22 Nov 2  night s
+					206 container mobile-quote-details
+						207 image
+						208 text TOS-AUDIT Fictional Traveller B
+						209 container
+							210 text 2  Adults
+						211 heading Quote composition, Value: 3
+							212 text Quote composition
+						213 text Base, margin, taxes
+						214 container Quote cost composition
+						215 text Base cost ₹16,400 Markup ₹0  ( 0 %) Selling price ₹16,400 Per adult ₹8,200
+				216 container
+					217 heading Actions, Value: 3
+						218 text Actions
+					219 text Payment plan set ₹0 Unaccounted amount ₹16,400
+					220 button Save Itinerary
+						221 image
+						222 text Save Itinerary
+					223 button Payment Management
+						224 image
+						225 text Payment Management
+					226 button (disabled) Download Itinerary
+						227 image
+						228 text Download Itinerary
+					229 button (disabled) Quick Share
+						230 image
+						231 text Quick Share
+		247 container
+			248 container Hotel details
+				249 container
+					250 button Close
+						251 container Close
+							252 image close
+					253 text Hotel details
+					254 container
+						255 container
+							256 image hotel
+							257 container
+								258 image eye
+								259 text Preview
+						260 heading TOS-AUDIT Fictional Hotel B, Value: 4
+							261 text TOS-AUDIT Fictional Hotel B
+						262 text Ubud ,  Indonesia (Bali)  •  4 Star
+						263 button Open TOS-AUDIT Fictional Hotel B in the hotel repository
+							264 image
+						265 button Remove TOS-AUDIT Fictional Hotel B
+							266 image
+						267 text Inventory linked Snapshot details stay independent.
+						268 heading Stay configuration, Value: 5
+							269 text Stay configuration
+						270 text Set the stay dates, room arrangement, meal plan, and guest allocation.
+						271 container
+							272 text * Stay dates
+						273 container
+							274 text field (settable) * Stay dates, Value: 20 Nov 2026, ID: hotels_0_checkInDates
+							275 container to
+								276 image swap-right
+							277 text field (settable) 22 Nov 2026
+							278 image
+							279 button close-circle
+								280 image close-circle
+						281 text Room type
+						282 container
+							283 combo box (collapsed, settable) Room type, ID: hotels_0_roomType, Secondary Actions: Expand
+							284 text TOS-AUDIT Standard Room
+						285 container
+							286 text * Meal plan
+						287 container
+							288 combo box (collapsed, settable) * Meal plan, ID: hotels_0_mealPlan, Secondary Actions: Expand
+							289 text HB
+						290 heading ROOM ALLOCATION, Value: 5
+							291 text ROOM ALLOCATION
+						292 text Use zero where an occupancy type is not required.
+						293 container
+							294 text * Guests / room
+						295 container
+							296 button Increase Value
+								297 image up
+							298 button Decrease Value
+								299 image down
+							300 stepper (settable, integer) * Guests / room, Value: 2, ID: hotels_0_paxPerRoom
+						301 container
+							302 text * Rooms
+						303 container
+							304 button Increase Value
+								305 image up
+							306 button Decrease Value
+								307 image down
+							308 stepper (settable, integer) * Rooms, Value: 2, ID: hotels_0_numberOfRooms
+						309 container
+							310 text * Adult extra beds
+						311 container
+							312 button Increase Value
+								313 image up
+							314 button Decrease Value
+								315 image down
+							316 stepper (settable, integer) * Adult extra beds, Value: 1, ID: hotels_0_aweb
+						317 button Duplicate
+							318 image
+							319 text Duplicate
+						320 button Notes
+							321 image
+							322 text Notes
+						323 text Duplicate this stay when the same hotel needs another room type.
+						324 button Manage rates
+							325 image
+							326 text Manage rates
+						327 text Total: INR 11,400
+					328 button Done
+		329 container
+			330 container Day-wise hotel rates TOS-AUDIT Fictional Hotel B
+				331 container
+					332 button Close
+						333 container Close
+							334 image close
+					335 heading Day-wise hotel rates, Value: 2
+						336 text Day-wise hotel rates
+					337 text TOS-AUDIT Fictional Hotel B
+					338 text Select a daily rate to edit its room and occupancy pricing.
+					339 image
+					340 container
+						341 table
+							342 row
+								343 cell
+									344 text Date
+								345 cell
+									346 text Day
+								347 cell
+									348 text Rate Type
+								349 cell
+									350 text Daily rate (INR)
+						351 table
+							352 row
+								353 cell
+									354 text 20 Nov 2026
+								355 cell
+									356 text Friday
+								357 cell
+									358 text Standard
+								359 cell
+									360 button Edit rate for 20 Nov 2026
+										361 text INR
+										362 text 5,700
+										363 image
+							364 row
+								365 cell
+									366 text 21 Nov 2026
+								367 cell
+									368 text Saturday
+								369 cell
+									370 text Standard
+								371 cell
+									372 button Edit rate for 21 Nov 2026
+										373 text INR
+										374 text 5,700
+										375 image
+							376 row
+								377 cell
+									378 text Total
+								379 cell
+									380 text INR 11,400
+					381 button Close
+
+The focused UI element is 324 button Manage rates

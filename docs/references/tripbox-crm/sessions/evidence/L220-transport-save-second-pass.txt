@@ -1,0 +1,666 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/transports-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Transports Repository
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Transports repository, Value: 1
+					61 text Transports repository
+				62 text Maintain transfer, cab, and tour vehicle services used in itinerary logistics.
+				63 link Description: Add transport, Value: tripboxcrm.com/org/transports-repository/new
+				64 text Transports
+				65 text 696
+				66 text Total service records
+				67 text Visible
+				68 text 696
+				69 text Matching current filters
+				70 text Service types
+				71 text 3
+				72 text Available service filters
+				73 container List controls
+					74 container
+						75 image
+						76 search text field (settable)
+						77 button search
+							78 image search
+					79 container
+						80 combo box (collapsed, settable) ID: rc_select_12, Secondary Actions: Expand
+						81 text Filter by service
+					82 container
+						83 combo box (collapsed, settable) ID: rc_select_13, Secondary Actions: Expand
+						84 text Agency portal
+					85 container
+						86 combo box (collapsed, settable) ID: rc_select_14, Secondary Actions: Expand
+						87 text Inventory source
+					88 button loading
+						89 image loading
+					90 button (disabled) Bulk edit
+						91 image
+						92 text Bulk edit
+					93 button Import / export
+						94 image
+						95 text Import / export
+				96 table
+					97 row
+						98 cell
+							99 container
+								100 checkbox (settable, integer) Description: Select all, Value: 0
+						101 cell Transport
+							102 text Transport
+						103 cell Location
+							104 text Location
+						105 cell
+							106 text Service
+						107 cell Preferred supplier
+							108 text Preferred supplier
+						109 cell
+							110 text Status
+						111 cell
+							112 text Agent portal
+						113 cell
+							114 text Actions
+					115 row
+						116 cell
+							117 container
+								118 checkbox (settable, integer) Description:  , Value: 0
+						119 cell
+							120 image transport
+						121 cell
+							122 text 01 Hour Limousine Ride. Shared Updated  12 days ago
+						123 cell
+							124 text Dubai
+							125 text United Arab Emirates (UAE)
+						126 cell
+							127 text Private Tour
+							128 text fixed
+							129 container
+								130 text 1 h
+						131 cell
+							132 text -
+						133 cell
+							134 text Active
+						135 cell
+							136 text Visible
+						137 cell
+							138 link tripboxcrm.com/org/transports-repository/4bbb998b-ecb2-410c-88a9-426686183300
+							139 link tripboxcrm.com/org/transports-repository/new?duplicate=4bbb998b-ecb2-410c-88a9-426686183300
+							140 button
+								141 image
+					142 row
+						143 cell
+							144 container
+								145 checkbox (settable, integer) Description:  , Value: 0
+						146 cell
+							147 image transport
+						148 cell
+							149 text 3 Islands by Boat – Hon Thom Cable Car on private basis. Shared Updated  12 days ago
+						150 cell
+							151 text Phu Quoc
+							152 text Vietnam
+						153 cell
+							154 text Private Tour
+							155 text fixed
+							156 container
+								157 text 6 h
+						158 cell
+							159 text -
+						160 cell
+							161 text Active
+						162 cell
+							163 text Visible
+						164 cell
+							165 link tripboxcrm.com/org/transports-repository/cf138ab1-ab9d-4169-8a72-211e21f1cc47
+							166 link tripboxcrm.com/org/transports-repository/new?duplicate=cf138ab1-ab9d-4169-8a72-211e21f1cc47
+							167 button
+								168 image
+					169 row
+						170 cell
+							171 container
+								172 checkbox (settable, integer) Description:  , Value: 0
+						173 cell
+							174 image transport
+						175 cell
+							176 text 4 Islands tour by Boat – Hon Thom Cable Car on private basis. Shared Updated  12 days ago
+						177 cell
+							178 text Phu Quoc
+							179 text Vietnam
+						180 cell
+							181 text Private Tour
+							182 text fixed
+							183 container
+								184 text 9 h
+						185 cell
+							186 text -
+						187 cell
+							188 text Active
+						189 cell
+							190 text Visible
+						191 cell
+							192 link tripboxcrm.com/org/transports-repository/e4a72059-70a8-4ca5-aaf1-9489c32eefbe
+							193 link tripboxcrm.com/org/transports-repository/new?duplicate=e4a72059-70a8-4ca5-aaf1-9489c32eefbe
+							194 button
+								195 image
+					196 row
+						197 cell
+							198 container
+								199 checkbox (settable, integer) Description:  , Value: 0
+						200 cell
+							201 image transport
+						202 cell
+							203 text 6N RETURN FLIGHT TICKETS ( NEXUS BLOCKING ) Shared Updated  12 days ago
+						204 cell
+							205 text Kuta
+							206 text Indonesia (Bali)
+						207 cell
+							208 text Cab
+							209 text fixed
+						210 cell
+							211 text -
+						212 cell
+							213 text Active
+						214 cell
+							215 text Visible
+						216 cell
+							217 link tripboxcrm.com/org/transports-repository/72d55e7c-20d4-488f-b827-b4908e4a3165
+							218 link tripboxcrm.com/org/transports-repository/new?duplicate=72d55e7c-20d4-488f-b827-b4908e4a3165
+							219 button
+								220 image
+					221 row
+						222 cell
+							223 container
+								224 checkbox (settable, integer) Description:  , Value: 0
+						225 cell
+							226 image transport
+						227 cell
+							228 text 7N RETURN FLIGHT TICKETS Shared Updated  12 days ago
+						229 cell
+							230 text Kuta
+							231 text Indonesia (Bali)
+						232 cell
+							233 text Cab
+							234 text fixed
+						235 cell
+							236 text -
+						237 cell
+							238 text Active
+						239 cell
+							240 text Visible
+						241 cell
+							242 link tripboxcrm.com/org/transports-repository/786e4018-9f71-4bae-a622-d7f55e6a6faa
+							243 link tripboxcrm.com/org/transports-repository/new?duplicate=786e4018-9f71-4bae-a622-d7f55e6a6faa
+							244 button
+								245 image
+					246 row
+						247 cell
+							248 container
+								249 checkbox (settable, integer) Description:  , Value: 0
+						250 cell
+							251 image transport
+						252 cell
+							253 text Abu Dhabi City Tour on private basis Shared Updated  12 days ago
+						254 cell
+							255 text Abu Dhabi
+							256 text United Arab Emirates (UAE)
+						257 cell
+							258 text Private Tour
+							259 text fixed
+							260 container
+								261 text 4 h
+						262 cell
+							263 text -
+						264 cell
+							265 text Active
+						266 cell
+							267 text Visible
+						268 cell
+							269 link tripboxcrm.com/org/transports-repository/0487c836-733d-4ede-b6f5-3d6f01309bde
+							270 link tripboxcrm.com/org/transports-repository/new?duplicate=0487c836-733d-4ede-b6f5-3d6f01309bde
+							271 button
+								272 image
+					273 row
+						274 cell
+							275 container
+								276 checkbox (settable, integer) Description:  , Value: 0
+						277 cell
+							278 image transport
+						279 cell
+							280 text Abu dhabi Departure Shared Updated  12 days ago
+						281 cell
+							282 text Abu Dhabi
+							283 text United Arab Emirates (UAE)
+						284 cell
+							285 text Cab
+							286 text fixed
+						287 cell
+							288 text -
+						289 cell
+							290 text Active
+						291 cell
+							292 text Visible
+						293 cell
+							294 link tripboxcrm.com/org/transports-repository/74cb519a-0c55-4ed8-9de1-53ec41d0c966
+							295 link tripboxcrm.com/org/transports-repository/new?duplicate=74cb519a-0c55-4ed8-9de1-53ec41d0c966
+							296 button
+								297 image
+					298 row
+						299 cell
+							300 container
+								301 checkbox (settable, integer) Description:  , Value: 0
+						302 cell
+							303 image transport
+						304 cell
+							305 text Abu Dhabi to Dubai transfer on private basis. Shared Updated  12 days ago
+						306 cell
+							307 text Dubai
+							308 text United Arab Emirates (UAE)
+						309 cell
+							310 text Private Tour
+							311 text fixed
+							312 container
+								313 text 4 h
+						314 cell
+							315 text -
+						316 cell
+							317 text Active
+						318 cell
+							319 text Visible
+						320 cell
+							321 link tripboxcrm.com/org/transports-repository/f0e637c4-c66a-4775-81df-7f862824629d
+							322 link tripboxcrm.com/org/transports-repository/new?duplicate=f0e637c4-c66a-4775-81df-7f862824629d
+							323 button
+								324 image
+					325 row
+						326 cell
+							327 container
+								328 checkbox (settable, integer) Description:  , Value: 0
+						329 cell
+							330 image transport
+						331 cell
+							332 text Ahmedabad to Dholavira Shared Updated  12 days ago
+						333 cell
+							334 text Ahmedabad
+							335 text India
+						336 cell
+							337 text Private Tour
+							338 text fixed
+							339 container
+								340 text 6 h
+						341 cell
+							342 text -
+						343 cell
+							344 text Active
+						345 cell
+							346 text Visible
+						347 cell
+							348 link tripboxcrm.com/org/transports-repository/517bbc3d-c326-4704-b404-4e4483a31926
+							349 link tripboxcrm.com/org/transports-repository/new?duplicate=517bbc3d-c326-4704-b404-4e4483a31926
+							350 button
+								351 image
+					352 row
+						353 cell
+							354 container
+								355 checkbox (settable, integer) Description:  , Value: 0
+						356 cell
+							357 image transport
+						358 cell
+							359 text Alas Harum Bali Shared Updated  12 days ago
+						360 cell
+							361 text Ubud
+							362 text Indonesia (Bali)
+						363 cell
+							364 text Private Tour
+							365 text fixed
+							366 container
+								367 text 2 h
+						368 cell
+							369 text -
+						370 cell
+							371 text Active
+						372 cell
+							373 text Visible
+						374 cell
+							375 link tripboxcrm.com/org/transports-repository/155e6a2a-cb85-4099-9b7d-ad72258d304b
+							376 link …
+							377 button
+								378 image
+					379 row
+						380 cell
+							381 container
+								382 checkbox (settable, integer) Description:  , Value: 0
+						383 cell
+							384 image transport
+						385 cell
+							386 text Alas Harum (Transfers only) Shared Updated  12 days ago
+						387 cell
+							388 text Ubud
+							389 text Indonesia (Bali)
+						390 cell
+							391 text Private Tour
+							392 text fixed
+						393 cell
+							394 text -
+						395 cell
+							396 text Active
+						397 cell
+							398 text Visible
+						399 cell
+							400 link …
+							401 link …
+							402 button
+								403 image
+					404 row
+						405 cell
+							406 container
+								407 checkbox (settable, integer) Description:  , Value: 0
+						408 cell
+							409 image transport
+						410 cell
+							411 text Alcazar Show Pattaya Shared Updated  12 days ago
+						412 cell
+							413 text Pattaya
+							414 text Thailand
+						415 cell
+							416 text Private Tour
+							417 text fixed
+						418 cell
+							419 text -
+						420 cell
+							421 text Active
+						422 cell
+							423 text Visible
+						424 cell
+							425 link …
+							426 link …
+							427 button
+								428 image
+					429 row
+						430 cell
+							431 container
+								432 checkbox (settable, integer) Description:  , Value: 0
+						433 cell
+							434 image transport
+						435 cell
+							436 text Alleppey to Kovalam Shared Updated  12 days ago
+						437 cell
+							438 text Bengaluru (Bangalore)
+							439 text India
+						440 cell
+							441 text Private Tour
+							442 text fixed
+						443 cell
+							444 text -
+						445 cell
+							446 text Active
+						447 cell
+							448 text Visible
+						449 cell
+							450 link …
+							451 link …
+							452 button
+								453 image
+					454 row
+						455 cell
+							456 container
+								457 checkbox (settable, integer) Description:  , Value: 0
+						458 cell
+							459 image transport
+						460 cell
+							461 text Alleppey to Thekkady Shared Updated  12 days ago
+						462 cell
+							463 text Thekkady
+							464 text India
+						465 cell
+							466 text Private Tour
+							467 text fixed
+						468 cell
+							469 text -
+						470 cell
+							471 text Active
+						472 cell
+							473 text Visible
+						474 cell
+							475 link …
+							476 link …
+							477 button
+								478 image
+					479 row
+						480 cell
+							481 container
+								482 checkbox (settable, integer) Description:  , Value: 0
+						483 cell
+							484 image transport
+						485 cell
+							486 text Alma Arsaan Gorge Shared Updated  12 days ago
+						487 cell
+							488 text Almaty
+							489 text Kazakhstan
+						490 cell
+							491 text Private Transfer
+							492 text fixed
+						493 cell
+							494 text -
+						495 cell
+							496 text Active
+						497 cell
+							498 text Visible
+						499 cell
+							500 link …
+							501 link …
+							502 button
+								503 image
+					504 row
+						505 cell
+							506 container
+								507 checkbox (settable, integer) Description:  , Value: 0
+						508 cell
+							509 image transport
+						510 cell
+							511 text Almaty City Tour & Kok Tobe Shared Updated  12 days ago
+						512 cell
+							513 text Almaty
+							514 text Kazakhstan
+						515 cell
+							516 text Private Tour
+							517 text fixed
+						518 cell
+							519 text -
+						520 cell
+							521 text Active
+						522 cell
+							523 text Visible
+						524 cell
+							525 link …
+							526 link …
+							527 button
+								528 image
+					529 row
+						530 cell
+							531 container
+								532 checkbox (settable, integer) Description:  , Value: 0
+						533 cell
+							534 image transport
+						535 cell
+							536 text Almaty City Tour on Private basis Shared Updated  12 days ago
+						537 cell
+							538 text Almaty
+							539 text Kazakhstan
+						540 cell
+							541 text Private Tour
+							542 text fixed
+							543 container
+								544 text 4 h
+						545 cell
+							546 text -
+						547 cell
+							548 text Active
+						549 cell
+							550 text Visible
+						551 cell
+							552 link …
+							553 link …
+							554 button
+								555 image
+					556 row
+						557 cell
+							558 container
+								559 checkbox (settable, integer) Description:  , Value: 0
+						560 cell
+							561 image transport
+						562 cell
+							563 text Aloha Bali Swing Shared Updated  12 days ago
+						564 cell
+							565 text Ubud
+							566 text Indonesia (Bali)
+						567 cell
+							568 text Private Tour
+							569 text fixed
+							570 container
+								571 text 2 h
+						572 cell
+							573 text -
+						574 cell
+							575 text Active
+						576 cell
+							577 text Visible
+						578 cell
+							579 link …
+							580 link …
+							581 button
+								582 image
+					583 row
+						584 cell
+							585 container
+								586 checkbox (settable, integer) Description:  , Value: 0
+						587 cell
+							588 image transport
+						589 cell
+							590 text Am Phu Cave tour Shared Updated  12 days ago
+						591 cell
+							592 text Da Nang
+							593 text Vietnam
+						594 cell
+							595 text Private Tour
+							596 text fixed
+						597 cell
+							598 text -
+						599 cell
+							600 text Active
+						601 cell
+							602 text Visible
+						603 cell
+							604 link …
+							605 link …
+							606 button
+								607 image
+					608 row
+						609 cell
+							610 container
+								611 checkbox (settable, integer) Description:  , Value: 0
+						612 cell
+							613 image transport
+						614 cell
+							615 text An Bang Beach on private basis. Shared Updated  12 days ago
+						616 cell
+							617 text Da Nang
+							618 text Vietnam
+						619 cell
+							620 text Private Tour
+							621 text fixed
+							622 container
+								623 text 2 h
+						624 cell
+							625 text -
+						626 cell
+							627 text Active
+						628 cell
+							629 text Visible
+						630 cell
+							631 link …
+							632 link …
+							633 button
+								634 image
+				635 container transports pagination
+					636 container
+						637 text 1 – 20  of  696 transports
+					638 content list
+						639 container Previous Page
+							640 button (disabled) left
+								641 image left
+						642 text 1
+						643 text 2
+						644 text 3
+						645 container Next 3 Pages
+							646 container
+								647 image double-right
+								648 text •••
+						649 text 35
+						650 container Next Page
+							651 button right
+								652 image right
+						653 container
+							654 container Page Size
+								655 container
+									656 combo box (collapsed, settable) Description: Page Size, ID: rc_select_15, Secondary Actions: Expand
+									657 text 20 / page
+							658 text Go to
+							659 text field (settable) Page
+							660 text Page
+		661 container
+			662 image check-circle
+			663 text Transport created successfully
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/transports-repository

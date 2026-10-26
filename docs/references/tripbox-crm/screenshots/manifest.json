@@ -1,0 +1,250 @@
+[
+  {
+    "reference_id": "TRIPBOX-001",
+    "source_filename": "codex-clipboard-4b29e51a-e441-4077-9725-2d92cbbeead4.png",
+    "source_sha256": "60ea1b94a3adaa32bec680dca7bb28b21f47dda5290010727c56de18777358ad",
+    "archive_filename": "tripbox-001-capture-itinerary.png",
+    "archive_sha256": "60ea1b94a3adaa32bec680dca7bb28b21f47dda5290010727c56de18777358ad",
+    "dimensions": [
+      1245,
+      689
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "TRIPBOX-002",
+    "source_filename": "codex-clipboard-760a6743-8887-4df4-965e-a8f7e31726fb.png",
+    "source_sha256": "0b124a61125c2f1f7210fa34f40a569c24283c4fc082c4e6ee13b8586b57a6a1",
+    "archive_filename": "tripbox-002-booking-payments.png",
+    "archive_sha256": "0b124a61125c2f1f7210fa34f40a569c24283c4fc082c4e6ee13b8586b57a6a1",
+    "dimensions": [
+      1233,
+      722
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "TRIPBOX-003",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-003-dashboard-empty.jpg",
+    "archive_sha256": "76b44bd07f7554cb48b2d96b860e39426571a927943588c2e0d857fd21ac3b69",
+    "dimensions": [
+      1045,
+      3134
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-004",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-004-lead-form-complete.jpg",
+    "archive_sha256": "6111e9460d1ca597ca314159bd263c70f344c74244f8b1853d3b4155ad69f067",
+    "dimensions": [
+      1265,
+      2116
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-005",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-005-lead-saved.jpg",
+    "archive_sha256": "47c2ba2169bddd2c56aaa3b0e0703c63bc33168a80bf72570a0f8b3cd3e4b937",
+    "dimensions": [
+      1265,
+      832
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-006",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-006-markup-calculation.jpg",
+    "archive_sha256": "6dc7cac3a086672b80302db842dad8d7cb3d0bf138a435911d0a1dcb5c1ae5ad",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-007",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-007-quote-hotel-activity.jpg",
+    "archive_sha256": "48631e129017954f926afce1c7c1d8f171dd4eb69f1df002584af8ff7e3e0020",
+    "dimensions": [
+      1265,
+      2226
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-008",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-008-payment-schedule.jpg",
+    "archive_sha256": "fef602ed048e1fb8f3cc820e85b2b757411d8b190c050ce1b2a4a5cd50e0754d",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-009",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-09",
+    "role": "Owner",
+    "archive_filename": "tripbox-009-final-quote.jpg",
+    "archive_sha256": "48631e129017954f926afce1c7c1d8f171dd4eb69f1df002584af8ff7e3e0020",
+    "dimensions": [
+      1265,
+      2226
+    ],
+    "redactions": [],
+    "limitations": "Demo account display alias retained. Full-page capture may clip internally scrolling sticky panels."
+  },
+  {
+    "reference_id": "TRIPBOX-010",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-010-hotel-rates-saved.jpg",
+    "archive_sha256": "373f0fc24afbb4692da40f1906ba6874c748445415d5b4bbdb64b030b51dfe96",
+    "dimensions": [
+      523,
+      3084
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-011",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-011-seasonal-hotel-itinerary.jpg",
+    "archive_sha256": "53b917461623adffa7f64c8a57fe2aab499df599355155fa4b5fc51d260149a6",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-012",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-012-repository-journey-saved.jpg",
+    "archive_sha256": "ef3d08bde686507970f5eb9af331802884e296f0aa292c8a51441749b4a42b8c",
+    "dimensions": [
+      1265,
+      2292
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-013",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-013-itinerary-confirmed.jpg",
+    "archive_sha256": "7d25fc98db498a20a780eaf949c45902110477d6d51047492be44f3646ecb04b",
+    "dimensions": [
+      1265,
+      791
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-014",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-014-fictional-booking-status.jpg",
+    "archive_sha256": "d5d8c861f5ab0ea1bdb5468ea389573422c9f4db64bb108e096cd95cb0897e4b",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-015",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-015-fictional-report-saved.jpg",
+    "archive_sha256": "5fbd7072f73a526aff7b089c9e6d4befbd666a39150095cfd2b8107184c8492c",
+    "dimensions": [
+      1057,
+      661
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-016",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-016-template-quote-saved.jpg",
+    "archive_sha256": "7bad1025d711d883b3bf8d0e8cec2ffa4a84097c8ae92255b4809b5a5e739e70",
+    "dimensions": [
+      1150,
+      719
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-017",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-017-saved-flight-quote-b.jpg",
+    "archive_sha256": "530c12d9ebb04d75ed845cb6694bc24c146ac77f1e1dd6ccc2e182a4119ba136",
+    "dimensions": [
+      1045,
+      1942
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  },
+  {
+    "reference_id": "TRIPBOX-018",
+    "source": "Authorised live browser audit",
+    "date": "2026-10-10",
+    "role": "Owner",
+    "archive_filename": "tripbox-018-paused-payment-operations.jpg",
+    "archive_sha256": "eb1d0edb6f277cff950ddb6b0aad79f787e888698adc6cf8eab324f197a217b4",
+    "dimensions": [
+      1280,
+      800
+    ],
+    "redactions": [],
+    "limitations": "Fictional audit records; full-page images may clip internally scrolling panels. Text evidence records exact values."
+  }
+]

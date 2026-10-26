@@ -1,0 +1,114 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			10 image
+			11 text Hotels Repository
+		12 container Organisation settings section
+			13 container
+				14 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				15 text Hotels Repository
+		16 container
+			17 heading Hotels repository, Value: 1
+				18 text Hotels repository
+			19 text Maintain hotel inventory, categories, and regional defaults used while building itineraries.
+			20 button Import with AI
+				21 image
+				22 text Import with AI
+			23 link Description: Add hotel, Value: tripboxcrm.com/org/hotels-repository/new
+			24 text Hotels
+			25 text 1
+			26 text Total inventory records
+			27 text Visible
+			28 text 1
+			29 text Matching current filters
+			30 text Categories
+			31 text 4
+			32 text Available hotel classes
+			33 container List controls
+				34 container
+					35 image
+					36 search text field (settable) TOS-AUDIT Fictional Hotel B
+					37 button close-circle
+						38 image close-circle
+					39 button search
+						40 image search
+				41 container
+					42 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+					43 text Filter by category
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+					46 text Agency portal
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+					49 text Inventory source
+				50 button
+					58 image
+				52 button (disabled) Bulk edit
+					53 image
+					54 text Bulk edit
+				55 button Import / export
+					56 image
+					57 text Import / export
+			59 table
+				60 row
+					61 cell
+						62 container
+							63 checkbox (settable, integer) Description: Select all, Value: 0
+					64 cell Hotel
+						65 text Hotel
+					66 cell Location
+						67 text Location
+					68 cell Category
+						69 text Category
+					70 cell Preferred supplier
+						71 text Preferred supplier
+					72 cell Status
+						73 text Status
+					74 cell
+						75 text Agent portal
+					76 cell
+						77 text Actions
+				78 row
+					79 cell
+						80 container
+							81 checkbox (settable, integer) Description:  , Value: 0
+					82 cell
+						83 image hotel
+					84 cell
+						85 text TOS-AUDIT Fictional Hotel B Updated  a few seconds ago
+					86 cell
+						87 text Ubud
+						88 text Indonesia (Bali)
+					89 cell
+						90 text 4 Star
+					91 cell
+						92 text -
+					93 cell
+						94 text Active
+					95 cell
+						96 text Visible
+					97 cell
+						98 link tripboxcrm.com/org/hotels-repository/89a6af2b-1773-41aa-b2a5-7d2fa4548d3e
+						99 link tripboxcrm.com/org/hotels-repository/new?duplicate=89a6af2b-1773-41aa-b2a5-7d2fa4548d3e
+						100 button
+							101 image
+			102 container hotels pagination
+				103 container
+					104 text 1 – 1  of  1 hotels
+				105 content list
+					106 container Previous Page
+						107 button (disabled) left
+							108 image left
+					109 text 1
+					110 container Next Page
+						111 button (disabled) right
+							112 image right
+
+The focused UI element is 36 search text field (settable) TOS-AUDIT Fictional Hotel B

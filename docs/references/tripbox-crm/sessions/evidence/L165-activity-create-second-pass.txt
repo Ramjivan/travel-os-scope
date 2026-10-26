@@ -1,0 +1,133 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/activities-repository/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1b_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1g_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			10 image
+			11 text Activities Repository
+		12 container Organisation settings section
+			13 container
+				14 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				15 text Activities Repository
+		16 container
+			17 heading Create Activity, Value: 1
+				18 text Create Activity
+			19 text Add a new activity with inclusions, exclusions, and tariffs
+			20 button Back to activities
+			21 container
+				22 heading Activity overview, Value: 2
+					23 text Activity overview
+				24 text Activity Image
+				25 button Upload image
+					26 image
+					27 text Upload image
+				28 container
+					29 text * Activity Name
+				30 text field (settable) * Activity Name, ID: name
+				31 container
+					32 text * Category
+				33 container
+					34 combo box (collapsed, settable) * Category, ID: category, Secondary Actions: Expand
+					35 text Select a category
+				36 text Duration
+				37 container
+					38 container
+						39 button Increase Value
+							40 image up
+						41 button Decrease Value
+							42 image down
+					43 stepper (settable, integer) Duration, Value: 0, ID: duration
+					44 text hours
+				45 container
+					46 text Status
+					47 image question-circle
+				48 switch Description: Status question-circle, Value: 1, ID: isActive
+					49 text Active
+					50 text Inactive
+				51 container
+					52 text Visible to agencies
+					53 image question-circle
+				54 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+					55 text Visible
+					56 text Internal only
+				57 container
+					58 text * Description
+				59 container
+					60 text entry area (settable) * Description, ID: description
+					61 text 0 / 3000
+				62 heading Location and partnerships, Value: 2
+					63 text Location and partnerships
+				64 container
+					65 text * Country
+				66 container Country
+					67 container
+						68 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+						69 text Mauritius, Bali, etc.
+				70 text City (optional)
+				71 container
+					72 container City
+						73 container
+							74 combo box (disabled, collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+							75 text Bangkok, Hanoi, etc.
+					76 text Leave blank to offer this activity throughout the country.
+				77 text Preferred Supplier
+				78 container
+					79 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+					80 text Select a supplier
+				81 heading Inclusions and exclusions, Value: 2
+					82 text Inclusions and exclusions
+				83 heading Inclusions, Value: 3
+					84 text Inclusions
+				85 button Add Inclusion
+					86 image
+					87 text Add Inclusion
+				88 heading Exclusions, Value: 3
+					89 text Exclusions
+				90 button Add Exclusion
+					91 image
+					92 text Add Exclusion
+				93 heading Pricing and tariffs, Value: 2
+					94 text Pricing and tariffs
+				95 heading Regular tariff, Value: 3
+					96 text Regular tariff
+				97 container
+					98 heading INR, Value: 4
+						99 text INR
+					100 container
+						101 text INR
+						102 container
+							103 button Increase Value
+								104 image up
+							105 button Decrease Value
+								106 image down
+						107 stepper (settable, integer) Value: 0, ID: tariff_0_costForAdult
+					108 container
+						109 text INR
+						110 container
+							111 button Increase Value
+								112 image up
+							113 button Decrease Value
+								114 image down
+						115 stepper (settable, integer) Value: 0, ID: tariff_0_costForCWB
+					116 container
+						117 text INR
+						118 container
+							119 button Increase Value
+								120 image up
+							121 button Decrease Value
+								122 image down
+						123 stepper (settable, integer) Value: 0, ID: tariff_0_costForInfant
+				124 heading Seasonal tariff, Value: 3
+					125 text Seasonal tariff
+				126 button Add Date Range
+					127 image
+					128 text Add Date Range
+				129 button Cancel
+				130 button Save Changes
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository/new

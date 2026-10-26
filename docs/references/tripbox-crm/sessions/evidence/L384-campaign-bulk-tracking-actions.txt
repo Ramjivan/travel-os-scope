@@ -1,0 +1,125 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1b_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				23 image
+				24 text TOS-AUDIT Fictional outreach A
+			25 heading TOS-AUDIT Fictional outreach A, Value: 1
+				26 text TOS-AUDIT Fictional outreach A
+			27 text pending 1  contacts
+			28 button Refresh campaign
+				29 image
+			30 button Manage team
+				31 image
+				32 text Manage team
+			33 button Add contacts
+				34 image
+				35 text Add contacts
+		36 container
+			37 text CONTACTS 1 TEAM MEMBERS 0 SELECTED 1 CREATED 09/10/2026
+		38 container Contact filters
+			39 container
+				40 image
+				41 text field (settable)
+			42 container
+				43 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+				44 text All statuses
+			45 container
+				46 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+				47 text All outcomes
+			48 container
+				49 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+				50 text All assignees
+		118 container
+			119 text 1  contacts selected
+		120 button Assign selected
+			121 image
+			122 text Assign selected
+		51 container
+			52 table
+				53 row
+					54 cell
+						55 container
+							56 checkbox (settable, integer) Description: Select all, Value: 1
+					57 cell
+						58 text CONTACT NAME
+					59 cell
+						60 text EMAIL
+					61 cell
+						62 text PHONE
+					63 cell
+						64 text TAGS
+					65 cell
+						66 text STATUS
+						67 button filter
+							68 image filter
+					69 cell
+						70 text OUTCOME
+						71 button filter
+							72 image filter
+					73 cell
+						74 text ASSIGNED TO
+						75 button filter
+							76 image filter
+					77 cell
+						78 text ACTION
+				79 row
+					80 cell
+						81 container
+							82 checkbox (settable, integer) Description:  , Value: 1
+					83 cell
+						84 button TOS-AUDIT Fictional Family Contact C
+					85 cell
+						86 text family-c@example.invalid
+					87 cell
+						88 text -
+					89 cell
+						90 button TOS-AUDIT Household C
+					91 cell
+						92 text new
+					93 cell
+						94 text interested
+					95 cell
+						96 text -
+					97 cell
+						98 container
+							99 button
+								100 image
+							101 button
+								102 image
+			103 container contacts pagination
+				104 container
+					105 text 1 – 1  of  1 contacts
+				106 content list
+					107 container Previous Page
+						108 button (disabled) left
+							109 image left
+					110 text 1
+					111 container Next Page
+						112 button (disabled) right
+							113 image right
+					114 container Page Size
+						115 container
+							116 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+							117 text 20 / page
+
+The focused UI element is 82 checkbox (settable, integer) Description:  , Value: 1

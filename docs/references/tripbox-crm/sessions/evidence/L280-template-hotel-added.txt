@@ -1,0 +1,157 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itinerary-templates/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_v_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Itinerary templates, Value: tripboxcrm.com/itinerary-templates
+					27 image
+					28 text New template
+				29 heading Create itinerary template, Value: 1
+					30 text Create itinerary template
+			31 container
+				32 heading Template details, Value: 3
+					33 text Template details
+				34 container
+					35 text * Template name
+				136 text field (settable) * Template name, Value: TOS-AUDIT Fictional Template B, ID: name
+				39 container Trip details
+					40 heading Trip details, Value: 4, ID: template-trip-details
+						41 text Trip details
+					42 container
+						43 text 2  nights ·  1  stop
+					44 button Edit trip details
+						45 image
+						46 text Edit
+					47 container Route stops
+						115 text Ubud 2 N
+				49 container
+					50 text Preferred coming from
+					51 container Preferred coming from
+						52 container
+							53 combo box (collapsed, settable) Description: Preferred coming from, ID: rc_select_10, Secondary Actions: Expand
+							54 text Search city or country
+				55 container
+					56 text Preferred going to
+					57 container Preferred going to
+						58 container
+							59 combo box (collapsed, settable) Description: Preferred going to, ID: rc_select_11, Secondary Actions: Expand
+							60 text Search city or country
+				61 text Share with agents
+				62 text Show in agent portal
+				63 switch Description: Share this itinerary template with agents, Value: 0, ID: shareWithAgent
+				64 image
+				65 heading Hotels, Value: 3
+					66 text Hotels
+				67 container
+					68 text 1  accommodation  stay
+				69 button Add hotel
+					70 image
+					71 text Add hotel
+				72 text ROUTE STOP HOTEL ROOM TYPE MEAL PLAN NIGHTS ACTIONS
+				137 container Hotel route stop
+					138 container
+						139 combo box (collapsed, settable) Description: Hotel route stop, ID: hotels_0_routeStopIndex, Secondary Actions: Expand
+						140 text Ubud · 2N
+				141 text TOS-AUDIT Fictional Hotel B
+				142 text Ubud
+				143 container Hotel room type
+					144 container
+						145 combo box (collapsed, settable) Description: Hotel room type, ID: hotels_0_roomType, Secondary Actions: Expand
+						146 text TOS-AUDIT Standard Room
+				147 container Hotel meal plan
+					148 container
+						149 combo box (collapsed, settable) Description: Hotel meal plan, ID: hotels_0_mealPlan, Secondary Actions: Expand
+						150 text BB
+				151 container
+					152 container
+						153 button Increase Value
+							154 image up
+						155 button Decrease Value
+							156 image down
+					157 stepper (settable, integer) Description: Hotel nights, Value: 2, ID: hotels_0_nights
+					158 text N
+				159 button Remove TOS-AUDIT Fictional Hotel B
+					160 image
+				75 container
+					76 image
+					77 combo box (collapsed, settable) Description: Search and add a hotel to the template, ID: rc_select_12, Secondary Actions: Expand
+				78 button Browse
+					79 image
+					80 text Browse
+				81 image
+				82 heading Daily plan, Value: 3
+					83 text Daily plan
+				84 text Activities and ground transport in one timeline
+				85 container
+					86 text DAY  1 Ubud 2N stop
+				87 container
+					88 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_9, Secondary Actions: Expand
+				89 button Activities
+					90 image
+					91 text Activities
+				92 button Transport
+					93 image
+					94 text Transport
+				116 container
+					117 text DAY  2 Ubud 2N stop
+				118 container
+					119 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_19, Secondary Actions: Expand
+				120 button Activities
+					121 image
+					122 text Activities
+				123 button Transport
+					124 image
+					125 text Transport
+				126 container
+					127 text DAY  3 Ubud Departure day
+				128 container
+					129 combo box (collapsed, settable) Description: Search and add an activity or transport to this template day, ID: rc_select_20, Secondary Actions: Expand
+				130 button Activities
+					131 image
+					132 text Activities
+				133 button Transport
+					134 image
+					135 text Transport
+				95 image
+				96 heading Full Day Transports, Value: 3
+					97 text Full Day Transports
+				98 text Cab services spanning a reusable template-day range
+				99 button Add Full Day transport
+					100 image
+					101 text Add Full Day transport
+				102 text No Full Day transports added.
+				103 button Inclusions & exclusions 0 inclusions · 0 exclusions
+					104 image
+					105 text Inclusions & exclusions
+					106 text 0
+					107 text  inclusions · 
+					108 text 0
+					109 text  exclusions
+					110 image
+				111 container
+					112 text 1  plan items across 2 nights
+				113 button Cancel
+				114 button Create template
+
+The focused UI element is 69 button Add hotel

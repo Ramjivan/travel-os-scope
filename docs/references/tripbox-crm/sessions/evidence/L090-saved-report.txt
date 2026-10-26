@@ -1,0 +1,66 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/saved/50b9aba7-632c-47b7-bf6e-8a27c761315c".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/saved/50b9aba7-632c-47b7-bf6e-8a27c761315c
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1f_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container
+			24 container Breadcrumb
+				25 link Description: Reports, Value: tripboxcrm.com/reports
+				26 image
+				27 text TOS-AUDIT Personal report A
+			28 heading TOS-AUDIT Personal report A, Value: 1
+				29 text TOS-AUDIT Personal report A
+			30 text Organisation data Saved lead analysis
+			31 container Report date range
+				32 container
+					33 combo box (collapsed, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Expand
+					34 text Last 30 days
+			35 button Refresh report
+				36 image
+			37 button Save copy
+				38 image
+				39 text Save copy
+			40 button Edit
+				41 image
+				42 text Edit
+			43 button Delete saved report
+				44 image
+			45 button Export XLSX
+				46 image
+				47 text Export XLSX
+		48 container TOS-AUDIT Personal report A
+			49 container
+				50 heading TOS-AUDIT Personal report A, Value: 2, ID: report-section-analysis
+					51 text TOS-AUDIT Personal report A
+				52 text Results use the selected lead-created date range.
+			53 table TOS-AUDIT Personal report A data table
+				54 row
+					55 cell
+						56 text Leads
+					57 cell
+						58 text Conversion rate
+				59 row
+					60 cell
+						61 text 1
+					62 cell
+						63 text 100%
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/saved/50b9aba7-632c-47b7-bf6e-8a27c761315c

@@ -1,0 +1,155 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/automated-emails".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/automated-emails
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Automated Emails
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Automated emails, Value: 1
+					61 text Automated emails
+				62 text Send consistent, event-driven messages while keeping every lead and trip communication accountable.
+				63 button
+					64 image
+				65 button Add automation
+					66 image
+					67 text Add automation
+				68 table
+					69 row
+						70 cell
+							71 text Title
+						72 cell
+							73 text Event
+						74 cell
+							75 text Mailbox
+						76 cell
+							77 text Subject
+						78 cell
+							79 text Active
+						80 cell
+							81 text Actions
+					82 row
+						83 cell
+							84 container
+								85 image No data
+								86 heading No automated emails, Value: 3
+									87 text No automated emails
+								88 text Create an automation to send consistent event-driven messages.
+		89 container
+			90 container Create Automated Email
+				91 container Close Create Automated Email Cancel Create
+					92 container
+						93 button Close
+							94 container Close
+								95 image close
+						96 text Create Automated Email
+						97 container
+							98 text * Title
+						99 text field (settable) * Title
+						100 container
+							101 text * Trigger Event
+						102 container
+							103 combo box (collapsed, settable) * Trigger Event, ID: event, Secondary Actions: Expand
+							104 text Select event
+						105 container
+							106 text * Send From (Mailbox)
+						107 container
+							108 combo box (collapsed, settable) * Send From (Mailbox), ID: mailboxId, Secondary Actions: Expand
+							109 text Select mailbox
+						110 text Active
+						111 switch Description: Active, Value: 1, ID: isActive
+						112 container
+							113 text * Email Subject
+						114 text field (settable) * Email Subject, ID: subject
+						115 container
+							116 text Click a placeholder to insert it into the body :
+						117 text Guest Name
+						118 text Guest Email
+						119 text Guest Mobile
+						120 text Guest Location
+						121 text Destinations
+						122 text Nights
+						123 text Planned Travel Date
+						124 text Adults
+						125 text CWB
+						126 text CNB
+						127 text Infants
+						128 text Departure City
+						129 text Lead ID
+						130 text Status
+						131 text Source
+						132 text Organisation Name
+						133 container
+							134 text Email Body  *
+						135 button B
+						136 button I
+						137 button U
+						138 button S
+						139 button
+							140 image
+						141 button
+							142 image
+						143 button Link
+							144 image
+							145 text Link
+						146 button
+							147 image
+						148 button
+							149 image
+						150 text Write the email body... Use placeholders like {{guestName}} which will be replaced with actual data.
+						151 button Cancel
+						152 button Create
+
+The focused UI element is 91 container Close Create Automated Email Cancel Create

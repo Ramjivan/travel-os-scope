@@ -1,0 +1,441 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+0 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	1 container
+		2 container
+			3 container Primary navigation
+				4 container
+					5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					6 image
+					7 text Luxury Indo Tours
+					8 button Quotes
+						9 text Quotes
+						10 image
+					11 button Leads
+						12 text Leads
+						13 image
+					14 link Description: Payments, Value: tripboxcrm.com/payments
+					15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					17 link Description: Reports, Value: tripboxcrm.com/reports
+					18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+						19 text Open account menu
+						20 text NA
+						21 text Nishar Arora
+						22 image
+			23 container
+				24 container Breadcrumb
+					25 link Description: Leads, Value: tripboxcrm.com/leads
+					26 image
+					27 link Description: #1, Value: tripboxcrm.com/leads/1
+					28 image
+					29 text Edit itinerary
+				30 heading Itinerary workspace, Value: 1
+					31 text Itinerary workspace
+				32 text Confirmed for  TOS-AUDIT Fictional Traveller A
+				33 button Itinerary confirmed
+					34 image
+					35 text Itinerary confirmed
+				36 button View Initial Confirmation
+					312 text View Initial Confirmation
+				37 button Cancel Itinerary
+			38 container
+				39 image
+				40 text Route
+				41 text Ubud
+				42 text 1 stop
+				43 button 1 route conflict. View details.
+					44 image
+					45 text 1
+					46 text  route conflict
+				47 text Travel dates
+				48 container
+					49 text 20 Nov – 24 Nov 2026 ·  4  nights
+				50 image
+				51 text Guests
+				52 container
+					53 text 2  adults
+				54 text Currency
+				55 text INR
+				56 button Trip details
+					57 image
+					58 text Trip details
+				59 button Edit route
+					60 image
+					61 text Edit route
+				62 container
+					63 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					64 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					65 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					66 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					67 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					68 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					69 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				70 container hotels
+					71 image
+					72 heading Hotels, Value: 3
+						73 text Hotels
+					74 container
+						75 text 2  accommodation stays
+					76 container
+						77 checkbox (settable, integer) Description: Select all  , Value: 0
+						78 text Select all
+					79 button (disabled) Book selected
+					80 button Add hotel
+						81 image
+						82 text Add hotel
+					83 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					84 text Ubud
+					85 image
+					86 text 20 Nov  – 24 Nov  · 4N
+					87 button View details for Alam Puisi Ubud
+						88 text Alam Puisi Ubud
+						89 text pending
+					90 text Standard Double
+					91 text BB
+					92 button View rates for Alam Puisi Ubud
+						93 text INR
+						94 text 4,000
+					95 container
+						96 checkbox (settable, integer) Description:  , Value: 0
+					97 button Edit Alam Puisi Ubud
+						98 image
+					99 button Remove Alam Puisi Ubud
+						100 image
+					101 text Ubud
+					102 image
+					103 text 20 Nov  – 24 Nov  · 4N
+					104 button View details for TOS-AUDIT Fictional Hotel B
+						105 text TOS-AUDIT Fictional Hotel B
+						106 text pending
+					107 text TOS-AUDIT Standard Room
+					108 text BB
+					109 button View rates for TOS-AUDIT Fictional Hotel B
+						110 text INR
+						111 text 11,000
+					112 container
+						113 checkbox (settable, integer) Description:  , Value: 0
+					114 button Edit TOS-AUDIT Fictional Hotel B
+						115 image
+					116 button Remove TOS-AUDIT Fictional Hotel B
+						117 image
+					118 container
+						119 image
+						120 combo box (collapsed, settable) ID: rc_select_27, Secondary Actions: Expand
+					121 button Browse
+						122 image
+						123 text Browse
+				124 container activities
+					125 image
+					126 heading Daily plan, Value: 3
+						127 text Daily plan
+					128 text Activities and ground transport in one timeline
+					129 container
+						130 checkbox (settable, integer) Description: Activities  , Value: 0
+						131 text Activities
+					132 button (disabled) Book selected
+						133 image
+						134 text Book selected
+					135 container
+						136 text DAY  1 20 Nov UBUD Friday
+						137 container
+							138 image
+							139 button Benoa Water Sports ACTIVITY Kuta · pending
+								140 text Benoa Water Sports
+								141 text ACTIVITY
+								142 text Kuta · pending
+							143 checkbox (settable, integer) Description:  , Value: 0
+							144 button INR 2,400
+							145 button
+								146 image
+							147 button Edit Benoa Water Sports
+								148 image
+							149 button Remove Benoa Water Sports
+								150 image
+							151 container
+								152 combo box (collapsed, settable) ID: rc_select_28, Secondary Actions: Expand
+							153 button Activities
+								154 image
+								155 text Activities
+							156 button Transport
+								157 image
+								158 text Transport
+						159 text DAY  2 21 Nov UBUD Saturday
+						160 container
+							161 image
+							162 button TOS-AUDIT Fictional Activity B ACTIVITY 2 hr · pending
+								163 text TOS-AUDIT Fictional Activity B
+								164 text ACTIVITY
+								165 text 2 hr · pending
+							166 checkbox (settable, integer) Description:  , Value: 0
+							167 button INR 1,000
+							168 button
+								169 image
+							170 button
+								171 image
+							172 button Edit TOS-AUDIT Fictional Activity B
+								173 image
+							174 button Remove TOS-AUDIT Fictional Activity B
+								175 image
+							176 container
+								177 combo box (collapsed, settable) ID: rc_select_29, Secondary Actions: Expand
+							178 button Activities
+								179 image
+								180 text Activities
+							181 button Transport
+								182 image
+								183 text Transport
+						184 text DAY  3 22 Nov UBUD Sunday
+						185 container
+							186 container
+								187 combo box (collapsed, settable) ID: rc_select_30, Secondary Actions: Expand
+							188 button Activities
+								189 image
+								190 text Activities
+							191 button Transport
+								192 image
+								193 text Transport
+						194 text DAY  4 23 Nov UBUD Monday
+						195 container
+							196 container
+								197 combo box (collapsed, settable) ID: rc_select_31, Secondary Actions: Expand
+							198 button Activities
+								199 image
+								200 text Activities
+							201 button Transport
+								202 image
+								203 text Transport
+						204 text DAY  5 24 Nov UBUD Tuesday
+						205 container
+							206 container
+								207 combo box (collapsed, settable) ID: rc_select_32, Secondary Actions: Expand
+							208 button Activities
+								209 image
+								210 text Activities
+							211 button Transport
+								212 image
+								213 text Transport
+				214 container daily-transports
+					215 image
+					216 heading Full day transport, Value: 2
+						217 text Full day transport
+					218 text Cab services charged per day across your selected dates
+					219 container
+						220 image
+						221 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_33, Secondary Actions: Expand
+					222 button Browse inventory
+						223 image
+						224 text Browse inventory
+					225 image No data
+					226 text No Full Day transports added
+				227 container travel
+					228 image
+					229 heading Flights, Value: 3
+						230 text Flights
+					231 container
+						232 text 0  flight segments
+					233 text No flights added
+					234 button Add flight
+						235 image
+						236 text Add flight
+				237 container Description: Custom services, ID: custom-services
+					238 image
+					239 heading Custom services(1), Value: 3
+						240 text Custom services ( 1 )
+					241 text Visas, insurance, and other trip arrangements
+					242 button Add service
+						243 image
+						244 text Add service
+					245 image
+					246 text TOS-AUDIT Internal trip planning
+					247 text Trip-wide · Handled internally
+					248 text ₹10,000
+					249 button Edit TOS-AUDIT Internal trip planning
+						250 image
+						251 text Edit
+					252 button (disabled) Move service up
+						253 image
+					254 button (disabled) Move service down
+						255 image
+					256 button Remove service
+						257 image
+					258 image
+					259 text Booking PENDING
+					260 button Book
+				261 container
+					262 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						263 image
+						264 text Inclusions & policies
+						265 text 0 inclusions · 0 exclusions · 0 policy sections
+						266 image
+					267 button Markup & taxes 10% markup · No taxes, ID: markup
+						268 image
+						269 text Markup & taxes
+						270 text 10% markup · No taxes
+						271 image
+					272 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						273 image
+						274 text Cost breakdown
+						275 text Hotels, activities, transport, flights and custom services
+						276 image
+				313 container
+					314 text LIVE QUOTE Live calculation
+					315 heading Indonesia (Bali), Value: 2
+						316 text Indonesia (Bali)
+					317 image
+					318 text 20 Nov  to  24 Nov 4  night s
+					319 container mobile-quote-details
+						320 image
+						321 text TOS-AUDIT Fictional Traveller A
+						322 container
+							323 text 2  Adults
+						324 heading Quote composition, Value: 3
+							325 text Quote composition
+						326 text Base, margin, taxes
+						327 container Quote cost composition
+						328 text Base cost ₹28,400 Markup ₹2,840  ( 10 %) Selling price ₹31,240 Per adult ₹15,620
+				329 container
+					330 heading Actions, Value: 3
+						331 text Actions
+					332 text Payment plan set ₹31,240 Unaccounted amount ₹0
+					333 button Save Itinerary
+						334 image
+						335 text Save Itinerary
+					336 button Payment Management
+						337 image
+						338 text Payment Management
+					339 button Download Itinerary
+						340 image
+						341 text Download Itinerary
+					342 button Download Voucher
+						343 image
+						344 text Download Voucher
+					345 button Quick Share
+						346 image
+						347 text Quick Share
+		348 container
+			349 container Hotel details
+				350 container
+					351 button Close
+						352 container Close
+							353 image close
+					354 text Hotel details
+					355 container
+						356 container
+							357 image hotel
+							358 container
+								359 image eye
+								360 text Preview
+						361 heading TOS-AUDIT Fictional Hotel B, Value: 4
+							362 text TOS-AUDIT Fictional Hotel B
+						363 text Ubud ,  Indonesia (Bali)  •  4 Star
+						364 button Open TOS-AUDIT Fictional Hotel B in the hotel repository
+							365 image
+						366 button Remove TOS-AUDIT Fictional Hotel B
+							367 image
+						368 text Inventory linked Snapshot details stay independent.
+						369 heading Stay configuration, Value: 5
+							370 text Stay configuration
+						371 text Set the stay dates, room arrangement, meal plan, and guest allocation.
+						372 container
+							373 text * Stay dates
+						374 container
+							375 text field (settable) * Stay dates, Value: 20 Nov 2026, ID: hotels_1_checkInDates
+							376 container to
+								377 image swap-right
+							378 text field (settable) 24 Nov 2026
+							379 image
+							380 button close-circle
+								381 image close-circle
+						382 text Room type
+						383 container
+							384 combo box (collapsed, settable) Room type, ID: hotels_1_roomType, Secondary Actions: Expand
+							385 text TOS-AUDIT Standard Room
+						386 container
+							387 text * Meal plan
+						388 container
+							389 combo box (collapsed, settable) * Meal plan, ID: hotels_1_mealPlan, Secondary Actions: Expand
+							390 text BB
+						391 heading ROOM ALLOCATION, Value: 5
+							392 text ROOM ALLOCATION
+						393 text Use zero where an occupancy type is not required.
+						394 container
+							395 text * Guests / room
+						396 container
+							397 button Increase Value
+								398 image up
+							399 button Decrease Value
+								400 image down
+							401 stepper (settable, integer) * Guests / room, Value: 2, ID: hotels_1_paxPerRoom
+						402 container
+							403 text * Rooms
+						404 container
+							405 button Increase Value
+								406 image up
+							407 button (disabled) Decrease Value
+								408 image down
+							409 stepper (settable, integer) * Rooms, Value: 1, ID: hotels_1_numberOfRooms
+						410 container
+							411 text * Adult extra beds
+						412 container
+							413 button Increase Value
+								414 image up
+							415 button (disabled) Decrease Value
+								416 image down
+							417 stepper (settable, integer) * Adult extra beds, Value: 0, ID: hotels_1_aweb
+						418 button Duplicate
+							419 image
+							420 text Duplicate
+						421 button Notes
+							422 image
+							423 text Notes
+						424 text Duplicate this stay when the same hotel needs another room type.
+						425 button Manage rates
+							426 image
+							427 text Manage rates
+						428 text Total: INR 11,000
+					429 image
+					430 text Booking PENDING
+					431 button Book
+						432 text Book
+					433 button Done
+		434 container
+			435 container Booking Details PENDING
+				436 container
+					437 button Close
+						438 container Close
+							439 image close
+					440 image
+					441 text Booking Details PENDING
+					442 text Status
+					443 container
+						444 combo box (expanded, settable) Status, ID: status, Secondary Actions: Collapse
+						445 text Pending
+					446 text Supplier contact
+					447 container
+						448 combo box (disabled, collapsed, settable) Supplier contact, ID: supplierContactId, Secondary Actions: Expand
+						449 text Use default supplier contact
+					450 text Supplier
+					451 container
+						452 combo box (collapsed, settable) Supplier, ID: supplierId, Secondary Actions: Expand
+						453 text Select supplier
+					454 text Confirmation Code
+					455 text field (settable) Confirmation Code, ID: confirmationCode
+					456 text Comments
+					457 text entry area (settable) Comments, ID: comments
+					458 text Changes apply to this item only.
+					459 button (disabled) Send Email
+					460 button Cancel
+					461 button Save Booking
+						462 image
+						463 text Save Booking
+		464 container
+			465 list status_list
+				466 (selected) Value: Pending, ID: status_list_0
+				467 Value: In Progress, ID: status_list_1
+			468 text Pending
+			469 text In Progress
+			470 text Booked
+			471 text Changed
+			472 text Cancelled
+
+The focused UI element is 444 combo box (expanded, settable) Status, ID: status, Secondary Actions: Collapse

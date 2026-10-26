@@ -1,0 +1,290 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/ai-settings".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/ai-settings
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Ai Settings
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading AI settings, Value: 1
+				60 text AI settings
+			61 text Configure the model provider, choose assisted workflows, and monitor usage from one controlled workspace.
+			62 image
+			63 text AI Configuration
+			64 container
+				65 container
+					66 text * AI Provider
+				67 container
+					68 combo box (collapsed, settable) * AI Provider, ID: provider, Secondary Actions: Expand
+					69 text Google (Gemini)
+				70 container
+					71 text * Tool-calling model
+					72 image
+				73 container
+					74 combo box (collapsed, settable) * Tool-calling model, ID: model, Secondary Actions: Expand
+					75 text Select a supported model
+				76 container
+					77 text * API Key
+				78 container
+					79 text field (settable) * API Key
+					80 button Show entered API key
+						81 image
+				82 text Requests per minute limit
+				83 stepper (settable) Requests per minute limit, ID: requestsPerMinute
+				84 text Optional tenant-wide cap. Leave blank to use the provider's available capacity.
+				85 text Monthly token budget
+				86 stepper (settable) Monthly token budget, ID: monthlyTokenBudget
+				87 text Optional tenant-wide monthly limit. Usage is measured in provider-reported tokens.
+				88 button Test API key
+					89 image
+					90 text Test API key
+				91 button Save Configuration
+			92 image
+			93 text AI Features
+			94 text Configure AI provider above to enable features.
+			95 image
+			96 text Usage & Monitoring
+			97 container
+				98 text field (settable)
+				99 container to
+					100 image swap-right
+				101 text field (settable)
+				102 image calendar
+			103 image No data
+			104 text No usage data yet
+			105 heading Request Logs, Value: 4
+				106 text Request Logs
+			107 table
+				108 row
+					109 cell
+						110 text Date
+					111 cell
+						112 text Feature
+					113 cell
+						114 text Operation
+					115 cell
+						116 text Provider
+					117 cell
+						118 text Model
+					119 cell
+						120 text Tokens
+					121 cell
+						122 text User
+				123 row
+					124 cell
+						125 container
+							126 image No data
+							127 heading No request logs, Value: 3
+								128 text No request logs
+							129 text AI requests will appear here after a feature is used.
+			130 container MCP settings
+				131 heading MCP settings, Value: 2, ID: mcp-settings-heading
+					132 text MCP settings
+				133 text Let external AI assistants like ChatGPT, Claude and Gemini work with your CRM through the Model Context Protocol.
+				134 container MCP overview
+					135 container
+						136 text Not connected ·  Generate a token to get started
+						137 heading Run your CRM from any AI assistant, Value: 2
+							138 text Run your CRM from any AI assistant
+						139 text Connect ChatGPT, Claude or Gemini over MCP and just ask: “who hasn’t been followed up this week?”, “create a lead for the Sharma family”, “move #142 to on hold”. You decide exactly what they can touch.
+						140 button Connect MCP
+							141 image
+							142 text Connect MCP
+						143 text MCP access
+						144 switch Description: Toggle MCP access, Value: 1
+					145 container
+						146 text TOOLS EXPOSED 77 of 127 REQUESTS · 7 DAYS 0 LAST USED Never
+				147 container What can AI tools do?
+					148 heading What can AI tools do?, Value: 3, ID: mcp-permissions-title
+						149 text What can AI tools do?
+					150 container
+						151 text 77  of  127  tools are on across  14  areas of the CRM.
+					152 container
+						153 image
+						154 text field (settable) Search tools and permissions
+					155 button Expand all
+					156 button (collapsed) Secondary Actions: Expand, collapsed Lead management 11 of 13 tools on Let AI assistants work your pipeline: find, create and update leads and log follow-ups. Toggle all Lead management permissions
+						157 image collapsed
+						158 text Lead management
+						159 text 11
+						160 text  of 
+						161 text 13
+						162 text  tools on
+						163 text Let AI assistants work your pipeline: find, create and update leads and log follow-ups.
+						164 switch Description: Toggle all Lead management permissions, Value: 1
+					165 button (collapsed) Secondary Actions: Expand, collapsed Itineraries 3 of 17 tools on Let AI assistants build, review, refine, share and issue the itineraries attached to your leads. Toggle all Itineraries permissions
+						166 image collapsed
+						167 text Itineraries
+						168 text 3
+						169 text  of 
+						170 text 17
+						171 text  tools on
+						172 text Let AI assistants build, review, refine, share and issue the itineraries attached to your leads.
+						173 switch Description: Toggle all Itineraries permissions, Value: 1
+					174 button (collapsed) Secondary Actions: Expand, collapsed Itinerary templates 4 of 5 tools on Let AI assistants find reusable itinerary templates and save good itineraries as templates. Toggle all Itinerary templates permissions
+						175 image collapsed
+						176 text Itinerary templates
+						177 text 4
+						178 text  of 
+						179 text 5
+						180 text  tools on
+						181 text Let AI assistants find reusable itinerary templates and save good itineraries as templates.
+						182 switch Description: Toggle all Itinerary templates permissions, Value: 1
+					183 button (collapsed) Secondary Actions: Expand, collapsed Bookings & operations 5 of 8 tools on Let AI assistants track confirmed bookings, supplier confirmations and vouchers. Toggle all Bookings & operations permissions
+						184 image collapsed
+						185 text Bookings & operations
+						186 text 5
+						187 text  of 
+						188 text 8
+						189 text  tools on
+						190 text Let AI assistants track confirmed bookings, supplier confirmations and vouchers.
+						191 switch Description: Toggle all Bookings & operations permissions, Value: 1
+					192 button (collapsed) Secondary Actions: Expand, collapsed Payments 6 of 11 tools on Let AI assistants review payment schedules and, optionally, record payments. Toggle all Payments permissions
+						193 image collapsed
+						194 text Payments
+						195 text 6
+						196 text  of 
+						197 text 11
+						198 text  tools on
+						199 text Let AI assistants review payment schedules and, optionally, record payments.
+						200 switch Description: Toggle all Payments permissions, Value: 1
+					201 button (collapsed) Secondary Actions: Expand, collapsed Contacts 5 of 7 tools on Let AI assistants look up your customer contacts, their trips and upcoming birthdays or anniversaries. Toggle all Contacts permissions
+						202 image collapsed
+						203 text Contacts
+						204 text 5
+						205 text  of 
+						206 text 7
+						207 text  tools on
+						208 text Let AI assistants look up your customer contacts, their trips and upcoming birthdays or anniversaries.
+						209 switch Description: Toggle all Contacts permissions, Value: 1
+					210 button (collapsed) Secondary Actions: Expand, collapsed Inventory 3 of 6 tools on Let AI assistants look up and maintain your hotels, activities and transfers so they can plan with real products. Toggle all Inventory permissions
+						211 image collapsed
+						212 text Inventory
+						213 text 3
+						214 text  of 
+						215 text 6
+						216 text  tools on
+						217 text Let AI assistants look up and maintain your hotels, activities and transfers so they can plan with real products.
+						218 switch Description: Toggle all Inventory permissions, Value: 1
+					219 button (collapsed) Secondary Actions: Expand, collapsed Suppliers & agencies 6 of 12 tools on Let AI assistants look up suppliers, B2B agencies and their contacts. Toggle all Suppliers & agencies permissions
+						220 image collapsed
+						221 text Suppliers & agencies
+						222 text 6
+						223 text  of 
+						224 text 12
+						225 text  tools on
+						226 text Let AI assistants look up suppliers, B2B agencies and their contacts.
+						227 switch Description: Toggle all Suppliers & agencies permissions, Value: 1
+					228 button (collapsed) Secondary Actions: Expand, collapsed Campaigns 4 of 8 tools on Let AI assistants follow outreach campaigns and the contacts assigned to your team. Toggle all Campaigns permissions
+						229 image collapsed
+						230 text Campaigns
+						231 text 4
+						232 text  of 
+						233 text 8
+						234 text  tools on
+						235 text Let AI assistants follow outreach campaigns and the contacts assigned to your team.
+						236 switch Description: Toggle all Campaigns permissions, Value: 1
+					237 button (collapsed) Secondary Actions: Expand, collapsed Emails 6 of 13 tools on Let AI assistants read the shared inbox, organise conversations and draft replies. Toggle all Emails permissions
+						238 image collapsed
+						239 text Emails
+						240 text 6
+						241 text  of 
+						242 text 13
+						243 text  tools on
+						244 text Let AI assistants read the shared inbox, organise conversations and draft replies.
+						245 switch Description: Toggle all Emails permissions, Value: 1
+					246 button (collapsed) Secondary Actions: Expand, collapsed Reports & dashboard 6 of 7 tools on Let AI assistants answer performance questions using your dashboards and reports. Toggle all Reports & dashboard permissions
+						247 image collapsed
+						248 text Reports & dashboard
+						249 text 6
+						250 text  of 
+						251 text 7
+						252 text  tools on
+						253 text Let AI assistants answer performance questions using your dashboards and reports.
+						254 switch Description: Toggle all Reports & dashboard permissions, Value: 1
+					255 button (collapsed) Secondary Actions: Expand, collapsed Workspace settings 7 of 9 tools on Let AI assistants read how your workspace is configured and, optionally, adjust rates and rules. Toggle all Workspace settings permissions
+						256 image collapsed
+						257 text Workspace settings
+						258 text 7
+						259 text  of 
+						260 text 9
+						261 text  tools on
+						262 text Let AI assistants read how your workspace is configured and, optionally, adjust rates and rules.
+						263 switch Description: Toggle all Workspace settings permissions, Value: 1
+					264 button (collapsed) Secondary Actions: Expand, collapsed Team 3 of 3 tools on Let AI assistants look up teams and the logged-in user's profile. Toggle all Team permissions
+						265 image collapsed
+						266 text Team
+						267 text 3
+						268 text  of 
+						269 text 3
+						270 text  tools on
+						271 text Let AI assistants look up teams and the logged-in user's profile.
+						272 switch Description: Toggle all Team permissions, Value: 1
+					273 button (collapsed) Secondary Actions: Expand, collapsed Lookups 5 of 5 tools on Reference data the AI needs to fill in forms correctly: destinations, countries, cities, currencies and time zones. Toggle all Lookups permissions
+						274 image collapsed
+						275 text Lookups
+						276 text 5
+						277 text  of 
+						278 text 5
+						279 text  tools on
+						280 text Reference data the AI needs to fill in forms correctly: destinations, countries, cities, currencies and time zones.
+						281 switch Description: Toggle all Lookups permissions, Value: 1
+					282 text Changes apply instantly: an AI tool only sees the tools you leave on, and only those its user’s role allows. Writes are attributed to the admin who generated the token. Turning a group on never lets AI delete records.
+				283 container Recent activity
+					284 image
+					285 heading Recent activity, Value: 3, ID: mcp-activity-title
+						286 text Recent activity
+					287 text No requests yet. Once an AI tool is connected, every tool call shows up here.
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/ai-settings

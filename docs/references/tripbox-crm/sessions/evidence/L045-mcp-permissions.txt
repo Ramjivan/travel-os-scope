@@ -1,0 +1,505 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/ai-settings".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/ai-settings
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1r_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Ai Settings
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading AI settings, Value: 1
+				60 text AI settings
+			61 text Configure the model provider, choose assisted workflows, and monitor usage from one controlled workspace.
+			62 image
+			63 text AI Configuration
+			64 container
+				65 container
+					66 text * AI Provider
+				67 container
+					68 combo box (collapsed, settable) * AI Provider, ID: provider, Secondary Actions: Expand
+					69 text Google (Gemini)
+				70 container
+					71 text * Tool-calling model
+					72 image
+				73 container
+					74 combo box (collapsed, settable) * Tool-calling model, ID: model, Secondary Actions: Expand
+					75 text Select a supported model
+				76 container
+					77 text * API Key
+				78 container
+					79 text field (settable) * API Key
+					80 button Show entered API key
+						81 image
+				82 text Requests per minute limit
+				83 stepper (settable) Requests per minute limit, ID: requestsPerMinute
+				84 text Optional tenant-wide cap. Leave blank to use the provider's available capacity.
+				85 text Monthly token budget
+				86 stepper (settable) Monthly token budget, ID: monthlyTokenBudget
+				87 text Optional tenant-wide monthly limit. Usage is measured in provider-reported tokens.
+				88 button Test API key
+					89 image
+					90 text Test API key
+				91 button Save Configuration
+			92 image
+			93 text AI Features
+			94 text Configure AI provider above to enable features.
+			95 image
+			96 text Usage & Monitoring
+			97 container
+				98 text field (settable)
+				99 container to
+					100 image swap-right
+				101 text field (settable)
+				102 image calendar
+			103 image No data
+			104 text No usage data yet
+			105 heading Request Logs, Value: 4
+				106 text Request Logs
+			107 table
+				108 row
+					109 cell
+						110 text Date
+					111 cell
+						112 text Feature
+					113 cell
+						114 text Operation
+					115 cell
+						116 text Provider
+					117 cell
+						118 text Model
+					119 cell
+						120 text Tokens
+					121 cell
+						122 text User
+				123 row
+					124 cell
+						125 container
+							126 image No data
+							127 heading No request logs, Value: 3
+								128 text No request logs
+							129 text AI requests will appear here after a feature is used.
+			130 container MCP settings
+				131 heading MCP settings, Value: 2, ID: mcp-settings-heading
+					132 text MCP settings
+				133 text Let external AI assistants like ChatGPT, Claude and Gemini work with your CRM through the Model Context Protocol.
+				134 container MCP overview
+					135 container
+						136 text Not connected ·  Generate a token to get started
+						137 heading Run your CRM from any AI assistant, Value: 2
+							138 text Run your CRM from any AI assistant
+						139 text Connect ChatGPT, Claude or Gemini over MCP and just ask: “who hasn’t been followed up this week?”, “create a lead for the Sharma family”, “move #142 to on hold”. You decide exactly what they can touch.
+						140 button Connect MCP
+							141 image
+							142 text Connect MCP
+						143 text MCP access
+						144 switch Description: Toggle MCP access, Value: 1
+					145 container
+						146 text TOOLS EXPOSED 77 of 127 REQUESTS · 7 DAYS 0 LAST USED Never
+				147 container What can AI tools do?
+					148 heading What can AI tools do?, Value: 3, ID: mcp-permissions-title
+						149 text What can AI tools do?
+					150 container
+						151 text 77  of  127  tools are on across  14  areas of the CRM.
+					152 container
+						153 image
+						154 text field (settable) Search tools and permissions
+					155 button Collapse all
+						288 text Collapse all
+					156 button (expanded) Secondary Actions: Collapse, expanded Lead management 11 of 13 tools on Let AI assistants work your pipeline: find, create and update leads and log follow-ups. Toggle all Lead management permissions
+						157 image expanded
+						158 text Lead management
+						159 text 11
+						160 text  of 
+						161 text 13
+						162 text  tools on
+						163 text Let AI assistants work your pipeline: find, create and update leads and log follow-ups.
+						164 switch Description: Toggle all Lead management permissions, Value: 1
+					289 content list
+						290 container
+							291 text Read leads
+							292 image
+							293 text Read only Search and list leads, view a lead's full details, follow-up history, change history, saved filters and pipeline counts. list_leads get_lead get_lead_counts list_lead_followups get_lead_history list_saved_lead_filters get_leads_calendar list_lead_documents
+							294 switch Description: Read leads, Value: 1
+						295 container
+							296 text Create leads
+							297 image
+							298 text Changes data Add new leads to the CRM. Auto-assignment rules and automated emails apply as usual. create_lead
+							299 switch Description: Create leads, Value: 1
+						300 container
+							301 text Update leads
+							302 image
+							303 text Changes data Edit lead details, change status, reassign, and manage tags. update_lead
+							304 switch Description: Update leads, Value: 1
+						305 container
+							306 text Log follow-ups
+							307 image
+							308 text Changes data Add follow-up notes to a lead's timeline. add_lead_followup
+							309 switch Description: Log follow-ups, Value: 1
+						310 container
+							311 text Bulk update leads
+							312 image
+							313 text Changes data Owner · Admin Change status, assignee or tags on many leads at once. bulk_update_leads
+							314 switch Description: Bulk update leads, Value: 0
+						315 container
+							316 text Export leads
+							317 image
+							318 text Read only Owner Generate an Excel export of leads and return a time-limited download link. export_leads
+							319 switch Description: Export leads, Value: 0
+					165 button (expanded) Secondary Actions: Collapse, expanded Itineraries 3 of 17 tools on Let AI assistants build, review, refine, share and issue the itineraries attached to your leads. Toggle all Itineraries permissions
+						166 image expanded
+						167 text Itineraries
+						168 text 3
+						169 text  of 
+						170 text 17
+						171 text  tools on
+						172 text Let AI assistants build, review, refine, share and issue the itineraries attached to your leads.
+						173 switch Description: Toggle all Itineraries permissions, Value: 1
+					320 content list
+						321 container
+							322 text Read itineraries
+							323 image
+							324 text Read only List a lead's itineraries and read full itinerary details. list_itineraries get_itinerary
+							325 switch Description: Read itineraries, Value: 1
+						326 container
+							327 text Create itineraries
+							328 image
+							329 text Changes data Owner · Admin · Sales · Operations Create a proposed itinerary on a lead from inventory ids. Totals are calculated by Tripbox using your agent-portal pricing profile. create_itinerary find_template_plans plan_itinerary_from_templates
+							330 switch Description: Create itineraries, Value: 0
+						331 container
+							332 text Update itineraries
+							333 image
+							334 text Changes data Owner · Admin · Sales · Operations Edit start date, inclusions, exclusions and policy text of proposed itineraries. update_itinerary
+							335 switch Description: Update itineraries, Value: 0
+						336 container
+							337 text Itinerary workflow
+							338 image
+							339 text Changes data Owner · Admin · Sales · Operations Change itinerary status, confirm bookings, cancel or revert a cancellation, and return portal quotes to the agency. change_itinerary_status confirm_itinerary cancel_itinerary revert_itinerary_cancellation return_itinerary_to_agency
+							340 switch Description: Itinerary workflow, Value: 0
+						341 container
+							342 text Generate itinerary PDF
+							343 image
+							344 text Read only Generate the itinerary PDF or Word document and return a time-limited download link. generate_itinerary_document
+							345 switch Description: Generate itinerary PDF, Value: 1
+						346 container
+							347 text Manage share links
+							348 image
+							349 text Changes data Owner · Admin · Sales · Operations View, create, rotate and revoke the public share link of an itinerary. get_itinerary_share save_itinerary_share rotate_itinerary_share revoke_itinerary_share
+							350 switch Description: Manage share links, Value: 0
+						351 container
+							352 text Email itineraries
+							353 image
+							354 text Changes data Owner · Admin · Sales · Operations Send an itinerary to the guest by email from the CRM. send_itinerary_email
+							355 switch Description: Email itineraries, Value: 0
+					174 button (expanded) Secondary Actions: Collapse, expanded Itinerary templates 4 of 5 tools on Let AI assistants find reusable itinerary templates and save good itineraries as templates. Toggle all Itinerary templates permissions
+						175 image expanded
+						176 text Itinerary templates
+						177 text 4
+						178 text  of 
+						179 text 5
+						180 text  tools on
+						181 text Let AI assistants find reusable itinerary templates and save good itineraries as templates.
+						182 switch Description: Toggle all Itinerary templates permissions, Value: 1
+					356 content list
+						357 container
+							358 text Browse templates
+							359 image
+							360 text Read only List and read itinerary templates, tags, and get template recommendations for a trip. list_itinerary_templates get_itinerary_template recommend_itinerary_templates list_template_tags
+							361 switch Description: Browse templates, Value: 1
+						362 container
+							363 text Save templates
+							364 image
+							365 text Changes data Owner · Admin Save an existing itinerary as a reusable template. save_itinerary_as_template
+							366 switch Description: Save templates, Value: 0
+					183 button (expanded) Secondary Actions: Collapse, expanded Bookings & operations 5 of 8 tools on Let AI assistants track confirmed bookings, supplier confirmations and vouchers. Toggle all Bookings & operations permissions
+						184 image expanded
+						185 text Bookings & operations
+						186 text 5
+						187 text  of 
+						188 text 8
+						189 text  tools on
+						190 text Let AI assistants track confirmed bookings, supplier confirmations and vouchers.
+						191 switch Description: Toggle all Bookings & operations permissions, Value: 1
+					367 content list
+						368 container
+							369 text Read bookings
+							370 image
+							371 text Read only List bookings, view a booking's items and an itinerary's operation status. list_bookings get_booking list_booking_items get_itinerary_operations
+							372 switch Description: Read bookings, Value: 1
+						373 container
+							374 text Update bookings
+							375 image
+							376 text Changes data Owner · Admin · Operations Update booking items and operation status, and mark items as booked. update_booking_item mark_booking_items_booked update_itinerary_operation_item
+							377 switch Description: Update bookings, Value: 0
+						378 container
+							379 text Generate vouchers
+							380 image
+							381 text Read only Owner · Admin · Operations Generate supplier vouchers for a booking or itinerary item and return a download link. generate_voucher
+							382 switch Description: Generate vouchers, Value: 1
+					192 button (expanded) Secondary Actions: Collapse, expanded Payments 6 of 11 tools on Let AI assistants review payment schedules and, optionally, record payments. Toggle all Payments permissions
+						193 image expanded
+						194 text Payments
+						195 text 6
+						196 text  of 
+						197 text 11
+						198 text  tools on
+						199 text Let AI assistants review payment schedules and, optionally, record payments.
+						200 switch Description: Toggle all Payments permissions, Value: 1
+					383 content list
+						384 container
+							385 text Read payments
+							386 image
+							387 text Read only List payments and payment schedules across leads, and view one lead's schedules and payments. list_payments list_payment_schedules get_payment_schedule list_lead_payment_schedules
+							388 switch Description: Read payments, Value: 1
+						389 container
+							390 text Payment documents
+							391 image
+							392 text Read only Generate payment receipts and proforma invoices and return a download link. generate_payment_receipt generate_proforma_invoice
+							393 switch Description: Payment documents, Value: 1
+						394 container
+							395 text Record payments
+							396 image
+							397 text Changes data Owner · Admin · Accounts Create and edit payment schedules, record payments and update schedule status. create_payment_schedule update_payment_schedule record_payment bulk_update_schedule_status
+							398 switch Description: Record payments, Value: 0
+						399 container
+							400 text Export payments
+							401 image
+							402 text Read only Owner Export payment schedules to Excel and return a download link. export_payment_schedules
+							403 switch Description: Export payments, Value: 0
+					201 button (expanded) Secondary Actions: Collapse, expanded Contacts 5 of 7 tools on Let AI assistants look up your customer contacts, their trips and upcoming birthdays or anniversaries. Toggle all Contacts permissions
+						202 image expanded
+						203 text Contacts
+						204 text 5
+						205 text  of 
+						206 text 7
+						207 text  tools on
+						208 text Let AI assistants look up your customer contacts, their trips and upcoming birthdays or anniversaries.
+						209 switch Description: Toggle all Contacts permissions, Value: 1
+					404 content list
+						405 container
+							406 text Read contacts
+							407 image
+							408 text Read only Owner · Admin Search contacts and view their leads, bookings and upcoming events. list_contacts get_contact get_contact_leads get_contact_bookings get_upcoming_contact_events
+							409 switch Description: Read contacts, Value: 1
+						410 container
+							411 text Edit contacts
+							412 image
+							413 text Changes data Owner · Admin Create and update customer contacts. create_contact update_contact
+							414 switch Description: Edit contacts, Value: 0
+					210 button (expanded) Secondary Actions: Collapse, expanded Inventory 3 of 6 tools on Let AI assistants look up and maintain your hotels, activities and transfers so they can plan with real products. Toggle all Inventory permissions
+						211 image expanded
+						212 text Inventory
+						213 text 3
+						214 text  of 
+						215 text 6
+						216 text  tools on
+						217 text Let AI assistants look up and maintain your hotels, activities and transfers so they can plan with real products.
+						218 switch Description: Toggle all Inventory permissions, Value: 1
+					415 content list
+						416 container
+							417 text Search inventory
+							418 image
+							419 text Read only Search active hotels, activities and transport with their ids, locations, room types and vehicles, and read full records. Supplier rates are never returned in search results. search_inventory get_inventory_item list_inventory_destinations
+							420 switch Description: Search inventory, Value: 1
+						421 container
+							422 text Edit inventory
+							423 image
+							424 text Changes data Owner · Admin Create and update hotels, activities and transport records in your repositories. create_inventory_item update_inventory_item
+							425 switch Description: Edit inventory, Value: 0
+						426 container
+							427 text Export inventory
+							428 image
+							429 text Read only Owner Export hotels, activities or transport to Excel and return a download link. export_inventory
+							430 switch Description: Export inventory, Value: 0
+					219 button (expanded) Secondary Actions: Collapse, expanded Suppliers & agencies 6 of 12 tools on Let AI assistants look up suppliers, B2B agencies and their contacts. Toggle all Suppliers & agencies permissions
+						220 image expanded
+						221 text Suppliers & agencies
+						222 text 6
+						223 text  of 
+						224 text 12
+						225 text  tools on
+						226 text Let AI assistants look up suppliers, B2B agencies and their contacts.
+						227 switch Description: Toggle all Suppliers & agencies permissions, Value: 1
+					431 content list
+						432 container
+							433 text Read suppliers & agencies
+							434 image
+							435 text Read only List suppliers and agencies, and view their contacts. list_suppliers get_supplier list_supplier_contacts list_agencies get_agency list_agency_contacts
+							436 switch Description: Read suppliers & agencies, Value: 1
+						437 container
+							438 text Edit suppliers & agencies
+							439 image
+							440 text Changes data Owner · Admin Create and update suppliers, agencies and their contacts. create_supplier update_supplier create_supplier_contact create_agency update_agency create_agency_contact
+							441 switch Description: Edit suppliers & agencies, Value: 0
+					228 button (expanded) Secondary Actions: Collapse, expanded Campaigns 4 of 8 tools on Let AI assistants follow outreach campaigns and the contacts assigned to your team. Toggle all Campaigns permissions
+						229 image expanded
+						230 text Campaigns
+						231 text 4
+						232 text  of 
+						233 text 8
+						234 text  tools on
+						235 text Let AI assistants follow outreach campaigns and the contacts assigned to your team.
+						236 switch Description: Toggle all Campaigns permissions, Value: 1
+					442 content list
+						443 container
+							444 text Read campaigns
+							445 image
+							446 text Read only List campaigns, view their contacts and fetch the next contact to work on. list_campaigns get_campaign list_campaign_contacts get_next_campaign_contact
+							447 switch Description: Read campaigns, Value: 1
+						448 container
+							449 text Manage campaigns
+							450 image
+							451 text Changes data Create campaigns, assign them, and record call outcomes on campaign contacts. create_campaign update_campaign assign_campaign update_campaign_contact
+							452 switch Description: Manage campaigns, Value: 0
+					237 button (expanded) Secondary Actions: Collapse, expanded Emails 6 of 13 tools on Let AI assistants read the shared inbox, organise conversations and draft replies. Toggle all Emails permissions
+						238 image expanded
+						239 text Emails
+						240 text 6
+						241 text  of 
+						242 text 13
+						243 text  tools on
+						244 text Let AI assistants read the shared inbox, organise conversations and draft replies.
+						245 switch Description: Toggle all Emails permissions, Value: 1
+					453 content list
+						454 container
+							455 text Read emails
+							456 image
+							457 text Read only List mailboxes and emails, read messages and attachments lists, and see automated email rules and agent response analytics. list_mailboxes list_emails get_email list_email_attachments get_mailbox_analytics list_automated_emails
+							458 switch Description: Read emails, Value: 1
+						459 container
+							460 text Organise emails
+							461 image
+							462 text Changes data Link conversations to leads, assign, tag, change status, mark spam and sync mailboxes. link_email_to_lead assign_email update_email_status tag_email mark_email_spam sync_mailbox
+							463 switch Description: Organise emails, Value: 0
+						464 container
+							465 text Send email replies
+							466 image
+							467 text Changes data Reply to email conversations from the CRM mailbox. Replies leave your agency immediately. reply_to_email
+							468 switch Description: Send email replies, Value: 0
+					246 button (expanded) Secondary Actions: Collapse, expanded Reports & dashboard 6 of 7 tools on Let AI assistants answer performance questions using your dashboards and reports. Toggle all Reports & dashboard permissions
+						247 image expanded
+						248 text Reports & dashboard
+						249 text 6
+						250 text  of 
+						251 text 7
+						252 text  tools on
+						253 text Let AI assistants answer performance questions using your dashboards and reports.
+						254 switch Description: Toggle all Reports & dashboard permissions, Value: 1
+					469 content list
+						470 container
+							471 text Read reports
+							472 image
+							473 text Read only View dashboard summaries, run catalogue reports, and open saved reports and the supplier payment ledger. get_dashboard_summary list_report_catalog get_report_metadata run_report get_saved_report get_supplier_payment_ledger
+							474 switch Description: Read reports, Value: 1
+						475 container
+							476 text Save reports
+							477 image
+							478 text Changes data Owner · Admin Save report definitions for reuse. save_report
+							479 switch Description: Save reports, Value: 0
+					255 button (expanded) Secondary Actions: Collapse, expanded Workspace settings 7 of 9 tools on Let AI assistants read how your workspace is configured and, optionally, adjust rates and rules. Toggle all Workspace settings permissions
+						256 image expanded
+						257 text Workspace settings
+						258 text 7
+						259 text  of 
+						260 text 9
+						261 text  tools on
+						262 text Let AI assistants read how your workspace is configured and, optionally, adjust rates and rules.
+						263 switch Description: Toggle all Workspace settings permissions, Value: 1
+					480 content list
+						481 container
+							482 text Read settings
+							483 image
+							484 text Read only View company profile, currency conversions, locations, custom lead fields, cover-page rules, auto-assignment rules and document templates. get_tenant_settings list_currency_conversions list_tenant_locations get_lead_custom_fields get_front_page_rules get_auto_assignment_rules list_itinerary_document_templates
+							485 switch Description: Read settings, Value: 1
+						486 container
+							487 text Edit settings
+							488 image
+							489 text Changes data Owner · Admin Add or edit currency conversion rates and update auto-assignment rules. save_currency_conversion update_auto_assignment_rules
+							490 switch Description: Edit settings, Value: 0
+					264 button (expanded) Secondary Actions: Collapse, expanded Team 3 of 3 tools on Let AI assistants look up teams and the logged-in user's profile. Toggle all Team permissions
+						265 image expanded
+						266 text Team
+						267 text 3
+						268 text  of 
+						269 text 3
+						270 text  tools on
+						271 text Let AI assistants look up teams and the logged-in user's profile.
+						272 switch Description: Toggle all Team permissions, Value: 1
+					491 content list
+						492 container
+							493 text Read team
+							494 image
+							495 text Read only List teams, view a team's members and view the connected user's profile. list_teams get_team get_current_user
+							496 switch Description: Read team, Value: 1
+					273 button (expanded) Secondary Actions: Collapse, expanded Lookups 5 of 5 tools on Reference data the AI needs to fill in forms correctly: destinations, countries, cities, currencies and time zones. Toggle all Lookups permissions
+						274 image expanded
+						275 text Lookups
+						276 text 5
+						277 text  of 
+						278 text 5
+						279 text  tools on
+						280 text Reference data the AI needs to fill in forms correctly: destinations, countries, cities, currencies and time zones.
+						281 switch Description: Toggle all Lookups permissions, Value: 1
+					497 content list
+						498 container
+							499 text Look up reference data
+							500 image
+							501 text Read only Search destinations, countries, cities, currencies and time zones. search_destinations list_countries list_cities list_currencies list_timezones
+							502 switch Description: Look up reference data, Value: 1
+					282 text Changes apply instantly: an AI tool only sees the tools you leave on, and only those its user’s role allows. Writes are attributed to the admin who generated the token. Turning a group on never lets AI delete records.
+				283 container Recent activity
+					284 image
+					285 heading Recent activity, Value: 3, ID: mcp-activity-title
+						286 text Recent activity
+					287 text No requests yet. Once an AI tool is connected, every tool call shows up here.
+
+The focused UI element is 155 button Collapse all

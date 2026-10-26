@@ -1,0 +1,108 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/mailboxes".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/mailboxes
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Mailboxes
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Mailboxes, Value: 1
+				60 text Mailboxes
+			61 text Connect inbound and outbound inboxes, manage default sender behavior, and block unwanted lead sources.
+			62 link Description: Add mailbox, Value: tripboxcrm.com/org/mailboxes/new
+			63 text Connected inboxes
+			64 text 0
+			65 text Available mail sources
+			66 text Active inboxes
+			67 text 0
+			68 text Ready for sync
+			69 text Spam senders
+			70 text 0
+			71 text Blocked from mailbox sync
+			72 tab group
+				73 container
+					74 tab (selected, settable, boolean) Mailboxes 0, Value: 1, ID: rc-tabs-0-tab-mailboxes
+					75 tab (selectable, settable, boolean) Spam Senders 0, Value: 0, ID: rc-tabs-0-tab-spam
+			76 container Description: Mailboxes 0, ID: rc-tabs-0-panel-mailboxes
+				77 container List controls
+					78 container
+						79 image
+						80 search text field (settable)
+						81 button search
+							82 image search
+					83 button
+						84 image
+				85 table
+					86 row
+						87 cell
+							88 text Email
+						89 cell
+							90 text Display Name
+						91 cell
+							92 text Provider
+						93 cell
+							94 text Status
+						95 cell
+							96 text Default
+						97 cell
+							98 text Actions
+					99 row
+						100 cell
+							101 container
+								102 image No data
+								103 heading No mailboxes found, Value: 3
+									104 text No mailboxes found
+								105 text Connect a mailbox or adjust the current search.
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/mailboxes

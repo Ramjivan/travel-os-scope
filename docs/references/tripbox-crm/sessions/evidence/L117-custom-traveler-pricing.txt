@@ -1,0 +1,373 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Leads, Value: tripboxcrm.com/leads
+					27 image
+					28 link Description: #1, Value: tripboxcrm.com/leads/1
+					29 image
+					30 text Edit itinerary
+				31 heading Itinerary workspace, Value: 1
+					32 text Itinerary workspace
+				33 text Proposed for  TOS-AUDIT Fictional Traveller A
+				34 button Quote with AI
+					35 image
+					36 text Quote with AI
+				37 button Approve & start booking
+			38 container
+				39 image
+				40 text Route
+				41 text Indonesia (Bali)
+				42 text Country-level route
+				43 text Travel dates
+				44 container
+					45 text 20 Nov – 24 Nov 2026 ·  4  nights
+				46 image
+				47 text Guests
+				48 container
+					49 text 2  adults
+				50 text Currency
+				51 text INR
+				52 button Trip details
+					53 image
+					54 text Trip details
+				55 button Add stops
+					56 image
+					57 text Add stops
+				58 container
+					59 link Description: Hotels, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#hotels
+					60 link Description: Daily plan, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#activities
+					61 link Description: Travel, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#travel
+					62 link Description: Custom services, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#custom-services
+					63 link Description: Details, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#extras
+					64 link Description: Pricing, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#markup
+					65 link Description: Cost, Value: tripboxcrm.com/leads/1/itinerary/8f8c639a-f315-444d-8cee-a031689e42f5#cost
+				66 container hotels
+					67 image
+					68 heading Hotels, Value: 3
+						69 text Hotels
+					70 container
+						71 text 1  accommodation stays
+					72 button Add hotel
+						73 image
+						74 text Add hotel
+					75 text CITY STAY HOTEL ROOM & MEAL TOTAL RATE ACTIONS
+					76 text Ubud
+					77 image
+					78 text 20 Nov  – 24 Nov  · 4N
+					79 button View details for Alam Puisi Ubud
+						80 text Alam Puisi Ubud
+						81 text Draft
+					82 text Standard Double
+					83 text BB
+					84 button View rates for Alam Puisi Ubud
+						85 text INR
+						86 text 4,000
+					87 button Edit Alam Puisi Ubud
+						88 image
+					89 button Remove Alam Puisi Ubud
+						90 image
+					91 container
+						92 image
+						93 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					94 button Browse
+						95 image
+						96 text Browse
+				97 container activities
+					98 image
+					99 heading Daily plan, Value: 3
+						100 text Daily plan
+					101 text Activities and ground transport in one timeline
+					102 container
+						103 text DAY  1 20 Nov INDONESIA (BALI) Friday
+						104 container
+							105 image
+							106 button Benoa Water Sports ACTIVITY Kuta · Draft
+								107 text Benoa Water Sports
+								108 text ACTIVITY
+								109 text Kuta · Draft
+							110 button INR 2,400
+							111 button
+								112 image
+							113 button Edit Benoa Water Sports
+								114 image
+							115 button Remove Benoa Water Sports
+								116 image
+							117 container
+								118 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+							119 button Activities
+								120 image
+								121 text Activities
+							122 button Transport
+								123 image
+								124 text Transport
+						125 text DAY  2 21 Nov INDONESIA (BALI) Saturday
+						126 container
+							127 container
+								128 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							129 button Activities
+								130 image
+								131 text Activities
+							132 button Transport
+								133 image
+								134 text Transport
+						135 text DAY  3 22 Nov INDONESIA (BALI) Sunday
+						136 container
+							137 container
+								138 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							139 button Activities
+								140 image
+								141 text Activities
+							142 button Transport
+								143 image
+								144 text Transport
+						145 text DAY  4 23 Nov INDONESIA (BALI) Monday
+						146 container
+							147 container
+								148 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+							149 button Activities
+								150 image
+								151 text Activities
+							152 button Transport
+								153 image
+								154 text Transport
+						155 text DAY  5 24 Nov INDONESIA (BALI) Tuesday
+						156 container
+							157 container
+								158 combo box (collapsed, settable) ID: rc_select_9, Secondary Actions: Expand
+							159 button Activities
+								160 image
+								161 text Activities
+							162 button Transport
+								163 image
+								164 text Transport
+				165 container daily-transports
+					166 image
+					167 heading Full day transport, Value: 2
+						168 text Full day transport
+					169 text Cab services charged per day across your selected dates
+					170 container
+						171 image
+						172 combo box (collapsed, settable) Description: Quick search Full Day transport inventory, ID: rc_select_10, Secondary Actions: Expand
+					173 button Browse inventory
+						174 image
+						175 text Browse inventory
+					176 image No data
+					177 text No Full Day transports added
+				178 container travel
+					179 image
+					180 heading Flights, Value: 3
+						181 text Flights
+					182 container
+						183 text 0  flight segments
+					184 text No flights added
+					185 button Add flight
+						186 image
+						187 text Add flight
+				188 container Description: Custom services, ID: custom-services
+					189 image
+					190 heading Custom services(1), Value: 3
+						191 text Custom services ( 1 )
+					192 text Visas, insurance, and other trip arrangements
+					193 button Add service
+						194 image
+						195 text Add service
+					196 image
+					197 text TOS-AUDIT Internal trip planning
+					198 text Trip-wide · Handled internally
+					199 text ₹0
+					200 button Edit TOS-AUDIT Internal trip planning
+						201 image
+						202 text Edit
+					203 button (disabled) Move service up
+						204 image
+					205 button (disabled) Move service down
+						206 image
+					207 button (disabled) Remove service
+						208 image
+				209 container
+					210 button Inclusions & policies 0 inclusions · 0 exclusions · 0 policy sections, ID: extras
+						211 image
+						212 text Inclusions & policies
+						213 text 0 inclusions · 0 exclusions · 0 policy sections
+						214 image
+					215 button Markup & taxes 10% markup · No taxes, ID: markup
+						216 image
+						217 text Markup & taxes
+						218 text 10% markup · No taxes
+						219 image
+					220 button Cost breakdown Hotels, activities, transport, flights and custom services, ID: cost
+						221 image
+						222 text Cost breakdown
+						223 text Hotels, activities, transport, flights and custom services
+						224 image
+				323 container
+					324 text LIVE QUOTE Live calculation
+					325 heading Indonesia (Bali), Value: 2
+						326 text Indonesia (Bali)
+					327 image
+					328 text 20 Nov  to  24 Nov 4  night s
+					329 container mobile-quote-details
+						330 image
+						331 text TOS-AUDIT Fictional Traveller A
+						332 container
+							333 text 2  Adults
+						334 heading Quote composition, Value: 3
+							335 text Quote composition
+						336 text Base, margin, taxes
+						337 container Quote cost composition
+						338 text Base cost ₹6,400 Markup ₹640  ( 10 %) Selling price ₹7,040 Per adult ₹3,520
+				339 container
+					340 heading Actions, Value: 3
+						341 text Actions
+					342 text Payment plan set ₹15,400 Unaccounted amount -₹8,360
+					343 button Save Itinerary
+						344 image
+						345 text Save Itinerary
+					346 button Payment Management
+						347 image
+						348 text Payment Management
+					349 button (disabled) Download Itinerary
+						350 image
+						351 text Download Itinerary
+					352 button (disabled) Quick Share
+						353 image
+						354 text Quick Share
+		257 container
+			258 container Edit custom service
+				259 container
+					260 button Close
+						261 container Close
+							262 image close
+					263 image
+					264 text Edit custom service
+					265 container
+						266 image
+						267 heading Service details, Value: 4
+							268 text Service details
+						269 text Define where, when, and how this service is delivered.
+						270 container
+							271 text * Service name
+						272 text field (settable) * Service name, Value: TOS-AUDIT Internal trip planning, ID: customServices_0_name
+						273 text Placement
+						274 container
+							275 combo box (collapsed, settable) Placement, ID: customServices_0_day, Secondary Actions: Expand
+							276 text Trip-wide
+						277 text Fulfillment
+						278 container
+							279 combo box (collapsed, settable) Fulfillment, ID: customServices_0_fulfillmentMode, Secondary Actions: Expand
+							280 text Handled internally
+						281 text Location
+						282 text field (settable) Location, ID: customServices_0_location
+						283 text Start date
+						284 container
+							285 text field (settable) Start date, ID: customServices_0_startDate
+							286 image calendar
+						287 text End date
+						288 container
+							289 text field (settable) End date, ID: customServices_0_endDate
+							290 image calendar
+						291 text Description
+						292 text entry area (settable) Description, Value: Fictional internal service for reference-study pricing. No external fulfillment., ID: customServices_0_description
+					293 container
+						294 image
+						295 heading Pricing, Value: 4
+							296 text Pricing
+						297 text Enter costs in the itinerary currency. Use 0 for a free service.
+						298 text Pricing basis
+						355 container
+							356 text By traveler
+							357 combo box (collapsed, settable) Pricing basis, ID: customServices_0_pricingMode, Secondary Actions: Expand
+							358 text By traveler
+						359 heading Adults, Value: 5
+							360 text Adults
+						361 text Rate
+						362 container
+							363 container
+								364 button Increase Value
+									365 image up
+								366 button Decrease Value
+									367 image down
+							368 stepper (settable, integer) Rate, Value: 0, ID: customServices_0_adultRate
+							369 text INR
+						370 container
+							371 text * Quantity
+						372 container
+							373 button Increase Value
+								374 image up
+							375 button (disabled) Decrease Value
+								376 image down
+							377 stepper (settable, integer) * Quantity, Value: 0, ID: customServices_0_adultQuantity
+						378 heading Children, Value: 5
+							379 text Children
+						380 text Rate
+						381 container
+							382 container
+								383 button Increase Value
+									384 image up
+								385 button Decrease Value
+									386 image down
+							387 stepper (settable, integer) Rate, Value: 0, ID: customServices_0_childRate
+							388 text INR
+						389 container
+							390 text * Quantity
+						391 container
+							392 button Increase Value
+								393 image up
+							394 button (disabled) Decrease Value
+								395 image down
+							396 stepper (settable, integer) * Quantity, Value: 0, ID: customServices_0_childQuantity
+						397 heading Infants, Value: 5
+							398 text Infants
+						399 text Rate
+						400 container
+							401 container
+								402 button Increase Value
+									403 image up
+								404 button Decrease Value
+									405 image down
+							406 stepper (settable, integer) Rate, Value: 0, ID: customServices_0_infantRate
+							407 text INR
+						408 container
+							409 text * Quantity
+						410 container
+							411 button Increase Value
+								412 image up
+							413 button (disabled) Decrease Value
+								414 image down
+							415 stepper (settable, integer) * Quantity, Value: 0, ID: customServices_0_infantQuantity
+					312 container
+						313 image
+						314 heading Custom fields, Value: 4
+							315 text Custom fields
+						316 text Add optional details and control who can see each one. Add reference numbers, instructions, or other details. Choose customer, supplier, or internal visibility for each field.
+						317 button Add custom field
+							318 image
+							319 text Add custom field
+					320 text Service cost ·  INR ₹0
+					321 button Cancel
+					322 button Done
+
+The focused UI element is 357 combo box (collapsed, settable) Pricing basis, ID: customServices_0_pricingMode, Secondary Actions: Expand

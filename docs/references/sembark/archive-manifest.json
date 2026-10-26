@@ -1,0 +1,311 @@
+[
+  {
+    "reference_id": "SEMBARK-001",
+    "source_filename": "Screenshot 2026-10-05 at 9.32.43 PM.png",
+    "source_sha256": "e0d009884beaa62a9dc528a1b19e68205e8ebc5a1f2df8dc85235b3e93fbb9d7",
+    "archive_filename": "sembark-001-dashboard.png",
+    "archive_sha256": "e0d009884beaa62a9dc528a1b19e68205e8ebc5a1f2df8dc85235b3e93fbb9d7",
+    "dimensions": [
+      2898,
+      1306
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-002",
+    "source_filename": "Screenshot 2026-10-05 at 9.32.55 PM.png",
+    "source_sha256": "5a713a18075489bb9cdd67f82ce940fb44d7f2c2bd99f96fc8249128a658f3a6",
+    "archive_filename": "sembark-002-trips-menu.png",
+    "archive_sha256": "5a713a18075489bb9cdd67f82ce940fb44d7f2c2bd99f96fc8249128a658f3a6",
+    "dimensions": [
+      658,
+      324
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-003",
+    "source_filename": "Screenshot 2026-10-05 at 9.33.05 PM.png",
+    "source_sha256": "307019ccbf85654b5f1f5d5282fb99939dff5a90555fbb60136c46a3c2b20c38",
+    "archive_filename": "sembark-003-bookings-menu.png",
+    "archive_sha256": "307019ccbf85654b5f1f5d5282fb99939dff5a90555fbb60136c46a3c2b20c38",
+    "dimensions": [
+      638,
+      388
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-004",
+    "source_filename": "Screenshot 2026-10-05 at 9.33.13 PM.png",
+    "source_sha256": "02bbdd6a6529213529d345127d369db90ac673669033f777bd2aa90da287ae71",
+    "archive_filename": "sembark-004-accounting-menu.png",
+    "archive_sha256": "02bbdd6a6529213529d345127d369db90ac673669033f777bd2aa90da287ae71",
+    "dimensions": [
+      690,
+      602
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-005",
+    "source_filename": "Screenshot 2026-10-05 at 9.33.24 PM.png",
+    "source_sha256": "f0105ec9ae2f35f8fa8195e641cfd0c4ec4ef7420496b205bcf30cc80c67f63f",
+    "archive_filename": "sembark-005-services-menu.png",
+    "archive_sha256": "f0105ec9ae2f35f8fa8195e641cfd0c4ec4ef7420496b205bcf30cc80c67f63f",
+    "dimensions": [
+      786,
+      796
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-006",
+    "source_filename": "Screenshot 2026-10-05 at 9.33.30 PM.png",
+    "source_sha256": "36adfdf804a8fdf392e4f17241745136f8427137ad8086cee9c35455b6b2c5f3",
+    "archive_filename": "sembark-006-suppliers-menu.png",
+    "archive_sha256": "36adfdf804a8fdf392e4f17241745136f8427137ad8086cee9c35455b6b2c5f3",
+    "dimensions": [
+      592,
+      364
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-007",
+    "source_filename": "Screenshot 2026-10-05 at 9.33.41 PM.png",
+    "source_sha256": "a76962a9885e39971638b2bf3a7a1556d84dc4faec51654009e4967c5eaf2f4f",
+    "archive_filename": "sembark-007-profile-menu.png",
+    "archive_sha256": "a76962a9885e39971638b2bf3a7a1556d84dc4faec51654009e4967c5eaf2f4f",
+    "dimensions": [
+      318,
+      726
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-008",
+    "source_filename": "Screenshot 2026-10-05 at 9.34.05 PM.png",
+    "source_sha256": "356ed5b9d41a9ec2724d4a56d90661e0e999a97401dff35d28f6e8d52e6a057e",
+    "archive_filename": "sembark-008-trips-list-redacted.png",
+    "archive_sha256": "518105b92420a930941ae59096145bb9a685728841451f1e237e7882d5fd89a1",
+    "dimensions": [
+      2888,
+      1450
+    ],
+    "redactions": [
+      "Trip IDs, contact/source reference identifiers and guest names, staff/team names"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-009",
+    "source_filename": "Screenshot 2026-10-05 at 9.34.23 PM.png",
+    "source_sha256": "37ff11610ccde9c3d5bb78ec2fab7ec15ecb9b7764c7e2b4a9db04a86f82123d",
+    "archive_filename": "sembark-009-new-query-upper.png",
+    "archive_sha256": "37ff11610ccde9c3d5bb78ec2fab7ec15ecb9b7764c7e2b4a9db04a86f82123d",
+    "dimensions": [
+      2834,
+      1342
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-010",
+    "source_filename": "Screenshot 2026-10-05 at 9.34.34 PM.png",
+    "source_sha256": "61fce9de66aa3760aa6412869479d85f0ab1578b4217274488adb42fac8b9f68",
+    "archive_filename": "sembark-010-new-query-lower.png",
+    "archive_sha256": "61fce9de66aa3760aa6412869479d85f0ab1578b4217274488adb42fac8b9f68",
+    "dimensions": [
+      2282,
+      1270
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-011",
+    "source_filename": "Screenshot 2026-10-05 at 9.35.20 PM.png",
+    "source_sha256": "442e38cc4fcfc8e2dc75ba1cfc0943ff2f5061ce1d5269e6d02c6eb36ed451cb",
+    "archive_filename": "sembark-011-quote-suggestions-upper-redacted.png",
+    "archive_sha256": "6690c22bd1f8812d905665bf02ac16983d5932c726ab017c0c7d50757c93269e",
+    "dimensions": [
+      2902,
+      1378
+    ],
+    "redactions": [
+      "Current and suggested trip/guest identifiers, source reference ID, phone, staff names and private task/comment text"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-012",
+    "source_filename": "Screenshot 2026-10-05 at 9.35.45 PM.png",
+    "source_sha256": "819b0a79995c2f33dd53a01d1d81f41d668b24de07891acabc3a0a77d2b712ba",
+    "archive_filename": "sembark-012-quote-suggestions-lower-redacted.png",
+    "archive_sha256": "2745907b41a34352f5e1696fd7a635cd5c493b115c890d2fadcb00a6b05a9710",
+    "dimensions": [
+      2908,
+      1388
+    ],
+    "redactions": [
+      "Suggested trip/guest identifiers, staff names and private task/comment text"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-013",
+    "source_filename": "Screenshot 2026-10-05 at 9.37.32 PM.png",
+    "source_sha256": "ecb57ca7cd12cdf48378c23d0caa954820bb4aef46cc3e511ca6d23c5f7e0749",
+    "archive_filename": "sembark-013-incoming-payments.png",
+    "archive_sha256": "ecb57ca7cd12cdf48378c23d0caa954820bb4aef46cc3e511ca6d23c5f7e0749",
+    "dimensions": [
+      2924,
+      990
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-014",
+    "source_filename": "Screenshot 2026-10-05 at 9.37.41 PM.png",
+    "source_sha256": "bef533912d6cdf30eb431bed89e38454daab13d8d270a58a6175f8d387223a30",
+    "archive_filename": "sembark-014-outgoing-payments.png",
+    "archive_sha256": "bef533912d6cdf30eb431bed89e38454daab13d8d270a58a6175f8d387223a30",
+    "dimensions": [
+      2934,
+      1062
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-015",
+    "source_filename": "Screenshot 2026-10-05 at 9.37.52 PM.png",
+    "source_sha256": "644628dd4acfbcec7b1815cf6c77fc2df825d1760edde48a5fec2284eb2587ee",
+    "archive_filename": "sembark-015-accounts-redacted.png",
+    "archive_sha256": "4c48cc00c91f3260b83532d2594b1994c2e8b529686104e06976f08271e1aa2f",
+    "dimensions": [
+      2926,
+      1040
+    ],
+    "redactions": [
+      "Bank account name/identifier and company account identity"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-016",
+    "source_filename": "Screenshot 2026-10-05 at 9.38.02 PM.png",
+    "source_sha256": "2df44a14ee3ec2f5effcd9cd0e5df675625c09c2c02d4525b75891fd3ed9acae",
+    "archive_filename": "sembark-016-outgoing-payments-repeat.png",
+    "archive_sha256": "2df44a14ee3ec2f5effcd9cd0e5df675625c09c2c02d4525b75891fd3ed9acae",
+    "dimensions": [
+      2926,
+      1066
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-017",
+    "source_filename": "Screenshot 2026-10-05 at 9.38.16 PM.png",
+    "source_sha256": "1bf85dd7f78cf388f2ea84678663c07716cef357d218f3c348ddb38ce8575ab7",
+    "archive_filename": "sembark-017-transactions.png",
+    "archive_sha256": "1bf85dd7f78cf388f2ea84678663c07716cef357d218f3c348ddb38ce8575ab7",
+    "dimensions": [
+      2918,
+      816
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-018",
+    "source_filename": "Screenshot 2026-10-05 at 9.38.41 PM.png",
+    "source_sha256": "62efc124868e0e00a12016c454910bbf3ea5b176a1bbbad557ec2f63615befc5",
+    "archive_filename": "sembark-018-credit-consumption-redacted.png",
+    "archive_sha256": "7ae9f1e4b2313246980e21a9ec0fcb54a6a7e0e7700add337c74c94b63c26fd7",
+    "dimensions": [
+      2906,
+      1290
+    ],
+    "redactions": [
+      "Guest names and trip IDs in Detail cells"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-019",
+    "source_filename": "Screenshot 2026-10-05 at 9.38.51 PM.png",
+    "source_sha256": "5126f09dc5fa5fdf4818df16bfdb00c8a4e2074587407a6c6682d4d997b1f9ce",
+    "archive_filename": "sembark-019-mail-parsing-usage.png",
+    "archive_sha256": "5126f09dc5fa5fdf4818df16bfdb00c8a4e2074587407a6c6682d4d997b1f9ce",
+    "dimensions": [
+      2910,
+      1090
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-020",
+    "source_filename": "Screenshot 2026-10-05 at 9.38.58 PM.png",
+    "source_sha256": "69f579f0cb591a80215735412bf8839b3ae3a12143e4a79307725f3141ac4144",
+    "archive_filename": "sembark-020-email-send-usage.png",
+    "archive_sha256": "69f579f0cb591a80215735412bf8839b3ae3a12143e4a79307725f3141ac4144",
+    "dimensions": [
+      2914,
+      1024
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-021",
+    "source_filename": "Screenshot 2026-10-05 at 9.39.07 PM.png",
+    "source_sha256": "db4080da9c3b895cce8bb488a28d105597a26ce72f36e033baab5eb3800750fe",
+    "archive_filename": "sembark-021-quote-parsing-usage-redacted.png",
+    "archive_sha256": "53ee7abcf2258c342898ca1153c0723d0bc22eb5fa5bf2e39e0ab9dac636766d",
+    "dimensions": [
+      2930,
+      1442
+    ],
+    "redactions": [
+      "Guest names/trip IDs and processing staff names"
+    ]
+  },
+  {
+    "reference_id": "SEMBARK-022",
+    "source_filename": "Screenshot 2026-10-05 at 9.39.19 PM.png",
+    "source_sha256": "96d6eb73916f33c5685f91c6f6ffe8da84d0260642ceddb6771d6dc83fae5a50",
+    "archive_filename": "sembark-022-itinerary-builder-usage.png",
+    "archive_sha256": "96d6eb73916f33c5685f91c6f6ffe8da84d0260642ceddb6771d6dc83fae5a50",
+    "dimensions": [
+      2904,
+      1198
+    ],
+    "redactions": []
+  },
+  {
+    "reference_id": "SEMBARK-023",
+    "source_filename": "codex-clipboard-16fdc376-6c25-4e6c-a663-8d21cd1ec0cb.png",
+    "source_sha256": "a822998462bf8677e88c52bfa9d7c35e2717748dbfa0312fc94847cba633c957",
+    "archive_filename": "sembark-023-outgoing-debit-accounts-redacted.png",
+    "archive_sha256": "4d229f33a72f653c0351b28678f6a1535a2553c2c1611e1dedcc154d0a239deb",
+    "dimensions": [
+      822,
+      393
+    ],
+    "redactions": [
+      "Account/supplier organization names masked. Generic account-type labels and exact source currency suffixes re-rendered within masks for readability; dd and selection controls unchanged."
+    ],
+    "received_date": "2026-10-08",
+    "provenance": "User-supplied clipboard attachment; redacted derivative, source unchanged."
+  },
+  {
+    "reference_id": "SEMBARK-024",
+    "source_filename": "codex-clipboard-5c784edd-fd24-491d-91d7-674d0e217353.png",
+    "source_sha256": "f57f04722029e3a6ff736f11f0abd0386487eb9f2b6974967b997fa53c92c488",
+    "archive_filename": "sembark-024-outgoing-credit-account-redacted.png",
+    "archive_sha256": "f9acb97eaac199393740e54c1b9740f7c0a30f71e3494afc6dbf4e2a0cc1d79f",
+    "dimensions": [
+      821,
+      305
+    ],
+    "redactions": [
+      "Account/supplier organization names masked; original currency suffixes and structural option labels retained where visible.",
+      "Paid amount masked."
+    ],
+    "received_date": "2026-10-08",
+    "provenance": "User-supplied clipboard attachment; redacted derivative, source unchanged."
+  }
+]

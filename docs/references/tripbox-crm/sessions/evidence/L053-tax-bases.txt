@@ -1,0 +1,135 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/preferences".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/preferences
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1t_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Preferences
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Preferences, Value: 1
+					61 text Preferences
+				62 text Maintain reusable itinerary content, client policies, and pricing taxes.
+				63 button Save preferences
+				64 container
+					65 heading Standard itinerary content, Value: 2
+						66 text Standard itinerary content
+					67 text Maintain reusable inclusions and exclusions inserted into client-facing proposals.
+					68 text Inclusions
+					69 button Add Inclusion
+						70 image
+						71 text Add Inclusion
+					72 text Exclusions
+					73 button Add Exclusion
+						74 image
+						75 text Add Exclusion
+				76 container
+					77 heading Client policies, Value: 2
+						78 text Client policies
+					79 text Keep commercial and statutory copy consistent across every generated itinerary.
+					80 text Terms & Conditions
+					81 container
+						82 text entry area (settable) Terms & Conditions, ID: terms
+						83 text 0 / 10000
+					84 text Cancellation Policy
+					85 container
+						86 text entry area (settable) Cancellation Policy, ID: cancellation
+						87 text 0 / 10000
+					88 text Payment Policy
+					89 container
+						90 text entry area (settable) Payment Policy, ID: paymentPolicy
+						91 text 0 / 10000
+					92 text TCS Terms
+					93 container
+						94 text entry area (settable) TCS Terms, ID: tcsTerms
+						95 text 0 / 10000
+					96 text Important Information
+					97 container
+						98 text entry area (settable) Important Information, ID: importantInformation
+						99 text 0 / 10000
+				100 container
+					101 heading Taxes, Value: 2
+						102 text Taxes
+					103 text Configure tax names, calculation bases, percentages, and defaults used in pricing.
+					104 text Taxes
+					105 container
+						106 text field (settable) taxes_0_name
+						107 container
+							108 combo box (expanded, settable) ID: taxes_0_appliedOn, Secondary Actions: Collapse
+							109 text Cost Only
+						110 container
+							111 container
+								112 button Increase Value
+									113 image up
+								114 button (disabled) Decrease Value
+									115 image down
+							116 stepper (settable, integer) Value: 0, Details: 0.00, ID: taxes_0_percentage
+							117 text %
+						118 container
+							119 checkbox (settable, integer) Description: Default  , Value: 0, ID: taxes_0_isDefault
+							120 text Default
+						121 button
+							122 image
+						123 button Add Tax
+							124 image
+							125 text Add Tax
+		126 container
+			127 list taxes_0_appliedOn_list
+				128 (selected) Value: Cost Only, ID: taxes_0_appliedOn_list_0
+				129 Value: All Markup, ID: taxes_0_appliedOn_list_1
+			130 text Cost Only
+			131 text All Markup
+			132 text Cost + All Markup
+
+The focused UI element is 108 combo box (expanded, settable) ID: taxes_0_appliedOn, Secondary Actions: Collapse

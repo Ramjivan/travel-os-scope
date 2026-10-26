@@ -1,0 +1,103 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itinerary-templates".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_v_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						23 image
+			24 container
+				25 heading Itinerary templates, Value: 1
+					26 text Itinerary templates
+				27 text 62  templates ·  1  favourites Build and maintain reusable trip plans for faster itinerary creation.
+				28 button Refresh templates
+					420 image
+				30 button Manage tags
+					31 image
+					32 text Manage tags
+				33 button New template
+					34 image
+					35 text New template
+			36 container Template filters
+				37 container
+					38 image
+					39 text field (settable)
+				40 container
+					41 combo box (collapsed, settable) ID: rc_select_31, Secondary Actions: Expand
+					42 text Filter by tags
+				43 container
+					44 combo box (collapsed, settable) ID: rc_select_32, Secondary Actions: Expand
+					45 text Recently updated
+				46 checkbox Favourites, Value: 1
+					47 image
+					48 text Favourites
+				421 button Clear filters
+			49 container
+				50 heading Template library, Value: 2
+					51 text Template library
+				52 text 1 Reusable plans with stays, activities, and transport at a glance Template Plan summary Created by Actions
+				53 content list
+					54 container
+						55 image
+						56 heading TOS-AUDIT Fictional Template B, Value: 3
+							57 text TOS-AUDIT Fictional Template B
+						58 text Internal only
+						59 image
+						60 text 2 nights
+						61 image
+						62 text Ubud · 2N
+						63 definition list
+							64 container Hotels
+								65 image
+								66 text Hotels
+							67 text 1
+							68 container Activities
+								69 image
+								70 text Activities
+							71 text 0
+							72 container Transport
+								73 image
+								74 text Transport
+							75 text 1
+						76 image
+						77 text Nishar Arora 3 minutes ago
+						78 button Remove from favourites
+							79 image
+						80 button Tags
+							81 image
+							82 text Tags
+						83 button Edit
+							84 image
+							85 text Edit
+						86 button Delete template
+							87 image
+				394 container templates pagination
+					395 container
+						396 text 1 – 1  of  1 templates
+					397 content list
+						398 container Previous Page
+							399 button (disabled) left
+								400 image left
+						401 text 1
+						409 container Next Page
+							410 button (disabled) right
+								411 image right
+						422 container Page Size
+							423 container
+								424 combo box (collapsed, settable) Description: Page Size, ID: rc_select_33, Secondary Actions: Expand
+								425 text 10 / page
+
+The focused UI element is 46 checkbox Favourites, Value: 1

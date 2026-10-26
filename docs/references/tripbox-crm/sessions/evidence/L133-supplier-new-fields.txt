@@ -1,0 +1,72 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/supplier/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/supplier/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			10 image
+			11 text Suppliers
+		12 container Organisation settings section
+			13 container
+				14 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				15 text Suppliers
+		16 container
+			17 heading Add supplier, Value: 1
+				18 text Add supplier
+			19 text Maintain supplier identity, destination coverage, commercial preferences, and payment details.
+			20 container
+				21 heading Business details, Value: 2
+					22 text Business details
+				23 text Core supplier identity and operating location.
+				24 container
+					25 text * Supplier name
+				26 text field (settable) * Supplier name, ID: name
+				27 text Address
+				28 text entry area (settable) Address, ID: address
+				29 container
+					30 text * Country
+				31 container
+					32 combo box (collapsed, settable) * Country, ID: country, Secondary Actions: Expand
+					33 text Select supplier country
+				34 text Website
+				35 text field (settable) Website, ID: website
+			36 container
+				37 heading Commercial details, Value: 2
+					38 text Commercial details
+				39 text Payment preference and private banking information.
+				40 text Payment method
+				41 container
+					42 combo box (collapsed, settable) Payment method, ID: preferredPaymentMethod, Secondary Actions: Expand
+					43 text Select preferred payment method
+				44 text Beneficiary Name
+				45 text field (settable) Beneficiary Name, ID: bankDetails_beneficiaryName
+				46 text Bank Name
+				47 text field (settable) Bank Name, ID: bankDetails_bankName
+				48 text Account Number
+				49 text field (settable) Account Number, ID: bankDetails_accountNumber
+				50 text Account Type
+				51 container
+					52 combo box (collapsed, settable) Account Type, ID: bankDetails_accountType, Secondary Actions: Expand
+					53 text Select account type
+			54 container
+				55 heading Coverage and operations, Value: 2
+					56 text Coverage and operations
+				57 text Destinations, internal notes, and supplier availability.
+				58 text Destinations
+				59 container
+					60 combo box (collapsed, settable) Destinations, ID: supportedDestinations, Secondary Actions: Expand
+					61 text Select supported countries/destinations
+				62 text Notes
+				63 text entry area (settable) Notes, ID: notes
+				64 text Supplier status
+				65 switch Description: Supplier status, Value: 1, ID: isActive
+					66 text Active
+					67 text Inactive
+				68 button Cancel
+				69 button Create supplier
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/supplier/new

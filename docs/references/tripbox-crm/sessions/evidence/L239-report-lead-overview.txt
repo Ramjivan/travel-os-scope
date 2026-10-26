@@ -1,0 +1,156 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/preset/lead-overview".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/lead-overview
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 button Quotes
+					7 text Quotes
+					8 image
+				9 button Leads
+					10 text Leads
+					11 image
+				12 link Description: Payments, Value: tripboxcrm.com/payments
+				13 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				14 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				15 link Description: Reports, Value: tripboxcrm.com/reports
+				16 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1g_, Secondary Actions: Expand
+					17 text Open account menu
+					18 text NA
+					19 image
+		20 container
+			21 container Breadcrumb
+				22 link Description: Reports, Value: tripboxcrm.com/reports
+				23 image
+				24 text Lead overview
+			25 heading Lead overview, Value: 1
+				26 text Lead overview
+			27 text Organisation data A concise view of lead health for the selected creation period.
+			28 container Report date range
+				29 container
+					30 combo box (collapsed, settable) Description: Report date range, ID: rc_select_0, Secondary Actions: Expand
+					31 text Last 30 days
+			32 button Refresh report
+				33 image
+			34 button Export XLSX
+				35 image
+				36 text Export XLSX
+		37 container Lead health
+			38 container
+				39 heading Lead health, Value: 2, ID: report-section-summary
+					40 text Lead health
+				41 text Current status of leads created in the selected period.
+			42 text Leads
+			43 text 1
+			44 text Open leads
+			45 text 0
+			46 text Converted leads
+			47 text 1
+			48 text Conversion rate
+			49 text 100%
+			50 text Cancelled leads
+			51 text 0
+			52 text Cancellation rate
+			53 text 0%
+			54 text Untouched leads
+			55 text 0
+			56 text Idle leads
+			57 text 0
+			58 table Lead health data table
+				59 row
+					60 cell
+						61 text Leads
+					62 cell
+						63 text Open leads
+					64 cell
+						65 text Converted leads
+					66 cell
+						67 text Conversion rate
+					68 cell
+						69 text Cancelled leads
+					70 cell
+						71 text Cancellation rate
+					72 cell
+						73 text Untouched leads
+					74 cell
+						75 text Idle leads
+				76 row
+					77 cell
+						78 text 1
+					79 cell
+						80 text 0
+					81 cell
+						82 text 1
+					83 cell
+						84 text 100%
+					85 cell
+						86 text 0
+					87 cell
+						88 text 0%
+					89 cell
+						90 text 0
+					91 cell
+						92 text 0
+		93 container Period comparison
+			94 container
+				95 heading Period comparison, Value: 2, ID: report-section-comparison
+					96 text Period comparison
+				97 text The preceding period uses the same number of days.
+			98 container Period comparison chart with 2 data points: Leads, Converted leads, Conversion rate, Cancellation rate.
+			99 table Period comparison data table
+				100 row
+					101 cell
+						102 text Period
+					103 cell
+						104 text Leads
+					105 cell
+						106 text Converted leads
+					107 cell
+						108 text Conversion rate
+					109 cell
+						110 text Cancellation rate
+				111 row
+					112 cell
+						113 text Current period
+					114 cell
+						115 text 1
+					116 cell
+						117 text 1
+					118 cell
+						119 text 100%
+					120 cell
+						121 text 0%
+				122 row
+					123 cell
+						124 text Previous period
+					125 cell
+						126 text 0
+					127 cell
+						128 text 0
+					129 cell
+						130 text 0%
+					131 cell
+						132 text 0%
+		133 container Status distribution
+			134 container
+				135 heading Status distribution, Value: 2, ID: report-section-status
+					136 text Status distribution
+				137 text Deleted and archived records are excluded.
+			138 container Status distribution chart with 1 data points: Leads, Share of leads.
+			139 table Status distribution data table
+				140 row
+					141 cell
+						142 text Lead status
+					143 cell
+						144 text Leads
+					145 cell
+						146 text Share of leads
+				147 row
+					148 cell
+						149 text confirmed
+					150 cell
+						151 text 1
+					152 cell
+						153 text 100%
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/preset/lead-overview

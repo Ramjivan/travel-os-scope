@@ -1,0 +1,184 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/agencies".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/agencies
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1i_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Agencies
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Agencies, Value: 1
+					61 text Agencies
+				62 text 1  agencies in this view
+				63 text Manage partner agencies and the contacts connected to agency-led enquiries.
+				64 button Refresh agencies
+					65 image
+				66 button New agency
+					67 image
+					68 text New agency
+				69 container
+					70 image
+					71 text field (settable)
+				72 container
+					73 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					74 text Any status
+				75 container
+					76 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					77 text Newest first
+				78 table
+					79 row
+						80 cell Agency name
+							81 text AGENCY NAME
+						82 cell Status
+							83 text STATUS
+						84 cell
+							85 text ACTIONS
+					86 row
+						87 cell
+							88 text TOS-AUDIT Fictional Agency A Fictional audit address; not a real business.
+						89 cell
+							90 text Active
+						91 cell
+							92 button View contacts for TOS-AUDIT Fictional Agency A
+								93 image
+							94 button Add a contact to TOS-AUDIT Fictional Agency A
+								95 image
+							96 button Manage portal users for TOS-AUDIT Fictional Agency A
+								97 image
+							98 button Update TOS-AUDIT Fictional Agency A
+								99 image
+							100 button Delete TOS-AUDIT Fictional Agency A
+								101 image
+				102 container agencies pagination
+					103 container
+						104 text 1 – 1  of  1 agencies
+					105 content list
+						106 container Previous Page
+							107 button (disabled) left
+								108 image left
+						109 text 1
+						110 container Next Page
+							111 button (disabled) right
+								112 image right
+						113 container Page Size
+							114 container
+								115 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+								116 text 10 / page
+		117 container
+			118 container TOS-AUDIT Fictional Agency A contacts
+				119 container Close TOS-AUDIT Fictional Agency A contacts Agency contact filters contacts pagination
+					120 container
+						121 button Close
+							122 container Close
+								123 image close
+						124 text TOS-AUDIT Fictional Agency A contacts
+						125 container Agency contact filters
+							126 container
+								127 image
+								128 text field (settable)
+							129 container
+								130 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+								131 text Any region
+							132 button New contact
+								133 image
+								134 text New contact
+							135 button Refresh agency contacts
+								136 image
+						137 table
+							138 row
+								139 cell Name
+									140 text NAME
+								141 cell Email
+									142 text EMAIL
+								143 cell Phone
+									144 text PHONE
+								145 cell Region
+									146 text REGION
+								147 cell
+									148 text DEFAULT
+								149 cell
+									150 text ACTIONS
+							151 row
+								152 cell
+									153 text TOS-AUDIT Fictional Agency Contact
+								154 cell
+									155 text agency-a@example.invalid
+								156 cell
+									157 text —
+								158 cell
+									159 text —
+								160 cell
+									161 button Set default
+								162 cell
+									163 button Update TOS-AUDIT Fictional Agency Contact
+										164 image
+									165 button Delete TOS-AUDIT Fictional Agency Contact
+										166 image
+						167 container contacts pagination
+							168 container
+								169 text 1 – 1  of  1 contacts
+							170 content list
+								171 container Previous Page
+									172 button (disabled) left
+										173 image left
+								174 text 1
+								175 container Next Page
+									176 button (disabled) right
+										177 image right
+								178 container Page Size
+									179 container
+										180 combo box (collapsed, settable) Description: Page Size, ID: rc_select_5, Secondary Actions: Expand
+										181 text 10 / page
+
+The focused UI element is 119 container Close TOS-AUDIT Fictional Agency A contacts Agency contact filters contacts pagination

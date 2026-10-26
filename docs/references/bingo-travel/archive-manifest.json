@@ -1,0 +1,135 @@
+[
+  {
+    "reference_id": "BINGO-001",
+    "source_filename": "codex-clipboard-63041872-478f-4c9d-91c7-340d179e8a8e.png",
+    "source_sha256": "b5d99524b416bce90285d1ef242fc6c336239d6210d216524279070ceabb03cd",
+    "archive_filename": "bingo-001-hotel-home.png",
+    "archive_sha256": "b5d99524b416bce90285d1ef242fc6c336239d6210d216524279070ceabb03cd",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-002",
+    "source_filename": "codex-clipboard-d972deab-4d85-4452-8680-150bc6ca0b5e.png",
+    "source_sha256": "82eac6a91502aafefb10e1b1630e292bdfff10dfc5c8c7b3c54c0138ff098926",
+    "archive_filename": "bingo-002-promotions.png",
+    "archive_sha256": "82eac6a91502aafefb10e1b1630e292bdfff10dfc5c8c7b3c54c0138ff098926",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-003",
+    "source_filename": "codex-clipboard-f2b9dd0b-0039-4750-b3c1-6cf886f54579.png",
+    "source_sha256": "dc64390447dc894bb84e35e289d5cc235cda236be16278465c1e3185831b43b1",
+    "archive_filename": "bingo-003-country-options.png",
+    "archive_sha256": "dc64390447dc894bb84e35e289d5cc235cda236be16278465c1e3185831b43b1",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-004",
+    "source_filename": "codex-clipboard-f4a0a24e-a0a4-421a-891b-9fe9081e7ac0.png",
+    "source_sha256": "a99e71d8f62bea4cd4b4228c12e42bee087eb441b0c1f8713c9587c8b5427703",
+    "archive_filename": "bingo-004-hotel-results.png",
+    "archive_sha256": "a99e71d8f62bea4cd4b4228c12e42bee087eb441b0c1f8713c9587c8b5427703",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-005",
+    "source_filename": "codex-clipboard-38facb47-4f5c-4578-8546-5ba8bc3d39fb.png",
+    "source_sha256": "2160135f79fb5c45cfcaf215032ba670a629203cdba64c37e9601b4796c0ca3c",
+    "archive_filename": "bingo-005-hotel-detail.png",
+    "archive_sha256": "2160135f79fb5c45cfcaf215032ba670a629203cdba64c37e9601b4796c0ca3c",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-006",
+    "source_filename": "codex-clipboard-a82d3775-aa3d-466c-a9c8-f217c121407f.png",
+    "source_sha256": "5e08c948a5f47fb22dd75b4a4042a2d0c85690f40edf58bdbff03bccebd4ff9f",
+    "archive_filename": "bingo-006-deluxe-room.png",
+    "archive_sha256": "5e08c948a5f47fb22dd75b4a4042a2d0c85690f40edf58bdbff03bccebd4ff9f",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-007",
+    "source_filename": "codex-clipboard-c69e06c4-51c5-4e2f-95a5-39c7206e3734.png",
+    "source_sha256": "eb1cf8cffb6b2e948e6e75f4cdea1bd6a2f67dfe3f05c20494aafa6c8f71ad4b",
+    "archive_filename": "bingo-007-family-room.png",
+    "archive_sha256": "eb1cf8cffb6b2e948e6e75f4cdea1bd6a2f67dfe3f05c20494aafa6c8f71ad4b",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-008",
+    "source_filename": "screencapture-bingo-travel-hotel-60-60-1-supplement-bef05750-ba8a-49bb-ac42-65e5b92d9f5b-2026-10-06-09_10_04.png",
+    "source_sha256": "73d6420539d7a0ae0a9e0875634d710aef2e1bb678014a0997f691c0b2389b60",
+    "archive_filename": "bingo-008-supplements-redacted.png",
+    "archive_sha256": "15e686c40ade5e39d7422b785577102a18bdc2da501f24a905382d8bff1b5d0c",
+    "redactions": [
+      "account welcome identity and account ID"
+    ]
+  },
+  {
+    "reference_id": "BINGO-009",
+    "source_filename": "screencapture-bingo-travel-hotel-60-60-1-booking-bef05750-ba8a-49bb-ac42-65e5b92d9f5b-2026-10-06-09_11_01.png",
+    "source_sha256": "1c7d255aa937ca1db4830b04ac40a216d93e706a063bb1bc7e0064e63c5ef4f0",
+    "archive_filename": "bingo-009-booking-redacted.png",
+    "archive_sha256": "7cb5b1a31fc80606864277ebf6036e1674c7d80eb55bfa84c7b711af503f1393",
+    "redactions": [
+      "account welcome identity and account ID",
+      "prefilled booking email"
+    ]
+  },
+  {
+    "reference_id": "BINGO-010",
+    "source_filename": "codex-clipboard-0999a381-991c-484c-9cae-e69ca3d890e2.png",
+    "source_sha256": "b46f105ed1cad0eee346533b4aef3e0693110b34b4875d3c71db7d72e699dfa7",
+    "archive_filename": "bingo-010-activity-search.png",
+    "archive_sha256": "b46f105ed1cad0eee346533b4aef3e0693110b34b4875d3c71db7d72e699dfa7",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-011",
+    "source_filename": "codex-clipboard-2c290edd-a69f-4250-a8c5-de05cced71fb.png",
+    "source_sha256": "604c4dea943e4a0a6ea50c87b7c3f25b79b5e4dabaae4ad74a42b92a5ab30fdb",
+    "archive_filename": "bingo-011-activity-results.png",
+    "archive_sha256": "604c4dea943e4a0a6ea50c87b7c3f25b79b5e4dabaae4ad74a42b92a5ab30fdb",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-012",
+    "source_filename": "codex-clipboard-a8a5ea53-a674-4b1c-9499-e82c2f52f591.png",
+    "source_sha256": "6ab73f42e2f744ce063b91afb4e05b635ce70a04e5bd072bed0c9ec9b5c17c7c",
+    "archive_filename": "bingo-012-activity-overview.png",
+    "archive_sha256": "6ab73f42e2f744ce063b91afb4e05b635ce70a04e5bd072bed0c9ec9b5c17c7c",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-013",
+    "source_filename": "codex-clipboard-2c7ce4dc-05ac-462c-b7c9-8be84976dd9c.png",
+    "source_sha256": "54bcd0f9749b472ccc419639b264969a3c308d480adf5b9f007a3c9c403ee575",
+    "archive_filename": "bingo-013-activity-additional-info.png",
+    "archive_sha256": "54bcd0f9749b472ccc419639b264969a3c308d480adf5b9f007a3c9c403ee575",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-014",
+    "source_filename": "codex-clipboard-a626ddb3-7681-4d84-9302-27300a3e5164.png",
+    "source_sha256": "1dc54d56c649db91002747071f0261b5a5ecb239e70778311392b03dbe882e88",
+    "archive_filename": "bingo-014-profile-menu.png",
+    "archive_sha256": "1dc54d56c649db91002747071f0261b5a5ecb239e70778311392b03dbe882e88",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-015",
+    "source_filename": "codex-clipboard-32276bd2-cc01-429d-8361-780056ad83b6.png",
+    "source_sha256": "e90248b16e47ad3f9fc2587800c7075423846bcf33db58fbb630fd141b3a0f86",
+    "archive_filename": "bingo-015-activity-menu.png",
+    "archive_sha256": "e90248b16e47ad3f9fc2587800c7075423846bcf33db58fbb630fd141b3a0f86",
+    "redactions": []
+  },
+  {
+    "reference_id": "BINGO-016",
+    "source_filename": "codex-clipboard-e1743219-9ee0-4145-b9d4-8088ef4d0adb.png",
+    "source_sha256": "5d0ba0c4af4065d153b7c106b07f9025004968317ab934667712b67f24d41930",
+    "archive_filename": "bingo-016-hotel-menu.png",
+    "archive_sha256": "5d0ba0c4af4065d153b7c106b07f9025004968317ab934667712b67f24d41930",
+    "redactions": []
+  }
+]

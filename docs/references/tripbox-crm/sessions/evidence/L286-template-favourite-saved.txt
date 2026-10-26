@@ -1,0 +1,419 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/itinerary-templates".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_v_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						23 image
+			24 container
+				25 heading Itinerary templates, Value: 1
+					26 text Itinerary templates
+				27 text 62  templates ·  1  favourites Build and maintain reusable trip plans for faster itinerary creation.
+				28 button Refresh templates
+					29 image
+				30 button Manage tags
+					31 image
+					32 text Manage tags
+				33 button New template
+					34 image
+					35 text New template
+			36 container Template filters
+				37 container
+					38 image
+					39 text field (settable)
+				40 container
+					41 combo box (collapsed, settable) ID: rc_select_31, Secondary Actions: Expand
+					42 text Filter by tags
+				43 container
+					44 combo box (collapsed, settable) ID: rc_select_32, Secondary Actions: Expand
+					45 text Recently updated
+				46 checkbox Favourites, Value: 0
+					47 image
+					48 text Favourites
+			49 container
+				50 heading Template library, Value: 2
+					51 text Template library
+				52 text 62 Reusable plans with stays, activities, and transport at a glance Template Plan summary Created by Actions
+				53 content list
+					54 container
+						55 image
+						56 heading TOS-AUDIT Fictional Template B, Value: 3
+							57 text TOS-AUDIT Fictional Template B
+						58 text Internal only
+						59 image
+						60 text 2 nights
+						61 image
+						62 text Ubud · 2N
+						63 definition list
+							64 container Hotels
+								65 image
+								66 text Hotels
+							67 text 1
+							68 container Activities
+								69 image
+								70 text Activities
+							71 text 0
+							72 container Transport
+								73 image
+								74 text Transport
+							75 text 1
+						76 image
+						77 text Nishar Arora a few seconds ago
+						78 button (disabled) Remove from favourites
+							79 image
+						80 button Tags
+							81 image
+							82 text Tags
+						83 button Edit
+							84 image
+							85 text Edit
+						86 button Delete template
+							87 image
+					88 container
+						89 image
+						90 heading Indonesia (Bali) - 7N, Value: 3
+							91 text Indonesia (Bali) - 7N
+						92 text Tripbox default Available on portal
+						93 image
+						94 text 7 nights
+						95 image
+						96 text Indonesia (Bali) · 7N
+						97 definition list
+							98 container Hotels
+								99 image
+								100 text Hotels
+							101 text 3
+							102 container Activities
+								103 image
+								104 text Activities
+							105 text 9
+							106 container Transport
+								107 image
+								108 text Transport
+							109 text 3
+						110 image
+						111 text Team template 16 days ago
+						112 button Add to favourites
+							113 image
+						114 button Tags
+							115 image
+							116 text Tags
+						117 button Edit
+							118 image
+							119 text Edit
+						120 button Delete template
+							121 image
+					122 container
+						123 image
+						124 heading Thailand - 5N, Value: 3
+							125 text Thailand - 5N
+						126 text Tripbox default Available on portal
+						127 image
+						128 text 5 nights
+						129 image
+						130 text Thailand · 5N
+						131 definition list
+							132 container Hotels
+								133 image
+								134 text Hotels
+							135 text 2
+							136 container Activities
+								137 image
+								138 text Activities
+							139 text 3
+							140 container Transport
+								141 image
+								142 text Transport
+							143 text 3
+						144 image
+						145 text Team template 25 days ago
+						146 button Add to favourites
+							147 image
+						148 button Tags
+							149 image
+							150 text Tags
+						151 button Edit
+							152 image
+							153 text Edit
+						154 button Delete template
+							155 image
+					156 container
+						157 image
+						158 heading Singapore 4N - PVT + SIC, Value: 3
+							159 text Singapore 4N - PVT + SIC
+						160 text Tripbox default Available on portal
+						161 image
+						162 text 4 nights
+						163 image
+						164 text Singapore · 4N
+						165 definition list
+							166 container Hotels
+								167 image
+								168 text Hotels
+							169 text 1
+							170 container Activities
+								171 image
+								172 text Activities
+							173 text 5
+							174 container Transport
+								175 image
+								176 text Transport
+							177 text 2
+						178 image
+						179 text Team template 2 months ago
+						180 button Add to favourites
+							181 image
+						182 button Tags
+							183 image
+							184 text Tags
+						185 button Edit
+							186 image
+							187 text Edit
+						188 button Delete template
+							189 image
+					190 container
+						191 image
+						192 heading Singapore 4N - PVT, Value: 3
+							193 text Singapore 4N - PVT
+						194 text Tripbox default Available on portal
+						195 image
+						196 text 4 nights
+						197 image
+						198 text Singapore · 4N
+						199 definition list
+							200 container Hotels
+								201 image
+								202 text Hotels
+							203 text 1
+							204 container Activities
+								205 image
+								206 text Activities
+							207 text 5
+							208 container Transport
+								209 image
+								210 text Transport
+							211 text 2
+						212 image
+						213 text Team template 2 months ago
+						214 button Add to favourites
+							215 image
+						216 button Tags
+							217 image
+							218 text Tags
+						219 button Edit
+							220 image
+							221 text Edit
+						222 button Delete template
+							223 image
+					224 container
+						225 image
+						226 heading Kazakhstan - 7N, Value: 3
+							227 text Kazakhstan - 7N
+						228 text Tripbox default Available on portal
+						229 image
+						230 text 7 nights
+						231 image
+						232 text Kazakhstan · 7N
+						233 definition list
+							234 container Hotels
+								235 image
+								236 text Hotels
+							237 text 6
+							238 container Activities
+								239 image
+								240 text Activities
+							241 text 0
+							242 container Transport
+								243 image
+								244 text Transport
+							245 text 8
+						246 image
+						247 text Team template 3 months ago
+						248 button Add to favourites
+							249 image
+						250 button Tags
+							251 image
+							252 text Tags
+						253 button Edit
+							254 image
+							255 text Edit
+						256 button Delete template
+							257 image
+					258 container
+						259 image
+						260 heading Singapore - 4N - SIC, Value: 3
+							261 text Singapore - 4N - SIC
+						262 text Tripbox default Available on portal
+						263 image
+						264 text 4 nights
+						265 image
+						266 text Singapore · 4N
+						267 definition list
+							268 container Hotels
+								269 image
+								270 text Hotels
+							271 text 1
+							272 container Activities
+								273 image
+								274 text Activities
+							275 text 5
+							276 container Transport
+								277 image
+								278 text Transport
+							279 text 2
+						280 image
+						281 text Team template 4 months ago
+						282 button Add to favourites
+							283 image
+						284 button Tags
+							285 image
+							286 text Tags
+						287 button Edit
+							288 image
+							289 text Edit
+						290 button Delete template
+							291 image
+					292 container
+						293 image
+						294 heading Indonesia (Bali) - 6N, Value: 3
+							295 text Indonesia (Bali) - 6N
+						296 text Tripbox default Available on portal
+						297 image
+						298 text 6 nights
+						299 image
+						300 text Indonesia (Bali) · 6N
+						301 definition list
+							302 container Hotels
+								303 image
+								304 text Hotels
+							305 text 2
+							306 container Activities
+								307 image
+								308 text Activities
+							309 text 9
+							310 container Transport
+								311 image
+								312 text Transport
+							313 text 3
+						314 image
+						315 text Team template 4 months ago
+						316 button Add to favourites
+							317 image
+						318 button Tags
+							319 image
+							320 text Tags
+						321 button Edit
+							322 image
+							323 text Edit
+						324 button Delete template
+							325 image
+					326 container
+						327 image
+						328 heading Indonesia (Bali) - 7N, Value: 3
+							329 text Indonesia (Bali) - 7N
+						330 text Tripbox default Available on portal
+						331 image
+						332 text 7 nights
+						333 image
+						334 text Kuta · 5N → Ubud · 2N
+						335 definition list
+							336 container Hotels
+								337 image
+								338 text Hotels
+							339 text 2
+							340 container Activities
+								341 image
+								342 text Activities
+							343 text 3
+							344 container Transport
+								345 image
+								346 text Transport
+							347 text 14
+						348 image
+						349 text Team template 4 months ago
+						350 button Add to favourites
+							351 image
+						352 button Tags
+							353 image
+							354 text Tags
+						355 button Edit
+							356 image
+							357 text Edit
+						358 button Delete template
+							359 image
+					360 container
+						361 image
+						362 heading India - 6N, Value: 3
+							363 text India - 6N
+						364 text Tripbox default Available on portal
+						365 image
+						366 text 6 nights
+						367 image
+						368 text Munnar · 2N → Thekkady · 1N → Kochi · 3N
+						369 definition list
+							370 container Hotels
+								371 image
+								372 text Hotels
+							373 text 4
+							374 container Activities
+								375 image
+								376 text Activities
+							377 text 0
+							378 container Transport
+								379 image
+								380 text Transport
+							381 text 8
+						382 image
+						383 text Team template 4 months ago
+						384 button Add to favourites
+							385 image
+						386 button Tags
+							387 image
+							388 text Tags
+						389 button Edit
+							390 image
+							391 text Edit
+						392 button Delete template
+							393 image
+				394 container templates pagination
+					395 container
+						396 text 1 – 10  of  62 templates
+					397 content list
+						398 container Previous Page
+							399 button (disabled) left
+								400 image left
+						401 text 1
+						402 text 2
+						403 text 3
+						404 container Next 3 Pages
+							405 container
+								406 image double-right
+								407 text •••
+						408 text 7
+						409 container Next Page
+							410 button right
+								411 image right
+						412 container
+							413 container Page Size
+								414 container
+									415 combo box (collapsed, settable) Description: Page Size, ID: rc_select_33, Secondary Actions: Expand
+									416 text 10 / page
+							417 text Go to
+							418 text field (settable) Page
+							419 text Page
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/itinerary-templates

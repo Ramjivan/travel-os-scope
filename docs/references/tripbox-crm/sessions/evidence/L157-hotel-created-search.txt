@@ -1,0 +1,576 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository
+	2 container
+		3 container Primary navigation
+			4 container
+				5 button (collapsed) Toggle main menu, ID: headlessui-disclosure-button-_r_1n_, Secondary Actions: Expand
+				6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				7 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1s_, Secondary Actions: Expand
+		8 container Breadcrumb
+			9 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			10 image
+			11 text Hotels Repository
+		12 container Organisation settings section
+			13 container
+				14 combo box (collapsed, settable) Description: Organisation settings section, ID: rc_select_0, Secondary Actions: Expand
+				15 text Hotels Repository
+		16 container
+			17 heading Hotels repository, Value: 1
+				18 text Hotels repository
+			19 text Maintain hotel inventory, categories, and regional defaults used while building itineraries.
+			20 button Import with AI
+				21 image
+				22 text Import with AI
+			23 link Description: Add hotel, Value: tripboxcrm.com/org/hotels-repository/new
+			24 text Hotels
+			25 text 1578
+			26 text Total inventory records
+			27 text Visible
+			28 text 1578
+			29 text Matching current filters
+			30 text Categories
+			31 text 4
+			32 text Available hotel classes
+			33 container List controls
+				34 container
+					35 image
+					36 search text field (settable) TOS-AUDIT Fictional Hotel B
+					37 button close-circle
+						38 image close-circle
+					39 button search
+						40 image search
+				41 container
+					42 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+					43 text Filter by category
+				44 container
+					45 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+					46 text Agency portal
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_8, Secondary Actions: Expand
+					49 text Inventory source
+				50 button
+					51 image
+				52 button (disabled) Bulk edit
+					53 image
+					54 text Bulk edit
+				55 button Import / export
+					56 image
+					57 text Import / export
+			58 table
+				59 row
+					60 cell
+						61 container
+							62 checkbox (settable, integer) Description: Select all, Value: 0
+					63 cell Hotel
+						64 text Hotel
+					65 cell Location
+						66 text Location
+					67 cell Category
+						68 text Category
+					69 cell Preferred supplier
+						70 text Preferred supplier
+					71 cell Status
+						72 text Status
+					73 cell
+						74 text Agent portal
+					75 cell
+						76 text Actions
+				77 row
+					78 cell
+						79 container
+							80 checkbox (settable, integer) Description:  , Value: 0
+					81 cell
+						82 image hotel
+					83 cell
+						84 text 100 Islands Resort & Spa , Surat Thani Shared Updated  12 days ago
+					85 cell
+						86 text Surat Thani
+						87 text Thailand
+					88 cell
+						89 text 3 Star
+					90 cell
+						91 text -
+					92 cell
+						93 text Active
+					94 cell
+						95 text Visible
+					96 cell
+						97 link tripboxcrm.com/org/hotels-repository/a147ffe8-1234-4bde-a69e-ca94664701c3
+						98 link tripboxcrm.com/org/hotels-repository/new?duplicate=a147ffe8-1234-4bde-a69e-ca94664701c3
+						99 button
+							100 image
+				101 row
+					102 cell
+						103 container
+							104 checkbox (settable, integer) Description:  , Value: 0
+					105 cell
+						106 image hotel
+					107 cell
+						108 text 22Land Hotel Saigon Shared Updated  a year ago
+					109 cell
+						110 text Ho Chi Minh City
+						111 text Vietnam
+					112 cell
+						113 text 4 Star
+					114 cell
+						115 text -
+					116 cell
+						117 text Active
+					118 cell
+						119 text Visible
+					120 cell
+						121 link tripboxcrm.com/org/hotels-repository/80ce3ac2-c0d2-4be2-af82-3ed8ad9b88a4
+						122 link tripboxcrm.com/org/hotels-repository/new?duplicate=80ce3ac2-c0d2-4be2-af82-3ed8ad9b88a4
+						123 button
+							124 image
+				125 row
+					126 cell
+						127 container
+							128 checkbox (settable, integer) Description:  , Value: 0
+					129 cell
+						130 image hotel
+					131 cell
+						132 text 5 Felcon Srinagar Shared Updated  12 days ago
+					133 cell
+						134 text Srinagar
+						135 text India
+					136 cell
+						137 text 3 Star
+					138 cell
+						139 text -
+					140 cell
+						141 text Active
+					142 cell
+						143 text Visible
+					144 cell
+						145 link tripboxcrm.com/org/hotels-repository/b677e654-7825-47a5-a62c-08bd5ce0279c
+						146 link tripboxcrm.com/org/hotels-repository/new?duplicate=b677e654-7825-47a5-a62c-08bd5ce0279c
+						147 button
+							148 image
+				149 row
+					150 cell
+						151 container
+							152 checkbox (settable, integer) Description:  , Value: 0
+					153 cell
+						154 image hotel
+					155 cell
+						156 text 7q Patong Beach Hotel Shared Updated  12 days ago
+					157 cell
+						158 text Phuket
+						159 text Thailand
+					160 cell
+						161 text 3 Star
+					162 cell
+						163 text -
+					164 cell
+						165 text Active
+					166 cell
+						167 text Visible
+					168 cell
+						169 link tripboxcrm.com/org/hotels-repository/521348bf-0e3d-4796-9006-5d528fea0eb0
+						170 link tripboxcrm.com/org/hotels-repository/new?duplicate=521348bf-0e3d-4796-9006-5d528fea0eb0
+						171 button
+							172 image
+				173 row
+					174 cell
+						175 container
+							176 checkbox (settable, integer) Description:  , Value: 0
+					177 cell
+						178 image hotel
+					179 cell
+						180 text A25 Hotel Cach Mang Thang Tam Shared Updated  12 days ago
+					181 cell
+						182 text Ho Chi Minh City
+						183 text Vietnam
+					184 cell
+						185 text 3 Star
+					186 cell
+						187 text -
+					188 cell
+						189 text Active
+					190 cell
+						191 text Visible
+					192 cell
+						193 link tripboxcrm.com/org/hotels-repository/1ec0dee7-527a-41c2-9de8-712775dac4b6
+						194 link tripboxcrm.com/org/hotels-repository/new?duplicate=1ec0dee7-527a-41c2-9de8-712775dac4b6
+						195 button
+							196 image
+				197 row
+					198 cell
+						199 container
+							200 checkbox (settable, integer) Description:  , Value: 0
+					201 cell
+						202 image hotel
+					203 cell
+						204 text A25 Hotel – Le Thi Rieng Shared Updated  12 days ago
+					205 cell
+						206 text Ho Chi Minh City
+						207 text Vietnam
+					208 cell
+						209 text 3 Star
+					210 cell
+						211 text -
+					212 cell
+						213 text Active
+					214 cell
+						215 text Visible
+					216 cell
+						217 link tripboxcrm.com/org/hotels-repository/c5abf7b5-2499-4ab3-8dfc-9f752da72bc9
+						218 link tripboxcrm.com/org/hotels-repository/new?duplicate=c5abf7b5-2499-4ab3-8dfc-9f752da72bc9
+						219 button
+							220 image
+				221 row
+					222 cell
+						223 container
+							224 checkbox (settable, integer) Description:  , Value: 0
+					225 cell
+						226 image hotel
+					227 cell
+						228 text A 25 Luxury Hotel Shared Updated  12 days ago
+					229 cell
+						230 text Hanoi
+						231 text Vietnam
+					232 cell
+						233 text 4 Star
+					234 cell
+						235 text -
+					236 cell
+						237 text Active
+					238 cell
+						239 text Visible
+					240 cell
+						241 link tripboxcrm.com/org/hotels-repository/0b44566a-8a66-4c66-9307-4e4940d056be
+						242 link tripboxcrm.com/org/hotels-repository/new?duplicate=0b44566a-8a66-4c66-9307-4e4940d056be
+						243 button
+							244 image
+				245 row
+					246 cell
+						247 container
+							248 checkbox (settable, integer) Description:  , Value: 0
+					249 cell
+						250 image hotel
+					251 cell
+						252 text Aadisaktthi Leisure Resort Shared Updated  12 days ago
+					253 cell
+						254 text Kochi (Cochin)
+						255 text India
+					256 cell
+						257 text 4 Star
+					258 cell
+						259 text -
+					260 cell
+						261 text Active
+					262 cell
+						263 text Visible
+					264 cell
+						265 link tripboxcrm.com/org/hotels-repository/deb6786e-b729-4e8a-8ecf-dbab40092ad9
+						266 link tripboxcrm.com/org/hotels-repository/new?duplicate=deb6786e-b729-4e8a-8ecf-dbab40092ad9
+						267 button
+							268 image
+				269 row
+					270 cell
+						271 container
+							272 checkbox (settable, integer) Description:  , Value: 0
+					273 cell
+						274 image hotel
+					275 cell
+						276 text Aadisaktthi Leisure Resort Shared Updated  12 days ago
+					277 cell
+						278 text Kochi (Cochin)
+						279 text India
+					280 cell
+						281 text 4 Star
+					282 cell
+						283 text -
+					284 cell
+						285 text Active
+					286 cell
+						287 text Visible
+					288 cell
+						289 link tripboxcrm.com/org/hotels-repository/f4ea3b36-06ca-44a8-8912-dcdba8e7a5c3
+						290 link tripboxcrm.com/org/hotels-repository/new?duplicate=f4ea3b36-06ca-44a8-8912-dcdba8e7a5c3
+						291 button
+							292 image
+				293 row
+					294 cell
+						295 container
+							296 checkbox (settable, integer) Description:  , Value: 0
+					297 cell
+						298 image hotel
+					299 cell
+						300 text Abu Nawas Pattaya Shared Updated  12 days ago
+					301 cell
+						302 text Pattaya
+						303 text Thailand
+					304 cell
+						305 text 3 Star
+					306 cell
+						307 text -
+					308 cell
+						309 text Active
+					310 cell
+						311 text Visible
+					312 cell
+						313 link tripboxcrm.com/org/hotels-repository/7d5d85a4-384d-46bf-a218-35de1aa08c45
+						314 link tripboxcrm.com/org/hotels-repository/new?duplicate=7d5d85a4-384d-46bf-a218-35de1aa08c45
+						315 button
+							316 image
+				317 row
+					318 cell
+						319 container
+							320 checkbox (settable, integer) Description:  , Value: 0
+					321 cell
+						322 image hotel
+					323 cell
+						324 text Acnos Grand Hotel Shared Updated  a year ago
+					325 cell
+						326 text Ho Chi Minh City
+						327 text Vietnam
+					328 cell
+						329 text 3 Star
+					330 cell
+						331 text -
+					332 cell
+						333 text Active
+					334 cell
+						335 text Visible
+					336 cell
+						337 link tripboxcrm.com/org/hotels-repository/f00e6d05-1ddc-469f-8aac-3d45d2c6cc4c
+						338 link tripboxcrm.com/org/hotels-repository/new?duplicate=f00e6d05-1ddc-469f-8aac-3d45d2c6cc4c
+						339 button
+							340 image
+				341 row
+					342 cell
+						343 container
+							344 checkbox (settable, integer) Description:  , Value: 0
+					345 cell
+						346 image hotel
+					347 cell
+						348 text Acnos Hotel Shared Updated  12 days ago
+					349 cell
+						350 text Ho Chi Minh City
+						351 text Vietnam
+					352 cell
+						353 text 3 Star
+					354 cell
+						355 text -
+					356 cell
+						357 text Active
+					358 cell
+						359 text Visible
+					360 cell
+						361 link tripboxcrm.com/org/hotels-repository/d851c4f2-c81c-4d9a-8ab3-89f966d48f20
+						362 link tripboxcrm.com/org/hotels-repository/new?duplicate=d851c4f2-c81c-4d9a-8ab3-89f966d48f20
+						363 button
+							364 image
+				365 row
+					366 cell
+						367 container
+							368 checkbox (settable, integer) Description:  , Value: 0
+					369 cell
+						370 image hotel
+					371 cell
+						372 text Adaaran Prestige Vadoo Shared Updated  12 days ago
+					373 cell
+						374 text Maldives
+						375 text Maldives
+					376 cell
+						377 text 5 Star
+					378 cell
+						379 text -
+					380 cell
+						381 text Active
+					382 cell
+						383 text Visible
+					384 cell
+						385 link …
+						386 link …
+						387 button
+							388 image
+				389 row
+					390 cell
+						391 container
+							392 checkbox (settable, integer) Description:  , Value: 0
+					393 cell
+						394 image hotel
+					395 cell
+						396 text Adaaran Select Hudhuran Fushi Shared Updated  12 days ago
+					397 cell
+						398 text Maldives
+						399 text Maldives
+					400 cell
+						401 text 4 Star
+					402 cell
+						403 text -
+					404 cell
+						405 text Active
+					406 cell
+						407 text Visible
+					408 cell
+						409 link …
+						410 link …
+						411 button
+							412 image
+				413 row
+					414 cell
+						415 container
+							416 checkbox (settable, integer) Description:  , Value: 0
+					417 cell
+						418 image hotel
+					419 cell
+						420 text Adaline Hotel & Suite Shared Updated  12 days ago
+					421 cell
+						422 text Da Nang
+						423 text Vietnam
+					424 cell
+						425 text 3 Star
+					426 cell
+						427 text -
+					428 cell
+						429 text Active
+					430 cell
+						431 text Visible
+					432 cell
+						433 link …
+						434 link …
+						435 button
+							436 image
+				437 row
+					438 cell
+						439 container
+							440 checkbox (settable, integer) Description:  , Value: 0
+					441 cell
+						442 image hotel
+					443 cell
+						444 text Adaline Hotel & Suite Shared Updated  a year ago
+					445 cell
+						446 text Da Nang
+						447 text Vietnam
+					448 cell
+						449 text 3 Star
+					450 cell
+						451 text -
+					452 cell
+						453 text Active
+					454 cell
+						455 text Visible
+					456 cell
+						457 link …
+						458 link …
+						459 button
+							460 image
+				461 row
+					462 cell
+						463 container
+							464 checkbox (settable, integer) Description:  , Value: 0
+					465 cell
+						466 image hotel
+					467 cell
+						468 text Admiral Plaza Hotel Dubai Shared Updated  12 days ago
+					469 cell
+						470 text Dubai
+						471 text United Arab Emirates (UAE)
+					472 cell
+						473 text 3 Star
+					474 cell
+						475 text -
+					476 cell
+						477 text Active
+					478 cell
+						479 text Visible
+					480 cell
+						481 link …
+						482 link …
+						483 button
+							484 image
+				485 row
+					486 cell
+						487 container
+							488 checkbox (settable, integer) Description:  , Value: 0
+					489 cell
+						490 image hotel
+					491 cell
+						492 text Admiral Plaza Hotel Dubai Shared Updated  12 days ago
+					493 cell
+						494 text Dubai
+						495 text UAE
+					496 cell
+						497 text 3 Star
+					498 cell
+						499 text -
+					500 cell
+						501 text Active
+					502 cell
+						503 text Visible
+					504 cell
+						505 link …
+						506 link …
+						507 button
+							508 image
+				509 row
+					510 cell
+						511 container
+							512 checkbox (settable, integer) Description:  , Value: 0
+					513 cell
+						514 image hotel
+					515 cell
+						516 text Admiral Suites, Bangkok Shared Updated  12 days ago
+					517 cell
+						518 text Bangkok
+						519 text Thailand
+					520 cell
+						521 text 4 Star
+					522 cell
+						523 text -
+					524 cell
+						525 text Active
+					526 cell
+						527 text Visible
+					528 cell
+						529 link …
+						530 link …
+						531 button
+							532 image
+				533 row
+					534 cell
+						535 container
+							536 checkbox (settable, integer) Description:  , Value: 0
+					537 cell
+						538 image hotel
+					539 cell
+						540 text Adora Art Hotel Shared Updated  12 days ago
+					541 cell
+						542 text Ho Chi Minh City
+						543 text Vietnam
+					544 cell
+						545 text 4 Star
+					546 cell
+						547 text -
+					548 cell
+						549 text Active
+					550 cell
+						551 text Visible
+					552 cell
+						553 link …
+						554 link …
+						555 button
+							556 image
+			557 container hotels pagination
+				558 container
+					559 text 1 – 20  of  1,578 hotels
+				560 content list
+					561 container Previous Page
+						562 button (disabled) left
+							563 image left
+					564 text 1
+					565 text 2
+					566 container Next 3 Pages
+						567 container
+							568 image double-right
+							569 text •••
+					570 text 79
+					571 container Next Page
+						572 button right
+							573 image right
+
+The focused UI element is 36 search text field (settable) TOS-AUDIT Fictional Hotel B

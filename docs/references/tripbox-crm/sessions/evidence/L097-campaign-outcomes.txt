@@ -1,0 +1,94 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/campaign/2989036a-3d1d-4837-a4e6-7ba41f70c438
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1n_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 container Breadcrumb
+					26 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					27 image
+					28 text TOS-AUDIT Fictional outreach A
+				29 heading TOS-AUDIT Fictional outreach A, Value: 1
+					30 text TOS-AUDIT Fictional outreach A
+				31 text pending 0  contacts
+				32 button Refresh campaign
+					33 image
+				34 button Manage team
+					35 image
+					36 text Manage team
+				37 button Add contacts
+					38 image
+					39 text Add contacts
+			40 container
+				41 text CONTACTS 0 TEAM MEMBERS 0 SELECTED 0 CREATED 09/10/2026
+			42 container Contact filters
+				43 container
+					44 image
+					45 text field (settable)
+				46 container
+					47 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					48 text All statuses
+				49 container
+					50 combo box (expanded, settable) ID: rc_select_1, Secondary Actions: Collapse
+					51 text All outcomes
+				52 container
+					53 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					54 text All assignees
+			55 table
+				56 row
+					57 cell
+						58 container
+							59 checkbox (disabled, settable, integer) Description: Select all, Value: 0
+					60 cell
+						61 text CONTACT NAME
+					62 cell
+						63 text EMAIL
+					64 cell
+						65 text PHONE
+					66 cell
+						67 text TAGS
+					68 cell
+						69 text STATUS
+						70 button filter
+							71 image filter
+					72 cell
+						73 text OUTCOME
+						74 button filter
+							75 image filter
+					76 cell
+						77 text ASSIGNED TO
+						78 button filter
+							79 image filter
+					80 cell
+						81 text ACTION
+				82 row
+					83 cell
+						84 text No contacts in this campaign
+		85 container
+			86 list rc_select_1_list
+				87 Value: Interested, ID: rc_select_1_list_0
+				88 Value: Not interested, ID: rc_select_1_list_1
+			89 text Interested
+			90 text Not interested
+			91 text No answer
+
+The focused UI element is 50 combo box (expanded, settable) ID: rc_select_1, Secondary Actions: Collapse

@@ -1,0 +1,183 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/hotels-repository/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/hotels-repository/new
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1v_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Hotels Repository
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Create Hotel, Value: 1
+				60 text Create Hotel
+			61 text Add a new property with room types, partners, and tariffs
+			62 button Back to hotels
+			63 container
+				64 heading Hotel overview, Value: 2
+					65 text Hotel overview
+				66 text Hero Image
+				67 button Upload image
+					68 image
+					69 text Upload image
+				70 container
+					71 text * Hotel Name
+				72 text field (settable) * Hotel Name, ID: name
+				73 container
+					74 text * Category
+				75 container
+					76 combo box (collapsed, settable) * Category, ID: category, Secondary Actions: Expand
+					77 text Select category
+				78 container
+					79 text Hotel Details Link
+					80 image question-circle
+				81 text field (settable) Hotel Details Link question-circle, ID: link
+				82 container
+					83 text Status
+					84 image question-circle
+				85 switch Description: Status question-circle, Value: 1, ID: isActive
+					86 text Active
+					87 text Inactive
+				88 container
+					89 text Visible to agencies
+					90 image question-circle
+				91 switch Description: Visible to agencies question-circle, Value: 1, ID: shareWithAgent
+					92 text Visible
+					93 text Internal only
+				94 heading Location and partnerships, Value: 2
+					95 text Location and partnerships
+				96 container
+					97 text * Country
+				98 container Country
+					99 container
+						100 combo box (collapsed, settable) Description: Country, ID: country, Secondary Actions: Expand
+						101 text Mauritius, Bali, etc.
+				102 container
+					103 text * City
+				104 container City
+					105 container
+						106 combo box (disabled, collapsed, settable) Description: City, ID: city, Secondary Actions: Expand
+						107 text Bangkok, Hanoi, etc.
+				108 text Preferred Supplier
+				109 container
+					110 combo box (collapsed, settable) Preferred Supplier, ID: supplier_id, Secondary Actions: Expand
+					111 text Select a supplier
+				112 heading Voucher information, Value: 2
+					113 text Voucher information
+				114 text Hotel address
+				115 text entry area (settable) Hotel address, ID: address
+				116 text Hotel phone
+				117 text field (settable) Hotel phone
+				118 text Hotel email
+				119 text field (settable) Hotel email
+				120 text Important information
+				121 container
+					122 checkbox Description: Bold, Value: 0
+						123 text B
+					124 checkbox Description: Bullet list, Value: 0
+						125 image
+					126 container Important information
+						127 text Add guest-facing information.
+				128 heading Meal plans, Value: 2
+					129 text Meal plans
+				130 container mealPlans
+					131 container
+						132 checkbox (settable, integer) Description: Bed & Breakfast (BB)  , Value: 1
+						133 text Bed & Breakfast (BB)
+					134 container
+						135 checkbox (settable, integer) Description: Half Board (HB)  , Value: 0
+						136 text Half Board (HB)
+					137 container
+						138 checkbox (settable, integer) Description: Full Board (FB)  , Value: 0
+						139 text Full Board (FB)
+					140 container
+						141 checkbox (settable, integer) Description: Half Board (MAP)  , Value: 0
+						142 text Half Board (MAP)
+					143 container
+						144 checkbox (settable, integer) Description: All Meals (AP)  , Value: 0
+						145 text All Meals (AP)
+				146 text Meal plans determine the rate slabs available in the rates modal. Select at least one to manage pricing.
+				147 heading Rooms and rates, Value: 2
+					148 text Rooms and rates
+				149 text Configure room types and launch the rates modal to enter base and seasonal tariffs.
+				168 container
+					169 container
+						170 text * Room Type
+					171 container
+						172 combo box (collapsed, settable) * Room Type, ID: rooms_0_roomType, Secondary Actions: Expand
+						173 text Deluxe, Suite, Family Room, ...
+					174 text Pax per Room
+					175 stepper (settable) Pax per Room, ID: rooms_0_paxPerRoom
+					176 button Manage Rates
+						177 image
+						178 text Manage Rates
+					179 button Remove
+						180 image
+						181 text Remove
+				151 button Add Room
+					152 image
+					153 text Add Room
+				154 heading Inclusions and exclusions, Value: 2
+					155 text Inclusions and exclusions
+				156 heading Inclusions, Value: 3
+					157 text Inclusions
+				158 button Add Inclusion
+					159 image
+					160 text Add Inclusion
+				161 heading Exclusions, Value: 3
+					162 text Exclusions
+				163 button Add Exclusion
+					164 image
+					165 text Add Exclusion
+				166 button Cancel
+				167 button Save Changes
+
+The focused UI element is 151 button Add Room

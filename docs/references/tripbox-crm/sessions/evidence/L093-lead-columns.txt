@@ -1,0 +1,273 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_2b_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 heading Lead pipeline, Value: 1
+					26 text Lead pipeline
+				27 text 1  leads in this view Qualify enquiries, assign ownership, and move every trip from first contact to confirmation.
+				28 link Description: Trip calendar, Value: tripboxcrm.com/leads/calendar
+				29 button Refresh leads
+					30 image
+				31 button New lead
+					32 image
+					33 text New lead
+			34 container
+				35 checkbox New queries 0, Value: 0
+				36 checkbox In progress 0, Value: 0
+				37 checkbox On hold 0, Value: 0
+				38 checkbox Confirmed 1, Value: 0
+				39 checkbox Ongoing 0, Value: 0
+				40 checkbox Completed 0, Value: 0
+				41 checkbox Cancelled 0, Value: 0
+				42 checkbox All leads 1, Value: 1
+			43 container Lead filters
+				44 container
+					45 image
+					46 text field (settable)
+				47 container
+					48 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					49 text All owners
+				50 container
+					51 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					52 text All portal states
+				53 container
+					54 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					55 text All created dates
+				56 button Filters
+					57 image
+					58 text Filters
+				59 button Columns
+					60 image
+					61 text Columns
+				62 button Export leads
+					63 image
+			64 container
+				65 table
+					66 row
+						67 cell
+							68 container
+								69 checkbox (settable, integer) Description: Select all, Value: 0
+						70 cell
+							71 text ID
+						72 cell Guest name
+							73 text GUEST NAME
+						74 cell
+							75 text MOBILE
+						76 cell
+							77 text EMAIL
+						78 cell Travel date
+							79 text TRAVEL DATE
+						80 cell
+							81 text DESTINATION
+						82 cell
+							83 text ASSIGNED TO
+						84 cell
+							85 text STATUS
+						86 cell
+							87 text PREVIEW
+					88 row
+						89 cell
+							90 container
+								91 checkbox (settable, integer) Description: Select lead 1, Value: 0
+						92 cell
+							93 link Description: #1, Value: tripboxcrm.com/leads/1
+						94 cell
+							95 text TOS-AUDIT Fictional Traveller A
+							96 text Social Media · 4N / 5D · 2 travellers
+						97 cell
+							98 image
+							99 text Not provided
+						100 cell
+							101 image
+							102 text traveller-a@example.invalid
+						103 cell
+							104 image
+							105 text 20 Nov 2026
+						106 cell
+							107 image
+							108 text Bali
+						109 cell
+							110 image
+							111 text Nishar Arora
+						112 cell
+							113 text Confirmed
+						114 cell
+							115 button Preview lead 1
+								116 image
+				117 container leads pagination
+					118 container
+						119 text 1 – 1  of  1 leads
+					120 content list
+						121 container Previous Page
+							122 button (disabled) left
+								123 image left
+						124 text 1
+						125 container Next Page
+							126 button (disabled) right
+								127 image right
+						128 container Page Size
+							129 container
+								130 combo box (collapsed, settable) Description: Page Size, ID: rc_select_3, Secondary Actions: Expand
+								131 text 20 / page
+		132 container
+			133 container Configure lead columns
+				134 container Close Configure lead columns Drag rows to reorder the table. Hidden columns stay available here. 8 visible Reorder ID   ID VISIBLE Reorder Guest Name   Guest Name VISIBLE Reorder Guest Mobile   Guest Mobile VISIBLE Reorder Guest Email   Guest Email VISIBLE Reorder Planned Travel Date   Planned Travel Date VISIBLE Reorder Destinations   Destinations VISIBLE Reorder Assigned to
+					135 container
+						136 button Close
+							137 container Close
+								138 image close
+						139 image
+						140 text Configure lead columns Drag rows to reorder the table. Hidden columns stay available here. 8  visible
+						141 sortable Reorder ID
+							142 image
+						143 container
+							144 checkbox (settable, integer)   ID, Value: 1
+							145 text ID
+						146 text VISIBLE
+						147 sortable Reorder Guest Name
+							148 image
+						149 container
+							150 checkbox (settable, integer)   Guest Name, Value: 1
+							151 text Guest Name
+						152 text VISIBLE
+						153 sortable Reorder Guest Mobile
+							154 image
+						155 container
+							156 checkbox (settable, integer)   Guest Mobile, Value: 1
+							157 text Guest Mobile
+						158 text VISIBLE
+						159 sortable Reorder Guest Email
+							160 image
+						161 container
+							162 checkbox (settable, integer)   Guest Email, Value: 1
+							163 text Guest Email
+						164 text VISIBLE
+						165 sortable Reorder Planned Travel Date
+							166 image
+						167 container
+							168 checkbox (settable, integer)   Planned Travel Date, Value: 1
+							169 text Planned Travel Date
+						170 text VISIBLE
+						171 sortable Reorder Destinations
+							172 image
+						173 container
+							174 checkbox (settable, integer)   Destinations, Value: 1
+							175 text Destinations
+						176 text VISIBLE
+						177 sortable Reorder Assigned to
+							178 image
+						179 container
+							180 checkbox (settable, integer)   Assigned to, Value: 1
+							181 text Assigned to
+						182 text VISIBLE
+						183 sortable Reorder Status
+							184 image
+						185 container
+							186 checkbox (settable, integer)   Status, Value: 1
+							187 text Status
+						188 text VISIBLE
+						189 sortable Reorder Guest Location
+							190 image
+						191 container
+							192 checkbox (settable, integer)   Guest Location, Value: 0
+							193 text Guest Location
+						194 text HIDDEN
+						195 sortable Reorder Adults
+							196 image
+						197 container
+							198 checkbox (settable, integer)   Adults, Value: 0
+							199 text Adults
+						200 text HIDDEN
+						201 sortable Reorder Cwb
+							202 image
+						203 container
+							204 checkbox (settable, integer)   Cwb, Value: 0
+							205 text Cwb
+						206 text HIDDEN
+						207 sortable Reorder Cnb
+							208 image
+						209 container
+							210 checkbox (settable, integer)   Cnb, Value: 0
+							211 text Cnb
+						212 text HIDDEN
+						213 sortable Reorder Infant
+							214 image
+						215 container
+							216 checkbox (settable, integer)   Infant, Value: 0
+							217 text Infant
+						218 text HIDDEN
+						219 sortable Reorder Departure City
+							220 image
+						221 container
+							222 checkbox (settable, integer)   Departure City, Value: 0
+							223 text Departure City
+						224 text HIDDEN
+						225 sortable Reorder Agency
+							226 image
+						227 container
+							228 checkbox (settable, integer)   Agency, Value: 0
+							229 text Agency
+						230 text HIDDEN
+						231 sortable Reorder Agency Contact Number
+							232 image
+						233 container
+							234 checkbox (settable, integer)   Agency Contact Number, Value: 0
+							235 text Agency Contact Number
+						236 text HIDDEN
+						237 sortable Reorder Tags
+							238 image
+						239 container
+							240 checkbox (settable, integer)   Tags, Value: 0
+							241 text Tags
+						242 text HIDDEN
+						243 sortable Reorder Created At
+							244 image
+						245 container
+							246 checkbox (settable, integer)   Created At, Value: 0
+							247 text Created At
+						248 text HIDDEN
+						249 sortable Reorder Source
+							250 image
+						251 container
+							252 checkbox (settable, integer)   Source, Value: 0
+							253 text Source
+						254 text HIDDEN
+						255 sortable Reorder Facebook Form Name
+							256 image
+						257 container
+							258 checkbox (settable, integer)   Facebook Form Name, Value: 0
+							259 text Facebook Form Name
+						260 text HIDDEN
+						261 sortable Reorder Facebook Adset Name
+							262 image
+						263 container
+							264 checkbox (settable, integer)   Facebook Adset Name, Value: 0
+							265 text Facebook Adset Name
+						266 text HIDDEN
+						267 button Reset layout
+							268 image
+							269 text Reset layout
+						270 button Apply layout
+
+The focused UI element is 134 container Close Configure lead columns Drag rows to reorder the table. Hidden columns stay available here. 8 visible Reorder ID   ID VISIBLE Reorder Guest Name   Guest Name VISIBLE Reorder Guest Mobile   Guest Mobile VISIBLE Reorder Guest Email   Guest Email VISIBLE Reorder Planned Travel Date   Planned Travel Date VISIBLE Reorder Destinations   Destinations VISIBLE Reorder Assigned to

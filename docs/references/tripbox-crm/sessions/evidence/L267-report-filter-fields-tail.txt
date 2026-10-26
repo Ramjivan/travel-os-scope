@@ -1,0 +1,115 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/reports/new".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/reports/new
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_1e_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Reports, Value: tripboxcrm.com/reports
+					24 image
+					25 text Create report
+				26 heading Create custom report, Value: 1
+					27 text Create custom report
+				28 text Guided analysis
+				29 button Run preview
+					30 image
+					31 text Run preview
+				32 button Save report
+					33 image
+					34 text Save report
+			35 container
+				36 heading Report definition, Value: 2
+					37 text Report definition
+				38 text Choose one grouping and up to four measures.
+				39 text Name
+				40 text field (settable) Name, ID: report-name
+				41 text Description
+				42 text entry area (settable) Description, ID: report-description
+				43 text Share with organisation Owners and admins can manage shared reports.
+				44 switch 0
+				45 text Date range
+				46 container
+					47 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					48 text Rolling period
+				49 container
+					50 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					51 text Last 30 days
+				52 text Group by
+				53 container
+					54 combo box (collapsed, settable) ID: rc_select_2, Secondary Actions: Expand
+					55 text No grouping, show totals
+				56 text Measures
+				57 container
+					58 text Leads
+					59 text Conversion rate
+					60 combo box (collapsed, settable) ID: rc_select_3, Secondary Actions: Expand
+				61 text 2 /4 selected
+				62 text Presentation
+				63 container
+					64 combo box (collapsed, settable) ID: rc_select_4, Secondary Actions: Expand
+					65 text Table chart
+				66 text Maximum rows
+				67 container
+					68 button Increase Value
+						69 image up
+					70 button Decrease Value
+						71 image down
+					72 stepper (settable, integer) 25
+			73 container
+				74 container
+					75 heading Filters, Value: 2
+						76 text Filters
+					77 text All filters are combined and applied within the selected date range.
+					78 button Add filter
+						79 image
+						80 text Add filter
+				94 container Filter 1 field
+					95 container
+						96 combo box (expanded, settable) Description: Filter 1 field, ID: rc_select_5, Secondary Actions: Collapse
+						97 text Status
+				98 container Filter 1 operator
+					99 container
+						100 combo box (collapsed, settable) Description: Filter 1 operator, ID: rc_select_6, Secondary Actions: Expand
+						101 text Is
+				102 container Filter 1 value
+					103 container
+						104 combo box (collapsed, settable) Description: Filter 1 value, ID: rc_select_7, Secondary Actions: Expand
+				105 button Remove filter 1
+					106 image
+				82 image
+				83 heading Preview the report, Value: 2
+					84 text Preview the report
+				85 text Run a preview after choosing the grouping, measures, and filters. Saving preserves the definition, not a snapshot of the results.
+				86 button Run preview
+		115 container
+			116 list rc_select_5_list
+				128 Value: Facebook ad set, ID: rc_select_5_list_9
+				129 Value: Planned travel date, ID: rc_select_5_list_10
+				130 Value: Tos Audit Service Preference B, ID: rc_select_5_list_11
+			119 container
+				124 text Destination
+				125 text Departure city
+				126 text Agency
+				127 text Tags
+				131 text Facebook form
+				132 text Facebook ad set
+				133 text Planned travel date
+				134 text Tos Audit Service Preference B
+
+The focused UI element is 96 combo box (expanded, settable) Description: Filter 1 field, ID: rc_select_5, Secondary Actions: Collapse

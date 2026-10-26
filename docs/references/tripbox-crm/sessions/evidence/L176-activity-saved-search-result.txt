@@ -1,0 +1,157 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/activities-repository".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/activities-repository
+	2 container
+		3 container Primary navigation
+			4 container
+				5 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+				6 image
+				7 text Luxury Indo Tours
+				8 button Quotes
+					9 text Quotes
+					10 image
+				11 button Leads
+					12 text Leads
+					13 image
+				14 link Description: Payments, Value: tripboxcrm.com/payments
+				15 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+				16 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+				17 link Description: Reports, Value: tripboxcrm.com/reports
+				18 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1g_, Secondary Actions: Expand
+					19 text Open account menu
+					20 text NA
+					21 text Nishar Arora
+					22 image
+		23 container Breadcrumb
+			24 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+			25 image
+			26 text Activities Repository
+		27 text Organisation control center
+		28 container Organisation settings navigation
+			29 text Settings
+			30 text Workspace controls and operational data.
+			31 container
+				32 text WORKSPACE
+				33 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				34 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+				35 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+				36 link Description: Users, Value: tripboxcrm.com/org/users
+				37 link Description: Teams, Value: tripboxcrm.com/org/teams
+			38 container
+				39 text OPERATIONS
+				40 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+				41 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+				42 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+				43 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+				44 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+				45 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+			46 container
+				47 text REPOSITORIES
+				48 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+				49 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+				50 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+			51 container
+				52 text CONFIGURATION
+				53 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+				54 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+				55 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+				56 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+				57 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+		58 container
+			59 heading Activities repository, Value: 1
+				60 text Activities repository
+			61 text Maintain tours, experiences, and activity inventory used across itinerary builds.
+			62 link Description: Add activity, Value: tripboxcrm.com/org/activities-repository/new
+			63 text Activities
+			64 text 1
+			65 text Total experience records
+			66 text Visible
+			67 text 1
+			68 text Matching current filters
+			69 text Categories
+			70 text 3
+			71 text Available activity classes
+			72 container List controls
+				73 container
+					74 image
+					75 search text field (settable) TOS-AUDIT Fictional Activity B
+					620 button close-circle
+						621 image close-circle
+					76 button search
+						77 image search
+				78 container
+					79 combo box (collapsed, settable) ID: rc_select_5, Secondary Actions: Expand
+					80 text Filter by category
+				81 container
+					82 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+					83 text Agency portal
+				84 container
+					85 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+					86 text Inventory source
+				87 button
+					622 image
+				89 button (disabled) Bulk edit
+					90 image
+					91 text Bulk edit
+				92 button Import / export
+					93 image
+					94 text Import / export
+			623 table
+				624 row
+					625 cell
+						626 container
+							627 checkbox (settable, integer) Description: Select all, Value: 0
+					628 cell Activity
+						629 text Activity
+					630 cell Location
+						631 text Location
+					632 cell Category
+						633 text Category
+					634 cell Preferred supplier
+						635 text Preferred supplier
+					636 cell Status
+						637 text Status
+					638 cell
+						639 text Agent portal
+					640 cell
+						641 text Actions
+				642 row
+					643 cell
+						644 container
+							645 checkbox (settable, integer) Description:  , Value: 0
+					646 cell
+						647 image activity
+					648 cell
+						649 text TOS-AUDIT Fictional Activity B Updated  a few seconds ago
+					650 cell
+						651 text All cities
+						652 text Indonesia (Bali)
+					653 cell
+						654 text Attractions
+					655 cell
+						656 text -
+					657 cell
+						658 text Active
+					659 cell
+						660 text Visible
+					661 cell
+						662 link tripboxcrm.com/org/activities-repository/b1d01a9c-675f-4502-897f-7eff391067a1
+						663 link tripboxcrm.com/org/activities-repository/new?duplicate=b1d01a9c-675f-4502-897f-7eff391067a1
+						664 button
+							665 image
+			666 container activities pagination
+				667 container
+					668 text 1 – 1  of  1 activities
+				669 content list
+					670 container Previous Page
+						671 button (disabled) left
+							672 image left
+					673 text 1
+					674 container Next Page
+						675 button (disabled) right
+							676 image right
+					677 container Page Size
+						678 container
+							679 combo box (collapsed, settable) Description: Page Size, ID: rc_select_9, Secondary Actions: Expand
+							680 text 20 / page
+
+The focused UI element is 75 search text field (settable) TOS-AUDIT Fictional Activity B

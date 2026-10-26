@@ -1,0 +1,188 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/contacts".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/contacts
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1d_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container
+				25 heading Contacts, Value: 1
+					26 text Contacts
+				27 text 1  contacts in this view Keep traveller profiles, family details, trip history, and campaign activity in one directory.
+				28 button Refresh contacts
+					29 image
+				30 button Import contacts
+					31 image
+					32 text Import contacts
+				33 button New contact
+					34 image
+					35 text New contact
+			36 container Contact filters
+				37 container
+					38 image
+					39 text field (settable)
+				40 text field (settable)
+				41 text field (settable)
+				42 container
+					43 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+					44 text Any gender
+				45 container
+					46 combo box (collapsed, settable) ID: rc_select_1, Secondary Actions: Expand
+					47 text Newest first
+				48 button
+					49 image
+			50 container
+				51 table
+					52 row
+						53 cell
+							54 container
+								55 checkbox (settable, integer) Description: Select all, Value: 0
+						56 cell Name
+							57 text NAME
+						58 cell Email
+							59 text EMAIL
+						60 cell Phone
+							61 text PHONE
+						62 cell
+							63 text TAGS
+						64 cell Location
+							65 text LOCATION
+							66 button filter
+								67 image filter
+						68 cell
+							69 text ACTION
+					70 row
+						71 cell
+							72 container
+								73 checkbox (settable, integer) Description:  , Value: 0
+						74 cell
+							75 button TF TOS-AUDIT Fictional Traveller A
+								76 text TF
+								77 text TOS-AUDIT Fictional Traveller A
+						78 cell
+							79 text traveller-a@example.invalid
+						80 cell
+							81 text Not provided
+						82 cell
+							83 button Won
+						84 cell
+							85 text -
+						86 cell
+							87 container
+								88 button
+									89 image
+								90 button
+									91 image
+								92 button
+									93 image
+								94 button
+									95 image
+				96 container contacts pagination
+					97 container
+						98 text 1 – 1  of  1 contacts
+					99 content list
+						100 container Previous Page
+							101 button (disabled) left
+								102 image left
+						103 text 1
+						104 container Next Page
+							105 button (disabled) right
+								106 image right
+						107 container Page Size
+							108 container
+								109 combo box (collapsed, settable) Description: Page Size, ID: rc_select_2, Secondary Actions: Expand
+								110 text 20 / page
+		111 container
+			112 container Create contact
+				113 container
+					114 button Close
+						115 container Close
+							116 image close
+					117 text Create contact
+					118 container
+						119 text Contact details Add the essentials first. Travel and family information can be completed when available.
+						120 container
+							121 text * Full name
+						122 text field (settable) * Full name, ID: fullname
+						123 text Email
+						124 text field (settable) Email
+						125 text Phone
+						126 container
+							127 container
+								128 combo box (collapsed, settable) ID: rc_select_6, Secondary Actions: Expand
+							129 text field (settable) Phone, Value: <redacted>
+						130 text Alternate phone
+						131 container
+							132 container
+								133 combo box (collapsed, settable) ID: rc_select_7, Secondary Actions: Expand
+							134 text field (settable) Alternate phone, Value: <redacted>
+						135 text Profile and travel preferences
+						136 text Location
+						137 text field (settable) Location, ID: location
+						138 text Date of birth
+						139 container
+							140 text field (settable) Date of birth, ID: dob
+							141 image calendar
+						142 text Marriage anniversary
+						143 container
+							144 text field (settable) Marriage anniversary, ID: marriageAnniversary
+							145 image calendar
+						146 text Gender
+						147 container
+							148 combo box (collapsed, settable) Gender, ID: gender, Secondary Actions: Expand
+							149 text Select gender
+						150 text Nationality
+						151 text field (settable) Nationality, ID: nationality
+						152 text Address
+						153 text field (settable) Address, ID: address
+						154 text Marital status
+						155 container
+							156 combo box (collapsed, settable) Marital status, ID: maritalStatus, Secondary Actions: Expand
+							157 text Select marital status
+						158 text Spouse name
+						159 text field (disabled) Spouse name, ID: spouseName
+						160 text Tags
+						161 container
+							162 combo box (collapsed, settable) Tags, ID: tags, Secondary Actions: Expand
+							163 text honeymoon, family, vip, etc.
+						164 text Kids details
+						165 container
+							166 container
+								167 text * Name
+							168 text field (settable) * Name, ID: kidsDetails_0_name
+							169 text Age
+							170 container
+								171 button Increase Value
+									172 image up
+								173 button Decrease Value
+									174 image down
+								175 stepper (settable, integer) Age, Value: 0, ID: kidsDetails_0_age
+							176 button Remove
+								177 image
+								178 text Remove
+							179 button Add child
+								180 image
+								181 text Add child
+						182 text Notes
+						183 text entry area (settable) Notes, ID: notes
+					184 button Cancel
+					185 button Create contact
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/contacts

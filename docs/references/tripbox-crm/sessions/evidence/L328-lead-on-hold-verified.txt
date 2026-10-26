@@ -1,0 +1,97 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/leads/2".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 button Quotes
+						8 text Quotes
+						9 image
+					10 button Leads
+						11 text Leads
+						12 image
+					13 link Description: Payments, Value: tripboxcrm.com/payments
+					14 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					15 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					16 link Description: Reports, Value: tripboxcrm.com/reports
+					17 pop up button (collapsed) Open account menu NA, ID: headlessui-menu-button-_r_21_, Secondary Actions: Expand
+						18 text Open account menu
+						19 text NA
+						20 image
+			21 container
+				22 container Breadcrumb
+					23 link Description: Leads, Value: tripboxcrm.com/leads
+					24 image
+					25 text # 2
+				26 heading TOS-AUDIT Fictional Traveller B, Value: 1
+					27 text TOS-AUDIT Fictional Traveller B
+				28 text On Hold via  Social Media
+				29 button View audit history
+					30 image
+				31 link Description: Edit itinerary, Value: tripboxcrm.com/leads/2/itinerary/618493db-775c-4d5b-bf54-99acfa98a89a
+				32 button Edit lead
+					33 image
+					34 text Edit lead
+			35 container
+				36 text Lead # 2 Created  11 minutes ago  · Updated a few seconds ago
+				37 button On Hold
+					38 image
+					39 text On Hold
+				40 heading CONTACT, Value: 2
+					41 text CONTACT
+				42 text Linked customer:
+				43 button TOS-AUDIT Fictional Traveller B
+				46 image
+				47 text Not provided
+				48 image
+				49 button Email traveller-b@example.invalid
+				50 heading JOURNEY, Value: 2
+					51 text JOURNEY
+				52 image
+				53 text Indonesia (Bali)
+				54 image
+				55 text 20 Nov 2026
+				56 heading TRIP SCOPE, Value: 2
+					57 text TRIP SCOPE
+				58 image
+				59 container
+					60 text 2  nights ·  3  days
+				61 image
+				62 container
+					63 text 2  traveller s  ( 2  adult s )
+				64 heading OWNERSHIP, Value: 2
+					65 text OWNERSHIP
+				66 text Direct customer
+				67 text Assigned to
+				68 container
+					69 combo box (collapsed, settable) Assigned to Nishar Arora  , ID: rc_select_42, Secondary Actions: Expand
+					70 text Nishar Arora
+				71 text Tags
+				72 container
+					73 combo box (collapsed, settable) Tags Add tags  , ID: rc_select_43, Secondary Actions: Expand
+					74 text Add tags
+			75 container
+				76 tab group
+					77 container
+						78 tab (selected, settable, boolean) Overview, Value: 1, ID: rc-tabs-1-tab-overview
+						79 tab (selectable, settable, boolean) Itineraries 1, Value: 0, ID: rc-tabs-1-tab-itineraries
+						80 tab (selectable, settable, boolean) Bookings, Value: 0, ID: rc-tabs-1-tab-bookings
+						81 tab (selectable, settable, boolean) Payments, Value: 0, ID: rc-tabs-1-tab-payments
+						82 tab (selectable, settable, boolean) Documents, Value: 0, ID: rc-tabs-1-tab-documents
+						83 tab (selectable, settable, boolean) Comments, Value: 0, ID: rc-tabs-1-tab-comments
+				84 container Description: Overview, ID: rc-tabs-1-panel-overview
+					85 container
+						86 heading Lead information, Value: 2
+							87 text Lead information
+						88 text Qualification details captured by your team and connected lead sources.
+					89 container
+						90 heading TOS-AUDIT Qualification B, Value: 3
+							91 text TOS-AUDIT Qualification B
+						92 text Lead-specific qualification data.
+						93 definition list
+							94 container TOS-AUDIT Service preference B
+								95 text TOS-AUDIT Service preference B
+							96 text TOS-AUDIT Private
+
+The focused UI element is 1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/leads/2

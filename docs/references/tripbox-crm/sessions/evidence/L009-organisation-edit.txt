@@ -1,0 +1,181 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/organisation".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/organisation
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_1p_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 text Organisation
+			26 text Organisation control center
+			27 container Organisation settings navigation
+				28 text Settings
+				29 text Workspace controls and operational data.
+				30 container
+					31 text WORKSPACE
+					32 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					33 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					34 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					35 link Description: Users, Value: tripboxcrm.com/org/users
+					36 link Description: Teams, Value: tripboxcrm.com/org/teams
+				37 container
+					38 text OPERATIONS
+					39 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					40 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					41 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					42 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					43 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					44 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				45 container
+					46 text REPOSITORIES
+					47 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					48 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					49 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				50 container
+					51 text CONFIGURATION
+					52 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					53 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					54 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					55 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					56 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			57 container
+				58 heading Organisation profile, Value: 1
+					59 text Organisation profile
+				60 image
+				61 text Active workspace
+				62 text Workspace identity, regional defaults, brand assets, and account capacity.
+				63 button Edit company details
+					64 image
+					65 text Edit company details
+				66 text WORKSPACE RECORD
+				67 heading Operating profile, Value: 2
+					68 text Operating profile
+				69 text These defaults identify your organisation across lead, itinerary, payment, and communication workflows.
+				70 text Tenant workspace
+				71 definition list
+					72 container Organisation name
+						73 image
+						74 text Organisation name
+					75 text Luxury Indo Tours
+					76 text Displayed across the workspace
+					77 container Operating country
+						78 image
+						79 text Operating country
+					80 text India
+					81 text Used for regional defaults
+					82 container Billing currencies
+						83 image
+						84 text Billing currencies
+					85 text INR
+					86 text Available for quotes and payments
+					87 container Seat capacity
+						88 image
+						89 text Seat capacity
+					90 text 2 users
+					91 text Maximum active team members
+					92 container Company email
+						93 image
+						94 text Company email
+					95 text Not set
+					96 text Shown on company documents
+					97 container GST number
+						98 image
+						99 text GST number
+					100 text Not set
+					101 text Shown on company documents
+					102 container State name
+						103 image
+						104 text State name
+					105 text Not set
+					106 text Used for billing documents
+					107 container Company address
+						108 image
+						109 text Company address
+					110 text Not set
+					111 text Shown on company documents
+				112 text BANK DETAILS
+				113 definition list
+					114 container Bank name
+						115 image
+						116 text Bank name
+					117 text Not set
+					118 text Shown on proforma invoices
+					119 container Account holder name
+						120 image
+						121 text Account holder name
+					122 text Not set
+					123 text Shown on proforma invoices
+					124 container Account number
+						125 image
+						126 text Account number
+					127 text Not set
+					128 text Shown on proforma invoices
+					129 container IFSC code
+						130 image
+						131 text IFSC code
+					132 text Not set
+					133 text Shown on proforma invoices
+					134 container Branch name
+						135 image
+						136 text Branch name
+					137 text Not set
+					138 text Shown on proforma invoices
+				139 container
+					140 text BRAND PREVIEW LI Luxury Indo Tours Shared workspace identity
+				141 image
+				142 heading Organisation image, Value: 2
+					143 text Organisation image
+				144 text Use a square PNG or JPG under 2 MB.
+				145 button Upload image
+					146 image
+					147 text Upload image
+				148 text Shown in team-facing workspace surfaces and shared exports.
+		149 container
+			150 container Edit company details
+				151 container
+					152 button Close
+						153 container Close
+							154 image close
+					155 text Edit company details
+					156 text Company email
+					157 text field (settable) Company email
+					158 text GST number
+					159 text field (settable) GST number, ID: gstNumber
+					160 text State name
+					161 text field (settable) State name, ID: stateName
+					162 text Company address
+					163 container
+						164 text entry area (settable) Company address, ID: companyAddress
+						165 text 0 / 500
+					166 text BANK DETAILS
+					167 text Bank name
+					168 text field (settable) Bank name, ID: bankName
+					169 text Account holder name
+					170 text field (settable) Account holder name, ID: bankAccountHolderName
+					171 text Account number
+					172 text field (settable) Account number, ID: bankAccountNumber
+					173 text IFSC code
+					174 text field (settable) IFSC code, ID: bankIfscCode
+					175 text Branch name
+					176 text field (settable) Branch name, ID: bankBranchName
+					177 button Cancel
+					178 button Save details
+
+The focused UI element is 63 button Edit company details

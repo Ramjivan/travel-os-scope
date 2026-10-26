@@ -1,0 +1,163 @@
+Browser tab: 1, Title: "Tripbox CRM", URL: "https://tripboxcrm.com/org/integrations".
+1 AXWebArea Tripbox CRM, URL: tripboxcrm.com/org/integrations
+	2 container
+		3 container
+			4 container Primary navigation
+				5 container
+					6 link Description: TripboxCRM dashboard, Value: tripboxcrm.com/
+					7 image
+					8 text Luxury Indo Tours
+					9 button Quotes
+						10 text Quotes
+						11 image
+					12 button Leads
+						13 text Leads
+						14 image
+					15 link Description: Payments, Value: tripboxcrm.com/payments
+					16 link Description: Trip Calendar, Value: tripboxcrm.com/leads/calendar
+					17 link Description: Campaigns, Value: tripboxcrm.com/campaigns
+					18 link Description: Reports, Value: tripboxcrm.com/reports
+					19 pop up button (collapsed) Open account menu NA Nishar Arora, ID: headlessui-menu-button-_r_28_, Secondary Actions: Expand
+						20 text Open account menu
+						21 text NA
+						22 text Nishar Arora
+						23 image
+			24 container Breadcrumb
+				25 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+				26 image
+				27 text Integrations
+			28 text Organisation control center
+			29 container Organisation settings navigation
+				30 text Settings
+				31 text Workspace controls and operational data.
+				32 container
+					33 text WORKSPACE
+					34 link Description: Organisation, Value: tripboxcrm.com/org/organisation
+					35 link Description: Agent Portal, Value: tripboxcrm.com/org/agent-portal
+					36 link Description: Agencies, Value: tripboxcrm.com/org/agencies
+					37 link Description: Users, Value: tripboxcrm.com/org/users
+					38 link Description: Teams, Value: tripboxcrm.com/org/teams
+				39 container
+					40 text OPERATIONS
+					41 link Description: Mailboxes, Value: tripboxcrm.com/org/mailboxes
+					42 link Description: Automated Emails, Value: tripboxcrm.com/org/automated-emails
+					43 link Description: Query Sources, Value: tripboxcrm.com/org/query-sources
+					44 link Description: Suppliers, Value: tripboxcrm.com/org/suppliers
+					45 link Description: Currency Rates, Value: tripboxcrm.com/org/currency-rates
+					46 link Description: Itinerary Customization, Value: tripboxcrm.com/org/itinerary-customization
+				47 container
+					48 text REPOSITORIES
+					49 link Description: Hotels Repository, Value: tripboxcrm.com/org/hotels-repository
+					50 link Description: Activities Repository, Value: tripboxcrm.com/org/activities-repository
+					51 link Description: Transports Repository, Value: tripboxcrm.com/org/transports-repository
+				52 container
+					53 text CONFIGURATION
+					54 link Description: Integrations, Value: tripboxcrm.com/org/integrations
+					55 link Description: Custom Fields, Value: tripboxcrm.com/org/custom-fields
+					56 link Description: AI Settings, Value: tripboxcrm.com/org/ai-settings
+					57 link Description: Auto-assignment Rules, Value: tripboxcrm.com/org/auto-assignment-rules
+					58 link Description: Preferences, Value: tripboxcrm.com/org/preferences
+			59 container
+				60 heading Integrations, Value: 1
+					61 text Integrations
+				62 text Connect lead acquisition channels and first-party forms to the organisation workspace.
+				63 tab group
+					64 container
+						65 tab (selectable, settable, boolean) Meta Lead Ads, Value: 0, ID: rc-tabs-0-tab-facebook
+						66 tab (selected, settable, boolean) Website forms, Value: 1, ID: rc-tabs-0-tab-embedded
+				67 container Description: Website forms, ID: rc-tabs-0-panel-embedded
+					68 container
+						69 heading Website forms, Value: 2
+							70 text Website forms
+						71 text Create secure embeddable forms that route website enquiries directly into the lead pipeline.
+						72 image
+						73 button Create form
+							74 image
+							75 text Create form
+						76 table
+							77 row
+								78 cell
+									79 text Name
+								80 cell
+									81 text Source
+								82 cell
+									83 text Fields
+								84 cell
+									85 text Status
+								86 cell
+									87 text CAPTCHA
+								88 cell
+									89 text Created
+								90 cell
+									91 text Actions
+							92 row
+								93 cell
+									94 container
+										95 image No data
+										96 heading No website forms, Value: 3
+											97 text No website forms
+										98 text Create a form to start capturing first-party website enquiries.
+		99 container
+			100 container Create Form
+				101 container
+					102 button Close
+						103 container Close
+							104 image close
+					105 text Create Form
+					106 container
+						107 container
+							108 text * Form Name
+						109 text field (settable) * Form Name, ID: name
+						110 container
+							111 text * Slug
+							112 image
+						113 text field (settable) * Slug, ID: slug
+						114 container
+							115 text Lead Source Name
+							116 image
+						117 text field (settable) Lead Source Name, Value: Website, ID: sourceName
+						118 text These fields are required for lead creation and cannot be removed. You can customize their display labels.
+						119 text field (settable) Value: Guest Name, ID: schema_requiredFields_0_label
+						120 container
+							121 text Guest Name
+						122 text field (settable) Value: Travel Destinations, ID: schema_requiredFields_1_label
+						123 container
+							124 text Travel Destinations
+						125 text field (settable) Value: Nights, ID: schema_requiredFields_2_label
+						126 container
+							127 text Nights
+						128 text field (settable) Value: Planned Travel Date, ID: schema_requiredFields_3_label
+						129 container
+							130 text Planned Travel Date
+						131 text field (settable) Value: Adults, ID: schema_requiredFields_4_label
+						132 container
+							133 text Adults
+						134 text Add additional fields and map them to lead properties..
+						135 button Add Field
+							136 image
+							137 text Add Field
+						138 text Submit Button Text
+						139 text field (settable) Submit Button Text, Value: Submit, ID: schema_submitLabel
+						140 text Success Message
+						141 text field (settable) Success Message, Value: Thank you. We will contact you soon., ID: schema_successMessage
+						142 container
+							143 text CAPTCHA
+							144 image
+						145 switch Description: CAPTCHA, Value: 1, ID: captchaEnabled
+						146 text Rate Limit (per minute)
+						147 container
+							148 button Increase Value
+								149 image up
+							150 button Decrease Value
+								151 image down
+							152 stepper (settable, integer) Rate Limit (per minute), Value: 20, ID: rateLimitPerMinute
+						153 container
+							154 text Allowed Domains
+							155 image
+						156 container
+							157 combo box (collapsed, settable) Allowed Domains, ID: allowedDomains, Secondary Actions: Expand
+							158 text e.g. example.com (leave empty for any domain)
+					159 button Cancel
+					160 button Create
+
+The focused UI element is 73 button Create form
